@@ -6,6 +6,7 @@ mini-toc-levels: 2
 usetq: true
 git-repo: https://github.com/AdobeDocs/cx-enterprise-coworker.en
 index: true
+nudge: true
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
