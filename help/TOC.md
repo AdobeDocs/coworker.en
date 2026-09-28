@@ -40,9 +40,9 @@ hide: true
     - Content Advisor {#content-advisor}
       - [Generate marketing assets](./chat/use-cases/content-advisor/generate-assets.md)
       - [Brand compliance check](./chat/use-cases/content-advisor/brand-compliance.md)
+      - [Author AEM Sites pages](./chat/use-cases/content-advisor/author-web-pages.md)
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
-      - [Author AEM Sites pages](./chat/use-cases/content-advisor/author-web-pages.md)
 - Customizations {#customizations}
   - [Overview](./customizations/overview.md)
   - Skills {#skills}
