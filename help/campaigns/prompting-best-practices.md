@@ -14,9 +14,9 @@ Getting the most out of Coworker Campaigns starts with how you prompt. Learn the
 
 >[!NOTE]
 >
->Currently, you can only connect to Coworker Campaign-supported integrations.  If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/chat/use-cases/overview.md) instead.
+>Currently, you can only connect to Coworker Campaigns-supported integrations. If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/chat/use-cases/overview.md) instead.
 
-## Use the CO-STAR framework {#costar-framework}
+## Use the CO-STAR framework
 
 For best results, organize your prompts using the CO-STAR framework. This structured approach ensures the AI understands exactly what you need.
 
@@ -29,7 +29,7 @@ For best results, organize your prompts using the CO-STAR framework. This struct
 | **A - Audience** | Audience you are targeting | Ensures the message resonates with the right people |
 | **R - Requirements** | Specific constraints or must-haves | Defines boundaries and critical elements |
 
-## AI prompts essentials {#key-takeaways}
+## AI prompt essentials
 
 ### Do's and don'ts
 
@@ -102,7 +102,7 @@ These requests are **not** supported and should be handled through other tools:
 <ul>
 <li>Background changes</li>
 <li>Adding text overlays or logos</li>
-<li>Images cropping or resizing</li>
+<li>Image cropping or resizing</li>
 <li>Color adjustments</li>
 </ul>
 </td>
@@ -110,7 +110,7 @@ These requests are **not** supported and should be handled through other tools:
 </tbody>
 </table>
 
-### Quality checklist {#quality-checklist}
+### Quality checklist
 
 Before generating content, ensure the following:
 
@@ -118,7 +118,7 @@ Before generating content, ensure the following:
 
 ✓ **Defined target audience**: Specifies the demographic, role, or segment.
 
-✓ **Correct Brand assigned as default**: Appropriate brand guidelines are selected.
+✓ **Correct brand assigned as default**: Appropriate brand guidelines are selected.
 
 ✓ **Realistic scope**: Avoid requests for layout changes, styling, or structural edits.
 
@@ -134,7 +134,7 @@ Always provide context and the value proposition so the AI can generate relevant
 <thead>
 <tr style="border: 0;background-color: #FFFFFF;">
 <th>Industry</th>
-<th>Example Prompt</th>
+<th>Example prompt</th>
 </tr>
 </thead>
 <tbody>
@@ -156,6 +156,22 @@ Always provide context and the value proposition so the AI can generate relevant
 </tr>
 </tbody>
 </table>
+
+## General marketing prompt ideas
+
+### Content marketing
+
+- "Generate 20 blog topics that answer common questions from first-time homebuyers."
+- "Brainstorm LinkedIn post ideas for a B2B cybersecurity startup."
+- "Create a three-month content calendar focused on educating new customers."
+- "Suggest content themes that can be repurposed into blogs, videos, newsletters, and social posts."
+
+### Email marketing
+
+- "Generate a welcome email sequence for new subscribers interested in sustainable fashion."
+- "Brainstorm subject lines that create curiosity without sounding like clickbait."
+- "Suggest re-engagement campaign ideas for inactive customers."
+- "Create lifecycle email ideas for users who have completed onboarding."
 
 >[!MORELIKETHIS]
 >

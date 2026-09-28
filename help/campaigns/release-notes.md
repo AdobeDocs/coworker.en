@@ -14,6 +14,31 @@ Coworker Campaigns releases operate on a continuous delivery model which allows 
 
 ## September 2026 {#sep-2026}
 
+**Release date: September 17, 2026**
+
+* Connect a Databricks workspace hosted on Azure, GCP, or a custom domain
+* Campaigns can no longer be launched until their workflow is fully set up
+* Campaign templates have been refreshed with updated content
+* Choose a connector directly while uploading your contact list CSV
+* Fixed a crash that could happen after scrolling through a long list of trial signups
+* Fixed an issue where uploading an audience CSV with blank or duplicate headers could crash the page
+* Fixed placeholder text in a campaign prompt that showed up unfilled after being resolved
+* Fixed a crash on the Skills page caused by a missing color gradient
+* Fixed chat getting stuck repeating the same question after you already answered it
+* Chat responses no longer show a stray ID prefix in front of your selected answer
+* Chat now suggests quick next-step replies you can tap to fill the compose box
+* Campaign templates now open in a streamlined in-page view instead of a separate dialog
+* The expanded chat progress bar now scrolls internally instead of pushing your conversation out of view
+* Campaign settings now reflect the latest board details more accurately
+* The upgrade-plan dialog now uses a more consistent look and feel
+* Removed a redundant status indicator from the campaign plan header for a cleaner look
+* Rapid email edits are now saved together as a single version-history entry instead of many
+* Fixed brand kit titles occasionally blanking out while a draft was being generated
+* Edit an image with Adobe Express directly from the image toolbar
+* Basic agent audience data now stays in sync on the campaign board without a manual refresh
+* Brand logos on the campaign board are cropped more neatly to fit their space
+* Smoother visual handoff when your campaign plan moves onto the campaign board
+
 **Release date: September 3, 2026**
 
 * Copy any chat message and rate AI responses with a thumbs up or thumbs down, right from the message itself
