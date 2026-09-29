@@ -4,7 +4,7 @@ solution: CX Enterprise
 type: Documentation
 mini-toc-levels: 2
 usetq: true
-git-repo: https://github.com/AdobeDocs/cx-enterprise-coworker.en
+git-repo: https://github.com/AdobeDocs/coworker.en
 index: true
 nudge: true
 product_v2:
