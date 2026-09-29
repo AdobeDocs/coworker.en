@@ -22,9 +22,9 @@ After your campaign is created and scheduled, learn how to launch it.
 
 SCREENSHOT
 
-   >[!NOTE]
-   >
-   >If anything is missing, a dialog appears, listing what you need to complete. Make the fixes and reselect **Review and launch**.
+>[!NOTE]
+>
+>If anything is missing, a dialog appears, listing what you need to complete. Make the fixes and reselect **Review and launch**.
 
 1. After the campaign passes the readiness check, the launch dialog opens, showing a preview of the email and audience.
 
@@ -38,9 +38,9 @@ SCREENSHOT
 
 SCREENSHOT
 
->
->
->It doesn't let a campaign launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings 
+
+
+It doesn't let a campaign launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings 
 
 ### Things to note
 
