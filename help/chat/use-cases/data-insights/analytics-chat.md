@@ -8,26 +8,26 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# Analyze Customer Journey Analytics data with Coworker Chat
+# Analyze Adobe CX Analytics data with Coworker Chat
 
-Adobe CX Enterprise Coworker Chat can perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views, allowing you to explore that data and get answers to natural-language prompts.
+Adobe CX Enterprise Coworker Chat can perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views or Adobe Analytics report suites, allowing you to explore that data and get answers to natural-language prompts.
 
 You can use Coworker Chat in two ways, depending on how much analysis you need:
 
 * **Quick answers** - Ask a direct, plain-language question and get an immediate answer. Business users often use Coworker Chat this way, and analysts use it too when they need a fast answer for a stakeholder.
 * **Deep thought work** - Have an extended, multi-turn conversation with Coworker Chat to investigate a business problem, rule out causes, and arrive at a recommendation. Analysts typically use this approach to explore data in depth before making a recommendation.
 
-Before you begin, learn the Coworker Chat interface and configuration options, then ensure Coworker is connected to Customer Journey Analytics and the relevant data view.
+Before you begin, learn the Coworker Chat interface and configuration options, then ensure Coworker is connected to Customer Journey Analytics or Adobe Analytics and the relevant data views or report suites.
 
 ## Get started with Coworker Chat
 
 ### Data access and permissions
 
-Coworker Chat inherits permissions from Customer Journey Analytics. You can access only those data views, dimensions, metrics, and segments available to you in Analysis Workspace. 
+Coworker Chat inherits permissions from Customer Journey Analytics or Adobe Analytics. You can access only those data views, report suites, dimensions, metrics, and segments available to you in Analysis Workspace. 
 
 ### Interface and configuration options
 
-Before you use Coworker Chat with your Customer Journey Analytics data, learn how to sign in and manage configuration options for the following features:
+Before you use Coworker Chat with your Customer Journey Analytics or Adobe Analytics data, learn how to sign in and manage configuration options for the following features:
 
 * Chat inputs
 * Conversations
@@ -61,7 +61,7 @@ For more information, see the [Coworker Chat UI guide](/help/chat/ui-guide.md).
 * When creating a prompt, be as specific as possible:
 
   * Name the dimensions, metrics, and date range you want analyzed.
-  * Reference data view components by their exact name.
+  * Reference components by their exact name.
   * Specify any segments, audiences, channels, or devices you want included, excluded, or compared.
   * State whether you want a specific visualization type, such as a funnel, trend, or cohort table.
   * Ask for recommended next steps if you want Coworker Chat to suggest follow-up questions.
@@ -72,7 +72,7 @@ For more information, see the [Coworker Chat UI guide](/help/chat/ui-guide.md).
   * Name the specific report suite and data view you want to compare when validating data.
   * Complete an analysis first, then ask Coworker Chat to save it as a skill, giving it a clear, descriptive name and noting how often you plan to reuse it.
 
-* Add standard directions to the Coworker Chat memory. For example, if you always use data from the same data views, add that to the memory. 
+* Add standard directions to the Coworker Chat memory. For example, if you always use data from the same data views or report suites, add that to the memory. 
 
 ## Verify that Coworker Chat is connected to Customer Journey Analytics
 
@@ -84,15 +84,15 @@ In Coworker Chat, verify that Coworker is connected to Customer Journey Analytic
 
 1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
 
-## Connect to the right data view
+## Connect to the right data view or report suite
 
-A data view is a container in Customer Journey Analytics that determines how data is interpreted.
+A data view is a container in Customer Journey Analytics that determines how data is interpreted. A report suite is a container in Adobe Analytics that holds the data collected from your sites and apps.
 
-You might have access to various data views in Customer Journey Analytics, each containing different dimensions and metrics that Coworker can use when analyzing data.
+You might have access to various data views in Customer Journey Analytics or report suites in Adobe Analytics. Each might contain different dimensions and metrics that Coworker can use when analyzing data.
 
-### Decide which data views you want to use
+### Decide which data views or report suites you want to use
 
-Tell Coworker the types of questions you want answered, and ask it which data views you have access to that provide that information. You can also [set your data view as a preference in memory](#add-a-data-view-preference-in-memory).
+Tell Coworker the types of questions you want answered, and ask it which data views or report suites you have access to that provide that information. You can also [set your data view or report suite as a preference in memory](#add-a-data-view-or-report-suite-preference-in-memory).
 
 **You:**
 
@@ -126,13 +126,13 @@ Okay, I'll use the `Customer lifecycle` data view to answer future questions in 
 
 >[!ENDSHADEBOX]
 
-### Add a data view preference in Memory
+### Add a data view or report suite preference in Memory
 
-Coworker Chat contains a memory feature that allows you to provide it with access to information that spans across all chats. It's a good practice to add your preferred data views as preferences in Coworker's memory.
+Coworker Chat contains a memory feature that allows you to provide it with access to information that spans across all chats. It's a good practice to add your preferred data views or report suites as preferences in Coworker's memory.
 
 1. In Coworker Chat, in the left nav, select the Memory icon.
 
-1. On the Memory page, in the [!UICONTROL **Stored preferences**] section, specify one or more data views that you want Coworker Chat to use in your chats.
+1. On the Memory page, in the [!UICONTROL **Stored preferences**] section, specify one or more data views or report suites that you want Coworker Chat to use in your chats.
 
    ![Memory section in the left rail](../../assets/coworker-memory.png)
 
@@ -156,45 +156,51 @@ For more information, see [Use cases](/help/chat/use-cases/overview.md).
 
 ## Analytics skills
 
-The following skills are available for analyzing Customer Journey Analytics data.
+The following skills are available for analyzing Customer Journey Analytics or Adobe Analytics data.
 
 ### Query and analyze data
 
-This skill (`cja`) lets you query Customer Journey Analytics in real time and analyze the results without building the request yourself in Analysis Workspace.
+These skills let you query your data in real time and analyze the results without building the request yourself in Analysis Workspace:
+
+* `cja` - Query Customer Journey Analytics data views
+* `aa` - Query Adobe Analytics report suites
 
 #### Required permissions
 
-* View access to the data view you want to query
+* View access to the data view or report suite you want to query
 
 #### Key use cases
 
 | Use case | Function | Sample prompts |
 |---------|----------|---------|
-| **Pull reports and metrics** | Query Customer Journey Analytics in real time to pull metrics, dimensions, segments, and data views. | <ul><li>"Show me page views for the last 30 days"</li><li>"List top segments in the master data view"</li></ul> |
+| **Pull reports and metrics** | Query Customer Journey Analytics or Adobe Analytics in real time to pull metrics, dimensions, segments, data views, and report suites. | <ul><li>"Show me page views for the last 30 days"</li><li>"List top segments in the master data view"</li></ul> |
 | **Comparative analysis** | Compare metrics across channels, time periods, or segments side by side. | <ul><li>"Compare revenue by channel month over month"</li><li>"How does mobile vs desktop conversion look this quarter?"</li></ul> |
 | **Funnel analysis** | Walk through multi-step conversion funnels with drop-off at each stage. | <ul><li>"Walk me through the checkout funnel"</li><li>"Show conversion funnel from PDP to purchase"</li></ul> |
 | **Forecasting** | Project future metric values based on historical data. | <ul><li>"Forecast sessions for the next 30 days"</li><li>"Are we on track to hit our revenue goal?"</li></ul> |
 
 #### In scope
 
-* Real-time querying of metrics, dimensions, segments, and data views
+* Real-time querying of metrics, dimensions, segments, data views, and report suites
 * Side-by-side comparisons across channels, time periods, or segments
 * Multi-step funnel and fallout analysis
 * Metric forecasting based on historical trends
 
 #### Out of scope
 
-* Creating or editing data view components
-* Data outside the data views you have access to
+* Creating or editing data view or report suite components
+* Data outside the data views or report suites you have access to
 * Predictive modeling beyond metric forecasting
 
 ### Root cause analysis
 
-This skill (`cja-root-cause-analysis`) investigates why a metric changed instead of just reporting that it changed.
+These skills investigate why a metric changed instead of just reporting that it changed:
+
+* `cja-root-cause-analysis` - Analyze metric changes in Customer Journey Analytics data views
+* `aa-root-cause-analysis` - Analyze metric changes in Adobe Analytics report suites
 
 #### Required permissions
 
-* View access to the data view being analyzed
+* View access to the data view or report suite being analyzed
 
 #### Key use cases
 
@@ -210,15 +216,15 @@ This skill (`cja-root-cause-analysis`) investigates why a metric changed instead
 #### Out of scope
 
 * Detecting anomalies you haven't asked about (no automated or real-time alerting)
-* Root cause analysis for metrics outside a data view you have access to
+* Root cause analysis for metrics outside a data view or report suite you have access to
 
 ### Executive summaries and performance digests
 
-This skill (`cja-executive-summary`) produces stakeholder-ready summaries of your Customer Journey Analytics data.
+This skill (`cja-executive-summary`) produces stakeholder-ready summaries of your Customer Journey Analytics or Adobe Analytics data.
 
 #### Required permissions
 
-* View access to the data view or data views covered in the summary
+* View access to the data views or report suites covered in the summary
 
 #### Key use cases
 
@@ -235,7 +241,7 @@ This skill (`cja-executive-summary`) produces stakeholder-ready summaries of you
 #### Out of scope
 
 * Building the final slide deck or presentation file
-* Summaries that span data views you don't have access to
+* Summaries that span data views or report suites you don't have access to
 
 ### Data validation with Adobe Analytics
 
@@ -283,7 +289,7 @@ This skill (`cja-skill-creator`) turns an analysis you've already run into a reu
 #### Out of scope
 
 * Sharing a saved skill with other users automatically (organization-level skill libraries require admin setup)
-* Editing the data view components a skill references
+* Editing the data view or report suite components a skill references
 
 ## Example: Find where customers drop off
 

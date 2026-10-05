@@ -23,3 +23,4 @@ Use Adobe CX Enterprise Coworker to author AEM Sites pages by describing what yo
 >[!NOTE]
 >
 >This video shows Coworker authoring a page on a Page Editor-based site. Coworker works the same way on sites delivered with Edge Delivery Services.
+
