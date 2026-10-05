@@ -46,7 +46,7 @@ _When to use: When you are not sure what you want._
 
 _When to use: When you may have an idea what you want, but would like a little help (or, use "Surprise Me" to be surprised)._ 
 
-   ![Home screen showing the three different options to get started](./assets/create-an-email-campaign-1.png){width="800" zoomable="yes"}
+![Home screen showing the three different options to get started](./assets/create-an-email-campaign-1.png){width="800" zoomable="yes"}
 
 ## Step 2: Create your prompt
 
@@ -103,7 +103,7 @@ Audiences are uploaded via CSV. All audiences are specific to their respective c
 
 To make changes to your email, scroll to the right. Under _Campaign Assets_, click **Open editor**. 
 
-   ![](./assets/create-an-email-campaign-4.png)
+![](./assets/create-an-email-campaign-4.png)
 
 There are two ways to update your content.
 
@@ -119,7 +119,7 @@ There are two ways to update your content.
 
 You can also use the AI buttons to help refine your Subject or Preheader. 
 
-   ![](./assets/create-an-email-campaign-5.png)
+![](./assets/create-an-email-campaign-5.png)
 
 >[!TIP]
 >
