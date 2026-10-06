@@ -32,7 +32,7 @@ The following table captures when these experiences will be available for each C
 | CJA | Available Now | Coming Soon |
 | Workfront | Available Now | Coming Soon:<br><br>* Early September 2026 in Preview Instance for select eligible Workfront System Admins<br><br>* Mid September 2026 in Production Instance for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production Instance for eligible quarterly release Workfront customers |
 | Target | Available Now | Available Now |
-| AEM | Available Now | Coming Soon |
+| AEM | Available Now | Available Now |
 | Marketo Engage | Available Now | Coming Soon |
 
 ### Immersive Experience {#immersive}
