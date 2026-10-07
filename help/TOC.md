@@ -18,7 +18,9 @@ hide: true
   - Use cases {#use-cases}
     - [Coworker Chat use cases](./chat/use-cases/overview.md)
     - Data Insights {#data-insights}
-      - [Analyze CJA data](./chat/use-cases/data-insights/analytics-chat.md)
+      - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview-v2.md)
+      - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview.md)
+      - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
       - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
       - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
@@ -38,9 +40,10 @@ hide: true
     - Alerts {#alerts}
       - [Customer alert skills](./chat/use-cases/customer-alerts/customer-alerts.md)
     - Brand Visibility {#brand-visibility}
-      - [Generate marketing assets](./chat/use-cases/brand-visibility/generate-assets.md)
       - [Brand compliance check](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [Author AEM Sites pages](./chat/use-cases/brand-visibility/author-web-pages.md)
+      - [Onboard AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
+      - [Generate marketing assets](./chat/use-cases/brand-visibility/generate-assets.md)
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - Customizations {#customizations}
@@ -54,6 +57,7 @@ hide: true
     - [What are integrations?](./customizations/integrations/understanding-integrations-in-coworker.md)
   - Plugins {#plugins}
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
+    - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Campaigns {#campaigns}

@@ -14,7 +14,7 @@ feature_v2:
 
 # Validate your Experience Platform data with Coworker
 
-Coworker includes the Data Validation skill, which checks the data quality of your Experience Platform datasets. Use it to run statistical and semantic validations on datasets, analyze dataset fields, and identify data quality issues, all through a single Coworker Chat conversation.
+Adobe CX Enterprise Coworker includes the Data Validation skill, which checks the data quality of your Experience Platform datasets. Use it to run statistical and semantic validations on datasets, analyze dataset fields, and identify data quality issues, all through a single Coworker Chat conversation.
 
 Data engineers, data admins, and implementation engineers use it for rapid quality checks, without SQL queries or complex schema hierarchies.
 
@@ -153,4 +153,4 @@ If your validation needs are more exhaustive or require complex business logic, 
 * [Validate Adobe Analytics to Customer Journey Analytics data when upgrading](./data-validation-aa-cja.md)
 * [Validate Customer Journey Analytics data with the Data Validation skill in Coworker](./validate-dataset-quality-for-cja.md)
 * [Validate your data (AI Assistant)](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-validation)
-* [Trust Your Customer Journey Analytics Reporting: Data Validation Skill in Adobe CX Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (video)
+* [Trust Your Customer Journey Analytics Reporting: Data Validation Skill in Adobe CX Enterprise Coworker](https://www.youtube.com/watch?v=gCSm_QYSYhk) (video)

@@ -6,7 +6,7 @@ hold: true
 
 # Plan your implementation with Coworker
 
-Coworker includes five implementation guide skills, one for each product surface: Customer Journey Analytics, an Adobe Analytics to Customer Journey Analytics upgrade, Content Analytics (ACA), Marketing Campaign Analytics (MCA), and Streaming Media. Each skill turns a short discovery conversation into a personalized, dependency-aware implementation plan, complete with an interactive checklist and ready-to-use exports, all within a single Coworker Chat conversation.
+Adobe CX Enterprise Coworker includes five implementation guide skills, one for each product surface: Customer Journey Analytics, an Adobe Analytics to Customer Journey Analytics upgrade, Content Analytics (ACA), Marketing Campaign Analytics (MCA), and Streaming Media. Each skill turns a short discovery conversation into a personalized, dependency-aware implementation plan, complete with an interactive checklist and ready-to-use exports, all within a single Coworker Chat conversation.
 
 If you're standing up or migrating to any of these products, you can use these skills to get an ordered, step-by-step plan, without manually researching Adobe's implementation requirements or building a project plan from scratch.
 

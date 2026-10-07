@@ -14,7 +14,9 @@ Adobe CX Enterprise Coworker Chat enables teams to automate Adobe product tasks 
 
 Coworker Chat can perform advanced data analysis that was previously possible only in Analysis Workspace. Coworker Chat accesses data from your Customer Journey Analytics data views or Adobe Analytics report suites, allowing you to explore that data and get answers to natural-language prompts.
 
-You can open visualization created in Coworker Chat for manual control at any time.
+When you create a visualization in Coworker chat, you can open it in Analysis Workspace any time for more manual control.
+
+The following information provides an overview of how you can analyze data in Coworker Chat. 
 
 ## Start analyzing in Coworker Chat
 
