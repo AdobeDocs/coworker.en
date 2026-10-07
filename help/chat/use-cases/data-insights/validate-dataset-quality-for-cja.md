@@ -13,7 +13,7 @@ jira: KT-22622
 
 Data quality is the foundation of accurate reporting in Adobe Customer Journey Analytics (CJA). Before building metrics, dashboards, segments, or customer journeys, it is critical to understand whether the underlying Adobe Experience Platform (AEP) data can be trusted.
 
-In this video, you will learn how to use the **Data Validation skill in Coworker** to quickly assess the quality of datasets powering your Customer Journey Analytics implementation, without writing queries or manually inspecting data.
+In this video, you will learn how to use the **Data Validation skill in Adobe CX Enterprise Coworker** to quickly assess the quality of datasets powering your Customer Journey Analytics implementation, without writing queries or manually inspecting data.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503519/?learn=on&enablevpops)
 

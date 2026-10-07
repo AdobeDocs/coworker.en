@@ -6,7 +6,7 @@ hold: true
 
 # Validate your Streaming Media implementation with Coworker
 
-Coworker includes a Streaming Media Validation skill that checks your Adobe Streaming Media (Video and Audio Analytics) implementation on the Edge Network, feeding Customer Journey Analytics and/or Adobe Analytics. Instead of manually cross-referencing Assurance, dataset configuration, XDM schema field groups, Customer Journey Analytics Data View setup, and raw network logs, you get a single validation report.
+Adobe CX Enterprise Coworker includes a Streaming Media Validation skill that checks your Adobe Streaming Media (Video and Audio Analytics) implementation on the Edge Network, feeding Customer Journey Analytics and/or Adobe Analytics. Instead of manually cross-referencing Assurance, dataset configuration, XDM schema field groups, Customer Journey Analytics Data View setup, and raw network logs, you get a single validation report.
 
 If you're implementing or troubleshooting streaming media tracking, you can use this skill to confirm your implementation is configured correctly, collecting data as expected, and capturing what you intended to track, all within a single Coworker Chat conversation.
 

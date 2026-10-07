@@ -6,7 +6,7 @@ hold: true
 
 # Generate an implementation checklist with Coworker Projects
 
-Coworker Projects can generate an Implementation Checklist project, pre-populated with the ordered steps from your implementation guide plan for Customer Journey Analytics, an Adobe Analytics to Customer Journey Analytics upgrade, Content Analytics (ACA), Marketing Campaign Analytics (MCA), or Streaming Media. Coworker automates or assists with as many steps as technically possible, so you and your team have a single, trackable place to work through your implementation.
+Adobe CX Enterprise Coworker can generate an Implementation Checklist project in Coworker Projects, pre-populated with the ordered steps from your implementation guide plan for Customer Journey Analytics, an Adobe Analytics to Customer Journey Analytics upgrade, Content Analytics (ACA), Marketing Campaign Analytics (MCA), or Streaming Media. Coworker automates or assists with as many steps as technically possible, so you and your team have a single, trackable place to work through your implementation.
 
 If you're leading an implementation, executing technical steps, or just need visibility into progress, you can use this checklist to assign work, track status, and collaborate with your team, without leaving Coworker.
 
