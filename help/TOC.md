@@ -35,6 +35,7 @@ hide: true
       - [Create a loyalty challenge and surface insights](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - Optimization {#optimization}
       - [Launch Target activities](./chat/use-cases/optimization/target.md)
+      - [Accelerate experimentation](./chat/use-cases/optimization/accelerate-experimentation.md)
     - Sandbox tooling {#sandbox-tooling}
       - [Sandbox tooling agentic skills](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - Alerts {#alerts}
