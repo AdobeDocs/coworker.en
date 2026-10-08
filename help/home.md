@@ -17,7 +17,7 @@ Coworker is an AI-powered teammate that reimagines the nature of work for organi
 
 Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
 
-## Coworker Chat Essentials
+## Coworker Chat essentials
 
 Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to CX Enterprise Coworker Chat. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
 
@@ -85,7 +85,7 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Experience League LIVE: Coworker Unlocked Series
+## Experience League LIVE: Coworker Unlocked series
 
 Join the CX Enterprise Coworker Unlocked series to see how organizations are using AI-powered assistance to streamline customer experience work. Each session explores practical use cases, live demonstrations, and expert guidance that help teams accelerate workflows, uncover insights, and automate tasks across Adobe Experience Cloud applications. Browse previous episodes or register for upcoming events to learn new ways to increase productivity and drive customer experience outcomes.
 
@@ -151,9 +151,9 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Coworker Teams (formerly Campaigns)
+## Coworker Campaigns
 
-Coworker Teams is a templatized feature for small agile teams to stand up and execute campaigns.
+Coworker Campaigns is a templatized feature for small agile teams to stand up and execute campaigns.
 
 * [Overview](./campaigns/overview.md)
 * [Create an email campaign](./campaigns/create-an-email-campaign.md)
