@@ -10,7 +10,7 @@ feature_v2:
 ---
 # Get started analyzing data with Coworker Chat
 
-Set up Adobe CX Enterprise Coworker Chat to analyze your Customer Journey Analytics data views or Adobe Analytics report suites, then follow a working example. For an overview of what you can do with Coworker Chat, including use cases, skills, and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview-v2.md).
+Set up Adobe CX Enterprise Coworker Chat to analyze your Customer Journey Analytics data views or Adobe Analytics report suites, then follow a working example. For an overview of what you can do with Coworker Chat, including use cases, skills, and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
 
 Before you begin, learn the Coworker Chat interface and configuration options, then ensure Coworker is connected to Customer Journey Analytics or Adobe Analytics and the relevant data views or report suites.
 
@@ -327,4 +327,4 @@ To open a visualization in a new Analysis Workspace project:
 
 ## Next steps
 
-For more use cases, the skills that Coworker Chat uses to analyze your data, and best practices for writing prompts, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview-v2.md).
+For more use cases, the skills that Coworker Chat uses to analyze your data, and best practices for writing prompts, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).

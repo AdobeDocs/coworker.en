@@ -17,7 +17,6 @@ role: Admin,User,Developer,Leader
   - Use cases {#use-cases}
     - [Coworker Chat use cases](./chat/use-cases/overview.md)
     - Data Insights {#data-insights}
-      - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview-v2.md)
       - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview.md)
       - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
       - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
