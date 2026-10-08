@@ -61,6 +61,7 @@ hide: true
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Campaigns {#campaigns}
+  - {hide-from-toc} [New Teams experience](./campaigns/new-teams-experience.md)
   - [Overview](./campaigns/overview.md)
   - [Create an email campaign](./campaigns/create-an-email-campaign.md)
   - [Launch and manage a campaign](./campaigns/launch-manage-campaign.md)
