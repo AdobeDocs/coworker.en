@@ -6,6 +6,8 @@ description: Learn how to use CX Coworker to identify Experience Event data wort
 
 Use CX Coworker to understand the value of Experience Event data in your sandbox and identify data that may benefit from optimization. You can begin with a broad request, such as asking Coworker to optimize your sandbox data or clean up datasets. Coworker uses the Data Management Agent to surface datasets worth investigating, analyze how actively a dataset is used, model the impact of a retention period, and, when appropriate, help you manage its data lake retention policy.
 
+>[!VIDEO](https://video.tv.adobe.com/v/3504095?learn=on)
+
 ## Before you begin {#before-you-begin}
 
 Make sure you're working in the sandbox that contains the datasets you want to review. You also need access to the Data Management Agent and the required Adobe Experience Platform permissions. See [Data Management Agent prerequisites](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/data-management#prerequisites).
