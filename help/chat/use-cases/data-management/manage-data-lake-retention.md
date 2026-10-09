@@ -1,6 +1,12 @@
 ---
 title: Manage data lake retention
 description: Learn how to use CX Coworker to identify Experience Event data worth optimizing, analyze dataset usage and retention impact, and manage data lake retention policies.
+role: Developer
+level: Beginner, Intermediate
+doc-type: Feature Video
+duration: 160
+last-substantial-update: 2026-10-09
+jira: KT-22762
 ---
 # Manage data lake retention
 
