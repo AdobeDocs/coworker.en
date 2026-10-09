@@ -12,9 +12,7 @@ feature_v2:
 
 A subdomain is a division of your domain that can be used to isolate your brands, or various types of traffic (for example, marketing communications).
 
-Let's use the "mybrand.com" domain, which is used to send marketing communications. In this situation, you can set up a specific subdomain:
-
-* "marketing.mybrand.com" subdomain for your prospecting emails.
+For example, let's use the "mybrand.com" domain, which is used by your team to send marketing communications. In this situation, you can set up a specific subdomain: "marketing.mybrand.com."
 
 By doing so, you will help preserve the reputation of your domain and other subdomains. For example, if the "marketing.mybrand.com" subdomain ended up being added an Internet Service Provider's block list due to bad deliverability practices, this would prevent the whole "mybrand.com" domain and any other subdomains you created from being added.
 
