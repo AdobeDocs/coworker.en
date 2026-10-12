@@ -12,16 +12,6 @@ feature_v2:
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation. 
 
->[!NOTE]
->
->Coming soon: 
->
->New AEM agentic capabilities through CX Enterprise Coworker, built to help you do more, faster.
->
->All eligible customers will get access to Adobe Experience Manager agentic capabilities in Coworker, on a rolling basis.
->
->See also [AI in AEM - Overview of Agentic Capabilities in AEM](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agentic-capabilities/overview).
-
 ## Brand Experience
 
 | Use Case | Description | Skill(s) | Application | Sample Prompts |
