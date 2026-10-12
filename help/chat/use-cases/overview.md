@@ -218,6 +218,27 @@ Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy 
 
 * [Coworker for content management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} provides details on content management tools and available skills in Adobe Journey Optimizer.
 
+## Campaign v8
+
+Use Coworker Chat to find and update deliveries, manage assets, explore the data model, and inspect, validate, and troubleshoot workflows in Adobe Campaign v8.
+
+| Use Case | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Find and inspect deliveries | Search deliveries by name, folder, channel, or status, retrieve the full detail of a delivery, including channel content and SMTP configuration, browse reusable email content templates, and read the built-in delivery reports | `find_delivery`, `describe_delivery`, `find_content_template`, `read_delivery_indicator` | Adobe Campaign v8 | "Find email content templates with ‘newsletter’ in the name." · "Show me draft email deliveries." · "How many deliveries failed this month?" · "What subject and sender does this delivery use?" |
+| Create and update deliveries | Create a delivery or template from a channel template and named content, and edit the label and per-channel message content of an existing delivery | `create_delivery`, `update_delivery` | Adobe Campaign v8 | "Create an email using my Newsletter content template." · "Change the subject of the Summer Launch email." · "Replace the HTML content of this delivery." |
+| Prepare a delivery without sending it | Resolve targets and render personalization without broadcasting the delivery | `prepare_delivery` | Adobe Campaign v8 | "Prepare the Summer Launch delivery." · "Run preparation on this delivery, but don’t send it." |
+| Configure email SMTP and web analytics settings | Set the SMTP header settings, and the web analytics account and tracking tags, of an email delivery | `update_email_smtp_config`, `update_email_web_analytics` | Adobe Campaign v8 |  |
+| Manage assets and attachments | Upload a file as an asset, read its metadata and public URL, make a private asset public, and link an asset to a delivery as a real attachment | `upload_asset`, `get_asset_url`, `publish_asset`, `attach_asset` | Adobe Campaign v8 | "Upload this image so I can use it in my email." · "Give me the public URL of the image I uploaded." · "Attach the PDF I uploaded to the Summer Launch delivery." |
+| Inspect campaigns | Search campaigns and templates, and get the full detail of a campaign, including its child workflows and deliveries | `find_campaign`, `describe_campaign` | Adobe Campaign v8 |  |
+| Understand and validate workflows | Search workflows, summarize a workflow or drill into its activities and delivery touchpoints, and statically validate a workflow definition | `find_workflow`, `describe_workflow`, `validate_workflow` | Adobe Campaign v8 | "Explain the Welcome workflow." · "Which deliveries are used by this workflow?" · "Validate the Welcome workflow." |
+| Control workflows | Drive a workflow through a lifecycle command (start, pause, stop, resume, or wakeup), and reconfigure a delivery activity inside a workflow | `control_workflow`, `update_workflow_delivery_activity` | Adobe Campaign v8 | "Start the Welcome workflow." · "Pause this workflow." |
+| Troubleshoot workflows | Read the health of many workflows at once, when a workflow ran, its execution journal, its current tasks, and its pending engine commands | `read_workflow_health`, `read_workflow_history`, `read_workflow_logs`, `read_workflow_tasks`, `read_workflow_jobs` | Adobe Campaign v8 |  |
+| Explore and extend the data model | Browse the schema catalog, inspect the structure of a schema, read rows from any schema, create a new schema, and create or alter its physical SQL table | `find_schema`, `describe_schema`, `read_schema_entity`, `create_schema`, `update_database_structure` | Adobe Campaign v8 | "Find schemas related to recipients." · "Describe the recipient schema." · "Create a custom schema for loyalty preferences." |
+
+**Related information**
+
+* [Get started with Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/get-started){target="_blank"} provides an overview of Adobe Campaign v8.
+
 ## Optimization
 
 Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, and troubleshoot Adobe Target activities, audiences, and Recommendations.
