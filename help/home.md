@@ -13,13 +13,15 @@ feature_v2:
 
 Coworker is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. Coworker elegantly automates customer experience and marketing workflows so organizations can focus on realizing their business goals and transforming outcomes, not coordinating tasks. As an agentic engine, Coworker takes a new innovative approach to automating business process. It elevates AI model performance and accuracy by bringing together data, intelligence, collaboration and agentic skills execution with enterprise context, governance, and human oversight built in.
 
-## Coworker Chat
+Coworker is delivered through three experiences:
 
-Coworker Chat enables teams to automate Adobe product tasks using natural language, quickly turning ideas into actions with flexible planning, customizable skills, and intelligent execution.
+**[Coworker [!UICONTROL Chats]](./chat/overview.md):** Lets practitioners use natural language for complex requests, insights, content generation, and actions across Adobe applications.
+**[Coworker [!UICONTROL Campaigns]](./campaigns/overview.md):** Designed to take agile marketing teams from a campaign goal toward coordinated campaign execution.
+**Coworker [!UICONTROL Projects] (coming soon):** Designed for longer-running, cross-functional enterprise workflows where teams define processes, approvals, and Coworker's level of autonomy.
 
-## Coworker Chat essentials
+## Essentials for chatting with Coworker
 
-Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to CX Enterprise Coworker Chat. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
+Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to using [!UICONTROL Chats] in [!DNL Coworker]. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
 
 <!--
 CARDS
