@@ -15,13 +15,13 @@ Coworker is an AI-powered teammate that reimagines the nature of work for organi
 
 Coworker is delivered through three experiences:
 
-* **[Coworker [!UICONTROL Chats]](./chat/overview.md):** Use natural language for complex requests, insights, content generation, and actions across Adobe applications.
+* **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Use natural language for complex requests, insights, content generation, and actions across Adobe applications.
 * **[Coworker [!UICONTROL Campaigns]](./campaigns/overview.md):** Designed to take agile marketing teams from a campaign goal toward coordinated campaign execution.
 * **Coworker [!UICONTROL Projects] (coming soon):** Designed for longer-running, cross-functional enterprise workflows where teams define processes, approvals, and Coworker's level of autonomy.
 
-## Essentials for [!DNL Coworker] [!UICONTROL Chats]
+## Essentials for [!DNL Coworker] [!UICONTROL Chat]
 
-Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to using the [!UICONTROL Chats] feature in [!DNL Coworker]. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
+Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to using the [!UICONTROL Chat] feature in [!DNL Coworker]. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
 
 <!--
 CARDS
