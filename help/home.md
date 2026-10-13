@@ -165,6 +165,16 @@ Coworker Campaigns is a templatized feature for small agile teams to stand up an
 * [Connect to Marketo Engage](./campaigns/connectors/marketo.md)
 * [Connect to Hubspot](./campaigns/connectors/hubspot.md)
 
+<!--
+PLAT-302117: Keep this overview entry hidden until the AI platforms draft is approved for publication.
+
+## AI platforms
+
+Use Coworker directly inside [!DNL Microsoft 365 Copilot], [!DNL Claude], and [!DNL ChatGPT] to get marketing insights.
+
+* [CX Enterprise Coworker in AI platforms](/help/ai-platforms.md)
+-->
+
 ## Projects (coming soon)
 
 Coworker Projects is a unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery.
