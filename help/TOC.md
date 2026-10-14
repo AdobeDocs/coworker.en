@@ -15,7 +15,7 @@ role: Admin,User,Developer,Leader
   - [UI guide](./chat/ui-guide.md)
   - {hide-from-toc} [Coworker Chat in Playground](./playground-coworker-chat.md)
   - Use cases {#use-cases}
-    - [Coworker Chat use cases](./chat/use-cases/overview.md)
+    - [Coworker Chat workflows](./chat/use-cases/workflows.md)
     - Data Insights {#data-insights}
       - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview.md)
       - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
