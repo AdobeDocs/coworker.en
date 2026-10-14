@@ -1,6 +1,6 @@
 ---
-description: Browse Coworker Chat use cases and sample prompts, organized by area across data insights, audiences, journeys, and platform operations.
-title: Coworker Chat Use Cases
+description: Browse Coworker Chat workflows and sample prompts, organized by area across data insights, audiences, journeys, and platform operations.
+title: Coworker Chat workflows
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -8,19 +8,19 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# Coworker Chat use cases {#use-cases}
+# Coworker Chat workflows {#use-cases}
 
-Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the use cases practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation. 
+Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the workflows practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation. 
 
 ## Brand Experience
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Update AEM pages](brand-visibility/author-web-pages.md) | Perform actions such as updating, removing, replacing, or adding content elements to keep experiences accurate and current. Inputs can be natural language or visual annotations like PDFs or screenshots. | `aem-sites-pages-update` | Adobe Experience Manager (AEM) - AEM Sites | On &lt;URL&gt; update the headline to Hello World<br><br>on &lt;URL&gt; change "Take our Coffee Quiz" button to a more engaging version<br><br>Update &lt;URL&gt; based on the attached<br><br>on &lt;URL&gt; I want to a add a new teaser section to the bottom of the page about a promotion we are running in the month of august that is buy a coffee machine and get 2 bags of coffee free. Also find image of friends drinking coffee and use that in the teaser |
 | Update AEM in bulk | Perform bulk actions across multiple pages at the same time such as removing, replacing, or adding content elements to keep experiences accurate and current. | `aem-sites-pages-bulkreplace` | Adobe Experience Manager (AEM) - AEM Sites | on &lt;aem path&gt; update all pages that contain copy "MyBarista\" to "BrewPass" |
 | Go from Figma to Visual Content Fragment | Import designs directly from Figma into Adobe Experience Manager using natural language. The skill automatically creates the required content model, content fragment, assets, and visualization template, enabling business users to move from design to web-ready content in minutes without manual setup. | `aem-sites-visualcontentfragments-create` | Adobe Experience Manager (AEM) - AEM Sites | Import from &lt;Figma_URL&gt; |
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Create form | Generate a new Adaptive Form from a plain-language description, an attached brief, an image, or a PDF | `aem-forms-adaptiveform-create` | Adobe Experience Manager (AEM)  - AEM Forms | "Create an employee onboarding form"<br><br>"Create a form using the attached brief (image or pdf)"<br><br>"Create a &lt;form type&gt; adaptive form" |
 | Edit/Update form | Modify an existing form - add/edit fields, adjust simple layout, configure submit actions, or apply changes from an attached guidelines document | `aem-forms-adaptiveform-edit` | Adobe Experience Manager (AEM) - AEM Forms | "Add Middle Name field below First Name field"<br><br>"Put First Name and Last Name fields in a 2 column layout, 50/50"<br><br>"Configure the form to send data to a REST endpoint"<br><br>"Update this form to match the attached guidelines document"<br><br>"Add &lt;field name&gt; field below &lt;existing field&gt; field" |
@@ -35,7 +35,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Development
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Manage Cloud Manager pipelines| Create, run, and monitor AEM Cloud Manager pipelines, including logs, artifacts, variables, and settings | `cloud-manager-pipeline-management` | Adobe Experience Manager (AEM)  | "List pipelines for program 12345"<br><br>"What is the status of my most recent pipeline?" |
 | Manage Cloud Manager environments | Create, configure, and maintain AEM Cloud Manager environments, including RDEs, environment variables, logs, and backups | `cloud-manager-environment-management` | Adobe Experience Manager (AEM)  | "List my environments for program 12345"<br><br>"Reset my RDE" |
@@ -48,7 +48,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Onboarding
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Guided end-to-end onboarding | Orchestrates the full onboarding lifecycle, repository selection, delegation to the folder, tag, metadata, import, and search sub-skills, if you do not know the specific onboarding task that you need. | `aem-onboarding-workflow` | Adobe Experience Manager (AEM) - AEM Assets | "Onboard our team to AEM Assets"<br><br>"Walk me through AEM DAM onboarding" |
 | Design and create folder hierarchies | Recommends and creates scalable folder structures in AEM Assets (under `/content/dam`) based on business needs or CSV inputs. | `aem-folder-management` | Adobe Experience Manager (AEM) - AEM Assets | "Recommend a folder structure for our lifestyle marketing assets"<br><br>"Create folders based on this CSV file" |
@@ -63,7 +63,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Content Discovery
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Search by semantic theme | Find assets by concept, mood, or visual theme using AI-powered semantic matching. | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | "Find me morning coffee lifestyle images" |
 | Search by custom metadata | Filter assets by custom metadata fields (for example, Coffee Blend, Brand, Roast Level). | `aem-assets-discovery` | Adobe Experience Manager (AEM) - AEM Assets | "Find assets where `Coffee Blend` is `Morning Muse`"<br><br>"Get me assets whose license is not expired"<br><br>"Find me assets whose Campaign Name is not set (the property must be indexed for appropriate results)." |
@@ -76,7 +76,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ### Content Optimization
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | High-resolution rendition creation and Channel-optimized renditions | Generate new renditions of an asset at a specified resolution and quality level, making it easy to prepare channel-ready variations without manual editing. You can also produce renditions tailored to platform-specific requirements, such as Instagram Stories, ensuring assets meet format, ratio, and quality guidelines automatically. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | "Create a `2000px` rendition as `JPEG` with `80% quality`"<br><br>"Create a rendition for an Instagram story" |
 | Branded overlays and composite generation | Apply promotional graphics, overlays, or badges to existing assets with precise placement, supporting rapid creation of campaign-ready composites. | `aem-assets-content-optimisation` | Adobe Experience Manager (AEM) - AEM Assets | "Overlay the image with `30%` discount graphics over the promotional banner, placing it `100px` from the center" |
@@ -88,7 +88,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Brand Governance
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Guideline & segment lookup | Retrieve detailed brand guidelines, scoped by segment, market, or category | enterprise-context | Adobe Experience Manager (AEM)  | "What are the tone-of-voice guidelines for this brand?"<br>"List the claim categories used in the health vertical" |
 | Evaluate content against brand guidelines | Evaluate a published/authored page, text block, or image against configured brand checks | aem-governance | Adobe Experience Manager (AEM)  | "Evaluate this landing page against SecurBank guidelines"<br>"Does this tagline pass our tone-of-voice checks?" |
@@ -100,7 +100,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Data insights
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Pull CJA & AA reports & metrics](data-insights/analytics-chat.md) | Query CJA or AA in real time to pull metrics, dimensions, segments, data views, and report suites | `cja`, `aa` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | "Show me page views for the last 30 days" <br> "List top segments in the master data view" |
 | Comparative analysis | Compare metrics across channels, time periods, or segments side by side | `cja-root-cause-analysis`, `cja`, `aa-root-cause-analysis`, `aa`, `dx-api`, `knowledge-graph` | Customer Journey Analytics (CJA), Adobe Analytics (AA) | "Compare revenue by channel month over month" <br> "How does mobile vs desktop conversion look this quarter?" |
@@ -116,7 +116,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Audiences
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Create audiences from natural language](audiences/create-audience-from-natural-language.md) | Orchestrate step-by-step audience creation with user approval at each phase | `audience-creation-flow` | Real-Time CDP (RTCDP) | "Create an audience of users who purchased in the last 30 days" <br> "Build a segment for high-value loyalty members in California" |
 | Build PQL definitions | Assemble audience definitions from XDM properties, behavioral events, or existing audiences; support aggregation and time windows | `segment-definition-assembly` | Real-Time CDP (RTCDP) | "Create a PQL for people who viewed 3+ products but didn't purchase" <br> "Add a 7-day time window to my event condition" |
@@ -128,7 +128,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Journeys
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Create journeys from natural language](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"} | Orchestrate journey creation in AJO from a text prompt or an uploaded image/flowchart | `journey-create` | Adobe Journey Optimizer (AJO) | "Create a welcome journey that sends an email after signup, waits 3 days, then sends a follow-up" <br> "Build a journey from this uploaded flowchart image" |
 | [Analyze journey conflicts](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Detect audience overlap, schedule collisions, and deduplication issues between active journeys | `journey-analyze-conflict` | Adobe Journey Optimizer (AJO) | "Does my cart abandonment journey conflict with any other journeys?" <br> "Check for audience overlap between my active journeys" |
@@ -145,7 +145,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 ## Journey Optimizer Content management
 
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Apply brand guidance](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Find, select, and apply approved brand guidelines for campaign voice, writing, imagery, terminology, and legal guidance. | `brand-lookup` | Adobe Journey Optimizer (AJO) | "Pull the writing and visual guidelines for our Acme brand." |
 | [Check content readiness](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills#ce-channel-content){target="_blank"} | Review campaign content for brand voice, editorial quality, engagement, clarity, and readiness. | `check-content-readiness` | Adobe Journey Optimizer (AJO) | "Is this email copy ready to send? Check brand voice, clarity, accessibility, and compliance." |
@@ -165,7 +165,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Marketing programs
 
-| Use Case | Description | Skill(s) | Application | Sample Prompts |
+| Workflow | Description | Skill(s) | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Build a program | Adapt an existing program template into a new program, with Smart Campaigns, scheduling, and placeholder emails generated from a plain-language description or uploaded brief | `build-programs` | Adobe Marketo Engage | "Create a webinar registration program for our August product demo"<br><br>"Build a program that triggers when a lead hits a score of 50"<br><br>"Create a 3-email re-engagement series for leads inactive 90 days" |
 | Stand up a program from a brief | Turn a plain-language brief or uploaded campaign document into a working program: clone the closest matching template, carry over Smart Campaigns and tokens, and update event details. New Smart Campaigns are left deactivated for your review | `build-programs` | Adobe Marketo Engage | "I'm hosting a webinar on Sept 10 in Chicago. Set up the program for me"<br><br>"Set up next month's roadshow program from this brief and update the event tokens" |
@@ -174,7 +174,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Loyalty
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Create, edit, and manage loyalty challenges](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
 | [Analyze loyalty program performance](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | Query and analyze loyalty points, member tiers, redemptions, and revenue metrics using natural language | `loyalty-insights` | Adobe Journey Optimizer (AJO) | "How many loyalty points were granted during August 2026?" <br> "Show the loyalty program's total revenue broken down by day during August 2026." |
@@ -189,7 +189,7 @@ Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy 
 
 ### Message copy
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Capture marketing brief](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Captures campaign strategy and seeds the creative brief. | `capture-marketing-brief` | Adobe Journey Optimizer (AJO) | "Create a marketing brief for our seasonal product launch" <br> "Turn this campaign strategy into a marketing brief" |
 | [Capture creative brief](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Structures the copy execution spec and builds the content plan matrix. | `capture-creative-brief` | Adobe Journey Optimizer (AJO) | "Create a creative brief from this approved marketing brief" <br> "Build a content plan matrix for our email and SMS campaign" |
@@ -204,7 +204,7 @@ Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy 
 
 ### Email design
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Compose email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Plans block structure and styling from a marketing objective and brand inputs. | `compose-email` | Adobe Journey Optimizer (AJO) | "Plan an email layout for our product launch using our brand guidelines" <br> "Compose a welcome email with a hero section, product highlights, and a call to action" |
 | [Build email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} | Builds, adapts, edits, and refines email HTML from a layout plan, a screenshot, or a Figma design link. | `build-email` | Adobe Journey Optimizer (AJO) | "Build email HTML from this approved layout plan" <br> "Create an email from this Figma design link" |
@@ -222,11 +222,11 @@ Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy 
 
 Use Coworker Chat to find and update deliveries, manage assets, explore the data model, and inspect, validate, and troubleshoot workflows in Adobe Campaign v8.
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| Find and inspect deliveries | Search deliveries by name, folder, channel, or status, retrieve the full detail of a delivery, including channel content and SMTP configuration, browse reusable email content templates, and read the built-in delivery reports | `find_delivery`, `describe_delivery`, `find_content_template`, `read_delivery_indicator` | Adobe Campaign v8 | "Find email content templates with ‘newsletter’ in the name." · "Show me draft email deliveries." · "How many deliveries failed this month?" · "What subject and sender does this delivery use?" |
+| Find and inspect deliveries | Search deliveries by name, folder, channel, or status, retrieve the full detail of a delivery, including channel content and SMTP configuration, browse reusable email content templates, and read the built-in delivery reports | `find_delivery`, `describe_delivery`, `find_content_template`, `read_delivery_indicator` | Adobe Campaign v8 | "Find email content templates with 'newsletter' in the name." · "Show me draft email deliveries." · "How many deliveries failed this month?" · "What subject and sender does this delivery use?" |
 | Create and update deliveries | Create a delivery or template from a channel template and named content, and edit the label and per-channel message content of an existing delivery | `create_delivery`, `update_delivery` | Adobe Campaign v8 | "Create an email using my Newsletter content template." · "Change the subject of the Summer Launch email." · "Replace the HTML content of this delivery." |
-| Prepare a delivery without sending it | Resolve targets and render personalization without broadcasting the delivery | `prepare_delivery` | Adobe Campaign v8 | "Prepare the Summer Launch delivery." · "Run preparation on this delivery, but don’t send it." |
+| Prepare a delivery without sending it | Resolve targets and render personalization without broadcasting the delivery | `prepare_delivery` | Adobe Campaign v8 | "Prepare the Summer Launch delivery." · "Run preparation on this delivery, but don't send it." |
 | Configure email SMTP and web analytics settings | Set the SMTP header settings, and the web analytics account and tracking tags, of an email delivery | `update_email_smtp_config`, `update_email_web_analytics` | Adobe Campaign v8 |  |
 | Manage assets and attachments | Upload a file as an asset, read its metadata and public URL, make a private asset public, and link an asset to a delivery as a real attachment | `upload_asset`, `get_asset_url`, `publish_asset`, `attach_asset` | Adobe Campaign v8 | "Upload this image so I can use it in my email." · "Give me the public URL of the image I uploaded." · "Attach the PDF I uploaded to the Summer Launch delivery." |
 | Inspect campaigns | Search campaigns and templates, and get the full detail of a campaign, including its child workflows and deliveries | `find_campaign`, `describe_campaign` | Adobe Campaign v8 |  |
@@ -245,7 +245,7 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 ### Experiment analysis and strategy
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Browse and explore experiments | Look up experiment overviews, lists, counts, raw results, insights, and opportunities | `experiment-explorer` | Adobe Target / Adobe Journey Optimizer | "Show me my experiments" · "List active tests" · "How many experiments are running?" |
 | Analyze experiment performance | Get portfolio rundowns, single-experiment health checks, executive briefs, and cross-experiment reports with metrics, optionally enriched with CJA data | `experiment-analysis` | Adobe Target / Adobe Journey Optimizer | "How are my A/B tests performing?" · "Generate a report for my activities with CJA metrics" · "Is this test healthy?" |
@@ -254,7 +254,7 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 ### Target activities and audiences
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Browse Target entities | Discover, inspect, and count activities, offers, audiences, mboxes, properties, workspaces, AT.js configuration, response tokens, and revision history. Can also capture a screenshot of an activity's forced experiences | `target-browse` | Adobe Target | "List my A/B tests" · "How many activities launched this month?" · "Show details of activity 12345" |
 | Analyze activity performance | Get conversion rates, lift, confidence intervals, revenue, and exposure counts for a single activity. States facts only and never declares a winner | `target-analyze` | Adobe Target | "How is activity X performing?" · "Show me the conversion lift" · "What's the AOV for the checkout test?" |
@@ -270,7 +270,7 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 ### Recommendations
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Browse Recommendations entities | Browse and inspect Recommendations criteria, collections, designs, promotions, exclusions, catalog, and feeds, plus get cleanup advice and catalog-attribute guidance | `target-recs` | Adobe Target | "List my Recommendations criteria" · "What designs do I have?" · "Which recs can we clean up?" |
 | Diagnose Recommendations issues | Trace the activity, criteria, feed, collection, and design chain to explain why Recommendations are empty, stale, or not showing | `target-recs-diagnose` | Adobe Target | "Why are my recommendations empty?" · "Why has my recs activity been 'results not ready' for 48 hours?" |
@@ -278,7 +278,7 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 ## Foundational elements
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Product knowledge & documentation | Answer how-to, conceptual, troubleshooting, and best-practice questions from official Adobe docs | `product-knowledge` | All Eligible Applications | "How do I set up a streaming destination?" <br> "What's the difference between batch and streaming segmentation?" |
 | Query Experience Platform / Journey Optimizer entities | Serve as the primary entry point for questions about your platform entities; route to KG, field discovery, or APIs as needed | `operational-insights` | All Eligible Applications | "How many datasets do I have?" <br> "Show me all active journeys" <br> "List my destinations" |
@@ -292,20 +292,20 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 ## Data management
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Find data worth optimizing or cleaning up](./data-management/manage-data-lake-retention.md#find-data-worth-optimizing) | Get a sense of whether your Experience Event data can be optimized by surfacing your largest, least-used, or forgotten datasets as candidates for cleanup or a data lake retention policy | `List datasets` | Adobe Experience Platform | "I have a feeling my data can be optimized" <br> "Help me understand the value of my data" <br> "Optimize my sandbox data" <br> "Clean up my sandbox datasets" |
 | [Investigate usage and manage retention for a dataset](./data-management/manage-data-lake-retention.md#check-how-actively-a-dataset-is-used) | Once you've found a dataset worth a closer look, find out how actively it's used, model the impact of a potential data lake retention policy, and set, change, or remove that policy when you're ready, with your review and approval before anything changes | `Analyze dataset usage`, `Analyze dataset retention`, `Manage dataset retention` | Adobe Experience Platform | "How actively is my Web Events dataset being used?" <br> "What would be the impact if I set a 60-day retention period on this dataset?" |
 
 ## Sandbox tooling
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | [Move objects across sandboxes](/help/chat/use-cases/sandbox-tooling/sandbox-tooling.md) | Seamlessly migrate schemas, audiences, and other object configurations across sandboxes, with dependencies auto-resolved | `sandbox-tooling-workflow` | Adobe Experience Platform | "Move schema Luma Loyalty Members Platinum from current sandbox to prod sandbox" <br> "Promote the US Gold Loyalty Members audience to stage" |
 
 ## Customer alerts
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Manage alert subscriptions | View and manage alert subscriptions through natural-language conversations. | `alerts-subscribe` | Adobe Experience Platform | "What alerts am I subscribed to?"<br><br>"Subscribe me to this alert."<br><br>"Remove my subscription to this alert." |
 | Review alert activity | Review current alert status and historical alert activity for a specified time period. | `alerts-list` | Adobe Experience Platform | "What happened in the last 24 hours?"<br><br>"What alerts were triggered in the last 24 hours?"<br><br>"Show active alerts from the last seven days." |
@@ -317,7 +317,7 @@ Use Coworker Chat to browse, analyze, and plan experiments, and to create, run, 
 
 ## Workflow and planning
 
-| Use Case | Description | Skills | Application | Sample Prompts |
+| Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
 | Manage Planning workspace | Build and evolve Workfront Planning workspaces, sections, record types, and fields to organize programs and track work | `manage-workfront-planning`, `wf-planning-solution-architect` | Workfront Planning | "Create a workspace called MKG Hub and set up record types to track programs by region" <br> "Set up the record types and relationships needed to track MKG programs across channels and region" |
 | Manage Planning records | Create and update planning records (campaigns, briefs) and their field values within a workspace | `manage-workfront-planning` | Workfront Planning | "Create a brief for the Fall Brand Launch campaign with the objective, target audience, and key messages" <br> "Update the Fall Brand Launch brief with the budget and primary channels" |
