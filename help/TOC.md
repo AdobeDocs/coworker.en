@@ -10,7 +10,7 @@ role: Admin,User,Developer,Leader
 # CX Enterprise Coworker {#content}
 
 - [Coworker overview](home.md)
-- {hide-from-toc} [CX Enterprise Coworker in AI platforms](./ai-platforms.md)
+- {hide-from-toc} [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
 - Chat {#chat}
   - [Overview](./chat/overview.md)
   - [UI guide](./chat/ui-guide.md)

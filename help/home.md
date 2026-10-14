@@ -170,9 +170,9 @@ PLAT-302117: Keep this overview entry hidden until the AI platforms draft is app
 
 ## AI platforms
 
-Use Coworker directly inside [!DNL Microsoft 365 Copilot], [!DNL Claude], and [!DNL ChatGPT] to get marketing insights.
+Use [!DNL Adobe CX Enterprise Coworker for AI Platforms] to get marketing insights in your AI tools.
 
-* [CX Enterprise Coworker in AI platforms](/help/ai-platforms.md)
+* [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
 -->
 
 ## Projects (coming soon)

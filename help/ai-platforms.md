@@ -1,6 +1,6 @@
 ---
-title: CX Enterprise Coworker in AI Platforms
-description: Learn how to set up Adobe CX Enterprise Coworker in Microsoft Copilot, Claude, and ChatGPT to bring marketing insights into your everyday tools.
+title: Adobe CX Enterprise Coworker for AI Platforms
+description: Learn about Adobe CX Enterprise Coworker for AI Platforms, including Copilot, ChatGPT, Claude, and Gemini. Explore marketing insights and platform setup guidance.
 hide: true
 index: false
 product_v2:
@@ -11,9 +11,13 @@ feature_v2:
     internal-label: CX Enterprise Coworker
 ---
 
-# CX Enterprise Coworker in AI Platforms
+# Adobe CX Enterprise Coworker for AI Platforms
 
-Marketers and business practitioners often lack direct access to Adobe products, so getting the insights, assets, and workflows they need for a campaign can take weeks or months. CX Enterprise Coworker in AI Platforms closes that gap by bringing Coworker directly into the AI tools you already use: [!DNL Microsoft 365 Copilot], [!DNL Claude], and [!DNL ChatGPT]. Ask questions in natural language and get insights and assets from Coworker in seconds, without switching tools or learning a new interface.
+Use [!DNL Adobe CX Enterprise Coworker for AI Platforms] to get marketing insights in the AI tools you already use. Ask questions in natural language without switching tools. Find the product listed as [!DNL Adobe CX Enterprise Coworker] in each platform.
+
+Use the setup guidance for [!DNL Microsoft 365 Copilot] and [!DNL ChatGPT]. Setup guidance for [!DNL Claude] and [!DNL Gemini] is pending approval and validation.
+
+<!-- Editorial update, 2026-10-14, from PM Siddhartha Srivastava: Copilot and ChatGPT listings are complete. Claude approval is expected by Friday, October 16, but is not confirmed. Access is expected after approval. Gemini approval is also pending. Include Gemini in this hidden draft, but do not write setup steps until the customer flow is confirmed. PM review is expected today, not complete. Keep publication gates until review and publication approval are complete. Databricks Genie, Amazon Quick, and IBM WatsonX remain outside this draft's scope. -->
 
 There's no additional cost to use Coworker in AI platforms. It's included in your CX Enterprise Coworker license, and usage draws from the same AI credits as other Coworker features. For more information, see [Adobe Experience Platform agent jobs and AI credits consumption](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/ai-credit-consumption){target="_blank"}.
 
@@ -25,13 +29,15 @@ Before you can use Coworker in an AI platform, confirm you have the following.
 
 * Adobe CX Enterprise Coworker provisioned for your organization, and your own access to it in Adobe.
 * Adobe Experience Platform and at least one of Adobe Real-Time CDP, Adobe Journey Optimizer, or Adobe Customer Journey Analytics.
-* [!DNL Microsoft 365 Copilot], [!DNL Claude], or [!DNL ChatGPT], depending on the platform you plan to use.
+* [!DNL Microsoft 365 Copilot] or [!DNL ChatGPT], depending on the platform you plan to use.
+
+<!-- Add Claude and Gemini prerequisites after approval, access, and any platform-specific requirements are confirmed. -->
 
 ## Data access and permissions {#data-access-and-permissions}
 
 Coworker in AI platforms reflects the same data and access level tied to your Adobe identity. What you can query and see matches what you're already entitled to in Experience Platform and its associated solutions. Coworker inherits those permissions, so no separate permissions setup is required for the AI platform integration. Coworker returns read-only insights and does not modify your customer data. Review any generated summaries and analyses before you use them to make business decisions.
 
-<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02: this permissions model applies to all three platforms, since Coworker in AI platforms is the same underlying product regardless of which platform surfaces it. -->
+<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02: this permissions model applies to Microsoft 365 Copilot, Claude, and ChatGPT, since Coworker in AI platforms is the same underlying product regardless of which platform surfaces it. Gemini was added to the draft scope on 2026-10-14. Confirm that this model also applies to Gemini before publication. -->
 
 ## Key use cases {#key-use-cases}
 
@@ -45,22 +51,24 @@ Use Coworker in AI platforms to speed up common marketing workflows without leav
 | Optimize workflows and content | Optimize workflows and identify asset and content needs for CX campaigns. Generate visual reports on campaign performance without manually building queries or dashboards. |
 | Collaborate and decide faster | Use suggested prompts to explore audiences, campaigns, and web traffic. Share insights with your team during planning meetings, and answer ad hoc questions in real time while reviewing plans or decks. |
 
-<!-- Use case detail repurposed from help/agents/ama-ms.md (Adobe Marketing Agent for Microsoft 365 Copilot) per PM Siddhartha Srivastava, 2026-08-31 approval. Confirmed by PM on 2026-09-02 that these use cases apply to all three platforms, not just Microsoft 365 Copilot. -->
+<!-- Use case detail repurposed from help/agents/ama-ms.md (Adobe Marketing Agent for Microsoft 365 Copilot) per PM Siddhartha Srivastava, 2026-08-31 approval. Confirmed by PM on 2026-09-02 that these use cases apply to Microsoft 365 Copilot, Claude, and ChatGPT. Confirm applicability to Gemini before publication. -->
 
 ## Set up Coworker {#set-up-coworker}
 
-Setup steps vary by platform. Select your platform below for instructions, then see [Example prompts](#example-prompts) to get started.
+Setup steps vary by platform. Select your platform for setup guidance and approval status, then review the [example prompts](#example-prompts).
 
 >[!BEGINTABS]
 
 >[!TAB Microsoft 365 Copilot]
+
+Use [!DNL Adobe CX Enterprise Coworker for Copilot] to get marketing insights in [!DNL Microsoft 365 Copilot].
 
 **Set up Coworker for your organization**
 
 An administrator must complete these steps before end users can access Coworker in [!DNL Microsoft 365 Copilot].
 
 1. In the [!DNL Microsoft 365 admin center], confirm that your tenant settings allow apps and agents built by external publishers.
-1. Approve Coworker, which appears as an agent, in both the [!DNL Microsoft 365 admin center] and the [!DNL Teams admin center]. You can typically find it through the [!DNL Microsoft Commercial Marketplace] or your organization's [!DNL Integrated Apps] list.
+1. Approve **[!UICONTROL Adobe CX Enterprise Coworker]** in both the [!DNL Microsoft 365 admin center] and the [!DNL Teams admin center]. You can typically find the agent through the [!DNL Microsoft Commercial Marketplace] or your organization's **[!UICONTROL Integrated Apps]** list.
 1. Deploy the agent to end users. You can deploy it to specific users or groups, or to your entire organization. The number of users you enable does not affect setup or cost.
 
 >[!NOTE]
@@ -71,39 +79,57 @@ An administrator must complete these steps before end users can access Coworker 
 
 Once your administrator enables Coworker, you can access it across [!DNL Microsoft 365 Copilot] surfaces, including [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint], and web chat.
 
-1. Find Coworker in your list of agents, or search for **CX Enterprise Coworker** in the [!DNL Microsoft 365 Copilot Agent Store].
+1. Find **[!UICONTROL Adobe CX Enterprise Coworker]** in your list of agents, or search in the [!DNL Microsoft 365 Copilot Agent Store].
 1. Select **[!UICONTROL Add]**, then open the agent.
 1. Sign in using your Adobe credentials. Copy the code that Coworker provides and paste it into the Adobe sign-in flow.
 
-<!-- TODO: screenshot placeholder for step 1 above. File: ./assets/copilot-agent-store.png. Alt text: "Adobe CX Enterprise Coworker agent card in the Microsoft 365 Copilot Agent Store, with the Add button visible." As of 2026-09-02, PM confirmed the live catalog still shows the predecessor product name ("Adobe Marketing Agent"), not "CX Enterprise Coworker" -- wait to capture until the UI is rebranded, or capture and swap later. Once captured, replace this comment with: ![Adobe CX Enterprise Coworker agent card in the Microsoft 365 Copilot Agent Store, with the Add button visible.](./assets/copilot-agent-store.png) -->
+<!-- Visual follow-up, 2026-10-14: PM confirmed the Copilot listing is complete and the intended catalog name is Adobe CX Enterprise Coworker. Verify the displayed name during the live walkthrough. Follow the documentation image policy: link to platform documentation for third-party UI rather than capturing catalog screenshots. -->
 
 >[!TAB Claude]
 
-<!-- PUBLISHING NOTE: as of 2026-09-02, Coworker for Claude is still pending approval on Anthropic's side. PM (Siddhartha Srivastava) is following up. Do NOT publish this tab until approval comes through and these steps are confirmed against the live product. -->
+This tab covers [!DNL Adobe CX Enterprise Coworker for Claude].
+
+>[!AVAILABILITY]
+>
+>Approval for [!DNL Claude] is pending. Setup instructions remain a draft and require validation before publication.
+
+<!-- PUBLISHING NOTE, updated 2026-10-14: PM expects Anthropic approval by Friday, October 16, and access after approval. Neither approval nor access is confirmed. Do not publish this tab until approval is confirmed and these steps are validated against the live product. -->
 
 **Set up Coworker for your organization**
 
-1. Ask your [!DNL Claude] administrator to approve the CX Enterprise Coworker connector for select users or for your entire organization.
+* Ask your [!DNL Claude] administrator to approve **[!UICONTROL Adobe CX Enterprise Coworker]** for selected users or your entire organization.
 
 **Access Coworker in [!DNL Claude]**
 
-1. Find Coworker listed as a connector in the [!DNL Claude] MCP Connector Catalog and select **[!UICONTROL Add]**.
+1. Find **[!UICONTROL Adobe CX Enterprise Coworker]** in the [!DNL Claude] MCP Connector Catalog and select **[!UICONTROL Add]**.
 1. Sign in with your Adobe credentials, then start prompting.
 
-<!-- TODO: screenshot placeholder for step 1 above. File: ./assets/claude-connector-catalog.png. Alt text: "CX Enterprise Coworker listed as a connector in the Claude MCP Connector Catalog." Cannot capture until the connector is approved for Claude (pending as of 2026-09-02). Once captured, replace this comment with: ![CX Enterprise Coworker listed as a connector in the Claude MCP Connector Catalog.](./assets/claude-connector-catalog.png) -->
+<!-- Visual follow-up, 2026-10-14: Verify the Adobe CX Enterprise Coworker listing and customer flow after Claude approval and access are confirmed. Link to platform documentation for third-party UI rather than capturing catalog screenshots. -->
 
 >[!TAB ChatGPT]
 
+Use [!DNL Adobe CX Enterprise Coworker for ChatGPT] to get marketing insights in [!DNL ChatGPT].
+
 **Set up Coworker for your organization**
 
-1. Ask your [!DNL ChatGPT] administrator to approve the CX Enterprise Coworker plugin for select users or for your entire organization.
+* Ask your [!DNL ChatGPT] administrator to approve **[!UICONTROL Adobe CX Enterprise Coworker]** for selected users or your entire organization.
 
 **Access Coworker in [!DNL ChatGPT]**
 
-1. Find Coworker listed as a plugin in the [!DNL ChatGPT] plugin catalog and select **[!UICONTROL Add]**.
+1. Find **[!UICONTROL Adobe CX Enterprise Coworker]** in the [!DNL ChatGPT] plugin catalog and select **[!UICONTROL Add]**.
 1. Sign in with your Adobe credentials, then start prompting.
 
-<!-- TODO: screenshot placeholder for step 1 above. File: ./assets/chatgpt-plugin-catalog.png. Alt text: "CX Enterprise Coworker listed as a plugin in the ChatGPT plugin catalog." As of 2026-09-02, PM confirmed the live catalog still shows the predecessor product name ("Adobe Marketing Agent"), not "CX Enterprise Coworker" -- wait to capture until the UI is rebranded, or capture and swap later. Once captured, replace this comment with: ![CX Enterprise Coworker listed as a plugin in the ChatGPT plugin catalog.](./assets/chatgpt-plugin-catalog.png) -->
+<!-- Visual follow-up, 2026-10-14: PM confirmed the ChatGPT listing is complete and the intended catalog name is Adobe CX Enterprise Coworker. Verify the displayed name and current catalog terminology during the live walkthrough. Link to platform documentation for third-party UI rather than capturing catalog screenshots. -->
+
+>[!TAB Gemini]
+
+This tab covers [!DNL Adobe CX Enterprise Coworker for Gemini].
+
+>[!AVAILABILITY]
+>
+>Approval for [!DNL Gemini] is pending. Setup instructions will be added after approval and validation.
+
+<!-- Setup placeholder, 2026-10-14: Confirm Gemini approval and obtain access. Validate organization approval, catalog discovery, the Adobe CX Enterprise Coworker listing name, sign-in, permissions, supported use cases, and example prompts before adding customer instructions. Do not infer the flow from another platform. Link to platform documentation for third-party UI. -->
 
 >[!ENDTABS]
 
@@ -111,7 +137,9 @@ Once your administrator enables Coworker, you can access it across [!DNL Microso
 
 ## Example prompts {#example-prompts}
 
-After you set up Coworker in your AI platform of choice, try one of these prompts, or write your own in natural language. The same prompts work across [!DNL Microsoft 365 Copilot], [!DNL Claude], and [!DNL ChatGPT].
+After you set up Coworker, try one of these prompts, or write your own in natural language. These prompts apply to [!DNL Microsoft 365 Copilot], [!DNL Claude], and [!DNL ChatGPT]. Confirm [!DNL Claude] availability before you begin.
+
+<!-- Gemini prompt support has not been confirmed. Validate these examples before extending the shared prompt statement to Gemini. -->
 
 * Show your top five audiences.
 * Show a metric for the last month.
