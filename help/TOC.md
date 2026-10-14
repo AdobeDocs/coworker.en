@@ -23,6 +23,7 @@ role: Admin,User,Developer,Leader
       - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
       - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
       - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)
+      - [Accelerate data insights](./chat/use-cases/data-insights/accelerate-data-insights.md)
     - Data Onboarding {#data-onboarding}
       - {hide-from-toc} [Onboard data with Coworker](./agents/data-onboarding-skill.md)
     - Data Management {#data-management}
