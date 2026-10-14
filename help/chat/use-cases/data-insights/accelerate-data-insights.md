@@ -5,9 +5,9 @@ feature: AI Tools
 role: Leader, User, Developer
 level: Beginner, Intermediate, Experienced
 doc-type: Feature Video
-duration: 342
-last-substantial-update: 2026-10-08
-jira: KT-22814
+duration: 340
+last-substantial-update: 2026-10-14
+jira: KT-22878
 ---
 
 # Accelerate data insights with Coworker, AEM and CJA
