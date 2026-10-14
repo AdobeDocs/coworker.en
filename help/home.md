@@ -8,11 +8,15 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# CX Enterprise Coworker overview {#overview}
+# CX Enterprise Coworker guide {#overview}
 
-Coworker is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. Coworker elegantly automates customer experience and marketing workflows so organizations can focus on realizing their business goals and transforming outcomes, not coordinating tasks. As an agentic engine, Coworker takes a new innovative approach to automating business process. It elevates AI model performance and accuracy by bringing together data, intelligence, collaboration and agentic skills execution with enterprise context, governance, and human oversight built in.
+[!DNL Coworker] is Adobe's agentic AI teammate for customer experience and marketing work. It is designed to do more than answer questions or recommend actions: it can orchestrate and execute complex, multi-step marketing workflows across Adobe and other enterprise systems, while keeping you in control through defined approvals and governance. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
-Coworker is delivered through three experiences: 
+## How you can use [!DNL Coworker]
+
+Using [!DNL Coworker], you can create and validate audiences, build customer journeys from a goal, analyze cross-channel performance, diagnose why campaign performance changed, perform health checks, maintain always-on programs, handle operational exceptions, and coordinate campaign launches.
+
+[!DNL Coworker] is delivered through three experiences: 
 
 * **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Use natural language for complex requests, insights, content generation, and actions across Adobe applications.
 * **[Coworker [!UICONTROL Campaigns]](./campaigns/overview.md):** Designed to take agile marketing teams from a campaign goal toward coordinated campaign execution.
