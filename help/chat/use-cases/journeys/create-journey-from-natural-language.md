@@ -27,4 +27,4 @@ By automating the initial setup process, teams can spend less time building jour
 ## See also
 
 - [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), the underlying AI capability that powers journey creation in Coworker Chat.
-- [More Coworker Chat use cases](../overview.md#journeys)
+- [More Coworker Chat workflows](../workflows.md#journeys)
