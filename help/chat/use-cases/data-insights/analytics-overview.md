@@ -63,7 +63,7 @@ The following use cases are grouped by analysis domain. Each group lists the rol
 | Use case | Function |
 | --- | --- |
 | [Compare performance](#skills-and-limitations) | Compare metrics across channels, time periods, or segments side by side.<p>**Sample prompt:** "Compare revenue by channel month over month"</p><p>For more information, see [Skills and limitations](#skills-and-limitations).</p> |
-| [Analyze operational trends and causes](/help/chat/use-cases/overview.md#data-insights) | Query historical time-series data for audiences, datasets, and journeys, and identify what caused a change.<p>**Sample prompt:** "Show me audience size trends over the last 90 days"</p><p>For more information, see [Data insights](/help/chat/use-cases/overview.md#data-insights) in Coworker Chat use cases.</p> |
+| [Analyze operational trends and causes](/help/chat/use-cases/workflows.md#data-insights) | Query historical time-series data for audiences, datasets, and journeys, and identify what caused a change.<p>**Sample prompt:** "Show me audience size trends over the last 90 days"</p><p>For more information, see [Data insights](/help/chat/use-cases/workflows.md#data-insights) in Coworker Chat use cases.</p> |
 
 ### Business performance
 
@@ -82,9 +82,9 @@ The following use cases are grouped by analysis domain. Each group lists the rol
 
 | Use case | Function |
 | --- | --- |
-| [Measure campaign performance](/help/chat/use-cases/overview.md#data-insights) | See how campaigns, channels, and web properties performed over a given period.<p>**Sample prompt:** "How did our Acrobat web campaigns perform last month?"</p><p>For more information, see [Data insights](/help/chat/use-cases/overview.md#data-insights) in Coworker Chat use cases.</p> |
+| [Measure campaign performance](/help/chat/use-cases/workflows.md#data-insights) | See how campaigns, channels, and web properties performed over a given period.<p>**Sample prompt:** "How did our Acrobat web campaigns perform last month?"</p><p>For more information, see [Data insights](/help/chat/use-cases/workflows.md#data-insights) in Coworker Chat use cases.</p> |
 
-For more information about these use cases, including the skills they use and more sample prompts, see [Data insights use cases](/help/chat/use-cases/overview.md#data-insights).
+For more information about these use cases, including the skills they use and more sample prompts, see [Data insights use cases](/help/chat/use-cases/workflows.md#data-insights).
 
 ## Skills and limitations
 

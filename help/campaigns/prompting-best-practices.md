@@ -14,7 +14,7 @@ Getting the most out of Coworker Campaigns starts with how you prompt. Learn the
 
 >[!NOTE]
 >
->Currently, you can only connect to Coworker Campaigns-supported integrations. If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/chat/use-cases/overview.md) instead.
+>Currently, you can only connect to Coworker Campaigns-supported integrations. If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/chat/use-cases/workflows.md) instead.
 
 ## Use the CO-STAR framework
 
