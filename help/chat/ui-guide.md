@@ -42,9 +42,9 @@ Alternatively, click **[!UICONTROL Coworker]** in the application selector in th
 
 ![Coworker in the CX Enterprise application selector](./assets/ui-guide-1.png)
 
-## Set your context
+## Choose your organization
 
-Your organization and sandbox determine which data, skills, and connected tools a conversation can reach. Check them before you start. Your current context appears at the bottom of the left navigation rail, under your name.
+Your [organization](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/organizations) and sandbox determine which data, skills, and connected tools a conversation can reach. Check them before you start. Your current context appears at the bottom of the left navigation rail, under your name.
 
 To change your context:
 
@@ -85,7 +85,7 @@ Use the navigation rail to move between the parts of the product and return to r
 
 ## Send your first message
 
-The Home screen shows a greeting, the input box, and suggested prompts based on what Coworker Chat can do in your sandbox. You can start with a suggestion or write your own message.
+The Home screen shows a greeting, the input ([!UICONTROL Chat]) box, and suggested prompts based on what Coworker Chat can do in your sandbox. You can start with a suggestion or write your own message.
 
 To send a message:
 
