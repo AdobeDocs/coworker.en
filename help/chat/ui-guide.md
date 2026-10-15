@@ -128,7 +128,7 @@ Attach a file or object when Coworker Chat needs more information to do the work
 
 ![The attach menu](./assets/ui-guide-5.png)
 
-### Review a plan before Coworker Chat acts
+### Review a plan before Coworker Chat acts {#plan-mode}
 
 Use Plan mode for complex tasks or tasks that change data. When Plan mode is on, Coworker Chat proposes a plan and waits for your approval before it carries it out. When Plan mode is off, Coworker Chat starts the work right away.
 

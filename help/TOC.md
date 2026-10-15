@@ -12,7 +12,7 @@ role: Admin,User,Developer,Leader
 - [Coworker overview](home.md)
 - Chat {#chat}
   - [Overview](./chat/overview.md)
-  - [UI guide](./chat/ui-guide.md)
+  - [Get started with Chat](./chat/ui-guide.md)
   - {hide-from-toc} [Coworker Chat in Playground](./playground-coworker-chat.md)
   - Use cases {#use-cases}
     - [Coworker Chat workflows](./chat/use-cases/workflows.md)
