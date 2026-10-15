@@ -1,5 +1,5 @@
 ---
-description: A step-by-step guide to generating an email campaign in Adobe CX Enterprise Coworker Campaigns, from writing prompts to reviewing and exporting your campaign.
+description: A step-by-step guide to generating an email campaign in Adobe CX Enterprise Coworker for teams, from writing prompts to reviewing and exporting your campaign.
 title: Create an Email Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -20,7 +20,7 @@ Learn how to generate and review complete email campaigns in minutes.
 
 Make sure you have:
 
-* An active Adobe CX Enterprise Coworker Campaigns account ([sign up here](https://coworker-campaigns.experience.adobe.com/){target="_blank"} if you have not already).
+* An active Adobe CX Enterprise Coworker for teams account ([sign up here](https://coworker-campaigns.experience.adobe.com/){target="_blank"} if you have not already).
 
 * Your brand added under **Your stuff** > **Brands**.
 
@@ -42,7 +42,7 @@ _When to use: When you know exactly what you want._
 
 _When to use: When you are not sure what you want._
 
-**Option three**: Use a "Help me prompt" option from the drop-down in the prompt bar to have Coworker Campaigns guide you through writing your prompt.
+**Option three**: Use a "Help me prompt" option from the drop-down in the prompt bar to have Coworker for teams guide you through writing your prompt.
 
 _When to use: When you may have an idea what you want, but would like a little help (or, use "Surprise Me" to be surprised)._ 
 
@@ -50,7 +50,7 @@ _When to use: When you may have an idea what you want, but would like a little h
 
 ## Step 2: Create your prompt
 
-A strong Coworker Campaigns prompt includes:
+A strong Coworker for teams prompt includes:
 
 * The campaign goal (what you are trying to achieve).
 * The audience (who it is for, or where the audience data is coming from).
@@ -71,7 +71,7 @@ Example:
 
 ![Typing in your own prompt](./assets/create-an-email-campaign-2.png)
 
-When you have your prompt ready, click **Generate campaign**. Coworker Campaigns will then:
+When you have your prompt ready, click **Generate campaign**. Coworker for teams will then:
 
 * Generate a structured campaign plan.
 * Ask for your target audience, which will also be used for content personalization.
@@ -111,7 +111,7 @@ There are two ways to update your content.
 
 -or-
 
-* Use the conversational interface to make changes by talking directly to Coworker Campaigns. Some examples include:
+* Use the conversational interface to make changes by talking directly to Coworker for teams. Some examples include:
 
   * "Make the subject line more urgent."
   * "Shorten the body copy."
@@ -145,7 +145,7 @@ The Launch functionality (sending your email campaign) is coming soon. Until the
 
 It is generating an entire campaign for you, including the strategy, the audience you require, the workflow, etc. The average time of the first response with your content generated is typically around one minute.
 
-**What do I do if the Coworker Campaigns output isn't quite right?**
+**What do I do if the Coworker for teams output isn't quite right?**
 
 Click the feedback icon in the header and let us know so we can improve the platform.
 

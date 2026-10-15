@@ -1,5 +1,5 @@
 ---
-description: Learn how to connect your Marketo Engage account to Coworker Campaigns so you can sync Marketo smart and static lists.
+description: Learn how to connect your Marketo Engage account to Coworker for teams so you can sync Marketo smart and static lists.
 title: Connect to Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -10,7 +10,7 @@ feature_v2:
 ---
 # Connect to Marketo Engage {#marketo}
 
-Adobe Coworker Campaigns allows you to connect your Marketo Engage account to pull in smart and static lists.
+Adobe Coworker for teams allows you to connect your Marketo Engage account to pull in smart and static lists.
 
 >[!PREREQUISITES]
 >
@@ -18,13 +18,13 @@ Adobe Coworker Campaigns allows you to connect your Marketo Engage account to pu
 >
 >* An active Marketo Engage account
 >* Your Marketo **instance URL**
->* A [custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) created for Coworker Campaigns in Marketo, with its [Client ID and Client secret](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) on hand
+>* A [custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) created for Coworker for teams in Marketo, with its [Client ID and Client secret](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) on hand
 
 ## How to connect
 
-1. On the [Coworker Campaigns homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
 
-   ![Coworker Campaigns left navigation with Customize expanded and Connectors highlighted](./assets/marketo-1.png)
+   ![Coworker for teams left navigation with Customize expanded and Connectors highlighted](./assets/marketo-1.png)
 
 1. Click **Add integration**.
 

@@ -62,15 +62,15 @@ role: Admin,User,Developer,Leader
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
-- Campaigns {#campaigns}
-  - {hide-from-toc} [New Teams experience](./campaigns/new-teams-experience.md)
-  - [Overview](./campaigns/overview.md)
-  - [Create an email campaign](./campaigns/create-an-email-campaign.md)
-  - [Launch and manage a campaign](./campaigns/launch-manage-campaign.md)
-  - [Use cases](./campaigns/use-cases.md)
-  - [Prompting best practices](./campaigns/prompting-best-practices.md)
-  - [C2PA metadata](./campaigns/c2pa-metadata.md)
+- Coworker for teams {#coworker-for-teams}
+  - {hide-from-toc} [New Teams experience](./coworker-for-teams/new-teams-experience.md)
+  - [Overview](./coworker-for-teams/overview.md)
+  - [Create an email campaign](./coworker-for-teams/create-an-email-campaign.md)
+  - [Launch and manage a campaign](./coworker-for-teams/launch-manage-campaign.md)
+  - [Use cases](./coworker-for-teams/use-cases.md)
+  - [Prompting best practices](./coworker-for-teams/prompting-best-practices.md)
+  - [C2PA metadata](./coworker-for-teams/c2pa-metadata.md)
   - Connectors {#connectors}
-    - [Marketo Engage](./campaigns/connectors/marketo.md)
-    - [Hubspot](./campaigns/connectors/hubspot.md)
-  - [Release notes](./campaigns/release-notes.md)
+    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
+    - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+  - [Release notes](./coworker-for-teams/release-notes.md)

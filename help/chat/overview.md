@@ -22,7 +22,7 @@ To get started, see [Get started with Coworker Chat](ui-guide.md).
 
 >[!NOTE]
 >
->Coworker Chat is one module of Adobe CX Enterprise Coworker. Two other modules extend the same foundation: Coworker Campaigns (stand up and launch a full campaign from one conversation) and Coworker Projects (an always-on workspace for end-to-end, multi-team workflows). This page covers Coworker Chat.
+>Coworker Chat is one module of Adobe CX Enterprise Coworker. Two other modules extend the same foundation: Coworker for teams (stand up and launch a full campaign from one conversation) and Coworker Projects (an always-on workspace for end-to-end, multi-team workflows). This page covers Coworker Chat.
 
 ## An evolution from AI Assistant
 
