@@ -81,4 +81,3 @@ By doing so, you will help preserve the reputation of your domain and other subd
 ## How to add a sender
 
 Text
-
