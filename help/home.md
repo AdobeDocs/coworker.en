@@ -19,7 +19,7 @@ Coworker shifts AI from _assisting_ to _acting_. Instead of switching between ap
 [!DNL Coworker] is delivered through three experiences: 
 
 * **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Ask for insights, content, and actions across Adobe applications in natural language.
-* **[Coworker [!UICONTROL Campaigns]](./campaigns/overview.md):** Helps agile marketing teams go from a campaign goal to coordinated execution.
+* **[Coworker [!UICONTROL Campaigns]](./coworker-for-teams/overview.md):** Helps agile marketing teams go from a campaign goal to coordinated execution.
 * **Coworker [!UICONTROL Projects] (coming soon):** For long-running, cross-functional enterprise workflows where teams set the processes, approvals, and Coworker's level of autonomy.
 
 ## How to enable Coworker
@@ -102,20 +102,20 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Coworker Campaigns
-
-Coworker Campaigns is a templatized feature for small agile teams to stand up and execute campaigns.
-
-* [Overview](./campaigns/overview.md)
-* [Create an email campaign](./campaigns/create-an-email-campaign.md)
-* [Use cases](./campaigns/use-cases.md)
-* [Prompting best practices](./campaigns/prompting-best-practices.md)
-* [Connect to Marketo Engage](./campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./campaigns/connectors/hubspot.md)
-
 ## Projects (coming soon)
 
 Coworker Projects is a shared workspace for automating customer experience workflows from strategy through delivery. Teams use it to coordinate tasks, approvals, and execution.
+
+## Coworker for teams
+
+Coworker for teams is a templatized feature for small agile teams to stand up and execute campaigns.
+
+**Popular articles**
+
+* [Overview](./coworker-for-teams/overview.md)
+* [Create an email campaign](./coworker-for-teams/create-an-email-campaign.md)
+* [Use cases](./coworker-for-teams/use-cases.md)
+* [Prompting best practices](./coworker-for-teams/prompting-best-practices.md)
 
 ## Experience League LIVE: Coworker Unlocked series
 

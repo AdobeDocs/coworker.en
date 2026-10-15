@@ -10,7 +10,7 @@ feature_v2:
 ---
 # Connect to Salesforce {#salesforce}
 
-Adobe Coworker Campaigns allows you to connect your Salesforce account to access your leads and contacts.
+Adobe Coworker for teams allows you to connect your Salesforce account to access your leads and contacts.
 
 >[!PREREQUISITES]
 >
@@ -22,9 +22,9 @@ Adobe Coworker Campaigns allows you to connect your Salesforce account to access
 
 ## How to connect
 
-1. On the [Coworker Campaigns homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
 
-   ![Coworker Campaigns left navigation with Customize expanded and Connectors highlighted](./assets/salesforce-1.png)
+   ![Coworker for teams left navigation with Customize expanded and Connectors highlighted](./assets/salesforce-1.png)
 
 1. Click **Add integration**.
 

@@ -1,5 +1,5 @@
 ---
-description: Connect your HubSpot account to Coworker Campaigns using a service key to sync contact lists, then manage or disconnect the integration anytime.
+description: Connect your HubSpot account to Coworker for teams using a service key to sync contact lists, then manage or disconnect the integration anytime.
 title: Connect to HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -10,7 +10,7 @@ feature_v2:
 ---
 # Connect to HubSpot {#hubspot}
 
-Adobe Coworker Campaigns allows you to connect your HubSpot account to pull in contact lists.
+Adobe Coworker for teams allows you to connect your HubSpot account to pull in contact lists.
 
 >[!PREREQUISITES]
 >
@@ -21,7 +21,7 @@ Adobe Coworker Campaigns allows you to connect your HubSpot account to pull in c
 
 ## How to connect
 
-1. On the [Coworker Campaigns homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
 
    ![Customize menu expanded in the sidebar with Connectors selected](./assets/hubspot-1.png)
 

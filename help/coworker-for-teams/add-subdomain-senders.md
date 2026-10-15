@@ -50,19 +50,19 @@ By doing so, you will help preserve the reputation of your domain and other subd
    >
    >If your DNS provider allows you to bulk upload the fields, you can click **Export CSV** to export all fields.
 
-1. When you are done entering the information in your DNS provider, click **I've added these records** in Coworker Campaigns to continue.
+1. When you are done entering the information in your DNS provider, click **I've added these records** in Coworker for teams to continue.
 
    SCREENSHOT
 
    >[!NOTE]
    >
-   >DNS changes can take up to 30 minutes to propagate. If you see a red X instead of a green check in any of the rows, Coworker Campaigns will check every two minutes until completed.
+   >DNS changes can take up to 30 minutes to propagate. If you see a red X instead of a green check in any of the rows, Coworker for teams will check every two minutes until completed.
 
 1. When all records are validated, a _Validation record_ table appears at the bottom of the window. Scroll down and copy all listed values and add them to your DNS provider.
 
    SCREENSHOT
 
-1. When done, click **I've added this record** (or **these records** if there are multiple) in Coworker Campaigns to continue.
+1. When done, click **I've added this record** (or **these records** if there are multiple) in Coworker for teams to continue.
 
    SCREENSHOT
 
@@ -81,4 +81,3 @@ By doing so, you will help preserve the reputation of your domain and other subd
 ## How to add a sender
 
 Text
-

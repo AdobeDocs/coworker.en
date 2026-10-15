@@ -1,15 +1,15 @@
 ---
-description: Learn how Coworker Campaigns automatically attaches and preserves C2PA metadata on images, from generation through email delivery.
-title: C2PA metadata in Coworker Campaigns
+description: Learn how Coworker for teams automatically attaches and preserves C2PA metadata on images, from generation through email delivery.
+title: C2PA metadata in Coworker for teams
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# C2PA metadata in Coworker Campaigns {#overview}
+# C2PA metadata in Coworker for teams {#overview}
 
 New laws are emerging around generative AI transparency, and Adobe is working to meet applicable requirements across jurisdictions. [C2PA metadata](https://c2pa.org/) is the provenance tool Adobe uses to meet the requirements of these laws.
 
-C2PA metadata is durable, invisible metadata that records how a piece of content was created or edited. When you generate or edit an image with generative AI tools in Coworker Campaigns, C2PA metadata is automatically attached to that image. No action is required on your part.
+C2PA metadata is durable, invisible metadata that records how a piece of content was created or edited. When you generate or edit an image with generative AI tools in Coworker for teams, C2PA metadata is automatically attached to that image. No action is required on your part.
 
 ## C2PA metadata in email campaigns {#c2pa-metadate-email}
 
@@ -17,7 +17,7 @@ Images sent in your email campaigns keep their C2PA metadata intact, so recipien
 
 ## Actions that attach C2PA metadata {#actions}
 
-The following table summarizes when C2PA metadata is attached, based on the image action performed in image generation in Coworker Campaigns.
+The following table summarizes when C2PA metadata is attached, based on the image action performed in image generation in Coworker for teams.
 
 | Action | Description | C2PA metadata attached? | Use case example |
 | --- | --- | --- | --- |
@@ -25,12 +25,12 @@ The following table summarizes when C2PA metadata is attached, based on the imag
 
 ## Content types and their scope {#content-types}
 
-* **Images**: Covered. C2PA metadata is attached when images are generated with generative AI, and preserved through cropping, text overlay, and image overlay operations performed by image generation in Coworker Campaigns.
-* **Text**: Not applicable. Text-only outputs in Coworker Campaigns, such as copy generation, translation, and brand alignment suggestions, do not require C2PA metadata.
+* **Images**: Covered. C2PA metadata is attached when images are generated with generative AI, and preserved through cropping, text overlay, and image overlay operations performed by image generation in Coworker for teams.
+* **Text**: Not applicable. Text-only outputs in Coworker for teams, such as copy generation, translation, and brand alignment suggestions, do not require C2PA metadata.
 
 ## What happens as your content moves {#content-moves}
 
-Coworker Campaigns preserves C2PA metadata associated with supported image assets. If an image contains C2PA metadata when imported into Coworker Campaigns, those credentials are retained when the asset is used in generated campaign content and outbound email experiences.
+Coworker for teams preserves C2PA metadata associated with supported image assets. If an image contains C2PA metadata when imported into Coworker for teams, those credentials are retained when the asset is used in generated campaign content and outbound email experiences.
 
 ## Additional resources {#resources}
 
