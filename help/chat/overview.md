@@ -14,7 +14,7 @@ Coworker Chat is a conversational interface for getting customer experience work
 
 The value: work that used to span multiple screens, teams, and days now happens in one conversation in minutes. You delegate the outcome and stay in control through review and approval; Coworker Chat does the steps, recovers from errors along the way, and gets sharper as it learns how your team works.
 
-See [Get started with Coworker Chat](ui-guide.md).
+To get started, see [Get started with Coworker Chat](ui-guide.md).
 
 >[!AVAILABILITY]
 >

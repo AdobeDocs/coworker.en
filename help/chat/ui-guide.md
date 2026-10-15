@@ -13,11 +13,9 @@ feature_v2:
 
 Coworker Chat lets you work with your Adobe CX Enterprise data and tools by asking for what you need in plain language. Use this page to open Coworker Chat, send your first message, and set it up the way you work.
 
->[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
-
 ## Availability
 
-Coworker Chat is available as an immersive experience, a full-page workspace, and as an in-product experience in some CX Enterprise applications. To open the in-product experience, click the Coworker icon ![Coworker icon](./assets/icon-coworker.png) at the top right of the application.
+[!DNL Coworker] [!UICONTROL Chat] is available as an immersive experience, a full-page workspace, and as an in-product experience in some [!DNL CX Enterprise] applications. 
 
 The following table shows where each experience is available.
 
@@ -31,16 +29,20 @@ The following table shows where each experience is available.
 | AEM | Available now | Available now |
 | Marketo Engage | Available now | Coming soon |
 
-## Open Coworker Chat {#immersive}
+## Open [!DNL Coworker] Chat {#immersive}
 
 To use the immersive experience, sign in with your Adobe credentials. You can open it from a direct link or from within CX Enterprise.
 
 1. Go to [https://experience.adobe.com/#/coworker](https://experience.adobe.com/#/coworker).
 1. Sign in with your Adobe ID.
-
-Alternatively, click **[!UICONTROL Coworker]** in the application selector in the CX Enterprise header.
+1. In [!DNL CX Enterprise], click the application selector menu ![Product menu icon](./assets/apps-icon.png), then click **[!DNL Coworker]**.
+1. To open Chat (the in-product experience), click **[!UICONTROL Chats]** ![Coworker icon](./assets/icon-coworker.png).
 
 ![Coworker in the CX Enterprise application selector](./assets/ui-guide-1.png)
+
+## Video - Basics of the [!DNL Coworker] Chat interface
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498558?learn=on)
 
 ## Choose your organization
 
