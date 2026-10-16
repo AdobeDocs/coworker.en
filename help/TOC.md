@@ -17,13 +17,18 @@ role: Admin,User,Developer,Leader
   - Use cases {#use-cases}
     - [Coworker Chat workflows](./chat/use-cases/workflows.md)
     - Data Insights {#data-insights}
-      - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview.md)
+      - [Overview](./chat/use-cases/data-insights/analytics-overview.md)
       - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
-      - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
-      - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-      - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)
-      - [Accelerate data insights](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - Data governance and validation {#data-governance-and-validation}
+        - [Plan your implementation](./chat/use-cases/data-insights/implementation-guide.md)
+        - [Generate an implementation checklist](./chat/use-cases/data-insights/intelligent-checklist.md)
+        - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Validate Streaming Media implementation](./chat/use-cases/data-insights/streaming-media-validation.md)
+        - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)
+        - [Accelerate data insights](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - Business performance {#business-performance}
+        - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
     - Data Onboarding {#data-onboarding}
       - {hide-from-toc} [Onboard data with Coworker](./agents/data-onboarding-skill.md)
     - Data Management {#data-management}
