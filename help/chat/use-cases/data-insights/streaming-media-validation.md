@@ -1,7 +1,6 @@
 ---
 title: Validate Your Streaming Media Implementation with Coworker
 description: Learn how Coworker's Streaming Media Validation skill checks your configuration, sessions, and logs to confirm your implementation is tracking correctly.
-hold: true
 ---
 
 # Validate your Streaming Media implementation with Coworker
