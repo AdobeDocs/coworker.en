@@ -1,5 +1,5 @@
 ---
-title: Validate and Govern Analytics Data with Coworker Chat
+title: Implement and Administer Analytics with Coworker Chat
 description: Plan your implementation, track it in a checklist, and validate Adobe Analytics, Customer Journey Analytics, and Experience Platform data with Coworker Chat.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -9,11 +9,11 @@ feature_v2:
     internal-label: CX Enterprise Coworker
 ---
 
-# Data governance and validation overview
+# Intelligent implementation and administration overview
 
 Use Adobe CX Enterprise Coworker Chat to set up, migrate, and manage your analytics implementation, and to make sure that you can trust the data behind every answer. Coworker can plan your implementation, turn that plan into a checklist that your team can track, and validate your data after it's collected.
 
-Data governance and validation is one of several analysis domains in Coworker Chat. To see all domains, see [Start analyzing in Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md#start-analyzing-in-coworker-chat) in Analyze data with Coworker Chat.
+Intelligent implementation and administration is one of several analysis domains in Coworker Chat. To see all domains, see [Start analyzing in Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md#start-analyzing-in-coworker-chat) in Analyze data with Coworker Chat.
 
 **Best for:** Admin
 

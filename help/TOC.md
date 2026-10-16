@@ -19,7 +19,7 @@ role: Admin,User,Developer,Leader
     - Data Insights {#data-insights}
       - [Overview](./chat/use-cases/data-insights/analytics-overview.md)
       - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
-      - Data governance and validation {#data-governance-and-validation}
+      - Intelligent implementation and administration {#intelligent-implementation-and-administration}
         - [Overview](./chat/use-cases/data-insights/data-governance-and-validation.md)
         - [Plan your implementation](./chat/use-cases/data-insights/implementation-guide.md)
         - [Generate an implementation checklist](./chat/use-cases/data-insights/intelligent-checklist.md)

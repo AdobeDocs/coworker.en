@@ -36,7 +36,7 @@ The following use cases are grouped by analysis domain. Each domain has its own 
 
 | Domain | What you can do | Best for |
 | --- | --- | --- |
-| [Data governance and validation](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | Set up, migrate, and manage your implementation, and make sure that you can trust the data behind every answer. | Admin |
+| [Intelligent implementation and administration](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | Set up, migrate, and manage your implementation, and make sure that you can trust the data behind every answer. | Admin |
 | [Journey analysis](/help/chat/use-cases/data-insights/journey-analysis.md) | Find where customers drop out of the journey to conversion, and why, across channels, devices, and segments. | Analyst, Business user |
 | [Audience and segment analysis](/help/chat/use-cases/data-insights/audience-and-segment-analysis.md) | Understand which customer groups behave differently and how, so you can focus on the ones that matter most. | Analyst, Business user |
 | [Business performance](/help/chat/use-cases/data-insights/business-performance.md) | Understand how the business is doing, why a metric moved, where it's heading, and what to do next. | Analyst, Business user |
