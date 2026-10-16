@@ -38,7 +38,8 @@ To use the use cases on this page, you need:
 | Compare creative across paid and owned channels | Shows which visuals and themes win across web, mobile, and paid channels in one view.<p>**Sample prompts:**</p><ul><li>"Which creative themes win in paid and on our site?"</li><li>"Compare Meta ad creative to our web banners"</li></ul> |
 | Know which visuals move each audience | Shows which visuals work for each audience to guide personalization and creative briefs.<p>**Sample prompts:**</p><ul><li>"Which visuals perform best for each segment?"</li><li>"What imagery works for first-time visitors?"</li></ul> |
 
-<!-- HIDDEN until the skills are confirmed. To publish, remove this comment wrapper.
+<!--
+HIDDEN until the skills are confirmed. To publish, remove this comment wrapper.
 
 ## Skills used
 
