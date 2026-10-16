@@ -32,60 +32,16 @@ You can use Coworker Chat in two ways, depending on how much analysis you need:
 
 Get started by describing what you want to know in plain language. Coworker Chat plans the analysis, queries your data views or report suites, and creates visualizations and summaries. 
 
-The following use cases are grouped by analysis domain. Each group lists the roles it's best suited for.
+The following use cases are grouped by analysis domain. Each domain has its own page with use cases, sample prompts, prerequisites, and the skills that it uses.
 
-### Data governance and validation
-
-**Best for:** Admin, Analyst
-
-| Use case | Function |
-| --- | --- |
-| [Plan your implementation](/help/chat/use-cases/data-insights/implementation-guide.md)<p>![Plan your implementation](../../assets/ui-guide-6.png)</p> | Creates a personalized, step-by-step plan for implementing Customer Journey Analytics, upgrading from Adobe Analytics, or setting up Content Analytics, Marketing Campaign Analytics, or Streaming Media collection on the Edge. Plans include details such as owners, effort estimates, dependencies, and validation steps.<p>**Sample prompt:** "Help me plan my implementation of Customer Journey Analytics"</p><p>For more information, see [Plan your implementation with Coworker](/help/chat/use-cases/data-insights/implementation-guide.md).</p> |
-| [Generate an implementation checklist](/help/chat/use-cases/data-insights/intelligent-checklist.md)<p>![Generate an implementation checklist](../../assets/data-validation-aa-cja/date-detail.png)</p> <p>Experimental</p> | Turns your Customer Journey Analytics implementation plan into a checklist in Coworker Projects, where your team can assign steps, track status, and add approval gates.<p>For more information, see [Generate an implementation checklist with Coworker Projects](/help/chat/use-cases/data-insights/intelligent-checklist.md).</p> |
-| [Validate data when upgrading from Adobe Analytics to Customer Journey Analytics](/help/chat/use-cases/data-insights/data-validation-aa-cja.md)<p>![Validate data when upgrading from Adobe Analytics to Customer Journey Analytics](../../assets/data-validation-aa-cja/trend-bar-card.png)</p> | Compares dimensions, metrics, and trends between your Adobe Analytics report suites and Customer Journey Analytics data views, then recommends fixes to support your upgrade.<p>**Sample prompt:** "Compare my AA report suite to my CJA data view"</p><p>For more information, see [Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics](/help/chat/use-cases/data-insights/data-validation-aa-cja.md).</p> |
-| [Validate your Streaming Media implementation](/help/chat/use-cases/data-insights/streaming-media-validation.md)<p>![Validate your Streaming Media implementation](../../assets/ui-guide-8.png)</p> <p>Experimental</p> | Checks your datastream, schema, dataset, data view, and session data to confirm that streaming media tracking is configured and collecting data correctly.<p>**Sample prompt:** "How healthy is my streaming media implementation overall?"</p><p>For more information, see [Validate your Streaming Media implementation with Coworker](/help/chat/use-cases/data-insights/streaming-media-validation.md).</p> |
-| [Validate dataset quality for Customer Journey Analytics](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)<p>![Validate dataset quality for Customer Journey Analytics](../../assets/data-validation-aep/dataset-validation.png)</p> <p>Experimental (next week)</p> | Identifies the datasets that feed your Customer Journey Analytics reporting, then checks schemas, identity quality, and field quality so you can resolve issues before you build dashboards.<p>For more information, see [Validate Customer Journey Analytics data with the data validation skill in Coworker](/help/chat/use-cases/data-insights/validate-dataset-quality-for-cja.md).</p> |
-| [Validate data after ingestion into Experience Platform](/help/chat/use-cases/data-insights/data-validation-aep.md)<p>![Validate data after ingestion into Experience Platform](../../assets/data-validation-aep/null-values.png)</p> | Runs statistical and semantic checks on Experience Platform datasets and fields to find data quality issues, such as invalid values or mapping problems.<p>**Sample prompt:** "Validate the dataset Electronics Sample 1000"</p><p>For more information, see [Validate your Experience Platform data with Coworker](/help/chat/use-cases/data-insights/data-validation-aep.md).</p> |
-| [Accelerate data insights](/help/chat/use-cases/data-insights/accelerate-data-insights.md) | Shows in a video how Coworker plans your implementation, runs supported actions, and guides product and development steps across Adobe Experience Manager, Experience Platform, Web SDK, and Customer Journey Analytics until your website engagement data is ready to analyze.<p>For more information, see [Accelerate data insights with Coworker, AEM and CJA](/help/chat/use-cases/data-insights/accelerate-data-insights.md).</p> |
-
-### Journey analysis
-
-**Best for:** Analyst, Business user
-
-| Use case | Function |
-| --- | --- |
-| [Analyze Customer Journey Analytics and Adobe Analytics data](/help/chat/use-cases/data-insights/analytics-chat.md)<p>![Analyze Customer Journey Analytics and Adobe Analytics data](../../assets/coworker-funnel-response-card.png)</p> | Answers natural-language questions about your data views or report suites, builds funnels and other visualizations, and finds where customers drop off. You can open any visualization in Analysis Workspace for further analysis.<p>**Sample prompt:** "Show me page views for the last 30 days"</p><p>For more information, see [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).</p> |
-| [Analyze funnels](#skills-and-limitations) | Walk through multi-step conversion funnels and see the drop-off at each stage.<p>**Sample prompt:** "Walk me through the checkout funnel"</p><p>For more information, see [Skills and limitations](#skills-and-limitations).</p> |
-
-### Audience and segment analysis
-
-**Best for:** Analyst, Business user, Admin
-
-| Use case | Function |
-| --- | --- |
-| [Compare performance](#skills-and-limitations) | Compare metrics across channels, time periods, or segments side by side.<p>**Sample prompt:** "Compare revenue by channel month over month"</p><p>For more information, see [Skills and limitations](#skills-and-limitations).</p> |
-| [Analyze operational trends and causes](/help/chat/use-cases/workflows.md#data-insights) | Query historical time-series data for audiences, datasets, and journeys, and identify what caused a change.<p>**Sample prompt:** "Show me audience size trends over the last 90 days"</p><p>For more information, see [Data insights](/help/chat/use-cases/workflows.md#data-insights) in Coworker Chat use cases.</p> |
-
-### Business performance
-
-**Best for:** Analyst, Business user
-
-| Use case | Function |
-| --- | --- |
-| [Explore trends and root causes](/help/chat/use-cases/data-insights/root-cause-analysis.md)<p>![Explore trends and root causes](../../assets/data-validation-aa-cja/trend-line-card.png)</p> | Identifies trends in your Customer Journey Analytics and Adobe Analytics data and the factors that drive changes in performance, without manual queries.<p>**Sample prompt:** "Why did conversions drop last week?"</p><p>For more information, see [Customer Journey Analytics & Coworker](/help/chat/use-cases/data-insights/root-cause-analysis.md).</p> |
-| [Forecast metrics](#skills-and-limitations) | Project future metric values from historical Customer Journey Analytics or Adobe Analytics data, such as whether you're on track to hit a revenue goal.<p>**Sample prompt:** "Forecast sessions for the next 30 days"</p><p>For more information, see [Skills and limitations](#skills-and-limitations).</p> |
-| [Create executive summaries and KPI digests](#skills-and-limitations) | Produce stakeholder-ready performance summaries, recommendations, and slide deck outlines.<p>**Sample prompt:** "Give me an executive summary of last month"</p><p>For more information, see [Skills and limitations](#skills-and-limitations).</p> |
-| [Create custom Customer Journey Analytics skills](#skills-and-limitations) | Turn an analysis that you repeat into a reusable skill that persists across sessions.<p>**Sample prompt:** "Turn this weekly revenue analysis into a reusable skill"</p><p>For more information, see [Skills and limitations](#skills-and-limitations).</p> |
-
-### Marketing measurement and attribution
-
-**Best for:** Analyst, Business user
-
-| Use case | Function |
-| --- | --- |
-| [Measure campaign performance](/help/chat/use-cases/workflows.md#data-insights) | See how campaigns, channels, and web properties performed over a given period.<p>**Sample prompt:** "How did our Acrobat web campaigns perform last month?"</p><p>For more information, see [Data insights](/help/chat/use-cases/workflows.md#data-insights) in Coworker Chat use cases.</p> |
-
-For more information about these use cases, including the skills they use and more sample prompts, see [Data insights use cases](/help/chat/use-cases/workflows.md#data-insights).
+| Domain | What you can do | Best for |
+| --- | --- | --- |
+| [Data governance and validation](/help/chat/use-cases/data-insights/data-governance-and-validation.md) | Set up, migrate, and manage your implementation, and make sure that you can trust the data behind every answer. | Admin |
+| [Journey analysis](/help/chat/use-cases/data-insights/journey-analysis.md) | Find where customers drop out of the journey to conversion, and why, across channels, devices, and segments. | Analyst, Business user |
+| [Audience and segment analysis](/help/chat/use-cases/data-insights/audience-and-segment-analysis.md) | Understand which customer groups behave differently and how, so you can focus on the ones that matter most. | Analyst, Business user |
+| [Business performance](/help/chat/use-cases/data-insights/business-performance.md) | Understand how the business is doing, why a metric moved, where it's heading, and what to do next. | Analyst, Business user |
+| [Content performance](/help/chat/use-cases/data-insights/content-performance.md) | Understand which content wins and why, down to the attributes of each asset, so you can invest in what works. | Business user |
+| [Marketing measurement and attribution](/help/chat/use-cases/data-insights/marketing-measurement-and-attribution.md) | Understand the incremental impact of every marketing channel and campaign so that you can allocate spend to optimize ROI. | Analyst, Business user |
 
 ## Skills and limitations
 
@@ -135,6 +91,7 @@ The following skills are available for analyzing Customer Journey Analytics or A
 
 ## Next steps
 
-To set up Coworker Chat and walk through a working example, see [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).
+* To set up Coworker Chat and walk through a working example, see [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).
+* To see every Coworker Chat workflow and the skills behind it, see [Coworker Chat workflows](/help/chat/use-cases/workflows.md).
 
 
