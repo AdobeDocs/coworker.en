@@ -9,7 +9,7 @@ role: Admin,User,Developer,Leader
 
 # CX Enterprise Coworker {#content}
 
-- [Coworker overview](home.md)
+- [Coworker guide](home.md)
 - Chat {#chat}
   - [About Coworker Chat](./chat/overview.md)
   - [Get started using Coworker Chat](./chat/ui-guide.md)
@@ -65,7 +65,7 @@ role: Admin,User,Developer,Leader
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - Customizations {#customizations}
-  - [Overview](./customizations/overview.md)
+  - [Customizations Overview](./customizations/overview.md)
   - Skills {#skills}
     - [What are skills?](./customizations/skills/what-are-skills.md)
     - [Create your first skill](./customizations/skills/create-your-first-skill.md) 
