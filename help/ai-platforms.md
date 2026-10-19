@@ -13,7 +13,7 @@ feature_v2:
 
 # Adobe CX Enterprise Coworker for AI Platforms
 
-Use [!DNL Adobe CX Enterprise Coworker for AI Platforms] to get marketing insights in the AI tools you already use. Ask questions in natural language without switching tools. Find the product listed as [!DNL Adobe CX Enterprise Coworker] in each platform.
+Use Adobe CX Enterprise Coworker for AI Platforms to get marketing insights in the AI tools you already use. Ask questions in natural language without switching tools. Find the product listed as Adobe CX Enterprise Coworker in each platform.
 
 Use the setup guidance for [!DNL Microsoft 365 Copilot] and [!DNL ChatGPT]. Setup guidance for [!DNL Claude] and [!DNL Gemini] is pending approval and validation.
 
@@ -79,11 +79,17 @@ An administrator must complete these steps before end users can access Coworker 
 
 Once your administrator enables Coworker, you can access it across [!DNL Microsoft 365 Copilot] surfaces, including [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint], and web chat.
 
-1. Find **[!UICONTROL Adobe CX Enterprise Coworker]** in your list of agents, or search in the [!DNL Microsoft 365 Copilot Agent Store].
-1. Select **[!UICONTROL Add]**, then open the agent.
-1. Sign in using your Adobe credentials. Copy the code that Coworker provides and paste it into the Adobe sign-in flow.
+In [!DNL Microsoft 365 Copilot], select **[!UICONTROL Agents]**, then select **[!UICONTROL More agents]**.
 
-<!-- Visual follow-up, 2026-10-14: PM confirmed the Copilot listing is complete and the intended catalog name is Adobe CX Enterprise Coworker. Verify the displayed name during the live walkthrough. Follow the documentation image policy: link to platform documentation for third-party UI rather than capturing catalog screenshots. -->
+![Microsoft 365 Copilot with the Agents menu open and More agents highlighted.](./assets/ai-platforms/copilot/copilot-agents.png)
+
+Next, select **[!UICONTROL Adobe CX Enterprise Coworker]** in the agent catalog.
+
+![Microsoft 365 Copilot agent catalog with the Adobe CX Enterprise Coworker listing highlighted.](./assets/ai-platforms/copilot/copilot-select-agent.png)
+
+Finally, select **[!UICONTROL Add]** to add Coworker to your agents.
+
+![Adobe CX Enterprise Coworker details in Microsoft 365 Copilot with the Add button highlighted.](./assets/ai-platforms/copilot/copilot-add-coworker.png)
 
 >[!TAB Claude]
 
@@ -116,10 +122,17 @@ Use [!DNL Adobe CX Enterprise Coworker for ChatGPT] to get marketing insights in
 
 **Access Coworker in [!DNL ChatGPT]**
 
-1. Find **[!UICONTROL Adobe CX Enterprise Coworker]** in the [!DNL ChatGPT] plugin catalog and select **[!UICONTROL Add]**.
-1. Sign in with your Adobe credentials, then start prompting.
+In [!DNL ChatGPT], select **[!UICONTROL Plugins]**.
 
-<!-- Visual follow-up, 2026-10-14: PM confirmed the ChatGPT listing is complete and the intended catalog name is Adobe CX Enterprise Coworker. Verify the displayed name and current catalog terminology during the live walkthrough. Link to platform documentation for third-party UI rather than capturing catalog screenshots. -->
+![ChatGPT navigation with Plugins highlighted.](./assets/ai-platforms/chatgpt/gpt-plugins.png)
+
+Next, find and select **[!UICONTROL Adobe CX Enterprise Coworker]** in the plugin catalog.
+
+![ChatGPT plugin catalog with the Adobe CX Enterprise Coworker listing highlighted among the search results for Adobe.](./assets/ai-platforms/chatgpt/gpt-select-plugins.png)
+
+Finally, select **[!UICONTROL Install plugin]** to add Coworker to [!DNL ChatGPT].
+
+![Adobe CX Enterprise Coworker details in ChatGPT with the Install plugin button highlighted.](./assets/ai-platforms/chatgpt/gpt-install-coworker.png)
 
 >[!TAB Gemini]
 
