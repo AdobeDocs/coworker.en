@@ -12,6 +12,12 @@ feature_v2:
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the workflows practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation. 
 
+## About skills and workflows
+
+**Skills:** A _skill_ is a single, specific capability or action that Coworker can perform. Examples include creating an audience, sending an email, generating a report, or analyzing campaign results. Each Skill is focused on one particular function.
+
+**Worfkow:** A _workflow_ is a sequence of steps or actions (often involving multiple skills) designed to achieve a broader business goal. Workflows coordinate several skills in a logical order to complete complex, multi-step processes, such as launching a marketing campaign, onboarding a new customer segment, or diagnosing a drop in campaign performance.
+
 ## Brand Experience
 
 | Workflow | Description | Skill(s) | Application | Sample Prompts |

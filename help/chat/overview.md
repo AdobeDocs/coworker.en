@@ -8,7 +8,7 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# Adobe CX Enterprise Coworker Chat overview {#overview}
+# About Coworker Chat {#overview}
 
 Coworker Chat is a conversational interface for getting customer experience work done. You describe a goal in plain language (e.g., "build an audience for the spring yoga promotion," or, "tell me why this audience shrank last week") and Coworker Chat plans the work, executes it across your Adobe and connected systems, validates the results, and brings the finished work back to you for approval. 
 
@@ -18,7 +18,7 @@ To get started, see [Get started with Coworker Chat](ui-guide.md).
 
 >[!AVAILABILITY]
 >
->Coworker Chat is generally available. Capabilities and connected applications continue to expand. Check the available skills and connectors sections for what is supported today.
+>Coworker Chat is generally available. Capabilities and connected applications continue to expand. Check the available [skills](./use-cases/workflows.md) and connectors sections for what is supported today.
 
 >[!NOTE]
 >
