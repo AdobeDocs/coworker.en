@@ -18,13 +18,13 @@ Coworker shifts AI from _assisting_ to _acting_. Instead of switching between ap
 
 [!DNL Coworker] is delivered through three experiences: 
 
-* **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Ask for insights, content, and actions across Adobe applications in natural language.
-* **[Coworker [!UICONTROL for teams]](./coworker-for-teams/overview.md):** Helps agile marketing teams go from a campaign goal to coordinated execution.
+* **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Ask for insights, content, and actions across Adobe applications in natural language. Chat is licensed and enabled through your account team.
+* **[Coworker [!UICONTROL for teams]](./coworker-for-teams/overview.md):** Helps agile marketing teams go from a campaign goal to coordinated execution. Coworker for teams is a self-serve free trial at its own URL, ends December 31, 2026, and is North America only.
 * **Coworker [!UICONTROL Projects] (coming soon):** For long-running, cross-functional enterprise workflows where teams set the processes, approvals, and Coworker's level of autonomy.
 
-## How to enable Coworker
+## How to enable Coworker Chat
 
-To enable Coworker (including Coworker Chat), your organization needs access to Adobe CX Enterprise Coworker. Enablement typically involves:
+To enable Coworker Chat, your organization needs access to Adobe CX Enterprise Coworker. Enablement typically involves:
 
 * **Licensing:** Contact your Adobe account representative or sales team to confirm you have the right licenses and entitlements.
 
