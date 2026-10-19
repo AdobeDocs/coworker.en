@@ -32,7 +32,7 @@ To enable Coworker Chat, your organization needs access to Adobe CX Enterprise C
 
 * **Access:** Assign roles and access to Coworker features for your teams in the Adobe [Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-console).
 
-* **Get started:** Once Coworker is enabled, see [Get started with Coworker Chat](./chat/ui-guide.md) to learn your way around the Coworker Chat interface, including the input box, responses, chat history, and Skills, MCP servers, and Memory settings.
+* **Get started:** Once Coworker is enabled, see [Get started with Coworker Chat](./chat/ui-guide.md) to learn your way around the Coworker Chat interface, including the input box, responses, chat history, and Skills, Integrations, and Memory settings.
 
 ## Videos about using Coworker Chat
 
