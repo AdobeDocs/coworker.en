@@ -11,14 +11,14 @@ role: Admin,User,Developer,Leader
 
 - [Coworker overview](home.md)
 - Chat {#chat}
-  - [Overview](./chat/overview.md)
-  - [Get started with Chat](./chat/ui-guide.md)
+  - [About Coworker Chat](./chat/overview.md)
+  - [Get started using Coworker Chat](./chat/ui-guide.md)
   - {hide-from-toc} [Coworker Chat in Playground](./playground-coworker-chat.md)
-  - Use cases {#use-cases}
+  - Workflows {#use-cases}
     - [Coworker Chat workflows](./chat/use-cases/workflows.md)
     - Data Insights {#data-insights}
-      - [Overview](./chat/use-cases/data-insights/analytics-overview.md)
-      - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
+      - [About analyzing data](./chat/use-cases/data-insights/analytics-overview.md)
+      - [Get started analyzing data](./chat/use-cases/data-insights/analytics-chat.md)
       - Intelligent implementation and administration {#intelligent-implementation-and-administration}
         - [Overview](./chat/use-cases/data-insights/data-governance-and-validation.md)
         - [Plan your implementation](./chat/use-cases/data-insights/implementation-guide.md)
