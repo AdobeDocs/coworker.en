@@ -1,5 +1,5 @@
 ---
-description: Learn Coworker Campaigns prompting best practices - the CO-STAR framework, do's and don'ts, unsupported content, and a quality checklist for prompts.
+description: Learn Coworker for teams prompting best practices - the CO-STAR framework, do's and don'ts, unsupported content, and a quality checklist for prompts.
 title: Prompting Best Practices
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -10,11 +10,11 @@ feature_v2:
 ---
 # Prompting best practices {#best-practices}
 
-Getting the most out of Coworker Campaigns starts with how you prompt. Learn the practices that produce the best results: the CO-STAR framework for structuring your prompts, what to include and what to avoid, and scenario-based examples that give the AI the context it needs to generate relevant, on-target content.
+Getting the most out of Coworker for teams starts with how you prompt. Learn the practices that produce the best results: the CO-STAR framework for structuring your prompts, what to include and what to avoid, and scenario-based examples that give the AI the context it needs to generate relevant, on-target content.
 
 >[!NOTE]
 >
->Currently, you can only connect to Coworker Campaigns-supported integrations. If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/chat/use-cases/overview.md) instead.
+>Currently, you can only connect to Coworker for teams-supported integrations. If you have any existing Adobe Enterprise applications, where you store audiences or build journeys, we encourage you to use [CX Enterprise Coworker](/help/chat/use-cases/workflows.md) instead.
 
 ## Use the CO-STAR framework
 
@@ -175,4 +175,4 @@ Always provide context and the value proposition so the AI can generate relevant
 
 >[!MORELIKETHIS]
 >
->Browse more [prompt patterns](use-cases.md) for Coworker Campaigns.
+>Browse more [prompt patterns](use-cases.md) for Coworker for teams.

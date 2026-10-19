@@ -1,6 +1,6 @@
 ---
-description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker Campaigns release notes.
-title: CX Enterprise Coworker Campaigns Release Notes
+description: Learn about feature enhancements and fixes in the Adobe CX Enterprise Coworker for teams release notes.
+title: CX Enterprise Coworker for teams Release Notes
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -8,9 +8,9 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# Adobe CX Enterprise Coworker Campaigns release notes {#release-notes}
+# Adobe CX Enterprise Coworker for teams release notes {#release-notes}
 
-Coworker Campaigns releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
+Coworker for teams releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
 ## September 2026 {#sep-2026}
 
@@ -169,7 +169,7 @@ Coworker Campaigns releases operate on a continuous delivery model which allows 
 * Campaign insights show which data source powers each metric
 * Brand editors are now built into onboarding for a smoother first-time setup
 * Preview a sample audience before you commit to your campaign
-* Coworker Campaigns now lives inside the unified Experience Cloud navigation shell
+* Coworker for teams now lives inside the unified Experience Cloud navigation shell
 * Removed the floating feedback tip bar for a cleaner campaign board
 * Various performance and reliability improvements throughout
 
@@ -272,7 +272,7 @@ Coworker Campaigns releases operate on a continuous delivery model which allows 
 
 **Release date: June 10, 2026**
 
-* The app is now Coworker Campaigns with updated naming throughout
+* The app is now Coworker for teams with updated naming throughout
 * A first-time onboarding tour walks you through building a demo brand
 * Launch campaigns from a dedicated dialog when your plan is ready to go
 * Connect HubSpot with an API key from the integrations catalog
@@ -366,7 +366,7 @@ Coworker Campaigns releases operate on a continuous delivery model which allows 
 
 * Campaign boards and lists stay aligned with the latest details as you are working
 * A clear generative AI disclaimer appears in campaign chat and Agent Builder
-* Support contact details now use the dedicated CX Coworker Campaigns email address
+* Support contact details now use the dedicated CX Coworker for teams email address
 * The marketing home page removes the waitlist section and shows the hero video more clearly
 * More screens respect your language and local date formats automatically
 * Various performance and reliability improvements throughout

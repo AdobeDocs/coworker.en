@@ -1,6 +1,26 @@
 ---
 title: Customer Alert Skills
 description: Learn how to use Customer Alert Skills in CX Coworker to review, analyze, and prioritize alert activity through natural-language conversations.
+jira: KT-22913
+last-substantial-update: '2026-10-16T00:00:00.000Z'
+product_v2:
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+feature_v2:
+  - id: a7150a74-b8a9-4042-b066-147c5f0ca505
+    internal-label: Alerts
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 ---
 
 # Customer alert skills
@@ -14,6 +34,8 @@ description: Learn how to use Customer Alert Skills in CX Coworker to review, an
 Use Customer Alert Skills in CX Coworker to turn alert activity into a personalized operational briefing. Review recent alerts, identify high-priority issues, understand which resources are affected, and focus investigation efforts through natural-language conversations.
 
 Customer Alert Skills help you move from alert signals to actionable insights without manually reviewing alert views or correlating information across multiple interfaces. Start with a broad question about recent alert activity, then use follow-up questions to identify recurring alert patterns, analyze impacted objects, and focus on the alerts that you own.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504716?learn=on)
 
 For information about Customer Alerts, see the [Customer Alerts overview](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview).
 

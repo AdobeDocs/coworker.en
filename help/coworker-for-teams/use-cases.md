@@ -1,6 +1,6 @@
 ---
-description: Browse real prompt patterns for Adobe CX Enterprise Coworker Campaigns, organized by use case across acquisition, engagement, events, conversion, and retention campaigns.
-title: Coworker Campaigns Use Cases
+description: Browse real prompt patterns for Adobe CX Enterprise Coworker for teams, organized by use case across acquisition, engagement, events, conversion, and retention campaigns.
+title: Coworker for teams Use Cases
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -10,11 +10,11 @@ feature_v2:
 ---
 # Use cases {#use-cases}
 
-Below are real prompt patterns that lifecycle and growth marketers are using in Adobe CX Enterprise Coworker Campaigns. Each one is built to be copied, swapped with your own audience and brand details, and refined in conversation.
+Below are real prompt patterns that lifecycle and growth marketers are using in Adobe CX Enterprise Coworker for teams. Each one is built to be copied, swapped with your own audience and brand details, and refined in conversation.
 
 ## How to use
 
-Pick a use case that fits your goal, copy the sample prompt and paste it into Coworker Campaigns, replace the placeholders with your specifics, and refine the output via chat. For the full step-by-step, head to Build and generate campaigns.
+Pick a use case that fits your goal, copy the sample prompt and paste it into Coworker for teams, replace the placeholders with your specifics, and refine the output via chat. For the full step-by-step, head to Build and generate campaigns.
 
 ## Acquisition and onboarding
 
@@ -70,7 +70,7 @@ Best for: Product education, feature adoption, reducing time-to-value.
 
 Best for: Retail seasonal pushes, collection drops, refresh moments.
 
-`"Build a 2-touch email campaign, 3 days apart, announcing our new seasonal catalog. Highlight what’s new and relevant for buyers in my CSV list. Personalize content to each person’s first name, product interest category, and region."`
+`"Build a 2-touch email campaign, 3 days apart, announcing our new seasonal catalog. Highlight what's new and relevant for buyers in my CSV list. Personalize content to each person's first name, product interest category, and region."`
 
 ## Events and moment-driven
 

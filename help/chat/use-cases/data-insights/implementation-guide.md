@@ -1,7 +1,6 @@
 ---
 title: Plan Your Customer Journey Analytics or Streaming Media Implementation with Coworker
 description: Learn how Coworker's implementation guide skills turn a discovery conversation into a personalized, ordered implementation plan with exportable checklists.
-hold: true
 ---
 
 # Plan your implementation with Coworker

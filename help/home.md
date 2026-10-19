@@ -1,7 +1,6 @@
 ---
 title: Adobe CX Enterprise Coworker Guide
 description: Learn about Adobe CX Enterprise Coworker, an AI-powered teammate that automates customer experience and marketing workflows across your organization.
-dummy: true
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -9,19 +8,35 @@ feature_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# CX Enterprise Coworker overview {#overview}
+# CX Enterprise Coworker guide {#overview}
 
-Coworker is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. Coworker elegantly automates customer experience and marketing workflows so organizations can focus on realizing their business goals and transforming outcomes, not coordinating tasks. As an agentic engine, Coworker takes a new innovative approach to automating business process. It elevates AI model performance and accuracy by bringing together data, intelligence, collaboration and agentic skills execution with enterprise context, governance, and human oversight built in.
+[!DNL Coworker] is Adobe's agentic AI teammate for customer experience and marketing work. It does more than answer questions or recommend actions: it runs multi-step marketing workflows across Adobe and other enterprise systems, and approvals and governance keep you in control. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
-Coworker is delivered through three experiences:
+## How you can use [!DNL Coworker]
 
-* **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Use natural language for complex requests, insights, content generation, and actions across Adobe applications.
-* **[Coworker [!UICONTROL Campaigns]](./campaigns/overview.md):** Designed to take agile marketing teams from a campaign goal toward coordinated campaign execution.
-* **Coworker [!UICONTROL Projects] (coming soon):** Designed for longer-running, cross-functional enterprise workflows where teams define processes, approvals, and Coworker's level of autonomy.
+Coworker shifts AI from _assisting_ to _acting_. Instead of switching between applications and coordinating every step yourself, you define a goal and [!DNL Coworker] works out and carries out the steps. It works across audiences, journeys, content, insights, diagnostics, and marketing operations.
 
-## Essentials for [!DNL Coworker] [!UICONTROL Chat]
+[!DNL Coworker] is delivered through three experiences: 
 
-Whether you're just getting started or looking to deepen your expertise, these playlists provide a guided introduction to using the [!UICONTROL Chat] feature in [!DNL Coworker]. Learn how to navigate key features, craft effective prompts, and see practical examples of how Coworker helps teams work more efficiently across Adobe Experience Cloud products.
+* **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Ask for insights, content, and actions across Adobe applications in natural language. Chat is licensed and enabled through your account team.
+* **[Coworker [!UICONTROL for teams]](./coworker-for-teams/overview.md):** Helps agile marketing teams go from a campaign goal to coordinated execution. Coworker for teams is a self-serve free trial at its own URL, ends December 31, 2026, and is North America only.
+* **Coworker [!UICONTROL Projects] (coming soon):** For long-running, cross-functional enterprise workflows where teams set the processes, approvals, and Coworker's level of autonomy.
+
+## How to enable Coworker Chat
+
+To enable Coworker Chat, your organization needs access to Adobe CX Enterprise Coworker. Enablement typically involves:
+
+* **Licensing:** Contact your Adobe account representative or sales team to confirm you have the right licenses and entitlements.
+
+* **Onboarding:** Adobe's enterprise support or professional services team configures Coworker for your environment, sets up integrations with your Adobe applications, and defines governance and approval workflows.
+
+* **Access:** Assign roles and access to Coworker features for your teams in the Adobe [Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-console).
+
+* **Get started:** Once Coworker is enabled, see [Get started with Coworker Chat](./chat/ui-guide.md) to learn your way around the Coworker Chat interface, including the input box, responses, chat history, and Skills, MCP servers, and Memory settings.
+
+## Videos about using Coworker Chat
+
+These video playlists cover key [!UICONTROL Chat] features and how to write effective prompts, with practical examples of how [!DNL Coworker] helps teams work more efficiently across [!DNL CX Enterprise] products.
 
 <!--
 CARDS
@@ -87,9 +102,24 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
+## Projects (coming soon)
+
+Coworker Projects is a shared workspace for automating customer experience workflows from strategy through delivery. Teams use it to coordinate tasks, approvals, and execution.
+
+## Coworker for teams
+
+Coworker for teams is a templatized feature for small agile teams to stand up and execute campaigns.
+
+**Popular articles**
+
+* [Overview](./coworker-for-teams/overview.md)
+* [Create an email campaign](./coworker-for-teams/create-an-email-campaign.md)
+* [Use cases](./coworker-for-teams/use-cases.md)
+* [Prompting best practices](./coworker-for-teams/prompting-best-practices.md)
+
 ## Experience League LIVE: Coworker Unlocked series
 
-Join the CX Enterprise Coworker Unlocked series to see how organizations are using AI-powered assistance to streamline customer experience work. Each session explores practical use cases, live demonstrations, and expert guidance that help teams accelerate workflows, uncover insights, and automate tasks across Adobe Experience Cloud applications. Browse previous episodes or register for upcoming events to learn new ways to increase productivity and drive customer experience outcomes.
+Join the CX Enterprise Coworker Unlocked series to see how organizations use AI to streamline customer experience work. Each session offers practical use cases, live demonstrations, and expert guidance on speeding up workflows, uncovering insights, and automating tasks across Adobe Experience Cloud applications. Browse previous episodes or register for upcoming events.
 
 <!--
 CARDS
@@ -100,7 +130,7 @@ CARDS
 *  https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26
   {title = Audience and Journey B2C capabilities in Coworker}
   {description = See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.}
-  {cta = Register}
+  {cta = Watch}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
@@ -145,25 +175,13 @@ CARDS
                     <p class="is-size-6">See how Coworker can execute end-to-end workflows for customer experience orchestration, increasing productivity and simplifying otherwise technical or complex tasks.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/en/on-demand-events/exl-live-episode-10-08-26" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Register</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Watch</span>
                 </a>
             </div>
         </div>
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-
-## Coworker Campaigns
-
-Coworker Campaigns is a templatized feature for small agile teams to stand up and execute campaigns.
-
-* [Overview](./campaigns/overview.md)
-* [Create an email campaign](./campaigns/create-an-email-campaign.md)
-* [Use cases](./campaigns/use-cases.md)
-* [Prompting best practices](./campaigns/prompting-best-practices.md)
-* [Connect to Marketo Engage](./campaigns/connectors/marketo.md)
-* [Connect to Hubspot](./campaigns/connectors/hubspot.md)
 
 <!--
 PLAT-302117: Keep this overview entry hidden until the AI platforms draft is approved for publication.
@@ -174,7 +192,3 @@ Use [!DNL Adobe CX Enterprise Coworker for AI Platforms] to get marketing insigh
 
 * [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
 -->
-
-## Projects (coming soon)
-
-Coworker Projects is a unified workspace for automating end-to-end customer experience orchestration workflows, helping teams coordinate tasks, approvals, and execution to drive outcomes from strategy through delivery.
