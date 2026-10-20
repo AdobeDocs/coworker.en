@@ -10,7 +10,7 @@ role: Admin,User,Developer,Leader
 # CX Enterprise Coworker {#content}
 
 - [Coworker guide](home.md)
-- Chat {#chat}
+- Coworker Chat {#chat}
   - [About Coworker Chat](./chat/overview.md)
   - [Get started using Coworker Chat](./chat/ui-guide.md)
   - {hide-from-toc} [Coworker Chat in Playground](./playground-coworker-chat.md)
