@@ -9,17 +9,17 @@ role: Admin,User,Developer,Leader
 
 # CX Enterprise Coworker {#content}
 
-- [Coworker overview](home.md)
+- [Coworker guide](home.md)
 - {hide-from-toc} [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
 - Chat {#chat}
-  - [Overview](./chat/overview.md)
-  - [Get started with Chat](./chat/ui-guide.md)
+  - [About Coworker Chat](./chat/overview.md)
+  - [Get started using Coworker Chat](./chat/ui-guide.md)
   - {hide-from-toc} [Coworker Chat in Playground](./playground-coworker-chat.md)
-  - Use cases {#use-cases}
+  - Workflows {#use-cases}
     - [Coworker Chat workflows](./chat/use-cases/workflows.md)
     - Data Insights {#data-insights}
-      - [Overview](./chat/use-cases/data-insights/analytics-overview.md)
-      - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
+      - [About analyzing data](./chat/use-cases/data-insights/analytics-overview.md)
+      - [Get started analyzing data](./chat/use-cases/data-insights/analytics-chat.md)
       - Intelligent implementation and administration {#intelligent-implementation-and-administration}
         - [Overview](./chat/use-cases/data-insights/data-governance-and-validation.md)
         - [Plan your implementation](./chat/use-cases/data-insights/implementation-guide.md)
@@ -66,7 +66,7 @@ role: Admin,User,Developer,Leader
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - Customizations {#customizations}
-  - [Overview](./customizations/overview.md)
+  - [Customizations Overview](./customizations/overview.md)
   - Skills {#skills}
     - [What are skills?](./customizations/skills/what-are-skills.md)
     - [Create your first skill](./customizations/skills/create-your-first-skill.md) 
