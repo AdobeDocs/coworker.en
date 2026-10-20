@@ -185,12 +185,8 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<!--
-PLAT-302117: Keep this overview entry hidden until the AI platforms draft is approved for publication.
-
 ## AI platforms
 
 Use [!DNL Adobe CX Enterprise Coworker for AI Platforms] to get marketing insights in your AI tools.
 
 * [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
--->

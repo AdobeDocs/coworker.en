@@ -1,8 +1,6 @@
 ---
 title: Adobe CX Enterprise Coworker for AI Platforms
 description: Learn about Adobe CX Enterprise Coworker for AI Platforms. Explore supported platforms, setup instructions, and example prompts to get marketing insights.
-hide: true
-index: false
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -142,7 +140,6 @@ Try these steps if you run into issues using Coworker in an AI platform.
 <!--
 Editorial maintenance, 2026-10-19:
 Only approved platforms with validated setup guidance belong in the rendered tab set.
-Keep the page visibility gates and overview entry unchanged until publication approval.
 
 To add an approved platform:
 * Confirm approval and obtain access to the customer flow.
