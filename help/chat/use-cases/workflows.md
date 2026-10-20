@@ -184,6 +184,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | --- | --- | --- | --- | --- |
 | [Create, edit, and manage loyalty challenges](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
 | [Analyze loyalty program performance](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | Query and analyze loyalty points, member tiers, redemptions, and revenue metrics using natural language | `loyalty-insights` | Adobe Journey Optimizer (AJO) | "How many loyalty points were granted during August 2026?" <br> "Show the loyalty program's total revenue broken down by day during August 2026." |
+| [Find loyalty opportunities](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | Request grounded, specific challenge opportunities based on loyalty program trends and performance data, then turn them into live challenges | TBD | Adobe Journey Optimizer (AJO) | "What loyalty opportunities could increase member spend?" <br> "Show me opportunities to win back inactive members." |
 
 **Related information**
 
