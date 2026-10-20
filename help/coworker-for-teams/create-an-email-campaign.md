@@ -12,10 +12,6 @@ feature_v2:
 
 Learn how to generate and review complete email campaigns in minutes.
 
->[!IMPORTANT]
->
->At this time, you can only generate campaigns, you cannot send (launch) them yet. Launch functionality is coming soon.
-
 ## Before you start
 
 Make sure you have:
