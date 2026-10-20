@@ -4,9 +4,6 @@ description: Plan your implementation, track it in a checklist, and validate Ado
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 
 # Intelligent implementation and administration overview

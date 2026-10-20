@@ -7,7 +7,7 @@ level: Intermediate
 doc-type: Tutorial
 last-substantial-update: 2026-08-27T00:00:00.000Z
 jira: PLAT-302857
-feature_v2:
+product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
