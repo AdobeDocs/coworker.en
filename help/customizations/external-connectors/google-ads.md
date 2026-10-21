@@ -35,7 +35,7 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
 
-   ![Organization External Connectors page showing the Google Ads card with a Not configured status.](./assets/google-ads-org-connectors.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Google Ads card with a Not configured status.](./assets/google-ads/org-connectors.png){zoomable="yes"}
 
 1. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Configure]**. The **[!UICONTROL Configure Google Ads for your organization]** dialog opens.
 
@@ -43,7 +43,7 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
 
 1. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools).
 
-   ![Configure Google Ads dialog with the Adobe-managed OAuth application and all three tools selected.](./assets/google-ads-org-configure.png){zoomable="yes"}
+   ![Configure Google Ads dialog with the Adobe-managed OAuth application and all three tools selected.](./assets/google-ads/org-configure.png){zoomable="yes"}
 
 1. Review the **[!UICONTROL Each person signs in separately]** notice, and then select **[!UICONTROL Save connection]**.
 
@@ -56,7 +56,7 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
    | **[!UICONTROL Tool policy]** | The allowed tool names or patterns. |
    | **[!UICONTROL Connection]** | Your own sign-in status. |
 
-   ![Saved google-ads connector details showing the authentication method, the tool policy with three allowed tools, the connection status, and a prompt to select Test.](./assets/google-ads-org-details.png){zoomable="yes"}
+   ![Saved google-ads connector details showing the authentication method, the tool policy with three allowed tools, the connection status, and a prompt to select Test.](./assets/google-ads/org-details.png){zoomable="yes"}
 
 1. (Optional) Select **[!UICONTROL Test]** to discover the available tools.
 
@@ -80,7 +80,7 @@ After an administrator configures the connector, each member signs in with their
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
-   ![User External Connectors page showing the Google Ads card with a Not signed in status.](./assets/google-ads-member-sign-in.png){zoomable="yes"}
+   ![User External Connectors page showing the Google Ads card with a Not signed in status.](./assets/google-ads/member-sign-in.png){zoomable="yes"}
 
 1. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Sign in]**.
 
@@ -106,7 +106,7 @@ After an administrator configures the connector, each member signs in with their
 
 1. Review **[!UICONTROL Tools enabled by your admin]** to view the tools you can use.
 
-   ![Tools enabled by your admin section listing the three Google Ads tools and their descriptions.](./assets/google-ads-member-tools.png){zoomable="yes"}
+   ![Tools enabled by your admin section listing the three Google Ads tools and their descriptions.](./assets/google-ads/member-tools.png){zoomable="yes"}
 
 From the connector details, you can also do the following:
 
