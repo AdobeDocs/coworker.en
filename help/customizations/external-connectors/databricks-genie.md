@@ -125,8 +125,6 @@ The [!DNL Databricks Genie] connector provides the following tools:
 
 All four tools are available by default. To block a tool for everyone in your organization, remove its tag. At least one tool must stay enabled.
 
-![Connect Databricks Genie dialog showing the four tool tags under Tools available to users, the Access and permissions notice, and the authentication, connection, and tool timeout summary.](./assets/databricks-genie/org-tools.png){zoomable="yes"}
-
 After you remove a tool, the **[!UICONTROL Restore all tools]** option appears. Select it to make all tools available again.
 
 ![Tools available to users section with three remaining tool tags and the Restore all tools option highlighted.](./assets/databricks-genie/org-restore-all-tools.png){zoomable="yes"}
