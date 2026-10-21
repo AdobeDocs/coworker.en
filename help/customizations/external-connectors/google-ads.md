@@ -88,6 +88,8 @@ After an administrator configures the connector, each member signs in with their
 
 1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account with access to your [!DNL Google Ads] accounts, or select **[!UICONTROL Use another account]**.
 
+   ![Google Choose an account screen for Adobe Experience Platform, listing two redacted accounts and the Use another account option.](./assets/google-ads/member-choose-account.png){zoomable="yes"}
+
 1. Complete any sign-in steps that your organization requires, such as single sign-on (SSO), multi-factor authentication (MFA), or identity verification.
 
    The steps and their order depend on your organization and account policies.
@@ -96,7 +98,11 @@ After an administrator configures the connector, each member signs in with their
 
    [!DNL Google] shows the app name as [!DNL Adobe Experience Platform]. If you used the app before, [!DNL Google] shows that you are signing back in. First-time users may see different prompts.
 
+   ![Google screen saying you are signing back in to Adobe Experience Platform, with a redacted account and the Cancel and Continue buttons.](./assets/google-ads/member-continue.png){zoomable="yes"}
+
 1. Review the access request, and then select **[!UICONTROL Continue]**.
+
+   ![Google screen saying Adobe Experience Platform wants access to your Google Account, with a redacted account, a notice that the app already has some access, and the Cancel and Continue buttons.](./assets/google-ads/member-consent.png){zoomable="yes"}
 
    >[!IMPORTANT]
    >
