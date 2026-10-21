@@ -96,6 +96,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | Guideline & segment lookup | Retrieve detailed brand guidelines, scoped by segment, market, or category | enterprise-context | Adobe Experience Manager (AEM)  | "What are the tone-of-voice guidelines for this brand?"<br>"List the claim categories used in the health vertical" |
 | Evaluate content against brand guidelines | Evaluate a published/authored page, text block, or image against configured brand checks | aem-governance | Adobe Experience Manager (AEM)  | "Evaluate this landing page against SecurBank guidelines"<br>"Does this tagline pass our tone-of-voice checks?" |
 | Debug AEM permissions | Debug / understand permission policies, ACLs, and inheritance rules. | aem-governance | Adobe Experience Manager (AEM)  | "Why can principal admin write `/content/folder/us` on `https://author/` ?"<br>"Why can't sample-author write in `/content/dam` on `https://author`" |
+| List vulnerabilities across instances | Retrieve a consolidated list of known vulnerabilities for one or more AEM instances, including severity and affected components | aem-governance | Adobe Experience Manager (AEM)  | "List all vulnerabilities in my author and publish instances."<br>"Show critical and high vulnerabilities for `https://author-xxx.adobeaemcloud.com`." |
 
 **Related information**
 
