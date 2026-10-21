@@ -4,9 +4,6 @@ description: Learn about Customizations in Adobe CX Enterprise Coworker, includi
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 # Coworker Customizations overview {#overview}
 

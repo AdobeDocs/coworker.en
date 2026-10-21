@@ -4,41 +4,80 @@ description: Learn about Adobe CX Enterprise Coworker, an AI-powered teammate th
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 # CX Enterprise Coworker guide {#overview}
 
-[!DNL Coworker] is Adobe's agentic AI teammate for customer experience and marketing work. It does more than answer questions or recommend actions: it runs multi-step marketing workflows across Adobe and other enterprise systems, and approvals and governance keep you in control. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
+[!DNL Coworker] is Adobe's agentic AI teammate for customer experience and marketing work. It does more than answer questions or recommend actions. It runs multi-step marketing workflows across Adobe and other enterprise systems, and approvals and governance keep you in control. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
-## How you can use [!DNL Coworker]
+## Choose an experience
 
-Coworker shifts AI from _assisting_ to _acting_. Instead of switching between applications and coordinating every step yourself, you define a goal and [!DNL Coworker] works out and carries out the steps. It works across audiences, journeys, content, insights, diagnostics, and marketing operations.
+You define a goal, and Coworker works out and carries out the steps. Choose the experience that fits how your team works.
 
-[!DNL Coworker] is delivered through three experiences: 
+| Experience | Use it to | Availability |
+| --- | --- | --- |
+| [Coworker [!UICONTROL Chat]](./chat/overview.md) | Ask for insights, content, and actions across Adobe applications in natural language. | Licensed through your Adobe account team. See [Check availability](#chat-availability). |
+| [Coworker [!UICONTROL for teams]](./coworker-for-teams/overview.md) | Go from a campaign goal to coordinated execution, as a small, agile marketing team. | Free trial through December 31, 2026. North America only. |
+| Coworker [!UICONTROL Projects] | Run long-running, cross-functional workflows where your teams set the processes, approvals, and Coworker's level of autonomy. | Coming soon. |
 
-* **[Coworker [!UICONTROL Chat]](./chat/overview.md):** Ask for insights, content, and actions across Adobe applications in natural language. Chat is licensed and enabled through your account team.
-* **[Coworker [!UICONTROL for teams]](./coworker-for-teams/overview.md):** Helps agile marketing teams go from a campaign goal to coordinated execution. Coworker for teams is a self-serve free trial at its own URL, ends December 31, 2026, and is North America only.
-* **Coworker [!UICONTROL Projects] (coming soon):** For long-running, cross-functional enterprise workflows where teams set the processes, approvals, and Coworker's level of autonomy.
+## Coworker Chat
 
-## How to enable Coworker Chat
+Coworker Chat is a conversational interface for getting customer experience work done. Describe what you need in plain language, and Coworker Chat plans the work, runs it across your Adobe and connected systems, and returns the results for your approval. For more information, see the [Coworker Chat overview](./chat/overview.md).
 
-To enable Coworker Chat, your organization needs access to Adobe CX Enterprise Coworker. Enablement typically involves:
+### Check availability {#chat-availability}
+
+Coworker Chat is available now in the following applications:
+
+* Real-Time CDP
+* Adobe Journey Optimizer
+* Customer Journey Analytics
+* Adobe Target
+* AEM
+* Workfront
+* Marketo Engage
+
+The B2B editions of Real-Time CDP, Adobe Journey Optimizer, and Customer Journey Analytics are coming soon.
+
+For availability of the immersive and in-product experiences by application, see [Get started with Coworker Chat](./chat/ui-guide.md#availability). For the full list of compatible applications, see [Compatible CX Enterprise applications](./chat/overview.md#compatible-cx-enterprise-applications).
+
+### Enable Coworker Chat
+
+To enable Coworker Chat, your organization needs access to Adobe CX Enterprise Coworker. Enablement typically involves the following:
 
 * **Licensing:** Contact your Adobe account representative or sales team to confirm you have the right licenses and entitlements.
-
 * **Onboarding:** Adobe's enterprise support or professional services team configures Coworker for your environment, sets up integrations with your Adobe applications, and defines governance and approval workflows.
+* **Access:** Assign roles and access to Coworker features for your teams in the [Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-console).
 
-* **Access:** Assign roles and access to Coworker features for your teams in the Adobe [Admin Console](https://experienceleague.adobe.com/en/docs/core-services/interface/administration/admin-console).
+After Coworker is enabled, see [Get started with Coworker Chat](./chat/ui-guide.md) to open Coworker Chat, send your first message, and review responses.
 
-* **Get started:** Once Coworker is enabled, see [Get started with Coworker Chat](./chat/ui-guide.md) to learn your way around the Coworker Chat interface, including the input box, responses, and chat history. 
+### Customize Coworker Chat
 
-To tailor Coworker Chat to your team, see [Skills](./customizations/skills/what-are-skills.md), [Integrations](./customizations/integrations/understanding-integrations-in-coworker.md), [Plugins](./customizations/plugins/what-are-plugins.md), and [Memory](./customizations/memory/what-is-memory.md), or start with the [Customizations overview](./customizations/overview.md).
+Tailor Coworker Chat to the way your team works. Start with the [Customizations overview](./customizations/overview.md), or go directly to one of the following topics:
 
-## Videos about using Coworker Chat
+* [Skills](./customizations/skills/what-are-skills.md)
+* [Integrations](./customizations/integrations/understanding-integrations-in-coworker.md)
+* [Plugins](./customizations/plugins/what-are-plugins.md)
+* [Memory](./customizations/memory/what-is-memory.md)
 
-These video playlists cover key [!UICONTROL Chat] features and how to write effective prompts, with practical examples of how [!DNL Coworker] helps teams work more efficiently across [!DNL CX Enterprise] products.
+## Coworker for teams
+
+Coworker for teams is a standalone application for small, agile marketing teams who want to stand up and run campaigns quickly. It is not part of another CX Enterprise application. It is available as a free trial through December 31, 2026, in North America only. For access steps, see [How to access](./coworker-for-teams/overview.md#how-to-access).
+
+Coworker for teams includes connectors for [Marketo Engage](./coworker-for-teams/connectors/marketo.md) and [HubSpot](./coworker-for-teams/connectors/hubspot.md).
+
+To get started, see the following articles:
+
+* [Coworker for teams overview](./coworker-for-teams/overview.md)
+* [Create an email campaign](./coworker-for-teams/create-an-email-campaign.md)
+* [Use cases](./coworker-for-teams/use-cases.md)
+* [Prompting best practices](./coworker-for-teams/prompting-best-practices.md)
+
+## Learn more
+
+Watch videos and join live sessions to build your Coworker skills.
+
+### Watch Coworker Chat videos
+
+Watch these playlists to learn the basics of Coworker Chat and how to customize it with skills, integrations, plugins, and memory.
 
 <!--
 CARDS
@@ -104,24 +143,9 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## Projects (coming soon)
+### Join Experience League LIVE
 
-Coworker Projects is a shared workspace for automating customer experience workflows from strategy through delivery. Teams use it to coordinate tasks, approvals, and execution.
-
-## Coworker for teams
-
-Coworker for teams is a templatized feature for small agile teams to stand up and execute campaigns.
-
-**Popular articles**
-
-* [Overview](./coworker-for-teams/overview.md)
-* [Create an email campaign](./coworker-for-teams/create-an-email-campaign.md)
-* [Use cases](./coworker-for-teams/use-cases.md)
-* [Prompting best practices](./coworker-for-teams/prompting-best-practices.md)
-
-## Experience League LIVE: Coworker Unlocked series
-
-Join the CX Enterprise Coworker Unlocked series to see how organizations use AI to streamline customer experience work. Each session offers practical use cases, live demonstrations, and expert guidance on speeding up workflows, uncovering insights, and automating tasks across Adobe Experience Cloud applications. Browse previous episodes or register for upcoming events.
+Watch on-demand episodes of the Coworker Unlocked series to see how organizations use Coworker to streamline customer experience work. Each session includes practical use cases, live demonstrations, and expert guidance on speeding up workflows, finding insights, and automating tasks.
 
 <!--
 CARDS
