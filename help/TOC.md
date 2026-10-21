@@ -76,6 +76,8 @@ role: Admin,User,Developer,Leader
   - Plugins {#plugins}
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
+  - External connectors {#external-connectors}
+    - [Databricks Genie](./customizations/external-connectors/databricks-genie.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Coworker for teams {#coworker-for-teams}
