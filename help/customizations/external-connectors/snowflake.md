@@ -42,7 +42,7 @@ Coworker connects to an existing [!DNL Snowflake] MCP server. It does not create
 >
 >Never share PATs, OAuth client secrets, or other credentials in screenshots, chats, or support tickets. Use organization secrets and a least-privileged [!DNL Snowflake] identity.
 
-### Prepare Snowflake {#prepare-snowflake}
+### Configure your Snowflake MCP server {#configure-snowflake-mcp-server}
 
 A [!DNL Snowflake] administrator must complete the following tasks in [!DNL Snowflake] before you configure the connector:
 
