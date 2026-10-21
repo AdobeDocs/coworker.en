@@ -112,14 +112,14 @@ Coworker checks the URL before saving. Make sure that the URL meets the followin
 
 ### Use an organization service account {#service-account}
 
-Select **[!UICONTROL Organization service account]** when all members should use the same [!DNL Snowflake] identity. Use a dedicated service account, not a personal account.
+Select **[!UICONTROL Organization service account]** when all members should use the same [!DNL Snowflake] identity. Requests use the permissions of the service account through a programmatic access token (PAT). Use this option for centrally managed access.
 
-![Connect Snowflake dialog with the Organization service account option selected and the Programmatic access token field.](./assets/snowflake/org-service-account.png){zoomable="yes"}
+![Connect Snowflake dialog with Organization service account selected, showing the Service account token options, the Programmatic access token field, and a warning that everyone acts with the permissions of the token owner.](./assets/snowflake/org-service-account.png){zoomable="yes"}
 
-Under **[!UICONTROL Service account token]**, select one of the following options:
-
-* **[!UICONTROL Enter new]:** In **[!UICONTROL Programmatic access token]**, enter the PAT. Coworker stores the token as an organization secret.
-* **[!UICONTROL Use an existing secret]:** Select the organization secret that contains the token. The secret must contain the complete value for the `Authorization` header, not only the raw token.
+| Setting | Description |
+| --- | --- |
+| **[!UICONTROL Service account token]** | Choose where the token comes from. Select **[!UICONTROL Enter new]** to enter a PAT, or **[!UICONTROL Use an existing secret]** to select an organization secret that already contains the token. An existing secret must contain the complete value for the `Authorization` header, not only the raw token. |
+| **[!UICONTROL Programmatic access token]** | Required when you select **[!UICONTROL Enter new]**. Create the token for a dedicated [!DNL Snowflake] service account with only the required permissions. Do not use a token from a personal account. For instructions, select **[!UICONTROL How to create a programmatic access token]** in the dialog. Coworker stores the token as an organization secret. |
 
 >[!IMPORTANT]
 >
@@ -127,24 +127,17 @@ Under **[!UICONTROL Service account token]**, select one of the following option
 
 ### Let each person sign in {#each-person-signs-in}
 
-Select **[!UICONTROL Each person signs in]** when each member should use their own [!DNL Snowflake] identity and permissions.
+Select **[!UICONTROL Each person signs in]** when each member should use their own [!DNL Snowflake] identity. Requests use the [!DNL Snowflake] permissions of each person. Use this option for governed, user-driven access.
 
-![Connect Snowflake dialog with Each person signs in selected, showing the Redirect URL, OAuth integration credentials, and optional Snowflake role fields.](./assets/snowflake/org-oauth.png){zoomable="yes"}
+![Connect Snowflake dialog with Each person signs in selected, showing the Redirect URL, the OAuth integration credentials options, the OAuth integration client ID and client secret fields, and the optional Snowflake role field.](./assets/snowflake/org-oauth.png){zoomable="yes"}
 
-1. Copy the **[!UICONTROL Redirect URL]** from the dialog. Register this exact value as the redirect URI in your [!DNL Snowflake] OAuth integration.
-
-   The redirect URL differs between environments. Always copy it from the dialog.
-
-1. Under **[!UICONTROL OAuth integration credentials]**, select one of the following options:
-
-   * **[!UICONTROL Enter new]:** Enter the **[!UICONTROL OAuth integration client ID]** and **[!UICONTROL OAuth integration client secret]**.
-   * **[!UICONTROL Use an existing secret]:** Select the organization secrets that contain the client ID and client secret.
-
-   Members never enter these credentials.
-
-1. (Optional) In **[!UICONTROL Snowflake role]**, enter the role that each session uses.
-
-   The role must be granted to your members and have access to the MCP server. Leave the field blank to use the default role of each member.
+| Setting | Description |
+| --- | --- |
+| **[!UICONTROL Redirect URL]** | Read-only. Copy this URL, and register it as the redirect URI in your [!DNL Snowflake] OAuth security integration. The value must match exactly. For instructions, select **[!UICONTROL How to create a Snowflake OAuth integration]** in the dialog. The redirect URL differs between environments, so always copy it from the dialog. |
+| **[!UICONTROL OAuth integration credentials]** | Choose where the credentials come from. Select **[!UICONTROL Enter new]** to enter the client ID and client secret, or **[!UICONTROL Use an existing secret]** to select the organization secrets that contain them. |
+| **[!UICONTROL OAuth integration client ID]** | Required when you select **[!UICONTROL Enter new]**. The client ID of your customer-managed [!DNL Snowflake] OAuth integration. |
+| **[!UICONTROL OAuth integration client secret]** | Required when you select **[!UICONTROL Enter new]**. The client secret of the same OAuth integration. Members never enter these credentials. |
+| **[!UICONTROL Snowflake role]** | Optional. The role that each session uses, requested through the OAuth scope `session:role:ROLE_NAME`. The role must be granted to your members and have access to the MCP server. Leave the field blank to use the default role of each member. |
 
 Coworker converts the role name to uppercase. Roles created with a quoted lowercase name cannot be used. If the OAuth integration blocks the role, or a member does not have the role, sign-in or access can fail.
 
@@ -154,16 +147,20 @@ The OAuth integration must be configured to issue refresh tokens.
 
 Each [!DNL Snowflake] MCP server defines its own tools, so the dialog does not show a fixed list. Enter tool names as defined in your MCP server, not tool types such as `CORTEX_ANALYST_MESSAGE`. To view the tool names, run `DESCRIBE MCP SERVER` in [!DNL Snowflake].
 
-* **[!UICONTROL Allowed tool names]:** Enter the tools that members can use. Separate names with commas or spaces. Leave the field empty to allow every tool that the server exposes.
-* **[!UICONTROL Blocked tool names]:** Enter the tools that members can never use. Blocked tools stay unavailable even if you also allow them.
+![Connect Snowflake dialog showing the Programmatic access token field, the Tools available to users section with Allowed tool names and Blocked tool names fields, the Access and permissions notice, and a summary with Programmatic access token (PAT) authentication, HTTP connection, and a 300-second tool timeout.](./assets/snowflake/org-tools.png){zoomable="yes"}
 
-![Connect Snowflake dialog showing the Tools available to users section with Allowed tool names and Blocked tool names fields, the Access and permissions notice, and the authentication, connection, and tool timeout summary.](./assets/snowflake/org-tools.png){zoomable="yes"}
+| Setting | Description |
+| --- | --- |
+| **[!UICONTROL Allowed tool names]** | The tools that members can use. Separate names with commas or spaces. Leave the field empty to allow every tool that the server exposes. |
+| **[!UICONTROL Blocked tool names]** | The tools that members can never use. Separate names with commas or spaces. Blocked tools stay unavailable even if you also allow them. |
 
 >[!IMPORTANT]
 >
 >If you leave **[!UICONTROL Allowed tool names]** empty, members can use every tool, including any SQL execution tool. SQL execution tools run SQL as the connected identity. Review the tool definitions on your server, and allow only the tools that your organization needs.
 
 For [!DNL Cortex Analyst] tools, set up a semantic view and the required grants, including the `SNOWFLAKE.CORTEX_USER` database role. For [!DNL Cortex Agent] tools, configure read-only tools and turn off code execution in [!DNL Snowflake].
+
+The summary at the end of the dialog shows the authentication type, connection type, and tool timeout. The authentication type depends on your sign-in option: **[!UICONTROL Programmatic access token (PAT)]** for an organization service account, or **[!UICONTROL OAuth (customer integration)]** when each person signs in.
 
 Members cannot change the tool selection.
 
