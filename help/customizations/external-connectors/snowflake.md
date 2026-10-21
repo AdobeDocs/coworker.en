@@ -129,6 +129,8 @@ Under **[!UICONTROL Service account token]**, select one of the following option
 
 Select **[!UICONTROL Each person signs in]** when each member should use their own [!DNL Snowflake] identity and permissions.
 
+![Connect Snowflake dialog with Each person signs in selected, showing the Redirect URL, OAuth integration credentials, and optional Snowflake role fields.](./assets/snowflake/org-oauth.png){zoomable="yes"}
+
 1. Copy the **[!UICONTROL Redirect URL]** from the dialog. Register this exact value as the redirect URI in your [!DNL Snowflake] OAuth integration.
 
    The redirect URL differs between environments. Always copy it from the dialog.
@@ -144,8 +146,6 @@ Select **[!UICONTROL Each person signs in]** when each member should use their o
 
    The role must be granted to your members and have access to the MCP server. Leave the field blank to use the default role of each member.
 
-   ![OAuth integration credentials fields and the optional Snowflake role field.](./assets/snowflake/org-oauth.png){zoomable="yes"}
-
 Coworker converts the role name to uppercase. Roles created with a quoted lowercase name cannot be used. If the OAuth integration blocks the role, or a member does not have the role, sign-in or access can fail.
 
 The OAuth integration must be configured to issue refresh tokens.
@@ -157,7 +157,7 @@ Each [!DNL Snowflake] MCP server defines its own tools, so the dialog does not s
 * **[!UICONTROL Allowed tool names]:** Enter the tools that members can use. Separate names with commas or spaces. Leave the field empty to allow every tool that the server exposes.
 * **[!UICONTROL Blocked tool names]:** Enter the tools that members can never use. Blocked tools stay unavailable even if you also allow them.
 
-![Tools available to users section with Allowed tool names and Blocked tool names fields, followed by the Access and permissions notice.](./assets/snowflake/org-tools.png){zoomable="yes"}
+![Connect Snowflake dialog showing the Tools available to users section with Allowed tool names and Blocked tool names fields, the Access and permissions notice, and the authentication, connection, and tool timeout summary.](./assets/snowflake/org-tools.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -175,6 +175,8 @@ After an administrator configures the connector, open it from your own **[!UICON
 
    If the **[!UICONTROL Snowflake]** card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
 
+   ![User External Connectors page showing the Snowflake card with a Not configured status and a message that the admin needs to set it up.](./assets/snowflake/member-not-configured.png){zoomable="yes"}
+
 1. Connect to [!DNL Snowflake], depending on the sign-in option that your administrator chose:
 
    * **Organization service account:** You do not need to sign in. Requests use the service account identity. Never enter or share the PAT.
@@ -188,13 +190,13 @@ After an administrator configures the connector, open it from your own **[!UICON
 
    A successful test shows **[!UICONTROL Connection successful]** and the number of available tools.
 
-   ![Snowflake connector details showing a Connected status, a Connection successful message with five available tools, and a notice that the admin set up the connector.](./assets/snowflake/member-details.png){zoomable="yes"}
+   ![Snowflake connector details showing a Connected status, a Connection successful message with five available tools, a notice that the admin set up the connector, and the server URL, sign-in option, authentication, connection, and tool timeout.](./assets/snowflake/member-details.png){zoomable="yes"}
 
 1. Review the **[!UICONTROL Tools]** section to view the tools that your administrator enabled.
 
    Before you run a successful test, this section may show only the tool names. After the test, each tool appears with its description.
 
-   ![Snowflake connector details showing the Signed in status, the Sign out and Refresh buttons, and five example tools enabled by the admin.](./assets/snowflake/member-tools.png){zoomable="yes"}
+   ![Snowflake connector details showing the connection type, tool timeout, Signed in status, Sign out and Refresh buttons, and five example tools enabled by the admin.](./assets/snowflake/member-tools.png){zoomable="yes"}
 
 The tools in the example are defined by one [!DNL Snowflake] MCP server. The tools that you see depend on your server and the tool selection of your administrator.
 
