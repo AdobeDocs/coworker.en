@@ -63,18 +63,32 @@ Administrators make the [!DNL Databricks Genie] connector available to everyone 
 
 1. In **[!UICONTROL Server URL]**, enter your workspace URL or the [!DNL Genie One] MCP URL. For more information, see [Server URL requirements](#server-url).
 
-1. Under **[!UICONTROL Who signs in?]**, select a sign-in option and provide its credentials.
+1. Under **[!UICONTROL Who signs in?]**, select a sign-in option, and then complete its settings.
 
-   ![Connect Databricks Genie dialog with the Organization service principal option selected and the service principal client ID and client secret fields.](./assets/databricks-genie/org-service-principal.png){zoomable="yes"}
+   * **[!UICONTROL Organization service principal]:** Requests use the permissions of the service principal. Use this option for centrally managed or automated access.
 
-   * **[!UICONTROL Organization service principal]:** All members use the same [!DNL Databricks] identity. Enter the **[!UICONTROL Service principal client ID]** and **[!UICONTROL Service principal client secret]**. Both are required. Coworker stores the client secret securely.
-   * **[!UICONTROL Each person signs in]:** Each member uses their own [!DNL Databricks] identity and permissions. Copy the **[!UICONTROL Redirect URL]** from the dialog, and register this exact value with your [!DNL Databricks] OAuth app connection. Then enter the client ID of the OAuth app and, optionally, its client secret. Without a client secret, the app uses a public client configuration.
+     ![Connect Databricks Genie dialog with Organization service principal selected, showing the Service principal client ID and Service principal client secret fields.](./assets/databricks-genie/org-service-principal-settings.png){zoomable="yes"}
 
-   The redirect URL differs between environments, so always copy it from the dialog. Follow the approval process of your organization for the OAuth app and the access it requests.
+     | Setting | Description |
+     | --- | --- |
+     | **[!UICONTROL Service principal client ID]** | Required. The client ID of your [!DNL Databricks] service principal. To set up the service principal, select **[!UICONTROL How to set up service principal OAuth]** in the dialog. |
+     | **[!UICONTROL Service principal client secret]** | Required. The client secret of the service principal. Coworker stores the secret securely and uses it for the organization service principal. |
 
-   >[!IMPORTANT]
-   >
-   >With an organization service principal, everyone who uses this connection acts with the permissions of the service principal.
+     >[!IMPORTANT]
+     >
+     >Everyone who uses this connection acts with the permissions of the service principal. Members do not sign in to [!DNL Databricks].
+
+   * **[!UICONTROL Each person signs in]:** Requests use the [!DNL Databricks] permissions of each person. Use this option for governed, user-driven access.
+
+     ![Connect Databricks Genie dialog with Each person signs in selected, showing the Redirect URL, OAuth app client ID, and OAuth app client secret fields.](./assets/databricks-genie/org-each-person-settings.png){zoomable="yes"}
+
+     | Setting | Description |
+     | --- | --- |
+     | **[!UICONTROL Redirect URL]** | Read-only. Copy this URL, and add it when you register Coworker as an OAuth app connection in your [!DNL Databricks] account console. For instructions, select **[!UICONTROL How to add an OAuth app connection]** in the dialog. The redirect URL differs between environments, so always copy it from the dialog. |
+     | **[!UICONTROL OAuth app client ID]** | Required. The client ID that [!DNL Databricks] shows after you create the app connection. Coworker uses it to send each person to the [!DNL Databricks] sign-in page. |
+     | **[!UICONTROL OAuth app client secret]** | Optional. Enter the secret only if you created the app connection as a confidential client. Without a client secret, the app uses a public client configuration. |
+
+     Follow the approval process of your organization for the OAuth app and the access it requests.
 
 1. Under **[!UICONTROL Tools available to users]**, choose the tools that members can use. For more information, see [Choose available tools](#available-tools).
 
