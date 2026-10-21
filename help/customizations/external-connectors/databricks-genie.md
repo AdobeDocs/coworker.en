@@ -59,22 +59,26 @@ Administrators make the [!DNL Databricks Genie] connector available to everyone 
 
    ![Organization External Connectors page showing the Databricks Genie card with a Not configured status.](./assets/databricks-genie/org-connectors.png){zoomable="yes"}
 
-1. On the **[!UICONTROL Databricks Genie]** card, select **[!UICONTROL Configure]**.
-
-   The **[!UICONTROL Connect Databricks Genie]** dialog opens.
+1. On the **[!UICONTROL Databricks Genie]** card, select **[!UICONTROL Configure]**. The **[!UICONTROL Connect Databricks Genie]** dialog opens.
 
 1. In **[!UICONTROL Server URL]**, enter your workspace URL or the [!DNL Genie One] MCP URL. For more information, see [Server URL requirements](#server-url).
 
-1. Under **[!UICONTROL Who signs in?]**, select a sign-in option and provide its credentials:
+1. Under **[!UICONTROL Who signs in?]**, select a sign-in option and provide its credentials.
 
-   * **[!UICONTROL Organization service principal]:** See [Use an organization service principal](#service-principal).
-   * **[!UICONTROL Each person signs in]:** See [Let each person sign in](#each-person-signs-in).
+   ![Connect Databricks Genie dialog with the Organization service principal option selected and the service principal client ID and client secret fields.](./assets/databricks-genie/org-service-principal.png){zoomable="yes"}
+
+   * **[!UICONTROL Organization service principal]:** All members use the same [!DNL Databricks] identity. Enter the **[!UICONTROL Service principal client ID]** and **[!UICONTROL Service principal client secret]**. Both are required. Coworker stores the client secret securely.
+   * **[!UICONTROL Each person signs in]:** Each member uses their own [!DNL Databricks] identity and permissions. Copy the **[!UICONTROL Redirect URL]** from the dialog, and register this exact value with your [!DNL Databricks] OAuth app connection. Then enter the client ID of the OAuth app and, optionally, its client secret. Without a client secret, the app uses a public client configuration.
+
+   The redirect URL differs between environments, so always copy it from the dialog. Follow the approval process of your organization for the OAuth app and the access it requests.
+
+   >[!IMPORTANT]
+   >
+   >With an organization service principal, everyone who uses this connection acts with the permissions of the service principal.
 
 1. Under **[!UICONTROL Tools available to users]**, choose the tools that members can use. For more information, see [Choose available tools](#available-tools).
 
-1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**.
-
-   The **[!UICONTROL Databricks Genie]** card shows **[!UICONTROL Configuration saved]**.
+1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Databricks Genie]** card shows **[!UICONTROL Configuration saved]**.
 
    ![Organization External Connectors page showing the Databricks Genie card with a Configuration saved status and a View configuration button.](./assets/databricks-genie/org-saved.png){zoomable="yes"}
 
@@ -93,34 +97,6 @@ https://<workspace-host>/ai-gateway/mcp-services/system.ai.genie_one_mcp
 ```
 
 Coworker rejects URLs that do not use HTTPS or that use unsupported paths. Legacy [!DNL Genie] space URLs, such as `/api/2.0/mcp/genie/<space-id>`, are not supported.
-
-### Use an organization service principal {#service-principal}
-
-Select **[!UICONTROL Organization service principal]** when all members should use the same [!DNL Databricks] identity.
-
-![Connect Databricks Genie dialog with the Organization service principal option selected and the service principal client ID and client secret fields.](./assets/databricks-genie/org-service-principal.png){zoomable="yes"}
-
-Enter the **[!UICONTROL Service principal client ID]** and **[!UICONTROL Service principal client secret]**. Both are required. Coworker stores the client secret securely.
-
->[!IMPORTANT]
->
->Everyone who uses this connection acts with the permissions of the service principal.
-
-### Let each person sign in {#each-person-signs-in}
-
-Select **[!UICONTROL Each person signs in]** when each member should use their own [!DNL Databricks] identity and permissions.
-
-1. Copy the **[!UICONTROL Redirect URL]** from the dialog. Register this exact value with your [!DNL Databricks] OAuth app connection.
-
-   The redirect URL differs between environments. Always copy it from the dialog.
-
-1. Enter the client ID of the OAuth app.
-
-1. (Optional) Enter the client secret of the OAuth app.
-
-   Without a client secret, the app uses a public client configuration.
-
-Follow the approval process of your organization for the OAuth app and the access it requests.
 
 ### Choose available tools {#available-tools}
 
