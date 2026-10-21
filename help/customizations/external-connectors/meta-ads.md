@@ -36,7 +36,7 @@ Administrators make the [!DNL Meta Ads] connector available to everyone in the o
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
 
-   ![Organization External Connectors page showing the Meta Ads card with a Not configured status.](./assets/meta-ads-org-connectors.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Meta Ads card with a Not configured status.](./assets/meta-ads/org-connectors.png){zoomable="yes"}
 
 1. On the **[!UICONTROL Meta Ads]** card, select **[!UICONTROL Configure]**.
 
@@ -47,11 +47,11 @@ Administrators make the [!DNL Meta Ads] connector available to everyone in the o
    * **[!UICONTROL Adobe-managed OAuth application]:** Adobe provides the [!DNL Meta] app, so you do not need to enter app credentials.
    * **[!UICONTROL Use my own OAuth application]:** Your organization provides its own [!DNL Meta] app. Complete the steps in [Use your own Meta app](#use-your-own-meta-app) before you continue.
 
-   ![Configure Meta Ads dialog with the Adobe-managed OAuth application selected and the list of tool groups.](./assets/meta-ads-org-managed-oauth.png){zoomable="yes"}
+   ![Configure Meta Ads dialog with the Adobe-managed OAuth application selected and the list of tool groups.](./assets/meta-ads/org-managed-oauth.png){zoomable="yes"}
 
 1. Under **[!UICONTROL Tools available to users]**, expand each tool group and select the tools your organization needs. To change all tools at once, use **[!UICONTROL Select all]** or **[!UICONTROL Clear all]**. For more information, see [Tool groups](#tool-groups).
 
-   ![Expanded Reporting and insights tool group with all seven tools selected.](./assets/meta-ads-org-reporting-tools.png){zoomable="yes"}
+   ![Expanded Reporting and insights tool group with all seven tools selected.](./assets/meta-ads/org-reporting-tools.png){zoomable="yes"}
 
 1. Select **[!UICONTROL Save connection]**.
 
@@ -64,7 +64,7 @@ Administrators make the [!DNL Meta Ads] connector available to everyone in the o
    | **[!UICONTROL Connection]** | The OAuth application in use and your own sign-in status. |
    | **[!UICONTROL Tool selection]** | The number of tools selected for members. |
 
-   ![Saved Meta Ads connector details showing the source, authentication method, connection status, and tool selection.](./assets/meta-ads-org-details.png){zoomable="yes"}
+   ![Saved Meta Ads connector details showing the source, authentication method, connection status, and tool selection.](./assets/meta-ads/org-details.png){zoomable="yes"}
 
 1. (Optional) Select **[!UICONTROL Test]** to check that Coworker can discover the connector tools.
 
@@ -121,7 +121,7 @@ After an administrator configures the connector, each member signs in with their
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
-   ![User External Connectors page showing the Meta Ads card with a Not signed in status.](./assets/meta-ads-member-sign-in.png){zoomable="yes"}
+   ![User External Connectors page showing the Meta Ads card with a Not signed in status.](./assets/meta-ads/member-sign-in.png){zoomable="yes"}
 
 1. On the **[!UICONTROL Meta Ads]** card, select **[!UICONTROL Sign in]**.
 
@@ -145,7 +145,7 @@ After an administrator configures the connector, each member signs in with their
 
 1. After [!DNL Facebook] returns you to Coworker, open the **[!UICONTROL meta-ads]** connector details. Confirm that the connector shows **[!UICONTROL Connected]** and **[!UICONTROL Signed in]**.
 
-   ![Meta Ads connector details showing a Connected status, a Signed in connection, and the tools enabled by the administrator.](./assets/meta-ads-member-connected.png){zoomable="yes"}
+   ![Meta Ads connector details showing a Connected status, a Signed in connection, and the tools enabled by the administrator.](./assets/meta-ads/member-connected.png){zoomable="yes"}
 
 1. Review **[!UICONTROL Tools enabled by your admin]** to view the tools you can use.
 
