@@ -33,8 +33,6 @@ feature_v2:
     internal-label: Sandboxes
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
-  - id: d9b97a7b-ccbd-5fc1-bb28-c1f834feacb8
-    internal-label: Profiles
   - id: f5a6b7c8-5003-4003-9003-500000000003
     internal-label: Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6

@@ -11,9 +11,6 @@ jira: KT-22083
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 # Validate data with Coworker when upgrading from Adobe Analytics to Customer Journey Analytics
 

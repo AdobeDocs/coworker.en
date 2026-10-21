@@ -5,9 +5,6 @@ jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 # Get started with Coworker Chat {#ui-guide}
 
@@ -209,7 +206,7 @@ To pin, rename, archive, or delete a conversation, click the row menu (**[!UICON
 
 ## Customize Coworker Chat
 
-Configurations is where you control what Coworker Chat can do. Click **[!UICONTROL Configurations]** in the navigation rail, then choose a tab: **[!UICONTROL Skills]**, **[!UICONTROL MCP servers]**, **[!UICONTROL Marketplaces]**, **[!UICONTROL Plugins]**, or **[!UICONTROL Memory]**.
+[!UICONTROL Customizations] is where you control what [!UICONTROL Coworker Chat] can do. Click **[!UICONTROL Customizations]** in the navigation rail, then choose a tab: **[!UICONTROL Skills]**, **[!UICONTROL Integrations]**, **[!UICONTROL Marketplaces]**, **[!UICONTROL Plugins]**, or **[!UICONTROL Memory]**.
 
 ### Add and view skills
 
@@ -217,8 +214,9 @@ Skills are specialized capabilities that Coworker Chat uses automatically when t
 
 ![The Skills tab](./assets/ui-guide-12.png)
 
-1. On the **[!UICONTROL Skills]** tab, click **[!UICONTROL Add Source]** to install skills from a new source.
-1. Enter a name in **[!UICONTROL Search]** to find a skill. Use the view toggle to switch between grid and list layouts.
+1. On the **[!UICONTROL Skills]** tab, click **[!UICONTROL Add Skills]** to install skills from a new source.
+1. Enter a name in **[!UICONTROL Search]** to find a skill. 
+   Use the view toggle to switch between grid and list layouts.
 1. Select a skill to see the plugin it belongs to, when Coworker Chat uses it, and the files it includes.
 
    ![A skill detail view showing supporting files](./assets/ui-guide-13.png)

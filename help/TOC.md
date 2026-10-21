@@ -9,22 +9,37 @@ role: Admin,User,Developer,Leader
 
 # CX Enterprise Coworker {#content}
 
-- [Coworker overview](home.md)
-- Chat {#chat}
-  - [Overview](./chat/overview.md)
-  - [Get started with Chat](./chat/ui-guide.md)
+- [Coworker guide](home.md)
+- Coworker Chat {#chat}
+  - [About Coworker Chat](./chat/overview.md)
+  - [Get started using Coworker Chat](./chat/ui-guide.md)
   - {hide-from-toc} [Coworker Chat in Playground](./playground-coworker-chat.md)
-  - Use cases {#use-cases}
+  - Workflows {#use-cases}
     - [Coworker Chat workflows](./chat/use-cases/workflows.md)
     - Data Insights {#data-insights}
-      - {hide-from-toc} [Overview](./chat/use-cases/data-insights/analytics-overview.md)
-      - [Get started](./chat/use-cases/data-insights/analytics-chat.md)
-      - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
-      - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
-      - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
-      - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)
-      - {hide-from-toc} [Detect Experience Platform anomalies](./chat/use-cases/data-insights/anomaly-detection.md)
-      - [Accelerate data insights](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - [About analyzing data](./chat/use-cases/data-insights/analytics-overview.md)
+      - [Get started analyzing data](./chat/use-cases/data-insights/analytics-chat.md)
+      - Intelligent implementation and administration {#intelligent-implementation-and-administration}
+        - [Overview](./chat/use-cases/data-insights/data-governance-and-validation.md)
+        - [Plan your implementation](./chat/use-cases/data-insights/implementation-guide.md)
+        - [Generate an implementation checklist](./chat/use-cases/data-insights/intelligent-checklist.md)
+        - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Validate Streaming Media implementation](./chat/use-cases/data-insights/streaming-media-validation.md)
+        - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
+        - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)
+        - {hide-from-toc} [Detect Experience Platform anomalies](./chat/use-cases/data-insights/anomaly-detection.md)
+        - [Accelerate data insights](./chat/use-cases/data-insights/accelerate-data-insights.md)
+      - Journey analysis {#journey-analysis}
+        - [Overview](./chat/use-cases/data-insights/journey-analysis.md)
+      - Audience and segment analysis {#audience-and-segment-analysis}
+        - [Overview](./chat/use-cases/data-insights/audience-and-segment-analysis.md)
+      - Business performance {#business-performance}
+        - [Overview](./chat/use-cases/data-insights/business-performance.md)
+        - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
+      - Content performance {#content-performance}
+        - [Overview](./chat/use-cases/data-insights/content-performance.md)
+      - Marketing measurement and attribution {#marketing-measurement-and-attribution}
+        - [Overview](./chat/use-cases/data-insights/marketing-measurement-and-attribution.md)
     - Data Onboarding {#data-onboarding}
       - {hide-from-toc} [Onboard data with Coworker](./agents/data-onboarding-skill.md)
     - Data Management {#data-management}
@@ -33,6 +48,7 @@ role: Admin,User,Developer,Leader
       - [Assess platform health and build audiences](./chat/use-cases/audiences/create-audience-from-natural-language.md)
     - Journeys {#journeys}
       - [Create journeys using natural language](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [Create, simulate, and analyze cross-channel journeys](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
     - Loyalty {#loyalty}
       - [Create a loyalty challenge and surface insights](./chat/use-cases/journeys/create-loyalty-challenge.md)
     - Optimization {#optimization}
@@ -50,7 +66,7 @@ role: Admin,User,Developer,Leader
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
 - Customizations {#customizations}
-  - [Overview](./customizations/overview.md)
+  - [Customizations Overview](./customizations/overview.md)
   - Skills {#skills}
     - [What are skills?](./customizations/skills/what-are-skills.md)
     - [Create your first skill](./customizations/skills/create-your-first-skill.md) 

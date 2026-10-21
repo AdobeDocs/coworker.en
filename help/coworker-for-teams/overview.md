@@ -4,11 +4,8 @@ title: Adobe CX Enterprise Coworker Overview
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
-# Adobe CX Enterprise Coworker for teams overview {#overview}
+# Coworker for teams overview {#overview}
 
 Coworker for teams is designed for smaller organizations with more agile marketing teams needing content generation, journey building, and analytics in a single tool.
 

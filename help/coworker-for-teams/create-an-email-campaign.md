@@ -4,17 +4,10 @@ title: Create an Email Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 # Create an email campaign {#create-an-email-campaign}
 
 Learn how to generate and review complete email campaigns in minutes.
-
->[!IMPORTANT]
->
->At this time, you can only generate campaigns, you cannot send (launch) them yet. Launch functionality is coming soon.
 
 ## Before you start
 

@@ -4,13 +4,16 @@ title: Coworker Chat workflows
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
-feature_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
 ---
 # Coworker Chat workflows {#use-cases}
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the workflows practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation. 
+
+## About skills and workflows
+
+**Skills:** A _skill_ is a single, specific capability or action that Coworker can perform. Examples include creating an audience, sending an email, generating a report, or analyzing campaign results. Each Skill is focused on one particular function.
+
+**Worfkow:** A _workflow_ is a sequence of steps or actions (often involving multiple skills) designed to achieve a broader business goal. Workflows coordinate several skills in a logical order to complete complex, multi-step processes, such as launching a marketing campaign, onboarding a new customer segment, or diagnosing a drop in campaign performance.
 
 ## Brand Experience
 
@@ -136,6 +139,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | [Analyze custom action errors](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Identify when custom actions are failing or error rates spike within a journey, and diagnose root causes before failures cascade into broader disruption | `journey-analyze-custom-action` | Adobe Journey Optimizer (AJO) | "Why are custom actions failing in my Loyalty Signup journey?" <br> "Show me the error rate for custom action ExternalPush in my Welcome journey." |
 | [Detect journey anomalies](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Detect and confirm unexpected spikes, drops, or flatlines in a journey's entry, exit, or send counts against historical baselines, and surface a likely root cause | `journey-analyze-anomaly` | Adobe Journey Optimizer (AJO) | "Why did entries drop for my Welcome journey yesterday?" <br> "Did exits spike for the Cart Abandonment journey this week?" |
 | [Business Performance Analysis](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Analyze journey performance and identify concrete optimization opportunities for underperforming journeys. Surface trends, bottlenecks, and likely drivers behind lower results so you can improve engagement and conversion. Get actionable recommendations to adjust journey design, targeting, or messaging strategy based on business performance insights. | Journey Analyze | Adobe Journey Optimizer (AJO) | "Analyze the performance of journey [Journey Name] and recommend optimizations." <br> "Why is journey [Journey Name] underperforming compared with last month?" <br> "What should I change to improve the performance of journey [Journey Name]?" <br> "Which parts of journey [Journey Name] are likely limiting conversion or engagement?" |
+| [Analyze journey hygiene](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Audit your journey inventory to find journeys with missing or generic names, stale draft or live journeys, oversized journeys, long-existing closed journeys, and similar action and event names, with recommendations to clean up and stabilize your configuration | Journey Analyze | Adobe Journey Optimizer (AJO) | "Audit my journeys configuration." <br> "Which of my journeys are stale or need cleaning up?" |
 | [Compare journey versions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Compare two journey versions and review a structured diff of node, connection, and journey-level property changes | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | "Compare versions 2 and 3 of my Welcome journey" <br> "What changed between these two journey versions?" |
 
 **Related information**
@@ -178,6 +182,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | --- | --- | --- | --- | --- |
 | [Create, edit, and manage loyalty challenges](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} | Simplify and accelerate loyalty program management | `loyalty` | Adobe Journey Optimizer (AJO) | "Create a challenge encouraging members to try a new seasonal beverage" <br> "Show me loyalty challenges with the highest member drop-off rates." |
 | [Analyze loyalty program performance](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} | Query and analyze loyalty points, member tiers, redemptions, and revenue metrics using natural language | `loyalty-insights` | Adobe Journey Optimizer (AJO) | "How many loyalty points were granted during August 2026?" <br> "Show the loyalty program's total revenue broken down by day during August 2026." |
+| [Find loyalty opportunities](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-opportunities){target="_blank"} | Request grounded, specific challenge opportunities based on loyalty program trends and performance data, then turn them into live challenges | TBD | Adobe Journey Optimizer (AJO) | "What loyalty opportunities could increase member spend?" <br> "Show me opportunities to win back inactive members." |
 
 **Related information**
 

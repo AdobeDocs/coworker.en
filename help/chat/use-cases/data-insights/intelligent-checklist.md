@@ -1,7 +1,6 @@
 ---
 title: Generate an Implementation Checklist in Coworker Projects
 description: Learn how Coworker Projects generates a pre-populated implementation checklist from your Implementation Guides plan, with steps you can assign and track.
-hold: true
 ---
 
 # Generate an implementation checklist with Coworker Projects
