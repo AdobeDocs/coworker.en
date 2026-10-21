@@ -1,13 +1,15 @@
 ---
-title: Adobe CX Enterprise Coworker Guide
+title: Adobe CX Enterprise Coworker overview
 description: Learn about Adobe CX Enterprise Coworker, an AI-powered teammate that automates customer experience and marketing workflows across your organization.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
 ---
-# CX Enterprise Coworker guide {#overview}
+# CX Enterprise Coworker overview {#overview}
 
-[!DNL Coworker] is Adobe's agentic AI teammate for customer experience and marketing work. It does more than answer questions or recommend actions. It runs multi-step marketing workflows across Adobe and other enterprise systems, and approvals and governance keep you in control. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
+[!DNL Coworker] is an AI-powered teammate that reimagines the nature of work for organizations, teams, and individuals. It automates customer experience and marketing workflows so organizations can focus on achieving business goals and improving outcomes rather than coordinating tasks. As an agentic engine, Coworker takes an innovative approach to business process automation. It improves AI model performance and accuracy by bringing together enterprise context, data, intelligence, collaboration, and the execution of agentic skills, with governance and human oversight built in.
+
+Coworker is built for organizations running complex, cross-functional customer experience workflows. It brings together Coworker Chat and Coworker Projects, enabling practitioners to move from a single task to a full, multi-team workflow within the Coworker experience. Governance, approvals, and human oversight are integrated from the start. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
 ## Choose an experience
 
