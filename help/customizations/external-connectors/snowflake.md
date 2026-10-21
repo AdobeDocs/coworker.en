@@ -59,7 +59,7 @@ A [!DNL Snowflake] administrator must complete the following tasks in [!DNL Snow
 For instructions, see the following [!DNL Snowflake] documentation:
 
 * [Snowflake-managed MCP server](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp){target="_blank"}
-* [CREATE MCP SERVER](https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server){target="_blank"}
+* [Create MCP server](https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server){target="_blank"}
 * [Overview of access control](https://docs.snowflake.com/en/user-guide/security-access-control-overview){target="_blank"}
 * [Configure Snowflake OAuth for custom clients](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"}
 * [Create security integration (Snowflake OAuth)](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"}
