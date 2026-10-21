@@ -62,7 +62,7 @@ For instructions, see the following [!DNL Snowflake] documentation:
 * [CREATE MCP SERVER](https://docs.snowflake.com/en/sql-reference/sql/create-mcp-server){target="_blank"}
 * [Overview of access control](https://docs.snowflake.com/en/user-guide/security-access-control-overview){target="_blank"}
 * [Configure Snowflake OAuth for custom clients](https://docs.snowflake.com/en/user-guide/oauth-custom){target="_blank"}
-* [CREATE SECURITY INTEGRATION (Snowflake OAuth)](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"}
+* [Create security integration (Snowflake OAuth)](https://docs.snowflake.com/en/sql-reference/sql/create-security-integration-oauth-snowflake){target="_blank"}
 * [Using programmatic access tokens for authentication](https://docs.snowflake.com/en/user-guide/programmatic-access-tokens){target="_blank"}
 
 ## Configure the connector for your organization {#configure-organization}
