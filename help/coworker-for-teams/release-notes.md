@@ -9,6 +9,122 @@ product_v2:
 
 Coworker for teams releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
+## October 2026 {#oct-2026}
+
+**Release date: October 21, 2026**
+
+* Drop files into campaign prompts and conversations to attach them
+* Oversized attachments are caught before they interrupt your work
+* File sizes display in your language and local format
+* Email previews fit wide designs without cutting off content
+* Keep typing when editing emails inside a conversation
+* Sender details fill in automatically from your profile
+* Sender changes from conversation previews carry through to your campaign
+* Open campaign strategy previews reflect your latest saved changes
+* Preview sample contact lists when sample data is available
+* Connector descriptions are easier to read in your language
+* Find connector and skill details more reliably in Context
+* Template channel filters fit more comfortably on smaller screens
+* Profile actions remain accessible inside the Adobe navigation shell
+* Campaign reporting errors no longer incorrectly suggest your session expired
+* Choose trial account filters that match available statuses
+* Continue opening and renaming chats without a misleading delete option
+* The latest product updates are easier to dismiss
+* Campaign activity is counted more consistently across reports
+
+**Release date: October 16, 2026**
+
+* Apply an email template without rewriting its content
+* Switch email templates without losing your latest edits
+* Switch templates, download emails, and send tests from one menu
+* Read email previews more comfortably before making changes
+* Retry a message when sending fails before it starts
+* Find Home tabs more easily on smaller phones
+* Launch dialogs fit more comfortably on smaller screens
+* Long audience labels stay readable without overlapping
+* See up to six recent campaigns on Home
+* Home now focuses on campaigns and ideas instead of daily recaps
+* Start a campaign or browse ideas from an empty Home
+* Campaign menus show actions suited to each campaign status
+* Adobe Express editing stays unavailable when an image cannot load
+* Old Campaigns links take you to Coworker for teams
+* Read chat responses with more comfortable text sizing
+* Find campaign Overview and Insights tabs centered in the header
+
+**Release date: October 15, 2026**
+
+* Filter Home and Campaigns by who created each campaign
+* Get a daily recap of campaigns, conversations, and email variants
+* See campaign status, creator, and creation date beneath its title
+* Replay campaign setup from Campaign ideas whenever you need guidance
+* Resize campaign previews and return to boards more smoothly
+* Email links now persist when you save your draft
+* Email drafts save reliably while you keep editing
+* Replacement images stay connected to your email drafts
+* Switch email templates and download emails directly from the editor
+* Export DNS records as zone files with plain-language setup guidance
+* Spot system-provided domains and senders with clear default badges
+* Start typing to focus the active chat composer
+* Browse product updates with clearer navigation and a direct link to release notes
+
+**Release date: October 14, 2026**
+
+* Create and switch workspaces from your profile menu
+* Find campaigns and saved content in refreshed navigation
+* See recent campaigns and retry loading them from Home
+* See who created campaigns, templates, and brand kits
+* Find your trial status and upgrade options more easily
+* Connect Shopify and update your store connection details
+* Attach documents, spreadsheets, and images directly from Home chat
+* Preview and edit emails without leaving your conversation
+* Resize conversation previews to suit how you work
+* Review workflows, strategies, and audiences beside your conversation
+* Switch email templates, export emails, and send test emails from previews
+* Keep reading conversations even when an email preview cannot refresh
+* View campaign strategies alongside your other knowledge sources
+* See saved strategy changes immediately in open previews
+* Read campaign strategies and audience details directly in chat
+* Read large audience counts in a shorter, clearer format
+* Follow campaign-board updates with clearer highlights
+* Open conversations at the latest message during normal navigation
+* Return to your previous screen with improved Back navigation
+* See conversation names in the campaign-board chat header
+* Use campaign boards, editors, and chat on smaller screens
+* Start a new chat without carrying over the previous conversation
+* Find new conversations in history sooner after sending
+* Chat keeps line breaks and makes web addresses clickable
+* Workflow updates no longer hide the assistant's closing explanation
+* Proof-email confirmations no longer appear twice in chat
+* Email refinements update existing drafts instead of creating duplicates
+* Follow-up tasks no longer overwrite campaign settings or audiences
+* Campaign boards keep the latest workflow after steps are removed
+* Campaign status reflects the actual stage of your campaign
+* Get clearer warnings about invalid or expired launch schedules
+* See which prompt details are missing before creating a campaign
+* Set up sending domains with clearer DNS records and next steps
+* Personal-account sign-in survives refreshes more reliably
+* Move from onboarding to Home without a loading-screen flash
+* Brand editing and personal-default actions are available again
+* See accurate creator attribution on brand kits
+* Understand when changing a default brand affects your workspace
+* Brand generation is no longer interrupted by the reset banner
+* Email variation controls are easier to distinguish
+* Chat error messages use a calmer visual treatment
+
+**Release date: October 13, 2026**
+
+* Trial confirmations remind you to check your spam folder
+
+**Release date: October 12, 2026**
+
+* Add your website and intended use after requesting trial access
+* Restart the signup process with your business email when needed
+
+**Release date: October 7, 2026**
+
+* See the teams upgrade schedule and notice about the upcoming data reset
+* Follow the linked guide to save content before the reset
+
 ## September 2026 {#sep-2026}
 
 **Release date: September 17, 2026**
