@@ -60,8 +60,6 @@ Identify the sandbox and area you want to check. For a specific resource, have i
 
 For general chat instructions, see [Get started with Chat](/help/chat/ui-guide.md).
 
-<!-- Author review: The publication target is October 26. Confirm required roles, permissions, and limited availability eligibility before publication. -->
-
 ## Ask about anomalies
 
 Describe the area or resource you want to check and the time period you want to examine.
@@ -193,7 +191,7 @@ The limited release includes the following seven metrics across ingestion, segme
 | Destination activation | `{destination}_skipped_record_count` | Count of skipped records for a destination. |
 | Destination activation | `{destination}_output_record_count` | Count of output records for a destination. |
 
-<!-- Author review: Release coverage for all seven metrics is confirmed. Confirm exact definitions and units, especially skipped and output records, aggregation intervals, and identifier visibility. Replace technical identifiers with confirmed display labels if appropriate. -->
+<!-- Author review: Confirm metric aggregation intervals and identifier visibility. -->
 
 ## Scope and limitations
 
