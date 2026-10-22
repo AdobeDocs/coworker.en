@@ -27,7 +27,7 @@ role: Admin,User,Developer,Leader
         - [Validate Streaming Media implementation](./chat/use-cases/data-insights/streaming-media-validation.md)
         - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)
-        - {hide-from-toc} [Detect Experience Platform anomalies](./chat/use-cases/data-insights/anomaly-detection.md)
+        - [Detect Experience Platform anomalies](./chat/use-cases/data-insights/anomaly-detection.md)
         - [Accelerate data insights](./chat/use-cases/data-insights/accelerate-data-insights.md)
       - Journey analysis {#journey-analysis}
         - [Overview](./chat/use-cases/data-insights/journey-analysis.md)
