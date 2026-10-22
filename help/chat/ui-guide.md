@@ -21,7 +21,7 @@ The following table shows where each experience is available.
 | Real-Time CDP | Available now | Coming soon |
 | Adobe Journey Optimizer | Available now | Coming soon |
 | Customer Journey Analytics | Available now | Coming soon |
-| Workfront | Available now | Coming soon:<br><br>* Early September 2026 in Preview instance for select eligible Workfront system administrators<br><br>* Mid September 2026 in Production instance for eligible fast release Workfront customers<br><br>* Mid October 2026 in Production instance for eligible quarterly release Workfront customers |
+| Workfront | Available now | Available now |
 | Target | Available now | Available now |
 | AEM | Available now | Available now |
 | Marketo Engage | Available now | Coming soon |
