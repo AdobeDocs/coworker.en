@@ -28,7 +28,8 @@ Before you begin, make sure that you have the following:
 
 * **For organization setup:** An account with permission to manage organization connectors in Coworker.
 * **For member sign-in:** A [!DNL Facebook] account with access to the ad accounts, businesses, Pages, or other [!DNL Meta] assets you plan to use.
-* **For your own OAuth app (optional):** A [!DNL Meta] app that your organization manages, along with its app ID and app secret.
+* **For your own OAuth app (optional):** A [!DNL Meta] app that your organization manages, with its app ID and a [!DNL Facebook Login for Business] redirect URL.
+* **For machine credentials (optional):** The token URL, client ID, and client secret of your OAuth app.
 
 ## Configure the connector for your organization {#configure-organization}
 
@@ -40,20 +41,20 @@ Administrators make the [!DNL Meta Ads] connector available to everyone in the o
 
 1. On the **[!UICONTROL Meta Ads]** card, select **[!UICONTROL Configure]**.
 
-   The **[!UICONTROL Configure Meta Ads for your organization]** dialog opens.
+   The **[!UICONTROL Add integration]** dialog opens with the [!DNL Meta Ads] settings filled in.
 
-1. Review the **[!UICONTROL Connection details]**, and then select an **[!UICONTROL OAuth application]**:
+1. Review the connection settings. For more information, see [Connection settings](#connection-settings).
 
-   * **[!UICONTROL Adobe-managed OAuth application]:** Adobe provides the [!DNL Meta] app, so you do not need to enter app credentials.
-   * **[!UICONTROL Use my own OAuth application]:** Your organization provides its own [!DNL Meta] app. Complete the steps in [Use your own Meta app](#use-your-own-meta-app) before you continue.
+1. Under **[!UICONTROL OAuth application]**, select the OAuth application to use:
 
-   ![Configure Meta Ads dialog with the Adobe-managed OAuth application selected and the list of tool groups.](./assets/meta-ads/org-managed-oauth.png){zoomable="yes"}
+   * **[!UICONTROL Adobe-managed OAuth application]:** Adobe manages the application credentials and OAuth endpoints. Your deployment must enable this connector. For more information, see [Use the Adobe-managed OAuth application](#adobe-managed-oauth).
+   * **[!UICONTROL Use my own OAuth application]:** Your organization provides its own [!DNL Meta] app. For more information, see [Use your own Meta app](#use-your-own-meta-app).
 
-1. Under **[!UICONTROL Tools available to users]**, expand each tool group and select the tools your organization needs. To change all tools at once, use **[!UICONTROL Select all]** or **[!UICONTROL Clear all]**. For more information, see [Tool groups](#tool-groups).
+1. In **[!UICONTROL Include tools]** and **[!UICONTROL Exclude tools]**, set the tools that members can use. For more information, see [Choose available tools](#available-tools).
 
-   ![Expanded Reporting and insights tool group with all seven tools selected.](./assets/meta-ads/org-reporting-tools.png){zoomable="yes"}
+1. Select **[!UICONTROL Add]**.
 
-1. Select **[!UICONTROL Save connection]**.
+   Saving the configuration does not sign in any members.
 
 1. Review the saved **[!UICONTROL meta-ads]** connector details.
 
@@ -72,52 +73,85 @@ The **[!UICONTROL Not signed in]** status on the connector details refers to you
 
 To stop offering the connector to your organization, select **[!UICONTROL Remove]** on the connector details page.
 
+### Connection settings {#connection-settings}
+
+The dialog fills in the following settings for [!DNL Meta Ads]:
+
+| Setting | Description |
+| --- | --- |
+| **[!UICONTROL Server name]** | Required. The name of the connector in Coworker, `meta-ads`. |
+| **[!UICONTROL Source URL or command]** | Required. The [!DNL Meta Ads] MCP server, `https://mcp.facebook.com/ads`. |
+| **[!UICONTROL Connection type]** | Read-only. The connection type, HTTP. |
+| **[!UICONTROL Tool timeout (seconds)]** | How long Coworker waits for a tool to respond. The default is 60 seconds. |
+| **[!UICONTROL Authentication]** | The authentication method. The default is **[!UICONTROL OAuth / Auto-Discovery]**. |
+
+### Use the Adobe-managed OAuth application {#adobe-managed-oauth}
+
+Select **[!UICONTROL Adobe-managed OAuth application]** to use the [!DNL Meta] app that Adobe provides. Adobe manages the application credentials and OAuth endpoints, so you do not need to enter them. Your deployment must enable this connector.
+
+![Add integration dialog for Meta Ads with the Adobe-managed OAuth application selected, showing the server name, source URL, connection type, tool timeout, authentication, and Include tools fields.](./assets/meta-ads/org-adobe-oauth.png){zoomable="yes"}
+
+Each member signs in separately with their own [!DNL Facebook] account.
+
 ### Use your own Meta app {#use-your-own-meta-app}
 
-Select **[!UICONTROL Use my own OAuth application]** when members must authorize an app that your organization manages instead of the Adobe-managed app. Configure the app before members sign in.
+Select **[!UICONTROL Use my own OAuth application]** when members must authorize an app that your organization manages instead of the Adobe-managed app. Your app needs a [!DNL Meta] app ID and a [!DNL Facebook Login for Business] redirect URL.
 
-1. Under **[!UICONTROL Your Meta application]**, copy the **[!UICONTROL Redirect URL]**.
+![Add integration dialog with Use my own OAuth application and Each user signs in selected, showing the Discover auth and Enter the details myself buttons, the Include tools and Exclude tools fields, and the Headers section.](./assets/meta-ads/org-own-oauth.png){zoomable="yes"}
 
-1. Add the redirect URL to the login settings of your [!DNL Meta] app.
-
-   Use the exact value shown in the dialog. The redirect URL differs between environments.
-
-1. Under **[!UICONTROL Where the credentials come from]**, select one of the following options:
-
-   * **[!UICONTROL Enter new]:** Enter the **[!UICONTROL Meta app ID]** and **[!UICONTROL Meta app secret]**. Find the app ID in the basic settings of your [!DNL Meta] app. Coworker stores the app secret as an organization secret.
-   * **[!UICONTROL Use an existing secret]:** Select the saved credentials for the same [!DNL Meta] app.
-
-1. Make the app available to the members who will sign in.
+1. Prepare your [!DNL Meta] app. Set up [!DNL Facebook Login for Business] with the Coworker redirect URL, and make the app available to the members who will sign in.
 
    Ask your [!DNL Meta] app administrator to confirm the required permissions and any app review requirements for your intended use.
 
-The **[!UICONTROL Discovered from the MCP server]** indicator confirms that Coworker found the connector. The indicator does not confirm that your app credentials are valid or that members have signed in. To refresh discovery, select **[!UICONTROL Discover again]**.
+1. Under **[!UICONTROL Who signs in]**, select one of the following options:
 
-After you configure your app, return to [step 4 of the organization setup](#configure-organization) to select tools.
+   * **[!UICONTROL Each user signs in]:** Each member signs in with their own [!DNL Facebook] account. Coworker keeps one token per person, and you can revoke each token separately.
+   * **[!UICONTROL Machine credentials]:** Everyone who uses the connector shares one token, with no person involved. Use this option for background work. There is no per-person token to revoke. For more information, see [Use machine credentials](#machine-credentials).
 
-### Tool groups {#tool-groups}
+1. If you selected **[!UICONTROL Each user signs in]**, provide the OAuth details of your app in one of the following ways:
 
-The [!DNL Meta Ads] connector organizes its tools into the following groups:
+   * **[!UICONTROL Discover auth]:** Coworker reads the OAuth metadata of the server, so that it asks only for the details the server needs.
+   * **[!UICONTROL Enter the details myself]:** Enter the OAuth details manually.
 
-* [!UICONTROL Reporting and insights]
-* [!UICONTROL Ads, campaigns and audiences]
-* [!UICONTROL Catalogs and products]
-* [!UICONTROL Signals and datasets]
-* [!UICONTROL A/B tests and lift studies]
-* [!UICONTROL Activity logs]
-* [!UICONTROL Help and troubleshooting]
+1. (Optional) To send additional HTTP headers to the server, select **[!UICONTROL Add header]** under **[!UICONTROL Headers]**.
 
-For example, the [!UICONTROL Reporting and insights] group includes tools such as `ads_insights_performance_trend` and `ads_insights_industry_benchmark`. The tools in each group can change as [!DNL Meta] updates the connector.
+### Use machine credentials {#machine-credentials}
+
+When you select **[!UICONTROL Machine credentials]**, the dialog shows the settings for a shared token.
+
+![Add integration dialog with Use my own OAuth application and Machine credentials selected, showing the Token URL, credential source options, Client ID, Client secret, Scopes, and Scope separator fields.](./assets/meta-ads/org-machine-credentials.png){zoomable="yes"}
+
+| Setting | Description |
+| --- | --- |
+| **[!UICONTROL Token URL]** | Required. The URL where Coworker requests the shared access token. |
+| **[!UICONTROL Where the credentials come from]** | Choose where the credentials come from. Select **[!UICONTROL Enter new]** to enter a client ID and client secret, or **[!UICONTROL Use an existing secret]** to select organization secrets that already contain them. |
+| **[!UICONTROL Client ID]** | Required when you select **[!UICONTROL Enter new]**. Coworker saves the value to your secrets and references it from the connector. The value itself is never stored in the connector configuration. |
+| **[!UICONTROL Client secret]** | Required when you select **[!UICONTROL Enter new]**. The client secret of your OAuth app. |
+| **[!UICONTROL Scopes]** | Optional. The permissions the connector requests, separated by commas or spaces. Check the documentation of the provider for the scopes you need. With too few scopes, tools return no results, without an error. |
+| **[!UICONTROL Scope separator]** | How Coworker joins multiple scopes in the token request. Keep **[!UICONTROL Space — standard (RFC 6749)]** unless the documentation of the provider shows a comma-separated list. In that case, select **[!UICONTROL Comma — non-standard]**. |
 
 >[!IMPORTANT]
 >
->Not every tool is read-only. Some tools can change campaigns, budgets, audiences, catalogs, or other advertising assets. Select only the tools that your organization intends members to use.
+>With machine credentials, everyone who uses the connector acts with the permissions of the shared token. If you select the wrong scope separator, the request does not fail. Instead, the token has fewer permissions than you requested.
 
-After you save, tools that you leave unselected are not available to members until you select them. To confirm which tools members can use, review the **[!UICONTROL Available tools]** section on the connector details page.
+### Choose available tools {#available-tools}
+
+Use **[!UICONTROL Include tools]** and **[!UICONTROL Exclude tools]** to control which tools members can use. Enter tool names separated by commas.
+
+| Setting | Description |
+| --- | --- |
+| **[!UICONTROL Include tools]** | The tools that members can use. Leave the field empty to allow all tools. |
+| **[!UICONTROL Exclude tools]** | The tools that members can never use. Exclusions take precedence over the tools you include. |
+
+The [!DNL Meta Ads] connector provides tools for reporting and insights, ads, campaigns, and audiences, catalogs and products, signals and datasets, A/B tests and lift studies, activity logs, and help and troubleshooting. For example, `ads_insights_performance_trend` reports performance trends, and `ads_get_ad_accounts` lists the ad accounts you can access. The tools available to each member also depend on their permissions in [!DNL Meta].
+
+>[!IMPORTANT]
+>
+>Not every tool is read-only. Some tools can change campaigns, budgets, audiences, catalogs, or other advertising assets. If you leave **[!UICONTROL Include tools]** empty, members can use all tools. Include only the tools that your organization intends members to use.
 
 ## Sign in as a member {#sign-in-as-a-member}
 
-After an administrator configures the connector, each member signs in with their own [!DNL Facebook] account. You do not need an app secret or access token to sign in.
+After an administrator configures the connector, each member signs in with their own [!DNL Facebook] account. You do not need an app secret or access token to sign in. If your administrator set up [machine credentials](#machine-credentials), the connector uses a shared token, and you do not sign in.
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
@@ -176,5 +210,6 @@ If you cannot access your [!DNL Meta] assets, check the following:
 | [!DNL Facebook] account | You signed in with the [!DNL Facebook] account that has access to the ad account. |
 | Asset permissions | Your [!DNL Facebook] account has permissions for the ad accounts, businesses, or Pages you want to use. |
 | App authorization | You authorized the app and shared the required assets. To review the authorization, sign out and sign in again, and then select **[!UICONTROL Edit settings]**. |
-| Enabled tools | Your administrator enabled the tools you need under **[!UICONTROL Tools available to users]**. |
-| Your own OAuth app | The redirect URL matches exactly, the app ID and app secret are correct, and members have access to the app. Confirm the required permissions with your [!DNL Meta] app administrator. |
+| Tool policy | The tools you need are in **[!UICONTROL Include tools]**, or that field is empty, and they are not in **[!UICONTROL Exclude tools]**. |
+| Your own OAuth app | The [!DNL Facebook Login for Business] redirect URL and the app ID are correct, and members have access to the app. Confirm the required permissions with your [!DNL Meta] app administrator. |
+| Machine credentials | The token URL, client ID, and client secret are correct. If tools return no results, check the **[!UICONTROL Scopes]** and **[!UICONTROL Scope separator]** settings. |
