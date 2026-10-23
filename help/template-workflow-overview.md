@@ -69,6 +69,8 @@ Use Adobe CX Enterprise Coworker Chat to [what the reader can do in this group].
 
 ## Prerequisites {#prerequisites}
 
+[Delete this section if no prerequisites apply.]
+
 To use the use cases in this group, you need the following:
 
 * [Application or connection that Coworker Chat needs.]

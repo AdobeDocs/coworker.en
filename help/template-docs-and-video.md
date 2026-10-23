@@ -82,7 +82,7 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 
 <!-- Owner: Documentation -->
 
-[List what the reader needs before starting: permissions, licenses, access to an application or sandbox, or a related page to read first.]
+[List what the reader needs before starting: permissions, licenses, access to an application or sandbox, or a related page to read first. Delete this section if no prerequisites apply.]
 
 * [Prerequisite one.]
 * [Prerequisite two.]
