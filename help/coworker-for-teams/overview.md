@@ -93,12 +93,12 @@ The Coworker for teams interface is organized around a left-hand navigation.
 
 Coworker for teams brings five workflows that usually span five different tools into one conversational experience:
 
-- **Turn a brief into a campaign plan**. Drop in a prompt or upload a brief, and Coworker for teams returns a structured, end-to-end plan.
+- **Turn a brief into a campaign strategy**. Drop in a prompt or upload a file: Coworker for teams returns an initial strategy to orchestrate your campaign.
 - **Build and refine audiences**. Upload a CSV or connect your data, then refine the segment in conversation.
 - **Generate on-brand content**. Coworker for teams writes emails that match your brand voice, references, and templates.
 - **Design multi-step journeys**. Coworker for teams assembles nurture sequences, not just one-off sends.
 - **Send proof emails**. Preview every message in your own inbox before launch.
-- **Launch and analyze**. _(Coming soon)_ Send campaigns and get next-best-step insights without leaving Coworker for teams.
+- **Launch and analyze**. Send campaigns and get next-best-step insights without leaving Coworker for teams.
 
 ## How the AI works
 
@@ -106,7 +106,7 @@ Coworker for teams follows a simple, multi-turn conversational loop:
 
 **Input**. You provide a campaign goal, your audience (uploaded or connected), and optional brand context.
 
-**Processing**. The Coworker for teams agentic AI generates a campaign plan, builds a journey, and drafts personalized content. All of which you can make updates to, conversationally.
+**Processing**. The Coworker for teams agentic AI generates a campaign strategy, builds a journey, and drafts personalized content. All of which you can make updates to, conversationally.
 
 **Output**. A draft campaign appears on your campaign board, ready for review, iteration, and eventual launch.
 
@@ -122,7 +122,7 @@ A few things early users have found that make a real difference:
 
 - **Start with a specific, real use case**. "Create a win-back series for customers who have not ordered in 90 days" beats "make me a campaign." See _Use cases_ for specific examples.
 - **Clean your audience data**. Coworker for teams can only personalize as well as your CSV allows. Exclude any contacts you should not be emailing before you upload.
-- **Invest in your brand setup**. Coworker for teams extracts brand details when you sign up. A quick review of **Your stuff** > **Brands** benefits every campaign you generate.
+- **Invest in your brand setup**. Coworker for teams extracts brand details when you sign up. A quick review of **Context** > **Brands** benefits every campaign you generate.
 - **Send a proof email**. Before you launch, send a proof and review it in your own inbox.
 - **Iterate, do not restart**. Treat the Coworker for teams first output as a starting point. The fastest path to great is a few rounds of refinement, not a fresh prompt.
 - **Export when you need a paper trail**. Export individual emails as HTML or the full campaign as a Word doc or PDF for team review.
