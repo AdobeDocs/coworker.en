@@ -209,7 +209,6 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 **Related information**
 
 * [Coworker for channels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"} provides detailed guidance, use cases, and sample prompts for the Channel Operation and Channel Builder skills in Adobe Journey Optimizer.
-* [Get started with custom channels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/custom-channel/get-started-custom-channel){target="_blank"} explains how to bring any outbound messaging channel into Adobe Journey Optimizer.
 
 ## Content creation in Journey Optimizer
 
