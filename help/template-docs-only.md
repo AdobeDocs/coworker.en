@@ -54,7 +54,7 @@ WRITING RULES THAT MATTER MOST HERE
 
 ## Before you begin {#before-you-begin}
 
-[List what the reader needs before starting: permissions, licenses, access to an application or sandbox, or a related page to read first. Delete this section for concept pages.]
+[List what the reader needs before starting: permissions, licenses, access to an application or sandbox, or a related page to read first. Delete this section if no prerequisites apply.]
 
 * [Prerequisite one.]
 * [Prerequisite two.]
