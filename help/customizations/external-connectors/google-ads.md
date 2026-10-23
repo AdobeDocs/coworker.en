@@ -41,7 +41,7 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
 
    ![Configure Google Ads for your organization dialog with the Adobe-managed OAuth application, all three tools selected, and the Each person signs in separately notice.](./assets/google-ads/org-configure.png){width="500" zoomable="yes"}
 
-1. Review the saved **[!UICONTROL google-ads]** connector details. Optionally, select **[!UICONTROL Test]** to discover the available tools.
+1. Review the saved **[!UICONTROL google-ads]** connector details.
 
    | Setting | Description |
    | --- | --- |
@@ -50,7 +50,9 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
    | **[!UICONTROL Tool policy]** | The allowed tool names or patterns. |
    | **[!UICONTROL Connection]** | Your own sign-in status. |
 
-   ![Saved google-ads connector details showing the source, the authentication method, the tool policy with three allowed tools, a Signed in connection, and a prompt to select Test to discover available tools.](./assets/google-ads/org-details.png){width="700" zoomable="yes"}
+   ![Saved google-ads connector details showing the source, the authentication method, the tool policy with three allowed tools, and a Signed in connection with Sign out and Refresh buttons.](./assets/google-ads/org-details.png){width="700" zoomable="yes"}
+
+The saved organization view does not offer **[!UICONTROL Test]**. Members test tool discovery after they sign in. For more information, see [Sign in as a member](#sign-in-as-a-member).
 
 The **[!UICONTROL Connection]** status on the connector details refers to your own connection, not to the organization. Every member still needs to sign in with their own account. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
@@ -102,16 +104,13 @@ After an administrator configures the connector, each member signs in with their
 
    ![google-ads connector details showing a Connected status, a Signed in connection with Sign out and Refresh buttons, and the Resource identifier field.](./assets/google-ads/member-connected.png){width="700" zoomable="yes"}
 
-1. Review **[!UICONTROL Tools enabled by your admin]** to view the tools you can use.
+1. Select **[!UICONTROL Test]** to check that Coworker can discover the connector tools. Then review **[!UICONTROL Tools enabled by your admin]** to view the tools you can use.
+
+   **[!UICONTROL Test]** is available after you sign in.
 
    ![Tools enabled by your admin section listing the three Google Ads tools and their descriptions.](./assets/google-ads/member-tools.png){width="700" zoomable="yes"}
 
-From the connector details, you can also do the following:
-
-* **[!UICONTROL Test]:** Check that Coworker can discover the connector tools.
-* **[!UICONTROL Sign out]:** Disconnect your [!DNL Google] account from the connector.
-
-The connector details also show the **[!UICONTROL Tool Timeout]** setting and a **[!UICONTROL Refresh]** control.
+To disconnect your [!DNL Google] account from the connector, select **[!UICONTROL Sign out]**. The connector details also show the **[!UICONTROL Tool Timeout]** setting and a **[!UICONTROL Refresh]** control.
 
 A **[!UICONTROL Connected]** status does not confirm access to a specific ad account or that every report runs successfully. To confirm your access, [check your ad account access](#check-ad-account-access).
 
