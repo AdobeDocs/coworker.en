@@ -89,14 +89,6 @@ You can stop a campaign that is actively sending (a "live" campaign) directly fr
 >
 >Stopping a campaign is permanent. Recipients stop progressing through the campaign immediately, and the campaign cannot be resumed or restarted afterward. To send again, you must create a new campaign and launch that one.
 
-<!--
-
-### Prerequisites
-
-- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
-
--->
-
 ### How to stop a campaign
 
 1. Open a campaign that is currently live.
