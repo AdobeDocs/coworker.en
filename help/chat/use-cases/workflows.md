@@ -141,6 +141,7 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 | [Business Performance Analysis](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Analyze journey performance and identify concrete optimization opportunities for underperforming journeys. Surface trends, bottlenecks, and likely drivers behind lower results so you can improve engagement and conversion. Get actionable recommendations to adjust journey design, targeting, or messaging strategy based on business performance insights. | Journey Analyze | Adobe Journey Optimizer (AJO) | "Analyze the performance of journey [Journey Name] and recommend optimizations." <br> "Why is journey [Journey Name] underperforming compared with last month?" <br> "What should I change to improve the performance of journey [Journey Name]?" <br> "Which parts of journey [Journey Name] are likely limiting conversion or engagement?" |
 | [Analyze journey hygiene](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Audit your journey inventory to find journeys with missing or generic names, stale draft or live journeys, oversized journeys, long-existing closed journeys, and similar action and event names, with recommendations to clean up and stabilize your configuration | Journey Analyze | Adobe Journey Optimizer (AJO) | "Audit my journeys configuration." <br> "Which of my journeys are stale or need cleaning up?" |
 | [Compare journey versions](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-analyze){target="_blank"} | Compare two journey versions and review a structured diff of node, connection, and journey-level property changes | `journey-analyze-version-comparison` | Adobe Journey Optimizer (AJO) | "Compare versions 2 and 3 of my Welcome journey" <br> "What changed between these two journey versions?" |
+| [Trace profiles through a journey](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#trace-journey-profile){target="_blank"} | Get read-only, profile-level execution data for a published journey: see how many profiles entered each node and how they split across branches, find which profiles errored and why, or follow a single profile's node-by-node path through the journey | Trace Journey Profile | Adobe Journey Optimizer (AJO) | "Trace profiles through [Journey Name]." <br> "Which profiles errored in [Journey Name] in the last 7 days, at which node, and why?" <br> "Show me profile [ID or email]'s path through [Journey Name]." |
 
 **Related information**
 
@@ -187,6 +188,27 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 **Related information**
 
 * [Work with AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"} provides an overview of Coworker and available skills in Adobe Journey Optimizer.
+
+## Decisioning
+
+| Workflow | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| [Generate, explain, simulate, and optimize decisioning rules](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | Use natural language to create eligibility rules and ranking formulas, get a plain-English explanation, test them against up to three profiles, and rewrite them to fit PQL size limits, without writing PQL syntax by hand | Decisioning Rule Workflow | Adobe Journey Optimizer (AJO) | "Create an eligibility rule targeting loyalty members in tier 2 or above."<br><br>"Explain this rule to me in natural language."<br><br>"Simulate this rule with test profiles."<br><br>"Optimize this PQL rule for me." |
+
+**Related information**
+
+* [Coworker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"} provides detailed guidance, use cases, and prompting best practices for the Decisioning skills in Adobe Journey Optimizer.
+
+## Channels
+
+| Workflow | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| [Inspect channel configurations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | View, list, search, and inspect your channel configurations (presets) and credentials for standard channels such as email, SMS, push, direct mail, in-app, and web, including related resources like push credentials, email subdomains, SMS and WhatsApp credentials, file routings, LINE channel settings, and the Live Activity registry. Read-only | Channel Operation | Adobe Journey Optimizer (AJO) | "What channel presets are available in my sandbox?" <br> "Show me all my email channel configurations." <br> "What sender address and reply-to are configured for my marketing email configuration?" |
+| [Create and manage custom channels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | Create, test, update, list, fetch, and delete custom outbound channels, from a manual setup, a curl command, or an API document link. Get guided through channel configuration, authentication, throttling, and payload definition | Channel Builder | Adobe Journey Optimizer (AJO) | "Help me create a new custom channel for my SMS provider." <br> "Create a custom channel from this API reference: [link]." <br> "List my custom channels." |
+
+**Related information**
+
+* [Coworker for channels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"} provides detailed guidance, use cases, and sample prompts for the Channel Operation and Channel Builder skills in Adobe Journey Optimizer.
 
 ## Content creation in Journey Optimizer
 
