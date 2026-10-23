@@ -61,6 +61,7 @@ role: Admin,User,Developer,Leader
     - Alerts {#alerts}
       - [Customer alert skills](./chat/use-cases/customer-alerts/customer-alerts.md)
     - Brand Visibility {#brand-visibility}
+      - [Create and refine an AEM landing page](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [Brand compliance check](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [Author AEM Sites pages](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [Onboard AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
