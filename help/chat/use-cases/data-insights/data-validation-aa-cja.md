@@ -28,7 +28,7 @@ This skill automatically compares:
 
 After making these comparisons, the skill generates AI-driven insights and recommendations that you can implement to facilitate your upgrade to Customer Journey Analytics.
 
-## Before you begin
+## Prerequisites
 
 To validate data as part of your upgrade, you need:
 
@@ -42,9 +42,9 @@ You don't need to know how your implementation is architected. The skill automat
 
 ## Start a validation session
 
-1. Log in to Coworker.
+1. Sign in to Coworker.
 
-1. Select [!UICONTROL **New Chat**].
+1. Select **[!UICONTROL New chat]**.
 
 1. In the text field, prompt the agent to validate your upgrade from Adobe Analytics to Customer Journey Analytics:
 
