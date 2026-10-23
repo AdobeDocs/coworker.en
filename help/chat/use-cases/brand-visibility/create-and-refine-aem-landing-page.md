@@ -8,6 +8,7 @@ doc-type: Tutorial
 duration: 360
 last-substantial-update: 2026-10-23
 jira: KT-22900
+nudge: true
 ---
 
 # Create and refine an AEM landing page with Coworker
