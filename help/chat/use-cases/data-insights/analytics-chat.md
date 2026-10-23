@@ -1,6 +1,6 @@
 ---
 title: Get Started Analyzing Data with Coworker Chat
-description: Learn how to use Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics data, build funnels, and find where customers drop off in the journey.
+description: Set up Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics or Adobe Analytics data, then follow an example that finds customer drop-off.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -32,15 +32,17 @@ Before you use Coworker Chat with your Customer Journey Analytics or Adobe Analy
 
 For more information, see the [Coworker Chat UI guide](/help/chat/ui-guide.md).
 
-## Verify that Coworker Chat is connected to Customer Journey Analytics
+## Verify your analytics integrations
 
-In Coworker Chat, verify that Coworker is connected to Customer Journey Analytics:
+Coworker Chat connects to Customer Journey Analytics and Adobe Analytics through integrations. Before you start, make sure that the integration for your product is connected.
 
-1. Select the MCP icon in the left rail, then make sure that [!UICONTROL **cja-mcp**] is available in your list of connected MCP servers.
+1. In Coworker, select [!UICONTROL **Customizations**] in the left rail.
 
-   ![The MCP icon highlighted in the Coworker left rail](../../assets/coworker-mcp-cja.png)
+1. Select the [!UICONTROL **Integrations**] tab, then make sure that [!UICONTROL **cja-mcp**] and [!UICONTROL **aa-mcp**] is available in your list of connected MCP servers. Use the search field to quickly filter the list of available integrations.
 
-1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
+   ![The Integrations tab on the Customizations page, filtered to show aa-mcp](assets/coworker-mcp-aa.png)
+
+1. (Conditional) If the integration isn't listed, select [!UICONTROL **Add server**] to add it. For more information, see [Connect MCP servers](/help/chat/ui-guide.md#connect-mcp-servers) in the Coworker Chat UI guide.
 
 ## Connect to the right data view or report suite
 
