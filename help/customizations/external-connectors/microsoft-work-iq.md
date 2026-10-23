@@ -37,31 +37,35 @@ Before you begin, make sure that you have the following:
 
 Administrators make the [!DNL Microsoft Work IQ] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Microsoft Work IQ]** card, select **[!UICONTROL Configure]**.
 
    ![Organization External Connectors page showing the Microsoft Work IQ card with a Not configured status.](./assets/microsoft-work-iq/org-connectors.png){zoomable="yes"}
 
-1. On the **[!UICONTROL Microsoft Work IQ]** card, select **[!UICONTROL Configure]**.
+1. In the **[!UICONTROL Configure Microsoft Work IQ for your organization]** dialog, review the **[!UICONTROL Server URL]**, `https://workiq.svc.cloud.microsoft/mcp`. Then prepare your [!DNL Microsoft Entra] app. For the [!DNL Microsoft] requirements, select **[!UICONTROL Microsoft setup instructions]** in the dialog.
 
-   The **[!UICONTROL Configure Microsoft Work IQ for your organization]** dialog opens. The **[!UICONTROL Server URL]** shows the [!DNL Work IQ] MCP server, `https://workiq.svc.cloud.microsoft/mcp`.
+   1. Register a web app in [!DNL Microsoft Entra], or use an existing one.
+   1. Copy the **[!UICONTROL Redirect URL]** from the dialog, and register this exact value as a web redirect URI on the app. The redirect URL differs between environments, so always copy it from the dialog.
+   1. Create a client secret, or confirm that the existing client secret is still valid. You need the secret value, not the secret ID.
+   1. Grant admin consent for the delegated `WorkIQAgent.Ask` permission, and confirm that [!DNL Work IQ] is enabled for your tenant.
+
+   In **[!UICONTROL Microsoft Entra tenant ID]**, enter your tenant ID. In [!DNL Microsoft Entra], find this value in **[!UICONTROL Overview]** > **[!UICONTROL Directory (tenant) ID]**.
 
    ![Configure Microsoft Work IQ for your organization dialog showing the server URL, the Before you save requirements, the redirect URL, the Microsoft Entra tenant ID field, and the new-credential fields.](./assets/microsoft-work-iq/org-configure.png){zoomable="yes"}
 
-1. Prepare your [!DNL Microsoft Entra] app. For more information, see [Prepare your Microsoft Entra app](#prepare-entra-app).
+1. Under **[!UICONTROL Where the credentials come from]**, select one of the following options:
 
-1. In **[!UICONTROL Microsoft Entra tenant ID]**, enter your tenant ID.
+   * **[!UICONTROL Enter new]:** In **[!UICONTROL OAuth app client ID]**, enter the application (client) ID of your [!DNL Microsoft Entra] app. In **[!UICONTROL OAuth app client secret]**, enter the secret value. Coworker stores the secret value as an organization secret.
+   * **[!UICONTROL Use an existing secret]:** In **[!UICONTROL Secret holding the client ID]** and **[!UICONTROL Secret holding the client secret]**, select the saved organization secrets for your app. If the right secrets are not available, select **[!UICONTROL Enter new]** instead. You still enter the tenant ID separately.
 
-   In [!DNL Microsoft Entra], find this value in **[!UICONTROL Overview]** > **[!UICONTROL Directory (tenant) ID]**.
+   The tenant ID, client ID, and client secret must all belong to the same app and tenant. If you reuse saved secrets, confirm that the client secret has not expired. These app credentials are separate from the [!DNL Microsoft] passwords that members use to sign in.
 
-1. Under **[!UICONTROL Where the credentials come from]**, provide the app credentials. For more information, see [Provide app credentials](#provide-app-credentials).
+   ![Use an existing secret option selected, with organization secrets chosen for the client ID and client secret.](./assets/microsoft-work-iq/org-existing-secret.png){zoomable="yes"}
 
-1. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools).
+1. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools). Review **[!UICONTROL Access and permissions]**, which confirms that each person signs in separately, and then select **[!UICONTROL Save configuration]**.
 
    ![Full Configure Microsoft Work IQ for your organization dialog, with the read-only tools selected under Tools available to users, the ask tool and data-changing tools cleared, and the Each person signs in separately notice under Access and permissions.](./assets/microsoft-work-iq/org-tools.png){zoomable="yes"}
 
-1. Review **[!UICONTROL Access and permissions]**, which confirms that each person signs in separately. Then select **[!UICONTROL Save configuration]**.
-
-1. Review the saved **[!UICONTROL workiq]** connector details. Optionally, select **[!UICONTROL Test]** to check that Coworker can discover the connector tools.
+1. Review the saved **[!UICONTROL workiq]** connector details. Optionally, select **[!UICONTROL Test]** to check that Coworker can discover the connector tools. To change the tools after you save, see [Change the tool selection](#change-tool-selection).
 
    | Setting | Description |
    | --- | --- |
@@ -75,35 +79,6 @@ Administrators make the [!DNL Microsoft Work IQ] connector available to everyone
 The **[!UICONTROL Not signed in]** status on the connector details refers to your own connection, not to the organization. To use the connector yourself, select **[!UICONTROL Sign in]** and follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
 To stop offering the connector to your organization, select **[!UICONTROL Remove]** on the connector details page.
-
-### Prepare your Microsoft Entra app {#prepare-entra-app}
-
-Before you save the configuration, prepare a web app in [!DNL Microsoft Entra]. For the [!DNL Microsoft] requirements, select **[!UICONTROL Microsoft setup instructions]** in the configuration dialog.
-
-1. Register a web app in [!DNL Microsoft Entra], or use an existing one.
-
-1. In the Coworker configuration dialog, copy the **[!UICONTROL Redirect URL]**. Register this exact value as a web redirect URI on the app.
-
-   The redirect URL differs between environments. Always copy it from the dialog.
-
-1. Create a client secret, or confirm that the existing client secret is still valid.
-
-   You need the secret value, not the secret ID.
-
-1. Grant admin consent for the delegated `WorkIQAgent.Ask` permission.
-
-1. Confirm that [!DNL Work IQ] is enabled for your tenant.
-
-### Provide app credentials {#provide-app-credentials}
-
-Under **[!UICONTROL Where the credentials come from]**, select one of the following options:
-
-* **[!UICONTROL Enter new]:** In **[!UICONTROL OAuth app client ID]**, enter the application (client) ID of your [!DNL Microsoft Entra] app. In **[!UICONTROL OAuth app client secret]**, enter the secret value. Coworker stores the secret value as an organization secret.
-* **[!UICONTROL Use an existing secret]:** In **[!UICONTROL Secret holding the client ID]** and **[!UICONTROL Secret holding the client secret]**, select the saved organization secrets for your app. If the right secrets are not available, select **[!UICONTROL Enter new]** instead. You still enter the tenant ID separately.
-
-![Use an existing secret option selected, with organization secrets chosen for the client ID and client secret.](./assets/microsoft-work-iq/org-existing-secret.png){zoomable="yes"}
-
-The tenant ID, client ID, and client secret must all belong to the same app and tenant. If you reuse saved secrets, confirm that the client secret has not expired. These app credentials are separate from the [!DNL Microsoft] passwords that members use to sign in.
 
 ### Available tools {#available-tools}
 
