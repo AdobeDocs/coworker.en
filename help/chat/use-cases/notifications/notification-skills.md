@@ -39,6 +39,7 @@ Start with a summary, then refine your request and act on a specific notificatio
    *"What needs my attention today?"*
 
 1. Review the notifications that require action and those provided for awareness.
+
 1. Enter a follow-up question to narrow the results. For example:
 
    *"Are there any failures in [!DNL Adobe Journey Optimizer] I should know about?"*
@@ -51,6 +52,13 @@ Start with a summary, then refine your request and act on a specific notificatio
 Continue the conversation without repeating context from earlier requests. If your request could apply to multiple notifications, applications, or settings, answer the clarifying question before proceeding.
 
 You receive a confirmation request before a change that extends beyond your request.
+
+<!-- Screenshot placeholders for the procedure. Use Light theme and demonstration data for all screenshots.
+After step two: Show the request in the conversation and the input controls.
+After step three: Show the response separating action items from notifications provided for awareness, with repeated notifications grouped into distinct issues.
+After step four: Show the follow-up request and the filtered Adobe Journey Optimizer failure notifications.
+After step six: Show the reminder request and response identifying the notification and scheduled reminder time.
+-->
 
 ## Supported use cases {#supported-use-cases}
 
@@ -129,6 +137,8 @@ Example prompts:
 * "Switch my daily digest to weekly."
 * "Mute release update notifications."
 * "Only send [!DNL Adobe Journey Optimizer] notifications by email."
+
+<!-- Screenshot placeholder: Show the response to the notification settings prompt for Adobe Journey Optimizer, including current delivery channels and email frequency. -->
 
 ## More help on this topic {#more-help}
 
