@@ -17,7 +17,7 @@ At this time, all interactions with the AI will direct you towards [campaign gen
 >
 >Coworker for teams is available via free trial through December 31, 2026. During the trial, all assets and activity is specific to the user.
 
-1. Go to coworker-campaigns.experience.adobe.com.
+1. Go to coworker-teams.adobe.com.
 
 1. If you have an existing Adobe account, click **Sign in**. If you do not, click **Join the free trial** and create an account using your business email.
 
@@ -31,7 +31,7 @@ At this time, all interactions with the AI will direct you towards [campaign gen
 
 1. (Optional) Upload an HTML email template under **Email templates** for Coworker for teams to apply your design when generating content.
 
-   ![Welcome screen for Coworker for teams trial](./assets/overview-1.png){width="800" zoomable="yes"}
+   ![Welcome screen for Coworker for teams trial](./assets/overview-1.gif)
 
 You are ready to generate your first campaign.
 
@@ -41,14 +41,49 @@ The Coworker for teams interface is organized around a left-hand navigation.
 
    ![Home screen](./assets/overview-2.gif)
 
-| Left Nav Menu | Purpose |
-|---|---|
-| New chat | Start a new conversation to generate a campaign. |
-| Home | Your starting point: prompt bar, recent campaigns, and ready-made campaign templates. |
-| Chats | Every conversation you have started that has not yet been generated into a campaign board. |
-| Campaigns | Your inventory of all draft and live campaigns. |
-| Your stuff | Your brand kits and email templates (the assets Coworker for teams uses to keep everything on-brand). |
-| Customize | Connectors (Marketo Engage at launch) and Skills (custom behaviors you can apply across campaigns). |
+<table>
+  <thead>
+    <tr>
+      <th>Left Nav Menu</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>New chat</td>
+      <td>Start a new conversation to generate a campaign.</td>
+    </tr>
+    <tr>
+      <td>Home</td>
+      <td>Your starting point: prompt bar, recent campaigns, and ready-made campaign templates.</td>
+    </tr>
+    <tr>
+      <td>Chats</td>
+      <td>Every conversation you have started that has not yet been generated into a campaign board.</td>
+    </tr>
+    <tr>
+      <td>Campaigns</td>
+      <td>Your inventory of all draft and live campaigns.</td>
+    </tr>
+    <tr>
+      <td>Contact lists</td>
+      <td>Manage your audience and suppression lists.</td>
+    </tr>
+    <tr>
+      <td>Insights</td>
+      <td>View metrics across all active campaigns, tracked over a selected date range.</td>
+    </tr>
+    <tr>
+      <td>Context</td>
+      <td>Click <i>Context</i> to reveal its submenu:<br><br>
+      <li><b>Brands</b> - Manage and add brand kits and set a default for your workspace.</li>
+      <li><b>Email Templates</b> - Manage and upload custom HTML templates and tell Coworker when to use them.</li>
+      <li><b>Connectors</b> - External integrations like Databricks and Salesforce to bring audiences or context in.</li>
+      <li><b>Skills</b> - Reusable instructions that shape how Coworker builds and personalizes your campaigns.</li></td>
+    </tr>
+  </tbody>
+</table>
+
 
 >[!NOTE]
 >
