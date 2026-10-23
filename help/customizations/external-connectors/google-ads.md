@@ -52,8 +52,6 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
 
    ![Saved google-ads connector details showing the source, the authentication method, the tool policy with three allowed tools, and a Signed in connection with Sign out and Refresh buttons.](./assets/google-ads/org-details.png){width="700" zoomable="yes"}
 
-The saved organization view does not offer **[!UICONTROL Test]**. Members test tool discovery after they sign in. For more information, see [Sign in as a member](#sign-in-as-a-member).
-
 The **[!UICONTROL Connection]** status on the connector details refers to your own connection, not to the organization. Every member still needs to sign in with their own account. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
 To stop offering the connector to your organization, select **[!UICONTROL Remove]** on the connector details page.
