@@ -199,6 +199,17 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Coworker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"} provides detailed guidance, use cases, and prompting best practices for the Decisioning skills in Adobe Journey Optimizer.
 
+## Channels
+
+| Workflow | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| [Inspect channel configurations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-operation){target="_blank"} | View, list, search, and inspect your channel configurations (presets) and credentials for standard channels such as email, SMS, push, direct mail, in-app, and web, including related resources like push credentials, email subdomains, SMS and WhatsApp credentials, file routings, LINE channel settings, and the Live Activity registry. Read-only | Channel Operation | Adobe Journey Optimizer (AJO) | "What channel presets are available in my sandbox?" <br> "Show me all my email channel configurations." <br> "What sender address and reply-to are configured for my marketing email configuration?" |
+| [Create and manage custom channels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills#channel-builder){target="_blank"} | Create, test, update, list, fetch, and delete custom outbound channels, from a manual setup, a curl command, or an API document link. Get guided through channel configuration, authentication, throttling, and payload definition | Channel Builder | Adobe Journey Optimizer (AJO) | "Help me create a new custom channel for my SMS provider." <br> "Create a custom channel from this API reference: [link]." <br> "List my custom channels." |
+
+**Related information**
+
+* [Coworker for channels](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/channels-coworker-skills){target="_blank"} provides detailed guidance, use cases, and sample prompts for the Channel Operation and Channel Builder skills in Adobe Journey Optimizer.
+
 ## Content creation in Journey Optimizer
 
 Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy and email HTML, then save or hand off the approved content directly to Journey Optimizer.
