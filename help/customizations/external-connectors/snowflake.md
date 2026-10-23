@@ -69,135 +69,105 @@ For instructions, see the following [!DNL Snowflake] documentation:
 
 Administrators make the [!DNL Snowflake] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Snowflake]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Snowflake card with a Not configured status.](./assets/snowflake/org-connectors.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Snowflake card with a Not configured status and a Configure button.](./assets/snowflake/org-connectors.png){width="700" zoomable="yes"}
 
-1. On the **[!UICONTROL Snowflake]** card, select **[!UICONTROL Configure]**.
+1. In the **[!UICONTROL Connect Snowflake]** dialog, enter the full URL of your [!DNL Snowflake] MCP server in **[!UICONTROL Server URL]**. The URL must use HTTPS and follow this pattern:
 
-   The **[!UICONTROL Connect Snowflake]** dialog opens.
+   ```text
+   https://<account-host>/api/v2/databases/<database>/schemas/<schema>/mcp-servers/<server-name>
+   ```
 
-1. In **[!UICONTROL Server URL]**, enter the full URL of your [!DNL Snowflake] MCP server. For more information, see [Server URL requirements](#server-url).
+   Use the exact URL for your [!DNL Snowflake] account and MCP server. The account hostname must not contain an underscore, including an encoded underscore (`%5F`). Do not include credentials in the URL. Coworker checks the HTTPS scheme, host, and path before saving.
 
-1. Under **[!UICONTROL Who signs in?]**, select a sign-in option and provide its credentials:
+1. Under **[!UICONTROL Who signs in?]**, select a sign-in option, and then complete its settings.
 
-   * **[!UICONTROL Organization service account]:** See [Use an organization service account](#service-account).
-   * **[!UICONTROL Each person signs in]:** See [Let each person sign in](#each-person-signs-in).
+   * **[!UICONTROL Organization service account]:** Requests use the permissions of the service account through a programmatic access token (PAT). Use this option for centrally managed access. Use a dedicated service account with a narrowly scoped role, not a personal account.
 
-1. Under **[!UICONTROL Tools available to users]**, choose the tools that members can use. For more information, see [Choose available tools](#available-tools).
+     ![Connect Snowflake dialog with Organization service account selected, showing the Server URL field, the Service account token options, the Programmatic access token field, and a warning that everyone acts with the permissions of the token owner.](./assets/snowflake/org-service-account.png){width="500" zoomable="yes"}
 
-1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**.
+     | Setting | Description |
+     | --- | --- |
+     | **[!UICONTROL Service account token]** | Choose where the token comes from. Select **[!UICONTROL Enter new]** to enter a PAT, or **[!UICONTROL Use an existing secret]** to reuse an organization secret that already contains the token. An existing secret must contain the complete value for the `Authorization` header, not only the raw token. |
+     | **[!UICONTROL Programmatic access token]** | Required when you select **[!UICONTROL Enter new]**. Create the token for a dedicated [!DNL Snowflake] service account with only the required permissions. For instructions, select **[!UICONTROL How to create a programmatic access token]** in the dialog. Coworker stores the token as an organization secret. |
 
-   The **[!UICONTROL Snowflake]** card shows **[!UICONTROL Configuration saved]**.
+     >[!IMPORTANT]
+     >
+     >Everyone who uses this connection acts with the permissions of the token owner. If the token expires or is revoked, the connection stops working for all members.
 
-   ![Organization External Connectors page showing the Snowflake card with a Configuration saved status and a View configuration button.](./assets/snowflake/org-saved.png){zoomable="yes"}
+     Creating and using a PAT can be subject to [!DNL Snowflake] network and authentication policies. If token creation or authentication is blocked, ask your [!DNL Snowflake] administrator to check these policies.
 
-1. Select **[!UICONTROL View configuration]** to review the server URL, authentication type, and tool policy. Then select **[!UICONTROL Test connection]** to check access and discover the server tools.
+   * **[!UICONTROL Each person signs in]:** Requests use the [!DNL Snowflake] permissions of each person. Use this option for governed, user-driven access.
+
+     ![Connect Snowflake dialog with Each person signs in selected, showing the Redirect URL, the OAuth integration credentials options, the OAuth integration client ID and client secret fields, and the optional Snowflake role field.](./assets/snowflake/org-oauth.png){width="500" zoomable="yes"}
+
+     | Setting | Description |
+     | --- | --- |
+     | **[!UICONTROL Redirect URL]** | Read-only. Copy this URL, and register it as the redirect URI in your [!DNL Snowflake] OAuth security integration. The value must match exactly. For instructions, select **[!UICONTROL How to create a Snowflake OAuth integration]** in the dialog. The redirect URL differs between environments, so always copy it from the dialog. |
+     | **[!UICONTROL OAuth integration credentials]** | Choose where the credentials come from. Select **[!UICONTROL Enter new]** to enter the client ID and client secret, or **[!UICONTROL Use an existing secret]** to select the organization secrets that contain them. |
+     | **[!UICONTROL OAuth integration client ID]** | Required when you select **[!UICONTROL Enter new]**. The client ID of your customer-managed [!DNL Snowflake] OAuth integration. |
+     | **[!UICONTROL OAuth integration client secret]** | Required when you select **[!UICONTROL Enter new]**. The client secret of the same OAuth integration. Members never enter these credentials. |
+     | **[!UICONTROL Snowflake role]** | Optional. The role that each session uses, requested through the OAuth scope `session:role:ROLE_NAME`. The role must be granted to your members and have access to the MCP server. Leave the field blank to use the default role of each member. |
+
+     Coworker derives the OAuth endpoints from the account URL and requests a refresh token. Configure the OAuth integration to issue refresh tokens. The requested scope alone does not override the integration configuration.
+
+     Coworker converts the role name to uppercase. Roles created with a quoted lowercase name cannot be used. If the OAuth integration blocks the role, or a member does not have the role, sign-in or access can fail.
+
+1. Under **[!UICONTROL Tools available to users]**, choose the tools that members can use. Each [!DNL Snowflake] MCP server defines its own tools, so the dialog does not show a fixed list. Enter tool names as defined in your MCP server, not tool types such as `CORTEX_ANALYST_MESSAGE`. To view the tool names, run `DESCRIBE MCP SERVER` in [!DNL Snowflake].
+
+   ![Connect Snowflake dialog showing the Snowflake role field, the Tools available to users section with Allowed tool names and Blocked tool names fields, the Access and permissions notice, and a summary with OAuth (customer integration) authentication, HTTP connection, and a 300-second tool timeout.](./assets/snowflake/org-tools.png){width="500" zoomable="yes"}
+
+   | Setting | Description |
+   | --- | --- |
+   | **[!UICONTROL Allowed tool names]** | The tools that members can use. Separate names with commas or spaces. Leave the field empty to allow every tool that the server exposes, except blocked tools. |
+   | **[!UICONTROL Blocked tool names]** | The tools that members can never use. Separate names with commas or spaces. Blocked tools stay unavailable even if you also allow them. |
+
+   >[!IMPORTANT]
+   >
+   >If you leave **[!UICONTROL Allowed tool names]** empty, members can use every tool, including any SQL execution tool. SQL execution tools run SQL as the connected identity. Review the tool definitions on your server, and allow only the tools that your organization needs.
+
+   Tool descriptions are not a substitute for [!DNL Snowflake] privileges or other access controls. For [!DNL Cortex Analyst] tools, set up a semantic view and the required grants, including the `SNOWFLAKE.CORTEX_USER` database role. For [!DNL Cortex Agent] tools, configure read-only tools and turn off code execution in [!DNL Snowflake]. Members cannot change the tool selection.
+
+1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Snowflake]** card shows **[!UICONTROL Configuration saved]**.
+
+   ![Organization External Connectors page showing the Snowflake card with a Configuration saved status and a View configuration button.](./assets/snowflake/org-saved.png){width="700" zoomable="yes"}
+
+   Select **[!UICONTROL View configuration]** to review the server URL, authentication type, and tool policy. Then select **[!UICONTROL Test connection]** to check access and discover the server tools.
+
+   New [!DNL Snowflake] connections use a 300-second tool timeout. An older connection without a saved timeout may use the default of 60 seconds. Check the timeout shown for an existing connection.
 
 A successful test does not confirm that every tool or [!DNL Snowflake] object is available to every member.
 
-### Server URL requirements {#server-url}
-
-The server URL must use HTTPS and follow this pattern:
-
-```text
-https://<account-host>/api/v2/databases/<database>/schemas/<schema>/mcp-servers/<server-name>
-```
-
-Coworker checks the URL before saving. Make sure that the URL meets the following requirements:
-
-* The account hostname does not contain an underscore, including an encoded underscore (`%5F`).
-* The URL does not include credentials.
-* The database, schema, and server name match the MCP server in your [!DNL Snowflake] account.
-
-### Use an organization service account {#service-account}
-
-Select **[!UICONTROL Organization service account]** when all members should use the same [!DNL Snowflake] identity. Requests use the permissions of the service account through a programmatic access token (PAT). Use this option for centrally managed access.
-
-![Connect Snowflake dialog with Organization service account selected, showing the Service account token options, the Programmatic access token field, and a warning that everyone acts with the permissions of the token owner.](./assets/snowflake/org-service-account.png){zoomable="yes"}
-
-| Setting | Description |
-| --- | --- |
-| **[!UICONTROL Service account token]** | Choose where the token comes from. Select **[!UICONTROL Enter new]** to enter a PAT, or **[!UICONTROL Use an existing secret]** to select an organization secret that already contains the token. An existing secret must contain the complete value for the `Authorization` header, not only the raw token. |
-| **[!UICONTROL Programmatic access token]** | Required when you select **[!UICONTROL Enter new]**. Create the token for a dedicated [!DNL Snowflake] service account with only the required permissions. Do not use a token from a personal account. For instructions, select **[!UICONTROL How to create a programmatic access token]** in the dialog. Coworker stores the token as an organization secret. |
-
->[!IMPORTANT]
->
->Everyone who uses this connection acts with the permissions of the token owner. If the token expires or is revoked, the connection stops working for all members.
-
-### Let each person sign in {#each-person-signs-in}
-
-Select **[!UICONTROL Each person signs in]** when each member should use their own [!DNL Snowflake] identity. Requests use the [!DNL Snowflake] permissions of each person. Use this option for governed, user-driven access.
-
-![Connect Snowflake dialog with Each person signs in selected, showing the Redirect URL, the OAuth integration credentials options, the OAuth integration client ID and client secret fields, and the optional Snowflake role field.](./assets/snowflake/org-oauth.png){zoomable="yes"}
-
-| Setting | Description |
-| --- | --- |
-| **[!UICONTROL Redirect URL]** | Read-only. Copy this URL, and register it as the redirect URI in your [!DNL Snowflake] OAuth security integration. The value must match exactly. For instructions, select **[!UICONTROL How to create a Snowflake OAuth integration]** in the dialog. The redirect URL differs between environments, so always copy it from the dialog. |
-| **[!UICONTROL OAuth integration credentials]** | Choose where the credentials come from. Select **[!UICONTROL Enter new]** to enter the client ID and client secret, or **[!UICONTROL Use an existing secret]** to select the organization secrets that contain them. |
-| **[!UICONTROL OAuth integration client ID]** | Required when you select **[!UICONTROL Enter new]**. The client ID of your customer-managed [!DNL Snowflake] OAuth integration. |
-| **[!UICONTROL OAuth integration client secret]** | Required when you select **[!UICONTROL Enter new]**. The client secret of the same OAuth integration. Members never enter these credentials. |
-| **[!UICONTROL Snowflake role]** | Optional. The role that each session uses, requested through the OAuth scope `session:role:ROLE_NAME`. The role must be granted to your members and have access to the MCP server. Leave the field blank to use the default role of each member. |
-
-Coworker converts the role name to uppercase. Roles created with a quoted lowercase name cannot be used. If the OAuth integration blocks the role, or a member does not have the role, sign-in or access can fail.
-
-The OAuth integration must be configured to issue refresh tokens.
-
-### Choose available tools {#available-tools}
-
-Each [!DNL Snowflake] MCP server defines its own tools, so the dialog does not show a fixed list. Enter tool names as defined in your MCP server, not tool types such as `CORTEX_ANALYST_MESSAGE`. To view the tool names, run `DESCRIBE MCP SERVER` in [!DNL Snowflake].
-
-![Connect Snowflake dialog showing the Programmatic access token field, the Tools available to users section with Allowed tool names and Blocked tool names fields, the Access and permissions notice, and a summary with Programmatic access token (PAT) authentication, HTTP connection, and a 300-second tool timeout.](./assets/snowflake/org-tools.png){zoomable="yes"}
-
-| Setting | Description |
-| --- | --- |
-| **[!UICONTROL Allowed tool names]** | The tools that members can use. Separate names with commas or spaces. Leave the field empty to allow every tool that the server exposes. |
-| **[!UICONTROL Blocked tool names]** | The tools that members can never use. Separate names with commas or spaces. Blocked tools stay unavailable even if you also allow them. |
-
->[!IMPORTANT]
->
->If you leave **[!UICONTROL Allowed tool names]** empty, members can use every tool, including any SQL execution tool. SQL execution tools run SQL as the connected identity. Review the tool definitions on your server, and allow only the tools that your organization needs.
-
-For [!DNL Cortex Analyst] tools, set up a semantic view and the required grants, including the `SNOWFLAKE.CORTEX_USER` database role. For [!DNL Cortex Agent] tools, configure read-only tools and turn off code execution in [!DNL Snowflake].
-
-The summary at the end of the dialog shows the authentication type, connection type, and tool timeout. The authentication type depends on your sign-in option: **[!UICONTROL Programmatic access token (PAT)]** for an organization service account, or **[!UICONTROL OAuth (customer integration)]** when each person signs in.
-
-Members cannot change the tool selection.
-
 ## Use the connector as a member {#use-as-member}
 
-After an administrator configures the connector, open it from your own **[!UICONTROL Customizations]** view. Members can test the connection or sign out, but cannot change its settings.
+After an administrator configures the connector, open it from your own **[!UICONTROL Customizations]** view.
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
    If the **[!UICONTROL Snowflake]** card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
 
-   ![User External Connectors page showing the Snowflake card with a Not configured status and a message that the admin needs to set it up.](./assets/snowflake/member-not-configured.png){zoomable="yes"}
+   ![User External Connectors page showing the Snowflake card with a Not configured status and a message that the admin needs to set it up.](./assets/snowflake/member-not-configured.png){width="700" zoomable="yes"}
 
-1. Connect to [!DNL Snowflake], depending on the sign-in option that your administrator chose:
+1. Open **[!UICONTROL Snowflake]**. The connector details are read-only for members. You cannot change the server URL, credentials, or tool selection.
 
-   * **Organization service account:** You do not need to sign in. Requests use the service account identity. Never enter or share the PAT.
-   * **Each person signs in:** Start the sign-in, and then sign in with your [!DNL Snowflake] account. Complete any required single sign-on (SSO) or multi-factor authentication (MFA) steps, and confirm the requested role if one appears.
+   ![User External Connectors page showing the Snowflake card with a Connected status and a Test button.](./assets/snowflake/member-connectors.png){width="700" zoomable="yes"}
 
-   After you connect, the **[!UICONTROL Snowflake]** card shows **[!UICONTROL Connected]**.
+1. If the connection uses an organization service account, requests use the identity of the organization. You do not need to sign in. Never enter or share the PAT.
 
-   ![User External Connectors page showing the Snowflake card with a Connected status and a Test button.](./assets/snowflake/member-connectors.png){zoomable="yes"}
+1. If the connection uses per-person sign-in, start the sign-in and authenticate with the intended [!DNL Snowflake] account. Complete any required single sign-on (SSO) or multi-factor authentication (MFA) steps. Confirm the requested organization, application, and role, if one appears.
 
-1. Open the **[!UICONTROL Snowflake]** connector details, and then select **[!UICONTROL Test connection]**.
+1. If needed, select **[!UICONTROL Test connection]**. A successful test shows **[!UICONTROL Connection successful]** and the number of available tools.
 
-   A successful test shows **[!UICONTROL Connection successful]** and the number of available tools.
+   ![Snowflake connector details showing a Connected status, a Connection successful message with five available tools, a notice that the admin set up the connector, and the server URL, sign-in option, authentication, connection, and tool timeout.](./assets/snowflake/member-details.png){width="700" zoomable="yes"}
 
-   ![Snowflake connector details showing a Connected status, a Connection successful message with five available tools, a notice that the admin set up the connector, and the server URL, sign-in option, authentication, connection, and tool timeout.](./assets/snowflake/member-details.png){zoomable="yes"}
+   Before a successful test, the details may show only the tool names that your administrator allowed, or prompt you to run the test. After the test, each tool appears with its description.
 
-1. Review the **[!UICONTROL Tools]** section to view the tools that your administrator enabled.
-
-   Before you run a successful test, this section may show only the tool names. After the test, each tool appears with its description.
-
-   ![Snowflake connector details showing the connection type, tool timeout, Signed in status, Sign out and Refresh buttons, and five example tools enabled by the admin.](./assets/snowflake/member-tools.png){zoomable="yes"}
+   ![Snowflake connector details showing the connection type, tool timeout, Signed in status, Sign out and Refresh buttons, and five example tools enabled by the admin.](./assets/snowflake/member-tools.png){width="700" zoomable="yes"}
 
 The tools in the example are defined by one [!DNL Snowflake] MCP server. The tools that you see depend on your server and the tool selection of your administrator.
 
-The connector details also show the server URL, sign-in option, authentication type, and tool timeout. To disconnect your [!DNL Snowflake] account, select **[!UICONTROL Sign out]**.
+The authentication details of the connection show whether it uses a PAT, machine OAuth, or per-person OAuth. To disconnect your [!DNL Snowflake] account, select **[!UICONTROL Sign out]**.
 
 A **[!UICONTROL Connected]** status does not guarantee access to a specific tool or data object. [!DNL Snowflake] grants, policies, and the selected role still apply.
 
