@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer, no product name.
+# Title: title case, 60 characters or fewer.
 # Description: one or two sentences, about 150-160 characters. Start with "Learn how to..." or "Learn about...", and end with what the viewer can do next.
 title: Title of the Video Page in Title Case
 description: Learn how to [do the task] with Adobe CX Enterprise Coworker. [Second sentence that invites action.]

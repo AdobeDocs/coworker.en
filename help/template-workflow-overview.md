@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer, no product name. Start with a verb that names the work, for example "Analyze Customer Journeys with Coworker Chat".
+# Title: title case, 60 characters or fewer. Start with a verb that names the work, for example "Analyze Customer Journeys with Coworker Chat".
 # Description: one or two sentences, about 150-160 characters. Start with "Use Coworker Chat to..." and name two or three things the reader can do.
 title: Verb the Work You Do with Coworker Chat
 description: Use Coworker Chat to [first thing], [second thing], and [third thing]. [Optional second sentence that invites action.]
