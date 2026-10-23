@@ -3,7 +3,6 @@ title: Notification Skills
 description: Learn how to review and manage notifications with Adobe CX Enterprise Coworker. Find action items, set reminders, and choose how you receive notifications.
 role: Admin,User,Developer,Leader
 level: Beginner
-jira: PLAT-316229
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
@@ -11,13 +10,13 @@ product_v2:
 
 # Notification skills {#notification-skills}
 
-Use Notification Skills in [!DNL Adobe CX Enterprise Coworker] to review notifications, identify action items, and manage notification preferences through conversation. Work with the notifications you already receive in the notifications panel across your [!DNL Adobe CX Enterprise] applications.
+Use Notification Skills in Adobe CX Enterprise Coworker to review notifications, identify action items, and manage notification preferences through conversation. Work with the notifications you already receive in the notifications panel across your Adobe CX Enterprise applications.
 
 Summarize notifications, find specific items, and group repeated notifications into distinct issues. Open a notification in its application, mark it as read or unread, or set a reminder.
 
 >[!AVAILABILITY]
 >
->Notification Skills are available to all customers with access to [!DNL Adobe CX Enterprise Coworker]. No additional setup is required to use the skills.
+>Notification Skills are available to all customers with access to Adobe CX Enterprise Coworker. No additional setup is required to use the skills.
 >
 >To receive notifications in [!DNL Slack], your organization must have a connected [!DNL Slack] workspace.
 
@@ -25,15 +24,15 @@ Summarize notifications, find specific items, and group repeated notifications i
 
 Before you begin, make sure you have:
 
-* Access to [!DNL Adobe CX Enterprise Coworker].
-* Access to one or more [!DNL Adobe CX Enterprise] applications that send you notifications.
+* Access to Adobe CX Enterprise Coworker.
+* Access to one or more Adobe CX Enterprise applications that send you notifications.
 * A connected [!DNL Slack] workspace for your organization, if you want to receive notifications in [!DNL Slack].
 
 ## Review and act on notifications {#review-and-act}
 
 Start with a summary, then refine your request and act on a specific notification.
 
-1. Open [!DNL Coworker Chat]. For instructions, see [Get started with Coworker Chat](/help/chat/ui-guide.md).
+1. Open Coworker Chat. For instructions, see [Get started with Coworker Chat](/help/chat/ui-guide.md).
 1. Enter a request in the **[!UICONTROL Ask Coworker anything]** box, then select **[!UICONTROL Send]**. For example:
 
    *"What needs my attention today?"*
@@ -42,7 +41,7 @@ Start with a summary, then refine your request and act on a specific notificatio
 
 1. Enter a follow-up question to narrow the results. For example:
 
-   *"Are there any failures in [!DNL Adobe Journey Optimizer] I should know about?"*
+   *"Are there any failures in Adobe Journey Optimizer I should know about?"*
 
 1. Ask for details about a notification, or open it in its application to investigate.
 1. Ask to mark a notification as read or set a reminder. For example:
@@ -70,7 +69,7 @@ Use Notification Skills to review notifications sent to you, act on them, and ma
 
 ### Identify action items {#identify-action-items}
 
-Ask which notifications require your attention across your [!DNL Adobe CX Enterprise] applications.
+Ask which notifications require your attention across your Adobe CX Enterprise applications.
 
 Example prompts:
 
@@ -86,7 +85,7 @@ Example prompts:
 
 * "Summarize my notifications from the past week."
 * "Give me an overview of my notifications from the last day."
-* "Summarize my [!DNL Adobe Journey Optimizer] notifications."
+* "Summarize my Adobe Journey Optimizer notifications."
 
 ### Find specific notifications {#find-specific-notifications}
 
@@ -132,17 +131,17 @@ Ask about your current settings before changing how you receive notifications. S
 
 Example prompts:
 
-* "What are my notification settings for [!DNL Adobe Journey Optimizer]?"
+* "What are my notification settings for Adobe Journey Optimizer?"
 * "Disable [!DNL Slack] notifications for Experience Platform."
 * "Switch my daily digest to weekly."
 * "Mute release update notifications."
-* "Only send [!DNL Adobe Journey Optimizer] notifications by email."
+* "Only send Adobe Journey Optimizer notifications by email."
 
 <!-- Screenshot placeholder: Show the response to the notification settings prompt for Adobe Journey Optimizer, including current delivery channels and email frequency. -->
 
 ## More help on this topic {#more-help}
 
-Use these guides to get started with [!DNL Coworker Chat] or investigate Experience Platform alert activity.
+Use these guides to get started with Coworker Chat or investigate Experience Platform alert activity.
 
 * [Get started with Coworker Chat](/help/chat/ui-guide.md)
 * [Customer alert skills](/help/chat/use-cases/customer-alerts/customer-alerts.md)
