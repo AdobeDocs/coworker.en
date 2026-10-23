@@ -52,7 +52,7 @@ Before you use these skills, keep the following limitations in mind:
 
 1. Sign in to Coworker.
 
-1. Select [!UICONTROL **New chat**].
+1. Select **[!UICONTROL New chat]**.
 
 1. In the text field, describe the implementation or migration you want to plan. For example:
 
