@@ -36,7 +36,8 @@ role: Admin,User,Developer,Leader
     - Audiences {#audiences}
       - [Assess platform health and build audiences](./chat/use-cases/audiences/create-audience-from-natural-language.md)
     - Journeys {#journeys}
-      - [Create journeys using natural language](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [Create a journey using natural language](./chat/use-cases/journeys/create-journey-from-natural-language.md)
+      - [Create a journey from an image](./chat/use-cases/journeys/create-journey-from-image.md)
       - [Create, simulate, and analyze cross-channel journeys](./chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
     - Loyalty {#loyalty}
       - [Create a loyalty challenge and surface insights](./chat/use-cases/journeys/create-loyalty-challenge.md)
