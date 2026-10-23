@@ -310,17 +310,22 @@ In four plain-language questions, Coworker helped us:
 * Isolate the real problem to mobile checkout, and quantify the fix at a 35% lift in purchases
 * Walk away with a specific fix to prioritize: mobile payment and form friction. This is benchmarked against desktop's 23.2% conversion rate
 
-## Analyze in Customer Journey Analytics
+## Open a visualization in Analysis Workspace
 
-After Coworker creates a visualization, you can open it in Analysis Workspace for deeper analysis and granular control. The visualization opens in a new Analysis Workspace project in Customer Journey Analytics.
+After Coworker creates a visualization, you can open it in Analysis Workspace for deeper analysis and granular control. The visualization opens in a new Analysis Workspace project in Customer Journey Analytics or Adobe Analytics, depending on the source of the data.
 
 To open a visualization in a new Analysis Workspace project:
 
-1. Select [!UICONTROL **Analyze in CJA**] next to any visualization that is created in Coworker.
+1. Next to any visualization that is created in Coworker, select one of the following:
 
-1. With the visualization open in Customer Journey Analytics, you can use the Analysis Workspace drag-and-drop browser interface to make modifications, further craft your analysis, create an audience, and much more. You can even share your Workspace project with anyone you choose.
+   * [!UICONTROL **Analyze in CJA**] for a visualization based on a Customer Journey Analytics data view
+   * [!UICONTROL **Analyze in Analysis Workspace**] for a visualization based on an Adobe Analytics report suite
 
-   For more information about Analysis Workspace, see [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+1. With the visualization open in Analysis Workspace, you can use the drag-and-drop browser interface to make modifications, further craft your analysis, and much more. In Customer Journey Analytics, you can also create an audience. 
+
+1. (Optional) Share your Workspace project with anyone you choose.
+
+   For more information about Analysis Workspace, see [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) in the Customer Journey Analytics documentation or [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) in the Adobe Analytics documentation.
 
 ## Next steps
 

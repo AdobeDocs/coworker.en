@@ -58,7 +58,7 @@ Coworker uses the following skills for the use cases described in this article. 
 * Specify the segments, channels, or devices that you want included, excluded, or compared.
 * Mention any hypothesis you already have, such as a recent site change, so Coworker Chat can validate or rule it out.
 * Ask for recommended next steps if you want Coworker Chat to suggest follow-up questions.
-* Open any visualization in Analysis Workspace when you want more manual control. See [Analyze in Customer Journey Analytics](/help/chat/use-cases/data-insights/analytics-chat.md#analyze-in-customer-journey-analytics).
+* Open any visualization in Analysis Workspace when you want more manual control. See [Open a visualization in Analysis Workspace](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace).
 
 ## Next steps
 
