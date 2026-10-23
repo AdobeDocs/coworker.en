@@ -53,34 +53,32 @@ For instructions, see the following [!DNL Databricks] documentation:
 
 ## Configure the connector for your organization {#configure-organization}
 
-Administrators make the [!DNL Databricks Genie] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization. Members cannot configure this connector.
+Administrators make the [!DNL Databricks Genie] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization. Only an organization administrator can add this connection. Members cannot configure it from the **[!UICONTROL User]** view.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Databricks Genie]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Databricks Genie card with a Not configured status.](./assets/databricks-genie/org-connectors.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Databricks Genie card with a Not configured status.](./assets/databricks-genie/org-connectors.png){width="700" zoomable="yes"}
 
-1. On the **[!UICONTROL Databricks Genie]** card, select **[!UICONTROL Configure]**. The **[!UICONTROL Connect Databricks Genie]** dialog opens.
+1. In the **[!UICONTROL Connect Databricks Genie]** dialog, enter your workspace URL or the [!DNL Genie One] MCP URL in **[!UICONTROL Server URL]**. Coworker saves the source in this format:
 
-1. In **[!UICONTROL Server URL]**, enter your workspace URL or the [!DNL Genie One] MCP URL. For more information, see [Server URL requirements](#server-url).
+   ```text
+   https://<workspace-host>/ai-gateway/mcp-services/system.ai.genie_one_mcp
+   ```
+
+   Use the URL for your own workspace. Coworker rejects URLs that do not use HTTPS or that use unsupported paths. Legacy [!DNL Genie] space URLs, such as `/api/2.0/mcp/genie/<space-id>`, are not supported.
 
 1. Under **[!UICONTROL Who signs in?]**, select a sign-in option, and then complete its settings.
 
-   * **[!UICONTROL Organization service principal]:** Requests use the permissions of the service principal. Use this option for centrally managed or automated access.
+   ![Connect Databricks Genie dialog with Organization service principal selected, showing the Service principal client ID and Service principal client secret fields and the Tools available to users section.](./assets/databricks-genie/org-service-principal.png){width="500" zoomable="yes"}
 
-     ![Connect Databricks Genie dialog with Organization service principal selected, showing the Service principal client ID and Service principal client secret fields.](./assets/databricks-genie/org-service-principal-settings.png){zoomable="yes"}
+   * **[!UICONTROL Organization service principal]:** Requests use the permissions of the service principal. Use this option for centrally managed or automated access. Members do not sign in to [!DNL Databricks].
 
      | Setting | Description |
      | --- | --- |
      | **[!UICONTROL Service principal client ID]** | Required. The client ID of your [!DNL Databricks] service principal. To set up the service principal, select **[!UICONTROL How to set up service principal OAuth]** in the dialog. |
      | **[!UICONTROL Service principal client secret]** | Required. The client secret of the service principal. Coworker stores the secret securely and uses it for the organization service principal. |
 
-     >[!IMPORTANT]
-     >
-     >Everyone who uses this connection acts with the permissions of the service principal. Members do not sign in to [!DNL Databricks].
-
-   * **[!UICONTROL Each person signs in]:** Requests use the [!DNL Databricks] permissions of each person. Use this option for governed, user-driven access.
-
-     ![Connect Databricks Genie dialog with Each person signs in selected, showing the Redirect URL, OAuth app client ID, and OAuth app client secret fields.](./assets/databricks-genie/org-each-person-settings.png){zoomable="yes"}
+   * **[!UICONTROL Each person signs in]:** Requests use the [!DNL Databricks] permissions of each person. Use this option for governed, user-driven access. Each member authorizes the app with their own [!DNL Databricks] identity.
 
      | Setting | Description |
      | --- | --- |
@@ -88,50 +86,36 @@ Administrators make the [!DNL Databricks Genie] connector available to everyone 
      | **[!UICONTROL OAuth app client ID]** | Required. The client ID that [!DNL Databricks] shows after you create the app connection. Coworker uses it to send each person to the [!DNL Databricks] sign-in page. |
      | **[!UICONTROL OAuth app client secret]** | Optional. Enter the secret only if you created the app connection as a confidential client. Without a client secret, the app uses a public client configuration. |
 
-     Follow the approval process of your organization for the OAuth app and the access it requests.
+   Coworker derives the OAuth URLs and scopes from the workspace. The authentication type and connection protocol are fixed and read-only. Follow the approval process of your organization for the OAuth app and the access it requests.
 
-1. Under **[!UICONTROL Tools available to users]**, choose the tools that members can use. For more information, see [Choose available tools](#available-tools).
+   >[!IMPORTANT]
+   >
+   >With an organization service principal, everyone who uses this connection acts with the permissions of the service principal.
+
+1. Under **[!UICONTROL Tools available to users]**, choose the tools that members can use. The connector provides the following tools, all available by default:
+
+   | Tool | Description |
+   | --- | --- |
+   | `genie_ask` | Ask [!DNL Genie] a question. |
+   | `genie_poll_response` | Check the status of a response that is still in progress. |
+   | `genie_get_query_result` | Retrieve query results. |
+   | `genie_cancel_response` | Cancel a response. |
+
+   To block a tool for everyone in your organization, remove its tag. Coworker saves removed tools as exclusions for your organization. At least one tool must stay enabled. After you remove a tool, the **[!UICONTROL Restore all tools]** option appears. Select it to clear the exclusions and make all tools available again.
+
+   ![Connect Databricks Genie dialog showing the four tool tags under Tools available to users, the Access and permissions notice, and the authentication, connection, and tool timeout summary.](./assets/databricks-genie/org-tools.png){width="500" zoomable="yes"}
+
+   Members can see and use only the tools that you leave enabled, and they cannot change the tool selection. Enabling a tool does not give members additional [!DNL Databricks] permissions. The tool timeout is fixed at 300 seconds.
 
 1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Databricks Genie]** card shows **[!UICONTROL Configuration saved]**.
 
-   ![Organization External Connectors page showing the Databricks Genie card with a Configuration saved status and a View configuration button.](./assets/databricks-genie/org-saved.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Databricks Genie card with a Configuration saved status and a View configuration button.](./assets/databricks-genie/org-saved.png){width="700" zoomable="yes"}
 
-1. Select **[!UICONTROL View configuration]** to review the source, authentication, tool policy, and tool timeout. Then select **[!UICONTROL Test]** to check the connection.
+   Select **[!UICONTROL View configuration]** to review the workspace, authentication, enabled tools, and tool timeout. Then select **[!UICONTROL Test]** to check the connection.
 
-   ![Saved databricks connector details showing the source, authentication, tool policy with four allowed tools, tool timeout, and the list of tools.](./assets/databricks-genie/org-details.png){zoomable="yes"}
+   ![Saved databricks connector details showing the source, authentication, tool policy with four allowed tools, tool timeout, and the list of tools.](./assets/databricks-genie/org-details.png){width="700" zoomable="yes"}
 
 A successful test does not confirm that the selected identity has the [!DNL Databricks] permissions it needs.
-
-### Server URL requirements {#server-url}
-
-Enter either the HTTPS origin of your workspace or the exact [!DNL Genie One] MCP URL. Coworker saves the source in this format:
-
-```text
-https://<workspace-host>/ai-gateway/mcp-services/system.ai.genie_one_mcp
-```
-
-Coworker rejects URLs that do not use HTTPS or that use unsupported paths. Legacy [!DNL Genie] space URLs, such as `/api/2.0/mcp/genie/<space-id>`, are not supported.
-
-### Choose available tools {#available-tools}
-
-The [!DNL Databricks Genie] connector provides the following tools:
-
-| Tool | Description |
-| --- | --- |
-| `genie_ask` | Ask [!DNL Genie] a question. |
-| `genie_poll_response` | Check the status of a response that is still in progress. |
-| `genie_get_query_result` | Retrieve query results. |
-| `genie_cancel_response` | Cancel a response. |
-
-All four tools are available by default. To block a tool for everyone in your organization, remove its tag. At least one tool must stay enabled.
-
-After you remove a tool, the **[!UICONTROL Restore all tools]** option appears. Select it to make all tools available again.
-
-![Tools available to users section with three remaining tool tags and the Restore all tools option highlighted.](./assets/databricks-genie/org-restore-all-tools.png){zoomable="yes"}
-
-Enabling a tool does not give members additional [!DNL Databricks] permissions. Members cannot change the tool selection.
-
-The tool timeout is fixed at 300 seconds.
 
 ## Use the connector as a member {#use-as-member}
 
@@ -139,26 +123,23 @@ After an administrator configures the connector, open it from your own **[!UICON
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
-   If the **[!UICONTROL Databricks Genie]** card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
+1. Find the **[!UICONTROL Databricks Genie]** card. If your organization has not configured the connector, the card shows **[!UICONTROL Not configured]** and **[!UICONTROL Not available yet. Your admin needs to set this up.]** There is no **[!UICONTROL Configure]** button for members, so ask your administrator to [configure the connector](#configure-organization).
 
-   ![User External Connectors page showing the Databricks Genie card with a Not configured status and a message that the admin needs to set it up.](./assets/databricks-genie/member-not-configured.png){zoomable="yes"}
+   ![User External Connectors page showing the Databricks Genie card with a Not configured status and a message that the admin needs to set it up.](./assets/databricks-genie/member-not-configured.png){width="700" zoomable="yes"}
 
-1. Connect to [!DNL Databricks], depending on the sign-in option that your administrator chose:
+1. If your organization uses a service principal, the card shows **[!UICONTROL Available through your organization]**. You do not need to sign in. To check the connection, open the connector details and select **[!UICONTROL Test connection]**.
 
-   * **Organization service principal:** The card shows **[!UICONTROL Available through your organization]**. You do not need to sign in.
-   * **Each person signs in:** The card shows **[!UICONTROL Sign-in required]**. Open the connector, start the sign-in, and sign in with your [!DNL Databricks] account. Complete any required single sign-on (SSO) or multi-factor authentication (MFA) steps.
-
-   ![User External Connectors page showing the Databricks Genie card with an Available through your organization status and a Test button.](./assets/databricks-genie/member-connectors.png){zoomable="yes"}
-
-1. Open the **[!UICONTROL Databricks Genie]** connector details, and then select **[!UICONTROL Test connection]**.
+   ![User External Connectors page showing the Databricks Genie card with an Available through your organization status and a Test button.](./assets/databricks-genie/member-connectors.png){width="700" zoomable="yes"}
 
    A successful test shows **[!UICONTROL Connection successful]** and the number of available tools.
 
-   ![Databricks Genie connector details showing a Connection successful message with four available tools, a notice that the organization admin manages the connection, and the server URL, sign-in option, authentication, connection, and tool timeout.](./assets/databricks-genie/member-details.png){zoomable="yes"}
+   ![Databricks Genie connector details showing a Connection successful message with four available tools, a notice that the organization admin manages the connection, and the server URL, sign-in option, authentication, connection, and tool timeout.](./assets/databricks-genie/member-details.png){width="700" zoomable="yes"}
 
-1. Review the **[!UICONTROL Tools]** section to view the tools that your administrator enabled.
+1. If your organization uses per-person sign-in, the card shows **[!UICONTROL Sign-in required]**. Open the connector, start the sign-in, and sign in to [!DNL Databricks] with the intended account. Complete any required single sign-on (SSO) or multi-factor authentication (MFA) steps.
 
-If the connection fails, the connector details show an error and technical details. Copy the technical details and share them with your administrator.
+1. After you return to Coworker, confirm that the connector shows **[!UICONTROL Connected]**. Review the tools that your administrator enabled, and select **[!UICONTROL Test connection]** if needed.
+
+The member view is read-only. It shows the connection status and the tools your administrator enabled. You do not enter the OAuth client secret of the organization or change the tool selection. If the connection fails, the connector details show an error and technical details. Copy the technical details and share them with your administrator.
 
 A connected status does not guarantee access to specific data. [!DNL Databricks] workspace, [!DNL Genie], and data permissions still apply.
 
