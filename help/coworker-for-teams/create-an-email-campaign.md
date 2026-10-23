@@ -15,9 +15,9 @@ Make sure you have:
 
 * An active Adobe CX Enterprise Coworker for teams account ([sign up here](https://coworker-campaigns.experience.adobe.com/){target="_blank"} if you have not already).
 
-* Your brand added under **Your stuff** > **Brands**.
+* Your brand added under **Context** > **Brands**.
 
-* (Optional but recommended) An HTML email template uploaded under **Your stuff** > **Email templates**.
+* (Optional but recommended) An HTML email template uploaded under **Context** > **Email templates**.
 
 * An audience CSV ready to upload.
 
@@ -66,13 +66,13 @@ Example:
 
 When you have your prompt ready, click **Generate campaign**. Coworker for teams will then:
 
-* Generate a structured campaign plan.
+* Generate a structured campaign strategy.
 * Ask for your target audience, which will also be used for content personalization.
 * Draft personalized email content for each step.
 * Dynamically build the journey along the way.
 * Assemble it all on a single campaign board.
 
-## Step 3: Upload your audience
+## Step 3: Update your audience
 
 Audiences are uploaded via CSV. All audiences are specific to their respective campaigns (they are not stored anywhere else in your environment at this time).
 
@@ -157,10 +157,6 @@ Yes, the size limit is 8MB.
 **What if my audience CSV returns errors?**
 
 Make sure your CSV file does not contain "rich" hidden characters.
-
-**How do I use campaign templates?**
-
-Select the desired template and click **Remix**. You can then update all personalization tokens and click the **send** icon on the bottom-right. 
 
 **How do I share a draft campaign with a teammate for review?**
 
