@@ -39,7 +39,7 @@ Administrators make the [!DNL Microsoft Work IQ] connector available to everyone
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Microsoft Work IQ]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Microsoft Work IQ card with a Not configured status.](./assets/microsoft-work-iq/org-connectors.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Microsoft Work IQ card with a Not configured status.](./assets/microsoft-work-iq/org-connectors.png){width="700" zoomable="yes"}
 
 1. In the **[!UICONTROL Configure Microsoft Work IQ for your organization]** dialog, review the **[!UICONTROL Server URL]**, `https://workiq.svc.cloud.microsoft/mcp`. Then prepare your [!DNL Microsoft Entra] app. For the [!DNL Microsoft] requirements, select **[!UICONTROL Microsoft setup instructions]** in the dialog.
 
@@ -50,7 +50,7 @@ Administrators make the [!DNL Microsoft Work IQ] connector available to everyone
 
    In **[!UICONTROL Microsoft Entra tenant ID]**, enter your tenant ID. In [!DNL Microsoft Entra], find this value in **[!UICONTROL Overview]** > **[!UICONTROL Directory (tenant) ID]**.
 
-   ![Configure Microsoft Work IQ for your organization dialog showing the server URL, the Before you save requirements, the redirect URL, the Microsoft Entra tenant ID field, and the new-credential fields.](./assets/microsoft-work-iq/org-configure.png){zoomable="yes"}
+   ![Configure Microsoft Work IQ for your organization dialog showing the server URL, the Before you save requirements, the redirect URL, the Microsoft Entra tenant ID field, and the new-credential fields.](./assets/microsoft-work-iq/org-configure.png){width="500" zoomable="yes"}
 
 1. Under **[!UICONTROL Where the credentials come from]**, select one of the following options:
 
@@ -59,7 +59,7 @@ Administrators make the [!DNL Microsoft Work IQ] connector available to everyone
 
    The tenant ID, client ID, and client secret must all belong to the same app and tenant. If you reuse saved secrets, confirm that the client secret has not expired. These app credentials are separate from the [!DNL Microsoft] passwords that members use to sign in.
 
-   ![Use an existing secret option selected, with organization secrets chosen for the client ID and client secret.](./assets/microsoft-work-iq/org-existing-secret.png){zoomable="yes"}
+   ![Use an existing secret option selected, with organization secrets chosen for the client ID and client secret.](./assets/microsoft-work-iq/org-existing-secret.png){width="500" zoomable="yes"}
 
 1. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools). Review **[!UICONTROL Access and permissions]**, which confirms that each person signs in separately, and then select **[!UICONTROL Save configuration]**.
 
@@ -74,7 +74,7 @@ Administrators make the [!DNL Microsoft Work IQ] connector available to everyone
    | **[!UICONTROL Tool Timeout]** | The tool timeout for the connector. |
    | **[!UICONTROL Connection]** | Your own sign-in status. |
 
-   ![Saved workiq connector details showing the source, authentication method, tool timeout, Not signed in status, and selected tools.](./assets/microsoft-work-iq/org-details.png){zoomable="yes"}
+   ![Saved workiq connector details showing the source, authentication method, tool timeout, Not signed in status, and selected tools.](./assets/microsoft-work-iq/org-details.png){width="500" zoomable="yes"}
 
 The **[!UICONTROL Not signed in]** status on the connector details refers to your own connection, not to the organization. To use the connector yourself, select **[!UICONTROL Sign in]** and follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
@@ -123,7 +123,7 @@ After an administrator configures the connector, each member signs in with their
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
-   ![User External Connectors page showing the Microsoft Work IQ card with a Not signed in status.](./assets/microsoft-work-iq/member-sign-in.png){zoomable="yes"}
+   ![User External Connectors page showing the Microsoft Work IQ card with a Not signed in status.](./assets/microsoft-work-iq/member-sign-in.png){width="700" zoomable="yes"}
 
 1. On the **[!UICONTROL Microsoft Work IQ]** card, select **[!UICONTROL Sign in]**.
 
@@ -149,7 +149,7 @@ After an administrator configures the connector, each member signs in with their
 
 1. After [!DNL Microsoft] returns you to Coworker, open the **[!UICONTROL workiq]** connector details. Confirm that the connector shows **[!UICONTROL Connected]** and **[!UICONTROL Signed in]**.
 
-   ![workiq connector details showing a Connected status, a Signed in connection, and the tools enabled by the administrator.](./assets/microsoft-work-iq/member-connected.png){zoomable="yes"}
+   ![workiq connector details showing a Connected status, a Signed in connection, and the tools enabled by the administrator.](./assets/microsoft-work-iq/member-connected.png){width="700" zoomable="yes"}
 
 1. Review **[!UICONTROL Tools enabled by your admin]** to view the tools you can use.
 
