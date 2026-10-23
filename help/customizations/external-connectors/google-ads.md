@@ -33,21 +33,15 @@ Before you begin, make sure that you have the following:
 
 Administrators make the [!DNL Google Ads] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Google Ads card with a Not configured status.](./assets/google-ads/org-connectors.png){zoomable="yes"}
+   ![Organization External Connectors page showing the Google Ads card with a Not configured status and a Configure button.](./assets/google-ads/org-connectors.png){width="700" zoomable="yes"}
 
-1. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Configure]**. The **[!UICONTROL Configure Google Ads for your organization]** dialog opens.
+1. In the **[!UICONTROL Configure Google Ads for your organization]** dialog, confirm that the **[!UICONTROL OAuth application]** is **[!UICONTROL Adobe-managed OAuth application]**. Adobe provides the [!DNL Google Ads] app, so you do not need to enter app credentials. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools). Review the **[!UICONTROL Each person signs in separately]** notice, and then select **[!UICONTROL Save connection]**.
 
-1. Under **[!UICONTROL Connection details]**, confirm that the **[!UICONTROL OAuth application]** is **[!UICONTROL Adobe-managed OAuth application]**. Adobe provides the [!DNL Google Ads] app, so you do not need to enter app credentials.
+   ![Configure Google Ads for your organization dialog with the Adobe-managed OAuth application, all three tools selected, and the Each person signs in separately notice.](./assets/google-ads/org-configure.png){width="500" zoomable="yes"}
 
-1. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools).
-
-   ![Configure Google Ads dialog with the Adobe-managed OAuth application and all three tools selected.](./assets/google-ads/org-configure.png){zoomable="yes"}
-
-1. Review the **[!UICONTROL Each person signs in separately]** notice, and then select **[!UICONTROL Save connection]**.
-
-1. Review the saved **[!UICONTROL google-ads]** connector details.
+1. Review the saved **[!UICONTROL google-ads]** connector details. Optionally, select **[!UICONTROL Test]** to discover the available tools.
 
    | Setting | Description |
    | --- | --- |
@@ -56,11 +50,9 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
    | **[!UICONTROL Tool policy]** | The allowed tool names or patterns. |
    | **[!UICONTROL Connection]** | Your own sign-in status. |
 
-   ![Saved google-ads connector details showing the authentication method, the tool policy with three allowed tools, the connection status, and a prompt to select Test.](./assets/google-ads/org-details.png){zoomable="yes"}
+   ![Saved google-ads connector details showing the source, the authentication method, the tool policy with three allowed tools, a Signed in connection, and a prompt to select Test to discover available tools.](./assets/google-ads/org-details.png){width="700" zoomable="yes"}
 
-1. (Optional) Select **[!UICONTROL Test]** to discover the available tools.
-
-The **[!UICONTROL Connection]** status on the connector details refers to your own connection, not to the organization. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
+The **[!UICONTROL Connection]** status on the connector details refers to your own connection, not to the organization. Every member still needs to sign in with their own account. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
 To stop offering the connector to your organization, select **[!UICONTROL Remove]** on the connector details page.
 
@@ -78,31 +70,27 @@ The [!DNL Google Ads] connector provides the following tools:
 
 After an administrator configures the connector, each member signs in with their own [!DNL Google] account.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
-
-   ![User External Connectors page showing the Google Ads card with a Not signed in status.](./assets/google-ads/member-sign-in.png){zoomable="yes"}
-
-1. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Sign in]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Sign in]**.
 
    If the card shows **[!UICONTROL Not configured]** or the connector is unavailable, ask your administrator to [configure the connector](#configure-organization).
 
-1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account with access to your [!DNL Google Ads] accounts, or select **[!UICONTROL Use another account]**.
+   ![User External Connectors page showing the Google Ads card with a Not signed in status and a Sign in button.](./assets/google-ads/member-sign-in.png){width="700" zoomable="yes"}
 
-   ![Google Choose an account screen for Adobe Experience Platform, listing two redacted accounts and the Use another account option.](./assets/google-ads/member-choose-account.png){zoomable="yes"}
-
-1. Complete any sign-in steps that your organization requires, such as single sign-on (SSO), multi-factor authentication (MFA), or identity verification.
+1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account with access to your [!DNL Google Ads] accounts, or select **[!UICONTROL Use another account]**. Then complete any sign-in steps that your organization requires, such as single sign-on (SSO), multi-factor authentication (MFA), or identity verification.
 
    The steps and their order depend on your organization and account policies.
+
+   ![Google Choose an account screen for Adobe Experience Platform, listing two redacted accounts and the Use another account option.](./assets/google-ads/member-choose-account.png){width="500" zoomable="yes"}
 
 1. Review the selected account and the app you are authorizing, and then select **[!UICONTROL Continue]**.
 
    [!DNL Google] shows the app name as [!DNL Adobe Experience Platform]. If you used the app before, [!DNL Google] shows that you are signing back in. First-time users may see different prompts.
 
-   ![Google screen saying you are signing back in to Adobe Experience Platform, with a redacted account and the Cancel and Continue buttons.](./assets/google-ads/member-continue.png){zoomable="yes"}
+   ![Google screen saying you are signing back in to Adobe Experience Platform, with a redacted account and the Cancel and Continue buttons.](./assets/google-ads/member-continue.png){width="500" zoomable="yes"}
 
 1. Review the access request, and then select **[!UICONTROL Continue]**.
 
-   ![Google screen saying Adobe Experience Platform wants access to your Google Account, with a redacted account, a notice that the app already has some access, and the Cancel and Continue buttons.](./assets/google-ads/member-consent.png){zoomable="yes"}
+   ![Google screen saying Adobe Experience Platform wants access to your Google Account, with a redacted account, a notice that the app already has some access, and the Cancel and Continue buttons.](./assets/google-ads/member-consent.png){width="500" zoomable="yes"}
 
    >[!IMPORTANT]
    >
@@ -110,9 +98,13 @@ After an administrator configures the connector, each member signs in with their
 
 1. After [!DNL Google] returns you to Coworker, open the **[!UICONTROL google-ads]** connector details. Confirm that the connector shows **[!UICONTROL Connected]** and **[!UICONTROL Signed in]**.
 
+   Keep the **[!UICONTROL Resource identifier]** at its default value unless your administrator tells you otherwise. This field sets the token audience sent when you sign in. To return to the default, clear the field and select **[!UICONTROL Save resource identifier]**.
+
+   ![google-ads connector details showing a Connected status, a Signed in connection with Sign out and Refresh buttons, and the Resource identifier field.](./assets/google-ads/member-connected.png){width="700" zoomable="yes"}
+
 1. Review **[!UICONTROL Tools enabled by your admin]** to view the tools you can use.
 
-   ![Tools enabled by your admin section listing the three Google Ads tools and their descriptions.](./assets/google-ads/member-tools.png){zoomable="yes"}
+   ![Tools enabled by your admin section listing the three Google Ads tools and their descriptions.](./assets/google-ads/member-tools.png){width="700" zoomable="yes"}
 
 From the connector details, you can also do the following:
 
@@ -120,8 +112,6 @@ From the connector details, you can also do the following:
 * **[!UICONTROL Sign out]:** Disconnect your [!DNL Google] account from the connector.
 
 The connector details also show the **[!UICONTROL Tool Timeout]** setting and a **[!UICONTROL Refresh]** control.
-
-The **[!UICONTROL Resource identifier]** field sets the token audience sent when you sign in. Keep the default value unless your administrator tells you otherwise. To return to the default, clear the field and select **[!UICONTROL Save resource identifier]**.
 
 A **[!UICONTROL Connected]** status does not confirm access to a specific ad account or that every report runs successfully. To confirm your access, [check your ad account access](#check-ad-account-access).
 
@@ -133,7 +123,7 @@ Example prompt:
 
 * "Which Google Ads accounts can I access?"
 
-Coworker uses the `customers_list_accessible_customers` tool to list the customer IDs that your [!DNL Google] account can access directly. The list does not include performance data. If you use a manager account, the list does not include every account under it.
+Coworker uses the `customers_list_accessible_customers` tool to list the customer IDs that your [!DNL Google] account can access directly. This is an account access check, not a performance report. If you use a manager account, the list does not include every account under it.
 
 Before you request a report, do the following:
 
