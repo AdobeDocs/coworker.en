@@ -133,13 +133,13 @@ After an administrator configures the connector, each member signs in with their
 
    Your browser may remember several accounts, including accounts from other tenants. The account that is already signed in is not always the right one. Choose the account with the [!DNL Microsoft 365] access you need.
 
-   ![Microsoft Pick an account screen listing two accounts with blurred names and email addresses, and the Use another account option.](./assets/microsoft-work-iq/member-pick-account.png){zoomable="yes"}
+   ![Microsoft Pick an account screen listing two accounts with blurred names and email addresses, and the Use another account option.](./assets/microsoft-work-iq/member-pick-account.png){width="400" zoomable="yes"}
 
 1. Complete the sign-in steps for your account, such as a password, single sign-on (SSO), passwordless sign-in, multi-factor authentication (MFA), or other verification.
 
    Enter your [!DNL Microsoft] credentials only in the sign-in flow that your organization approves. Never enter them in the OAuth app fields of the connector.
 
-   ![Microsoft Enter password screen for a work account with a blurred email address, and the Sign in button.](./assets/microsoft-work-iq/member-password.png){zoomable="yes"}
+   ![Microsoft Enter password screen for a work account with a blurred email address, and the Sign in button.](./assets/microsoft-work-iq/member-password.png){width="400" zoomable="yes"}
 
 1. If [!DNL Microsoft] asks for consent, review the request.
 
