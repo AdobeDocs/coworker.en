@@ -61,7 +61,7 @@ Before you use this skill, keep the following in mind:
 
 1. Sign in to Coworker.
 
-1. Select [!UICONTROL **New chat**].
+1. Select **[!UICONTROL New chat]**.
 
 1. In the text field, describe what you want to validate. For example:
 

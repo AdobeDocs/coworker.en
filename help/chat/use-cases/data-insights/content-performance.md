@@ -18,13 +18,13 @@ Content performance is one of several analysis domains in Coworker Chat. To see 
 
 ## Prerequisites
 
-<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). Low for the third bullet: the attribute-level and image exposure descriptions suggest that these use cases rely on Content Analytics data in Customer Journey Analytics, and implementation-guide.md lists Content Analytics as an implementation path, but no source confirms this. It's a shared bullet rather than a table row because it would apply to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") may need an additional data source, which would become an "Additional prerequisite" note on that row in the Use cases table. Confirm with the PM. -->
+<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). High for the third bullet: attribute-level and asset analysis needs Content Analytics components, which are available only in data views that are configured for Content Analytics (report/report.md in analytics-platform.en). This applies whichever skill runs the analysis. It's a shared bullet rather than a table row because it applies to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") also needs the Paid Media channel enabled in Content Analytics through an Experience Platform paid media source connector, such as Meta Ads or Google Ads. Comparing paid creative with on-site revenue needs custom tracking-key mapping, because enabling paid media doesn't connect paid media data to site orders or revenue (config/paid-media.md). Add an "Additional prerequisite" note on that row after the PM confirms. -->
 
 To use the use cases on this page, you need:
 
 * Coworker Chat connected to your Customer Journey Analytics data views or Adobe Analytics report suites. See [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).
 * View access to the data views or report suites that you want to analyze. Coworker Chat inherits your permissions from Customer Journey Analytics or Adobe Analytics.
-* Content Analytics set up in Customer Journey Analytics, so that Coworker Chat can analyze content attributes and image exposure. To plan a Content Analytics implementation, see [Plan your implementation with Coworker](/help/chat/use-cases/data-insights/implementation-guide.md).
+* A data view that's configured for Content Analytics. See [Configure Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/configuration/configuration) in the Customer Journey Analytics guide.
 
 ## Use cases
 
@@ -35,20 +35,15 @@ To use the use cases on this page, you need:
 | Compare creative across paid and owned channels | Shows which visuals and themes win across web, mobile, and paid channels in one view.<p>**Sample prompts:**</p><ul><li>"Which creative themes win in paid and on our site?"</li><li>"Compare Meta ad creative to our web banners"</li></ul> |
 | Know which visuals move each audience | Shows which visuals work for each audience to guide personalization and creative briefs.<p>**Sample prompts:**</p><ul><li>"Which visuals perform best for each segment?"</li><li>"What imagery works for first-time visitors?"</li></ul> |
 
-<!--
-HIDDEN until the skills are confirmed. To publish, remove this comment wrapper.
-
 ## Skills used
 
-FLAG: Confidence: Low. No source in the repo (workflows.md, the Skills and limitations table, or any data insights article) names the skills behind these use cases. Get the skill IDs from the PM, replace the placeholder rows, and add the skills to the Skills and limitations table on analytics-overview.md so that the link above the table covers them. When you unhide this section, wrap this FLAG note in its own HTML comment.
+<!-- FLAG: Confidence: Medium. The `analyze-content` skill is a foundational skill for content questions, so it's listed for every use case on this page. Confirm with the PM that it covers all four. -->
 
 Coworker uses the following skills for the use cases described in this article. For a list of all analytics skills, including the permissions they require and what they don't cover, see [Skills and limitations](/help/chat/use-cases/data-insights/analytics-overview.md#skills-and-limitations) in Analyze data with Coworker Chat.
 
 | Skill | Used for |
 | --- | --- |
-| *[Skill to be confirmed]* | Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across paid and owned channels<br>Know which visuals move each audience |
-
--->
+| `analyze-content`, `cja` | Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across paid and owned channels<br>Know which visuals move each audience<p>For more information, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).</p> |
 
 ## Tips for better results
 
@@ -60,5 +55,6 @@ Coworker uses the following skills for the use cases described in this article. 
 
 ## Next steps
 
+* To learn how Coworker answers content questions, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).
 * For an overview of data analysis with Coworker Chat, including the other analysis domains and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
 * To set up Coworker Chat and walk through a working example, see [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).

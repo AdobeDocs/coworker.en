@@ -38,6 +38,7 @@ role: Admin,User,Developer,Leader
         - [Explore trends and root causes](./chat/use-cases/data-insights/root-cause-analysis.md)
       - Content performance {#content-performance}
         - [Overview](./chat/use-cases/data-insights/content-performance.md)
+        - [Ask questions about content](./chat/use-cases/data-insights/ask-content-questions.md)
       - Marketing measurement and attribution {#marketing-measurement-and-attribution}
         - [Overview](./chat/use-cases/data-insights/marketing-measurement-and-attribution.md)
     - Data Onboarding {#data-onboarding}
