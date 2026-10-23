@@ -189,6 +189,16 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Work with AI](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"} provides an overview of Coworker and available skills in Adobe Journey Optimizer.
 
+## Decisioning
+
+| Workflow | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| [Generate, explain, simulate, and optimize decisioning rules](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | Use natural language to create eligibility rules and ranking formulas, get a plain-English explanation, test them against up to three profiles, and rewrite them to fit PQL size limits, without writing PQL syntax by hand | Decisioning Rule Workflow | Adobe Journey Optimizer (AJO) | "Create an eligibility rule targeting loyalty members in tier 2 or above."<br><br>"Explain this rule to me in natural language."<br><br>"Simulate this rule with test profiles."<br><br>"Optimize this PQL rule for me." |
+
+**Related information**
+
+* [Coworker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"} provides detailed guidance, use cases, and prompting best practices for the Decisioning skills in Adobe Journey Optimizer.
+
 ## Content creation in Journey Optimizer
 
 Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy and email HTML, then save or hand off the approved content directly to Journey Optimizer.
