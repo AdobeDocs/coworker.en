@@ -48,7 +48,7 @@ To ask questions about your content, you need:
 
 1. Review the results. 
 
-1. (Optional) Ask follow-up questions in the same conversation to go deeper, or open a visualization in Analysis Workspace for more manual control. See [Analyze in Customer Journey Analytics](/help/chat/use-cases/data-insights/analytics-chat.md#analyze-in-customer-journey-analytics).
+1. (Optional) Ask follow-up questions in the same conversation to go deeper, or open a visualization in Analysis Workspace for more manual control. See [Open a visualization in Analysis Workspace](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace).
 
 ## Example prompts
 
