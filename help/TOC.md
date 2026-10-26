@@ -95,3 +95,5 @@ nudge: true
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
   - [Release notes](./coworker-for-teams/release-notes.md)
+- More resources {#more-resources}
+  - [Documentation updates](./more-resources/documentation-updates.md)
