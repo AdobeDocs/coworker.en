@@ -60,6 +60,8 @@ Tailor Coworker Chat to the way your team works. Start with the [Customizations 
 * [Plugins](./customizations/plugins/what-are-plugins.md)
 * [Memory](./customizations/memory/what-is-memory.md)
 
+To connect Coworker Chat to an external tool or service, add it as a server under **[!UICONTROL Customizations]** > **[!UICONTROL User]** > **[!UICONTROL Integrations]**. For the steps and a description of each field, see [Connect a server](./chat/ui-guide.md#server).
+
 ## Coworker for teams
 
 Coworker for teams is a standalone application for small, agile marketing teams who want to stand up and run campaigns quickly. It is not part of another CX Enterprise application. It is available as a free trial through December 31, 2026, in North America only. For access steps, see [How to access](./coworker-for-teams/overview.md#how-to-access).

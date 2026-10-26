@@ -78,7 +78,7 @@ Use the navigation rail to move between the parts of the product and return to r
 | **[!UICONTROL New chat]** | Start a conversation. Coworker Chat saves your current chat to your history. |
 | **[!UICONTROL Home]** | Return to the greeting, the input box, and suggested prompts. |
 | **[!UICONTROL Chats]** | Search, pin, archive, or delete past conversations. |
-| **[!UICONTROL Configurations]** | Manage skills, MCP servers, marketplaces, plugins, and memory. |
+| **[!UICONTROL Customizations]** | Manage skills, integrations, marketplaces, plugins, and memory. |
 | **[!UICONTROL Pinned]** | Open conversations you starred. Click **[!UICONTROL View all]** to see them on the Chats page. |
 | **[!UICONTROL Recents]** | Open your latest conversations. Click **[!UICONTROL View all]** to open the Chats page. |
 
@@ -225,7 +225,7 @@ Skills are specialized capabilities that Coworker Chat uses automatically when t
 
    ![The SKILL.md viewer](./assets/ui-guide-14.png)
 
-### Connect a server
+### Connect a server {#server}
 
 Server a integration connects Coworker Chat to external tools and services, such as Adobe Journey Optimizer, Real-Time CDP, Target, and Workfront. The **[!UICONTROL Customizations]** > **[!UICONTROL User]** > **[!UICONTROL Integrations]** tab lists your connected servers and the number of active connections. Each card shows the server name, its endpoint, and tags that describe what it provides.
 
@@ -268,7 +268,7 @@ A plugin bundles skills and servers so that you can install and manage them toge
 
 Memory lets Coworker Chat remember your preferences across conversations, so responses stay relevant over time. Use the **[!UICONTROL Memory]** tab to control what it keeps.
 
-1. Click **[!UICONTROL Memory]** on the Configurations page.
+1. Click **[!UICONTROL Memory]** on the Customizations page.
 1. Turn on **[!UICONTROL Enable memory]**. Turn it off to stop Coworker Chat from remembering across sessions.
 1. Under **[!UICONTROL Stored preferences]**, review what Coworker Chat saved. You can edit, delete, or inspect each entry, and filter entries by category.
 1. Use **[!UICONTROL Saved memories history]** to see a timeline of changes to your memories.
