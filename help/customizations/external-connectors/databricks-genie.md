@@ -7,11 +7,16 @@ badgeBeta: label="Beta" type="Informative" tooltip="This connector is in beta."
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+hide: true
 ---
 
 # Databricks Genie external connector {#databricks-genie}
 
 Use the [!DNL Databricks Genie] external connector to ask questions about your [!DNL Databricks] data in plain language in Adobe CX Enterprise Coworker. [!DNL Genie] writes the SQL and returns the answers in chat. The connector links Coworker to the [!DNL Genie One] Model Context Protocol (MCP) server in your [!DNL Databricks] workspace.
+
+>[!AVAILABILITY]
+>
+>The [!DNL Databricks Genie] external connector is in beta. The documentation and the functionality are subject to change.
 
 ## Connector configuration {#connector-configuration}
 
