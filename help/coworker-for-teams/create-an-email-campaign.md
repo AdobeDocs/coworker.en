@@ -76,15 +76,13 @@ When you have your prompt ready, click **Generate campaign**. Coworker for teams
 
 Audiences are uploaded via CSV. All audiences are specific to their respective campaigns (they are not stored anywhere else in your environment at this time).
 
-1. After submitting your prompt, review the tasks that Coworker will execute and click **Build**.
+1. After submitting your prompt, Coworker for teams (usually) generates a sample audience for you. If it does not, it  prompts you to import an audience.
 
-1. In the _Campaign conversion_ pane on the left, click **Upload CSV**.
-
-   ![](./assets/create-an-email-campaign-3.png)
+1. Import your own audience by uploading a CSV file, or by bringing in data from an available connector.
 
    >[!NOTE]
    >
-   >* Email address is a required field, first name, last purchased date, and any other fields that can be used for personalization are recommended.
+   >While Coworker for teams lets you proceed building your campaign using a sample audience, you must add a real audience to launch your campaign.
 
 1. Import your CSV file.
 
@@ -128,9 +126,9 @@ Before launching, send the campaign to yourself so you can review it in a real i
 
 ![](./assets/create-an-email-campaign-6.png)
 
-## Step 6: Next steps
+## Step 6: Launch your campaign
 
-The Launch functionality (sending your email campaign) is coming soon. Until then, you can review the content with your team, and start on your next campaign.
+You are now ready to [launch your campaign](/help/coworker-for-teams/launch-manage-campaign.md#launch-a-campaign).
 
 ## FAQ
 
