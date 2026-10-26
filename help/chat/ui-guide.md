@@ -82,7 +82,7 @@ From the navigation rail, the following features let you chat with Coworker and 
 | **[!UICONTROL Home]** | Return to the greeting, the input box, and suggested prompts. |
 | **[!UICONTROL Chats]** | Search, pin, archive, or delete past conversations. |
 | **[!UICONTROL Artifacts]** | Open the artifacts that Coworker Chat created in your conversations. |
-| **[!UICONTROL Experience Context]** | <!-- TODO: describe Experience Context --> |
+| **[!UICONTROL Experience Context]** | Connect Coworker to your existing Adobe applications (like Marketo Engage) and other enterprise systems, so it can access and reason over all relevant customer and account data.  |
 | **[!UICONTROL Customizations]** | Manage skills, integrations, marketplaces, plugins, and memory. |
 | **[!UICONTROL Recents]** | Open your latest conversations. Click **[!UICONTROL View all]** to open the Chats page. |
 | **[!UICONTROL Pinned]** | Open conversations you starred. Click **[!UICONTROL View all]** to see them on the Chats page. |
