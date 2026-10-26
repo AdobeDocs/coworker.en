@@ -140,6 +140,7 @@ Coworker for teams is a product in active development. Here is what to know goin
 - **Data guidance**: Do not upload sensitive or regulated data. Coworker for teams is not currently intended for HIPAA-regulated industries.
 - **Compliance**: You are responsible for following email regulations (unsubscribe links, privacy policies, etc.).
 - **Send limit**: You can send up to 5,000 emails per month. If you need this limit increased, reach out to the product team through the **Help and feedback** menu on the bottom-left of the screen.
+- **Free subdomain**: The trial includes a default subdomain for your workspace, so you can launch your campaigns faster.
 
 ![Help and feedback menu](./assets/overview-3.png)
 
