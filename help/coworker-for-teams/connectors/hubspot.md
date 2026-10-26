@@ -18,7 +18,7 @@ Adobe Coworker for teams allows you to connect your HubSpot account to pull in c
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
 
    ![Customize menu expanded in the sidebar with Connectors selected](./assets/hubspot-1.png)
 

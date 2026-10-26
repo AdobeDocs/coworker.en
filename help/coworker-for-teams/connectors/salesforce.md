@@ -19,9 +19,9 @@ Adobe Coworker for teams allows you to connect your Salesforce account to access
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
 
-   ![Coworker for teams left navigation with Customize expanded and Connectors highlighted](./assets/salesforce-1.png)
+   ![Coworker for teams left navigation with Context expanded and Connectors highlighted](./assets/salesforce-1.png)
 
 1. Click **Add integration**.
 
