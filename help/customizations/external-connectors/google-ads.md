@@ -7,11 +7,16 @@ badgeBeta: label="Beta" type="Informative" tooltip="This connector is in beta."
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+hide: true
 ---
 
 # Google Ads external connector {#google-ads}
 
 Use the [!DNL Google Ads] external connector to work with your [!DNL Google Ads] data in Adobe CX Enterprise Coworker. After you set up the connector, ask Coworker which ad accounts you can access, which fields and metrics are available, and how your campaigns perform. The connector is a Model Context Protocol (MCP) server.
+
+>[!AVAILABILITY]
+>
+>The [!DNL Google Ads] external connector is in beta. The documentation and the functionality are subject to change.
 
 ## Connector configuration {#connector-configuration}
 
