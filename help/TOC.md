@@ -77,7 +77,7 @@ role: Admin,User,Developer,Leader
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
   - External connectors {#external-connectors}
-    - [Snowflake](./customizations/external-connectors/snowflake.md)
+    - {hide-from-toc} [Snowflake](./customizations/external-connectors/snowflake.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Coworker for teams {#coworker-for-teams}

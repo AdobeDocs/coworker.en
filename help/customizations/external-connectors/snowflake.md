@@ -7,11 +7,16 @@ badgeBeta: label="Beta" type="Informative" tooltip="This connector is in beta."
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+hide: true
 ---
 
 # Snowflake external connector {#snowflake}
 
 Use the [!DNL Snowflake] external connector to ask questions about your [!DNL Snowflake] data in plain language in Adobe CX Enterprise Coworker. The connector links Coworker to a [!DNL Snowflake]-managed Model Context Protocol (MCP) server in your [!DNL Snowflake] account. Coworker can then use the tools that the server exposes, such as [!DNL Cortex Analyst], [!DNL Cortex Search], and SQL tools.
+
+>[!AVAILABILITY]
+>
+>The [!DNL Snowflake] external connector is in beta. The documentation and the functionality are subject to change.
 
 ## Connector configuration {#connector-configuration}
 
