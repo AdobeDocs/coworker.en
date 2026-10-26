@@ -7,11 +7,16 @@ badgeBeta: label="Beta" type="Informative" tooltip="This connector is in beta."
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+hide: true
 ---
 
 # Microsoft Work IQ external connector {#microsoft-work-iq}
 
 Use the [!DNL Microsoft Work IQ] external connector to work with your [!DNL Microsoft 365] data in Adobe CX Enterprise Coworker. After you set up the connector, ask Coworker to search your email, files, meetings, and [!DNL Microsoft Teams] messages, review calendar events, and more. The connector is a Model Context Protocol (MCP) server hosted by [!DNL Microsoft].
+
+>[!AVAILABILITY]
+>
+>The [!DNL Microsoft Work IQ] external connector is in beta. The documentation and the functionality are subject to change.
 
 ## Connector configuration {#connector-configuration}
 
