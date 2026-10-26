@@ -7,4 +7,46 @@ product_v2:
 ---
 # Connect to Databricks {#databricks}
 
-Coming soon
+Adobe Coworker for teams allows you to connect your Databricks to...........
+
+>[!PREREQUISITES]
+>
+>To use this connector, you must first have:
+
+## How to connect
+
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+
+   SCREENSHOT
+
+1. Click **Add integration**.
+
+   SCREENSHOT
+
+   >[!NOTE]
+   >
+   >If this is not your first integration, the button will read "Add connector."
+
+1. In the Databricks row, click **Connect**.
+
+   SCREENSHOT
+
+1. Enter your Databricks **Workspace host**, **SQL warehouse path**, **Personal access token**, and **Unity catalogs**. Click **Connect**.
+
+   SCREENSHOT
+
+After connection, Databricks appears in the Connectors list and...................
+
+**To disconnect:**
+
+1. In the Connectors screen, find the Databricks tile and click **Manage**.
+
+   SCREENSHOT
+
+1. Click **Disconnect** (no need to re-enter your Personal access token at this time).
+
+   SCREENSHOT
+
+1. Click **Disconnect** again to confirm.
+
+   SCREENSHOT
