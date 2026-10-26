@@ -61,6 +61,8 @@ nudge: true
       - [Sandbox tooling agentic skills](./chat/use-cases/sandbox-tooling/sandbox-tooling.md)
     - Alerts {#alerts}
       - [Customer alert skills](./chat/use-cases/customer-alerts/customer-alerts.md)
+    - Notifications {#notifications}
+      - [Notification skills](./chat/use-cases/notifications/notification-skills.md)
     - Brand Visibility {#brand-visibility}
       - [Create and refine an AEM landing page](./chat/use-cases/brand-visibility/create-and-refine-aem-landing-page.md)
       - [Brand compliance check](./chat/use-cases/brand-visibility/brand-compliance.md)
