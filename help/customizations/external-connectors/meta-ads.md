@@ -7,11 +7,16 @@ badgeBeta: label="Beta" type="Informative" tooltip="This connector is in beta."
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: CX Enterprise Coworker
+hide: true
 ---
 
 # Meta Ads external connector {#meta-ads}
 
 Use the [!DNL Meta Ads] external connector to work with your [!DNL Meta] advertising data in Adobe CX Enterprise Coworker. After you set up the connector, ask Coworker to report on ad performance, manage campaigns and audiences, work with product catalogs, and more. The connector is a Model Context Protocol (MCP) server hosted by [!DNL Meta].
+
+>[!AVAILABILITY]
+>
+>The [!DNL Meta Ads] external connector is in beta. The documentation and the functionality are subject to change.
 
 ## Connector configuration {#connector-configuration}
 

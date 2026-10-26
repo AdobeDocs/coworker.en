@@ -77,7 +77,7 @@ role: Admin,User,Developer,Leader
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
   - External connectors {#external-connectors}
-    - [Meta Ads](./customizations/external-connectors/meta-ads.md)
+    - {hide-from-toc} [Meta Ads](./customizations/external-connectors/meta-ads.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Coworker for teams {#coworker-for-teams}
