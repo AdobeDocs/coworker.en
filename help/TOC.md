@@ -99,3 +99,4 @@ nudge: true
   - [Release notes](./coworker-for-teams/release-notes.md)
 - More resources {#more-resources}
   - [Documentation updates](./more-resources/documentation-updates.md)
+  - [Release notes](./more-resources/release-notes.md)
