@@ -76,18 +76,3 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 
 [Optional. Delete this section if the video needs no setup. Mention the interface version shown, the application or sandbox used, or an earlier video to watch first.]
 
-## Chapters {#chapters}
-
-[Optional. Delete this section for short videos. List topic changes with timestamps.]
-
-* 0:00 [Introduction]
-* 1:30 [Topic one]
-* 3:00 [Topic two]
-
-## More help on this topic {#more-help}
-
-[Link to the documentation page that has the written steps. This section is required. Use descriptive link text, and keep the items parallel.]
-
-* [Documentation page title, for the written steps]
-* [Link text that describes a related page]
-* [Link text that describes a related video]

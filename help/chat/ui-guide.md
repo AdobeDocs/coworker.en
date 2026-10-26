@@ -1,5 +1,5 @@
 ---
-description: Learn how to open Coworker Chat, set your organization and sandbox, send your first message, and customize skills, MCP servers, and memory. Start a conversation in minutes.
+description: Learn how to open Coworker Chat, set your organization and sandbox, send your first message, and customize skills, integration servers, and memory.
 title: Get Started with Coworker Chat
 jira: KT-22106
 product_v2:
@@ -225,13 +225,28 @@ Skills are specialized capabilities that Coworker Chat uses automatically when t
 
    ![The SKILL.md viewer](./assets/ui-guide-14.png)
 
-### Connect MCP servers
+### Connect a server
 
-Model Context Protocol (MCP) servers connect Coworker Chat to external tools and services, such as Adobe Journey Optimizer, Real-Time CDP, Target, and Workfront. The **[!UICONTROL MCP servers]** tab lists your connected servers and the number of active connections. Each card shows the server name, its endpoint, and tags that describe what it provides.
+Server a integration connects Coworker Chat to external tools and services, such as Adobe Journey Optimizer, Real-Time CDP, Target, and Workfront. The **[!UICONTROL Customizations]** > **[!UICONTROL User]** > **[!UICONTROL Integrations]** tab lists your connected servers and the number of active connections. Each card shows the server name, its endpoint, and tags that describe what it provides.
 
-To connect a server, click **[!UICONTROL Add server]** and follow the prompts.
+1. Navigate to **[!UICONTROL Customizations]** > **[!UICONTROL User]** > **[!UICONTROL Integrations]**
 
-![The MCP servers tab](./assets/ui-guide-15.png)
+   ![The Servers tab](./assets/get-started-customizations.png)
+
+1. On Customizations, click **[!UICONTROL Add server]**.
+
+   ![The Add integrations](./assets/get-started-add-integrations.png)
+
+1. Complete the following fields and options:
+
+   * **[!UICONTROL Server name]** (required): Enter a name that identifies the server in your list of integrations, for example `github` or `slack`.
+   * **[!UICONTROL Source URL or command]** (required): Enter the address that Coworker Chat connects to, for example `https://mcp.example.com/sse`.
+   * **[!UICONTROL Connection type]**: Select the protocol that the server uses to communicate with Coworker Chat, either **[!UICONTROL SSE]** (server-sent events) or **[!UICONTROL HTTP]**. The default is **[!UICONTROL SSE]**.
+   * **[!UICONTROL Tool timeout (seconds)]**: Set how long Coworker Chat waits for a tool on this server to respond before it stops the request. The default is 60 seconds.
+   * **[!UICONTROL Authentication]**: Select how Coworker Chat proves its identity to the server. The default is **[!UICONTROL None]**, which sends no credentials. Select another method if the server requires credentials.
+   * **[!UICONTROL Headers]**: Click **[!UICONTROL Add header]** to send extra HTTP headers, such as an API key, with every request to the server. This option is optional.
+
+1. Click **[!UICONTROL Add]**.
 
 ### Add a marketplace
 
@@ -241,7 +256,7 @@ A marketplace is a registry of plugins that you can browse and install from. On 
 
 ### Manage plugins
 
-A plugin bundles skills and MCP servers so that you can install and manage them together. The **[!UICONTROL Plugins]** tab shows your installed plugins.
+A plugin bundles skills and servers so that you can install and manage them together. The **[!UICONTROL Plugins]** tab shows your installed plugins.
 
 * Click **[!UICONTROL Browse Marketplaces]** to find new plugins.
 * Filter by marketplace to see where each plugin came from.

@@ -119,10 +119,3 @@ Add {transcript=true} after the closing parenthesis if a transcript is available
 <!-- Owner: Documentation. Delete this section if it does not apply. -->
 
 [Describe a problem the reader might see, then how to fix it.]
-
-## More help on this topic {#more-help}
-
-<!-- Owner: Documentation -->
-
-* [Link text that describes the target page]
-* [Link text that describes another target page]
