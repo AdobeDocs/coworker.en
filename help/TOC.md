@@ -86,7 +86,6 @@ nudge: true
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Coworker for teams {#coworker-for-teams}
-  - {hide-from-toc} [New Teams experience](./coworker-for-teams/new-teams-experience.md)
   - [Overview](./coworker-for-teams/overview.md)
   - [Create an email campaign](./coworker-for-teams/create-an-email-campaign.md)
   - [Launch and manage a campaign](./coworker-for-teams/launch-manage-campaign.md)
@@ -96,6 +95,7 @@ nudge: true
   - Connectors {#connectors}
     - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
   - [Release notes](./coworker-for-teams/release-notes.md)
 - More resources {#more-resources}
   - [Documentation updates](./more-resources/documentation-updates.md)
