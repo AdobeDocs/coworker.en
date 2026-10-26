@@ -39,25 +39,24 @@ Start with a summary, then refine your request and act on a specific notificatio
 
 1. Review the notifications that require action and those provided for awareness.
 
+   ![Coworker Chat lists notifications that need action in response to a request about what needs attention today.](./assets/review-needs-action.png)
+
 1. Enter a follow-up question to narrow the results. For example:
 
-   *"Are there any failures in Adobe Journey Optimizer I should know about?"*
+   *"From those notifications, are there any failures in Experience Platform I should know about?"*
+
+   ![Coworker Chat refines the notification results in response to a question about failures in Experience Platform.](./assets/refine-platform-failures.png)
 
 1. Ask for details about a notification, or open it in its application to investigate.
 1. Ask to mark a notification as read or set a reminder. For example:
 
-   *"Remind me about this notification tomorrow."*
+   *"Remind me tomorrow about the high-priority incoming event rate alert."*
+
+   ![Coworker Chat confirms a reminder for tomorrow after you specify which incoming event rate alert to use.](./assets/reminder-confirmation.png)
 
 Continue the conversation without repeating context from earlier requests. If your request could apply to multiple notifications, applications, or settings, answer the clarifying question before proceeding.
 
 You receive a confirmation request before a change that extends beyond your request.
-
-<!-- Screenshot placeholders for the procedure. Use Light theme and demonstration data for all screenshots.
-After step two: Show the request in the conversation and the input controls.
-After step three: Show the response separating action items from notifications provided for awareness, with repeated notifications grouped into distinct issues.
-After step four: Show the follow-up request and the filtered Adobe Journey Optimizer failure notifications.
-After step six: Show the reminder request and response identifying the notification and scheduled reminder time.
--->
 
 ## Supported use cases {#supported-use-cases}
 
@@ -86,6 +85,8 @@ Example prompts:
 * "Summarize my notifications from the past week."
 * "Give me an overview of my notifications from the last day."
 * "Summarize my Adobe Journey Optimizer notifications."
+
+![Coworker Chat groups a notification summary into items that need action and items provided for awareness.](./assets/notification-summary.png)
 
 ### Find specific notifications {#find-specific-notifications}
 
@@ -137,7 +138,9 @@ Example prompts:
 * "Mute release update notifications."
 * "Only send Adobe Journey Optimizer notifications by email."
 
-<!-- Screenshot placeholder: Show the response to the notification settings prompt for Adobe Journey Optimizer, including current delivery channels and email frequency. -->
+If Coworker Chat asks for scheduling details, specify the day, time, and time zone for your weekly digest.
+
+![Coworker Chat asks which day the weekly digest should arrive, with additional tabs for time, time zone, and review.](./assets/digest-schedule.png)
 
 ## More help on this topic {#more-help}
 
