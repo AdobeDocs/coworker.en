@@ -9,7 +9,7 @@ product_v2:
 
 Set up Adobe CX Enterprise Coworker Chat to analyze your Customer Journey Analytics data views or Adobe Analytics report suites, then follow a working example. For an overview of what you can do with Coworker Chat, including use cases, skills, and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
 
-Before you begin, learn the Coworker Chat interface and configuration options, then ensure Coworker is connected to Customer Journey Analytics or Adobe Analytics and the relevant data views or report suites.
+Before you begin, learn the Coworker Chat interface and customization options, then ensure Coworker is connected to Customer Journey Analytics or Adobe Analytics and the relevant data views or report suites.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Before you use Coworker Chat with your Customer Journey Analytics or Adobe Analy
 * Chat inputs
 * Conversations
 * Marketplaces
-* MCP servers
+* Integration servers
 * Memory
 * Plugins
 * Skills
@@ -38,11 +38,15 @@ Coworker Chat connects to Customer Journey Analytics and Adobe Analytics through
 
 1. In Coworker, select [!UICONTROL **Customizations**] in the left rail.
 
-1. Select the [!UICONTROL **Integrations**] tab, then make sure that [!UICONTROL **cja-mcp**] and [!UICONTROL **aa-mcp**] is available in your list of connected MCP servers. Use the search field to quickly filter the list of available integrations.
+1. Select the [!UICONTROL **Integrations**] tab, then make sure that [!UICONTROL **cja-mcp**] and [!UICONTROL **aa-mcp**] is available in your list of connected servers. 
+
+   Use the search field to quickly filter the list of available integrations.
 
    ![The Integrations tab on the Customizations page, filtered to show aa-mcp](assets/coworker-mcp-aa.png)
 
-1. (Conditional) If the integration isn't listed, select [!UICONTROL **Add server**] to add it. For more information, see [Connect MCP servers](/help/chat/ui-guide.md#connect-mcp-servers) in the Coworker Chat UI guide.
+1. (Conditional) If the integration isn't listed, select [!UICONTROL **Add server**] to add it. 
+
+   For more information, see [Connect a server](/help/chat/ui-guide.md#server) in the get started guide.
 
 ## Connect to the right data view or report suite
 
