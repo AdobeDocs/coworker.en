@@ -64,7 +64,7 @@ Example:
 
 ![Typing in your own prompt](./assets/create-an-email-campaign-2.png)
 
-When you have your prompt ready, click **Generate campaign**. Coworker for teams will then:
+When you have your prompt ready, click the up-arrow icon. Coworker for teams will then:
 
 * Generate a structured campaign strategy.
 * Ask for your target audience, which will also be used for content personalization.
@@ -84,8 +84,6 @@ Audiences are uploaded via CSV. All audiences are specific to their respective c
    >
    >While Coworker for teams lets you proceed building your campaign using a sample audience, you must add a real audience to launch your campaign.
 
-1. Import your CSV file.
-
    >[!IMPORTANT]
    >
    >Exclude any contacts you do not want to email (unsubscribed users, internal addresses, test accounts) before uploading. While we will progressively enable the functionality to exclude specific users or add attributes during the course of the trial, it is not immediately available from the launch date.
@@ -94,7 +92,7 @@ Audiences are uploaded via CSV. All audiences are specific to their respective c
 
 To make changes to your email, scroll to the right. Under _Campaign Assets_, click **Open editor**. 
 
-![](./assets/create-an-email-campaign-4.png)
+![](./assets/create-an-email-campaign-3.png)
 
 There are two ways to update your content.
 
@@ -110,7 +108,7 @@ There are two ways to update your content.
 
 You can also use the AI buttons to help refine your Subject or Preheader. 
 
-![](./assets/create-an-email-campaign-5.png)
+![](./assets/create-an-email-campaign-4.png)
 
 >[!TIP]
 >
@@ -124,7 +122,7 @@ Before launching, send the campaign to yourself so you can review it in a real i
 >
 >At this time, you can only send a test email to yourself, and only one at a time.
 
-![](./assets/create-an-email-campaign-6.png)
+![](./assets/create-an-email-campaign-5.png)
 
 ## Step 6: Launch your campaign
 
