@@ -3,7 +3,7 @@
 hide: true
 
 # TITLE AND DESCRIPTION
-# Title: use the pattern "CX Enterprise Coworker in [Product]". Title case, 60 characters or fewer.
+# Title: use the pattern "CX Enterprise Coworker in [Product]". Title case, 60 characters or fewer. Product acronyms are accepted here to reduce length. Remember, the full product name is repeated after the pipe.
 # Description: one or two sentences, about 150-160 characters. Name two or three things the reader can do in the product.
 title: CX Enterprise Coworker in [Product]
 description: Learn how Coworker's conversational AI helps you [first thing], [second thing], and get more done in [Product].
