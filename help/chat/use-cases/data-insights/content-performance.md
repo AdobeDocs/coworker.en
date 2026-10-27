@@ -18,7 +18,7 @@ Content performance is one of several analysis domains in Coworker Chat. To see 
 
 ## Prerequisites
 
-<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). High for the third bullet: attribute-level and asset analysis needs Content Analytics components, which are available only in data views that are configured for Content Analytics (report/report.md in analytics-platform.en). This applies whichever skill runs the analysis. It's a shared bullet rather than a table row because it applies to every use case on this page. The paid channel row ("Compare Meta ad creative to our web banners") also needs the Paid Media channel enabled in Content Analytics through an Experience Platform paid media source connector, such as Meta Ads or Google Ads. Comparing paid creative with on-site revenue needs custom tracking-key mapping, because enabling paid media doesn't connect paid media data to site orders or revenue (config/paid-media.md). Add an "Additional prerequisite" note on that row after the PM confirms. -->
+<!-- FLAG: Confidence: High for the first two bullets (sourced from analytics-chat.md and the Skills and limitations table). High for the third bullet: attribute-level and asset analysis needs Content Analytics components, which are available only in data views that are configured for Content Analytics (report/report.md in analytics-platform.en). This applies whichever skill runs the analysis. It's a shared bullet rather than a table row because it applies to every use case on this page. The SME confirmed (October 2026) that the skill doesn't support paid media yet, so the paid channel use case was rewritten for web and mobile. Support is planned, either in this skill or in a separate add-on skill (not decided). When it ships, consider restoring paid channels to that row with an "Additional prerequisite" note: paid media needs the Paid Media channel enabled in Content Analytics through an Experience Platform paid media source connector, such as Meta Ads or Google Ads, and comparing paid creative with on-site revenue needs custom tracking-key mapping (config/paid-media.md in analytics-platform.en). -->
 
 To use the use cases on this page, you need:
 
@@ -31,8 +31,8 @@ To use the use cases on this page, you need:
 | Use case | Function |
 | --- | --- |
 | Find what winning content has in common<p>![Find what winning content has in common](assets/content-performance.png)</p> | Shows which imagery and messaging work at the attribute level, not just which files got clicks.<p>**Sample prompts:**</p><ul><li>"What do our best-performing images have in common?"</li><li>"Which content attributes drive the most engagement?"</li></ul> |
-| Attribute revenue to the content customers see | Ties image exposure to revenue, conversions, and engagement with algorithmic attribution.<p>**Best for:** Analyst, Business user</p><p>**Sample prompts:**</p><ul><li>"Which hero images drove the most revenue last quarter?"</li><li>"How much revenue is tied to this banner?"</li></ul> |
-| Compare creative across paid and owned channels | Shows which visuals and themes win across web, mobile, and paid channels in one view.<p>**Sample prompts:**</p><ul><li>"Which creative themes win in paid and on our site?"</li><li>"Compare Meta ad creative to our web banners"</li></ul> |
+| Attribute revenue to the content customers see | Ties image exposure to revenue, conversions, and engagement with algorithmic attribution.<p>**Best for:** Analyst, Business user</p><p>**Sample prompts:**</p><ul><li>"Which images drove the most revenue last quarter?"</li><li>"How much revenue is tied to the image at https://www.example.com/images/spring-sale.jpg?"</li></ul> |
+| Compare creative across web and mobile | Shows which visuals and themes win on your site and in your mobile app in one view.<p>**Sample prompts:**</p><ul><li>"Which creative themes win in our mobile app and on our site?"</li><li>"Compare image performance in our mobile app and on our site"</li></ul> |
 | Know which visuals move each audience | Shows which visuals work for each audience to guide personalization and creative briefs.<p>**Sample prompts:**</p><ul><li>"Which visuals perform best for each segment?"</li><li>"What imagery works for first-time visitors?"</li></ul> |
 
 ## Skills used
@@ -43,18 +43,19 @@ Coworker uses the following skills for the use cases described in this article. 
 
 | Skill | Used for |
 | --- | --- |
-| `analyze-content`, `cja` | Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across paid and owned channels<br>Know which visuals move each audience<p>For more information, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).</p> |
+| `cja`,`analyze-content` <br/> (Limited Availability)| Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across web and mobile<br>Know which visuals move each audience<p>For more information, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).</p> |
 
 ## Tips for better results
 
-<!-- FLAG: Confidence: Medium. The first two bullets are adapted from the best practices in analytics-overview.md. The third bullet is inferred from the row descriptions. -->
+<!-- FLAG: Confidence: High for the first bullet (SME feedback, October 2026). Medium for the rest: the second and third bullets are adapted from the best practices in analytics-overview.md, and the fourth bullet is inferred from the row descriptions. -->
 
+* When you ask about a specific image, include its URL or asset ID. Coworker can't identify an image by its role on the page, such as a hero image or a banner.
 * Name the metric and date range you want to analyze, such as revenue last quarter.
 * Specify the segments, audiences, or channels that you want compared.
 * Ask about content attributes, such as imagery, themes, or messaging, rather than individual files when you want to know why content performs well.
 
 ## Next steps
 
-* To learn how Coworker answers content questions, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).
+* To learn how Coworker answers content questions, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md) (Limited Availability).
 * For an overview of data analysis with Coworker Chat, including the other analysis domains and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
 * To set up Coworker Chat and walk through a working example, see [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).
