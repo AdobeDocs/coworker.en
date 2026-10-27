@@ -11,6 +11,8 @@ nudge: true
 # CX Enterprise Coworker {#content}
 
 - [Coworker guide](home.md)
+- Administration {#administration}
+  - [Access control for Coworker](./administration/access-control.md)
 - Coworker Chat {#chat}
   - [About Coworker Chat](./chat/overview.md)
   - [Get started using Coworker Chat](./chat/ui-guide.md)
