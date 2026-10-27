@@ -212,3 +212,9 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## AI platforms
+
+Use [!DNL Adobe CX Enterprise Coworker for AI Platforms] to get marketing insights in your AI tools.
+
+* [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
