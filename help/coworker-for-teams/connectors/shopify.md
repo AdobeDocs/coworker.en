@@ -7,15 +7,19 @@ product_v2:
 ---
 # Connect to Shopify {#shopify}
 
-Adobe Coworker for teams allows you to connect your Shopify to...........
+Adobe Coworker for teams allows you to connect your Shopify account to pull in customers and segments.
 
 >[!PREREQUISITES]
 >
 >To use this connector, you must first have:
+>
+>* An active Shopify account
+>* The following permission in Shopify: `read_customers`
+>* Your Shopify Store URL and [Admin API Access Token](https://shopify.dev/docs/apps/build/authentication-authorization) handy
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
 
    SCREENSHOT
 
@@ -35,7 +39,7 @@ Adobe Coworker for teams allows you to connect your Shopify to...........
 
    SCREENSHOT
 
-After connection, Shopify appears in the Connectors list and...................
+After connection, Shopify appears in the Connectors list.
 
 **To disconnect:**
 
