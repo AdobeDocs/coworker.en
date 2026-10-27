@@ -7,7 +7,7 @@ product_v2:
 ---
 # Connect to Databricks {#databricks}
 
-Adobe Coworker for teams allows you to connect your Databricks to...........
+Adobe Coworker for teams allows you to connect and query Unity Catalog tables in your Databricks workspace to build and activate campaign audiences.
 
 >[!PREREQUISITES]
 >
@@ -15,7 +15,7 @@ Adobe Coworker for teams allows you to connect your Databricks to...........
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
 
    SCREENSHOT
 
@@ -35,7 +35,7 @@ Adobe Coworker for teams allows you to connect your Databricks to...........
 
    SCREENSHOT
 
-After connection, Databricks appears in the Connectors list and...................
+After connection, Databricks appears in the Connectors list.
 
 **To disconnect:**
 
