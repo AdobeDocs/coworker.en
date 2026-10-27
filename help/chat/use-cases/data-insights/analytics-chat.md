@@ -38,7 +38,7 @@ Coworker Chat connects to Customer Journey Analytics and Adobe Analytics through
 
 1. In Coworker, select [!UICONTROL **Customizations**] in the left rail.
 
-1. Select the [!UICONTROL **Integrations**] tab, then make sure that [!UICONTROL **cja-mcp**] and [!UICONTROL **aa-mcp**] is available in your list of connected servers. 
+1. Select the [!UICONTROL **Integrations**] tab, then make sure that [!UICONTROL **cja-mcp**] and [!UICONTROL **aa-mcp**] are available in your list of connected servers. 
 
    Use the search field to quickly filter the list of available integrations.
 
