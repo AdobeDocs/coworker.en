@@ -10,7 +10,11 @@ product_v2:
 
 <!-- FLAG: Confirm with the PM: (1) availability (GA, beta, or experimental) and whether this page needs an AVAILABILITY note or `hide: true` until launch, and (2) any required Coworker entitlement. Content Analytics itself has no separate permission: users get access through data views that are configured for Content Analytics (Access control section of analytics-platform.en/help/content-analytics/config/configuration.md). -->
 
-Use Adobe CX Enterprise Coworker Chat to get accurate answers about your content from Adobe Content Analytics. Ask a specific question, such as "Which hero images drove the most revenue last quarter?", or a general one, such as "What kind of content should I prioritize?". Coworker turns your question into a sound analysis.
+>[!AVAILABILITY]
+>
+>The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available.
+
+Use Adobe CX Enterprise Coworker Chat to get accurate answers about your content from Adobe Content Analytics. Ask a specific question, such as "Which images drove the most revenue last quarter?", or a general one, such as "What kind of content should I prioritize?". Coworker turns your question into a sound analysis.
 
 Coworker understands how Content Analytics data is structured and applies the reporting rules that an experienced analyst would, so marketers and other business users get reliable results without deep Content Analytics expertise.
 
@@ -58,8 +62,8 @@ The following table shows example prompts for different types of content questio
 | --- | --- |
 | Broad or exploratory | <ul><li>"What kind of content should I prioritize?"</li><li>"How is our content performing?"</li></ul> |
 | Attribute-level | <ul><li>"What do our best-performing images have in common?"</li><li>"Which content attributes drive the most engagement?"</li></ul> |
-| Revenue and conversions | <ul><li>"Which hero images drove the most revenue last quarter?"</li><li>"How much revenue is tied to this banner?"</li></ul> |
-| Channels and audiences | <ul><li>"Which creative themes win in paid and on our site?"</li><li>"What imagery works for first-time visitors?"</li></ul> |
+| Revenue and conversions | <ul><li>"Which images drove the most revenue last quarter?"</li><li>"How much revenue is tied to the image at https://www.example.com/images/spring-sale.jpg?"</li></ul> |
+| Channels and audiences | <ul><li>"Which creative themes win in our mobile app and on our site?"</li><li>"What imagery works for first-time visitors?"</li></ul> |
 
 ## How Coworker answers content questions
 
@@ -73,14 +77,14 @@ If your question leaves out a detail, the skill applies a sensible default. If t
 
 ### Metric matching for assets and experiences
 
-<!-- FLAG: The table covers web and mobile content. Paid media content uses separate summary metrics, such as Impressions, Clicks, and Spend with a reporting-level suffix (for example, Clicks | Asset Summary), that can't be combined with event metrics such as Asset Views (config/paid-media.md in analytics-platform.en). Confirm with the PM how the skill handles paid media, then add a row or note. -->
+<!-- FLAG: The SME confirmed (October 2026) that the skill doesn't support paid media yet. Support is planned, either in this skill or in a separate add-on skill (not decided). When it ships, add paid media here: paid media content uses separate summary metrics, such as Impressions, Clicks, and Spend with a reporting-level suffix (for example, Clicks | Asset Summary), that can't be combined with event metrics such as Asset Views (config/paid-media.md in analytics-platform.en). -->
 
 Content Analytics tracks two types of content: assets and experiences. Each has its own metrics. The skill always pairs the metric with the type of content that you ask about.
 
 | Content type | What it is | Metrics the skill uses |
 | --- | --- | --- |
 | Assets | An individual piece of content, such as an image | Asset Views, Asset Clicks, Asset Click-Through Rate (CTR) |
-| Experiences | All the text on a web page, or the combination of text, assets, and calls to action in a mobile app | Experience Views, Experience Clicks, Experience Click-Through Rate (CTR) |
+| Experiences | A container of content that includes text and assets, on a web page or in a mobile app | Experience Views, Experience Clicks, Experience Click-Through Rate (CTR) |
 
 ### Content Analytics data architecture
 
@@ -101,7 +105,7 @@ The skill includes instructions for common content analyses, such as:
 
 * Finding the attributes that top-performing assets or experiences have in common.
 * Tying content exposure to conversions and revenue.
-* Comparing content across web, mobile, and paid media channels.
+* Comparing content across web and mobile channels.
 * Comparing which content works for different audiences and segments.
 * Identifying content that's overused or underused.
 
@@ -113,6 +117,7 @@ The skill selects visualizations that fit your question and the data, so that re
 
 * Start broad if you're not sure what to ask. Coworker can turn a general question into a focused analysis, and you can refine from there.
 * Say whether you mean individual assets, such as images, or whole experiences, such as pages, when you know which one you want.
+* When you ask about a specific image, include its URL or asset ID. Coworker can't identify an image by its role on the page, such as a hero image or a banner.
 * Name the metric and date range you want to analyze, such as revenue last quarter.
 * Specify the segments, audiences, or channels that you want compared.
 * Ask about content attributes, such as imagery, themes, or messaging, rather than individual files when you want to know why content performs well.
