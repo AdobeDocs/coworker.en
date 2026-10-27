@@ -111,6 +111,32 @@ Finally, select **[!UICONTROL Install plugin]** to add Coworker to [!DNL ChatGPT
 
 ![Adobe CX Enterprise Coworker details in ChatGPT with the Install plugin button highlighted.](./assets/ai-platforms/chatgpt/gpt-install-coworker.png)
 
+>[!TAB Claude]
+
+Use Coworker to get marketing insights in [!DNL Claude].
+
+Before you begin, confirm you have access to [!DNL Claude].
+
+**Set up Coworker for your organization**
+
+* Ask your [!DNL Claude] administrator to approve **[!UICONTROL Adobe CX Enterprise Coworker]** for selected users or your entire organization.
+
+**Access Coworker in [!DNL Claude]**
+
+1. In [!DNL Claude], select **[!UICONTROL Customize]**.
+
+   ![Claude navigation with Customize highlighted.](./assets/ai-platforms/claude/claude-customize.png)
+
+1. Select **[!UICONTROL Connectors]**, then **[!UICONTROL Discover]**, and use **[!UICONTROL Search]** to find Adobe CX Enterprise Coworker.
+
+   ![Claude Customize page with the Connectors tab highlighted and the Discover catalog open.](./assets/ai-platforms/claude/claude-connectors.png)
+
+1. Select **[!UICONTROL Adobe CX Enterprise Coworker]**, then select **[!UICONTROL Connect to Claude]**.
+
+   ![Adobe CX Enterprise Coworker connector details in Claude with Connect to Claude highlighted.](./assets/ai-platforms/claude/claude-connect-coworker.png)
+
+1. Sign in with your Adobe credentials to connect Coworker to [!DNL Claude].
+
 >[!ENDTABS]
 
 <!-- Setup steps above reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
@@ -138,8 +164,9 @@ Try these steps if you run into issues using Coworker in an AI platform.
 * If you cannot access Coworker or specific data, contact your Adobe administrator to confirm your product access and permissions.
 
 <!--
-Editorial maintenance, 2026-10-19:
+Editorial maintenance, 2026-10-27:
 Only approved platforms with validated setup guidance belong in the rendered tab set.
+Remaining platforms to add: Gemini, Amazon Quick, IBM, and Databricks.
 
 To add an approved platform:
 * Confirm approval and obtain access to the customer flow.
@@ -149,12 +176,6 @@ To add an approved platform:
 * Document any platform-specific requirements or exceptions within that tab.
 * Preview the tab and verify its links and image references.
 Keep the introduction, metadata, and shared prerequisites free of platform lists so adding a tab does not require duplicate updates.
-
-Claude draft reference:
-Organization setup: Ask your Claude administrator to approve Adobe CX Enterprise Coworker for selected users or your entire organization.
-User access: Find Adobe CX Enterprise Coworker in the Claude MCP Connector Catalog, select Add, and sign in with Adobe credentials.
-These steps are unvalidated. Confirm current catalog terminology and the complete customer flow before adding the tab.
-PM confirmed shared permissions, use cases, and example prompts for Claude on 2026-09-02.
 
 Gemini draft scope:
 No setup steps are confirmed. Validate the complete customer flow and all shared guidance before adding the tab.
