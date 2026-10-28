@@ -7,7 +7,7 @@ product_v2:
 ---
 # Connect to HubSpot {#hubspot}
 
-Adobe Coworker for teams allows you to connect your HubSpot account to pull in contact lists.
+Coworker for teams allows you to connect your HubSpot account to pull in contact lists.
 
 >[!PREREQUISITES]
 >

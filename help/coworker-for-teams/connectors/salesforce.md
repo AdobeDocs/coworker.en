@@ -7,7 +7,7 @@ product_v2:
 ---
 # Connect to Salesforce {#salesforce}
 
-Adobe Coworker for teams allows you to connect your Salesforce account to access your leads and contacts.
+Coworker for teams allows you to connect your Salesforce account to access your leads and contacts.
 
 >[!PREREQUISITES]
 >
