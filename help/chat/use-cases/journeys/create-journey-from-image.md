@@ -1,5 +1,5 @@
 ---
-title: Create a journey from an image
+title: Create a Journey from an Image
 description: Learn how CX Enterprise Coworker turns a flowchart image, such as a slide from your marketing team, into a ready-to-edit journey in Adobe Journey Optimizer (AJO).
 role: User
 level: Beginner

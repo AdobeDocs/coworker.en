@@ -1,6 +1,6 @@
 ---
 description: Learn how to launch a campaign, schedule when it goes out and how often, and permanently stop a live campaign that is actively sending.
-title: Launch and manage a campaign
+title: Launch and Manage a Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker

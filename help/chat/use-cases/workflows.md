@@ -1,6 +1,6 @@
 ---
 description: Browse Coworker Chat workflows and sample prompts, organized by area across data insights, audiences, journeys, and platform operations.
-title: Coworker Chat workflows
+title: Coworker Chat Workflows
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker

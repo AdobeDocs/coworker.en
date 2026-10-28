@@ -1,6 +1,6 @@
 ---
 description: Explore Adobe CX Enterprise Coworker for teams. Access the free trial, tour the interface, generate campaigns conversationally, and review trial details.
-title: Adobe CX Enterprise Coworker for teams overview
+title: Adobe CX Enterprise Coworker for teams Overview
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker

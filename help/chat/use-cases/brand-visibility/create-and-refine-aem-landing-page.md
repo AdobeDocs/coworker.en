@@ -1,5 +1,5 @@
 ---
-title: Create and refine an AEM landing page with Coworker
+title: Create and Refine an AEM Landing Page with Coworker
 description: Learn how to turn a campaign brief into a draft landing page with Adobe CX Enterprise Coworker.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
