@@ -7,7 +7,7 @@ product_v2:
 ---
 # Connect to Marketo Engage {#marketo}
 
-Adobe Coworker for teams allows you to connect your Marketo Engage account to pull in smart and static lists.
+Coworker for teams allows you to connect your Marketo Engage account to pull in smart and static lists.
 
 >[!PREREQUISITES]
 >

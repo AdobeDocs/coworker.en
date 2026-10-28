@@ -1,5 +1,5 @@
 ---
-description: Adobe Coworker for teams allows you to connect and query Unity Catalog tables in your Databricks workspace to build and activate campaign audiences.
+description: Coworker for teams allows you to connect and query Unity Catalog tables in your Databricks workspace to build and activate campaign audiences.
 title: Connect to Databricks
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,7 +7,7 @@ product_v2:
 ---
 # Connect to Databricks {#databricks}
 
-Adobe Coworker for teams allows you to connect and query Unity Catalog tables in your Databricks workspace to build and activate campaign audiences.
+Coworker for teams allows you to connect and query Unity Catalog tables in your Databricks workspace to build and activate campaign audiences.
 
 >[!PREREQUISITES]
 >

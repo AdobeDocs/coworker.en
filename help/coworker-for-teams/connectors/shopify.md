@@ -1,5 +1,5 @@
 ---
-description: Adobe Coworker for teams allows you to connect your Shopify account to pull in customers and segments.
+description: Coworker for teams allows you to connect your Shopify account to pull in customers and segments.
 title: Connect to Shopify
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -7,7 +7,7 @@ product_v2:
 ---
 # Connect to Shopify {#shopify}
 
-Adobe Coworker for teams allows you to connect your Shopify account to pull in customers and segments.
+Coworker for teams allows you to connect your Shopify account to pull in customers and segments.
 
 >[!PREREQUISITES]
 >
