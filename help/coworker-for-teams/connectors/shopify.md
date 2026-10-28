@@ -1,5 +1,5 @@
 ---
-description: Description.
+description: Adobe Coworker for teams allows you to connect your Shopify account to pull in customers and segments.
 title: Connect to Shopify
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -21,11 +21,11 @@ Adobe Coworker for teams allows you to connect your Shopify account to pull in c
 
 1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
-   ![](./assets/shopify-1.png)
+   ![Coworker for teams left navigation with Context expanded and Connectors highlighted](./assets/shopify-1.png)
 
 1. Click **Add integration**.
 
-   ![](./assets/shopify-2.png)
+   ![Add integration button in the Connectors screen](./assets/shopify-2.png)
 
    >[!NOTE]
    >
@@ -33,11 +33,11 @@ Adobe Coworker for teams allows you to connect your Shopify account to pull in c
 
 1. In the Shopify row, click **Connect**.
 
-   ![](./assets/shopify-3.png)
+   ![Shopify connector tile with the Connect button](./assets/shopify-3.png)
 
 1. Review the required permission and click **Continue**.
 
-   ![](./assets/shopify-4.png)
+   ![Shopify required permission review screen with the Continue button](./assets/shopify-4.png)
 
 1. Enter your Shopify **Store URL** and **Admin API Access Token**. Click **Connect**.
 
@@ -45,7 +45,7 @@ Adobe Coworker for teams allows you to connect your Shopify account to pull in c
 >
 >In Shopify, obtain your Admin API Access Token via **Settings** › **Apps** › **Develop apps** › **Create Legacy Custom App** › **Admin API Configuration** › **Add required scopes**.
 
-   ![](./assets/shopify-5.png)
+   ![Connect Shopify dialog with fields for Store URL and Admin API Access Token](./assets/shopify-5.png)
 
 After connection, Shopify appears in the Connectors list.
 

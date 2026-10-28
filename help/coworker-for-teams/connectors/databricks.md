@@ -1,5 +1,5 @@
 ---
-description: Description.
+description: Adobe Coworker for teams allows you to connect and query Unity Catalog tables in your Databricks workspace to build and activate campaign audiences.
 title: Connect to Databricks
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
@@ -14,17 +14,17 @@ Adobe Coworker for teams allows you to connect and query Unity Catalog tables in
 >To use this connector, you must first have:
 >
 >* An active Databricks account
->* Your Databricks Workspace host, [SQL warehouse path](/https://docs.databricks.com/aws/en/compute/sql-warehouse/create){target="_blank"}, [Personal access token](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/pat){target="_blank"}, and [Unity Catalogs](https://learn.microsoft.com/en-us/azure/databricks/discover/database-objects){target="_blank"} handy.
+>* Your Databricks Workspace host, [SQL warehouse path](https://docs.databricks.com/aws/en/compute/sql-warehouse/create){target="_blank"}, [Personal access token](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/pat){target="_blank"}, and [Unity Catalogs](https://learn.microsoft.com/en-us/azure/databricks/discover/database-objects){target="_blank"} handy.
 
 ## How to connect
 
 1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
-   ![](./assets/databricks-1.png)
+   ![Coworker for teams left navigation with Context expanded and Connectors highlighted](./assets/databricks-1.png)
 
 1. Click **Add integration**.
 
-   ![](./assets/databricks-2.png)
+   ![Add integration button in the Connectors screen](./assets/databricks-2.png)
 
    >[!NOTE]
    >
@@ -32,7 +32,7 @@ Adobe Coworker for teams allows you to connect and query Unity Catalog tables in
 
 1. In the Databricks row, click **Connect**.
 
-   ![](./assets/databricks-3.png)
+   ![Databricks connector tile with the Connect button](./assets/databricks-3.png)
 
 1. Enter your Databricks **Workspace host**, **SQL warehouse path**, **Personal access token**, and **Unity catalogs**. Click **Connect**.
 
@@ -40,7 +40,7 @@ Adobe Coworker for teams allows you to connect and query Unity Catalog tables in
    >
    >When on your Databricks homepage, the Workspace host can be found directly in your browser's address bar. To locate all other credentials, see the links in **Prerequisites** at the top of this article.
 
-   ![](./assets/databricks-4.png)
+   ![Connect Databricks dialog with fields for Workspace host, SQL warehouse path, Personal access token, and Unity catalogs](./assets/databricks-4.png)
 
 After connection, Databricks appears in the Connectors list.
 

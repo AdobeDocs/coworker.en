@@ -33,7 +33,7 @@ Adobe Coworker for teams allows you to connect your Salesforce account to access
 
 1. In the Salesforce row, click **Connect**.
 
-   ![](./assets/salesforce-3.png)
+   ![Salesforce connector tile with the Connect button](./assets/salesforce-3.png)
 
 1. Enter your Salesforce **instance URL**, **Client ID**, and **Client secret**. Click **Connect**.
 
@@ -43,7 +43,7 @@ Adobe Coworker for teams allows you to connect your Salesforce account to access
    >
    >* While in your Salesforce account, you can find your Instance URL in your browser's address bar, or by navigating to **Setup** > **Company Settings** > **My Domain**.
 
-   ![](./assets/salesforce-4.png)
+   ![Connect Salesforce dialog with fields for instance URL, Client ID, and Client secret](./assets/salesforce-4.png)
 
 After connection, Salesforce appears in the Connectors list and can be selected when linking a lead or contact list to sync from Salesforce.
 
@@ -51,12 +51,12 @@ After connection, Salesforce appears in the Connectors list and can be selected 
 
 1. In the Connectors screen, find the Salesforce tile and click **Manage**.
 
-   ![](./assets/salesforce-5.png)
+   ![Connectors screen showing Salesforce connected with the Manage button highlighted](./assets/salesforce-5.png)
 
 1. Click **Disconnect** (no need to re-enter your Client secret at this time).
 
-   ![](./assets/salesforce-6.png)
+   ![Manage Salesforce dialog with the Disconnect button highlighted](./assets/salesforce-6.png)
 
 1. Click **Disconnect** again to confirm.
 
-   ![](./assets/salesforce-7.png)
+   ![Disconnect connection confirmation dialog with the Disconnect button highlighted](./assets/salesforce-7.png)
