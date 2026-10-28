@@ -3,7 +3,7 @@ description: Learn how Coworker Chat uses a conversational interface to plan, ex
 title: Adobe CX Enterprise Coworker Chat Overview
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # About Coworker Chat {#overview}
 

@@ -3,7 +3,7 @@ description: Coworker for teams allows you to connect your Shopify account to pu
 title: Connect to Shopify
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Connect to Shopify {#shopify}
 

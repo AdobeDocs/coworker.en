@@ -9,7 +9,7 @@ last-substantial-update: 2026-10-06T00:00:00.000Z
 jira: KT-22770
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Onboard your brand in AEM Assets
