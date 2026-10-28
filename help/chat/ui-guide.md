@@ -4,7 +4,7 @@ title: Get Started with Coworker Chat
 jira: KT-22106
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 # Get started with Coworker Chat {#ui-guide}
 

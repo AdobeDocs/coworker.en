@@ -3,7 +3,7 @@ description: Description goes here.
 title: Subdomain
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 # Add a subdomain and senders {#subdomain-senders}
 

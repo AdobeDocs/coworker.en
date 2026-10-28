@@ -3,7 +3,7 @@ description: Browse Coworker Chat workflows and sample prompts, organized by are
 title: Coworker Chat workflows
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 # Coworker Chat workflows {#use-cases}
 
