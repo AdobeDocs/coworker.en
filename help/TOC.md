@@ -94,9 +94,11 @@ nudge: true
   - [Prompting best practices](./coworker-for-teams/prompting-best-practices.md)
   - [C2PA metadata](./coworker-for-teams/c2pa-metadata.md)
   - Connectors {#connectors}
-    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
+    - {hide-from-toc} [Databricks](./coworker-for-teams/connectors/databricks.md)
     - [Hubspot](./coworker-for-teams/connectors/hubspot.md)
+    - [Marketo Engage](./coworker-for-teams/connectors/marketo.md)
     - [Salesforce](./coworker-for-teams/connectors/salesforce.md)
+    - {hide-from-toc} [Shopify](./coworker-for-teams/connectors/shopify.md)
   - [Release notes](./coworker-for-teams/release-notes.md)
 - More resources {#more-resources}
   - [Documentation updates](./more-resources/documentation-updates.md)
