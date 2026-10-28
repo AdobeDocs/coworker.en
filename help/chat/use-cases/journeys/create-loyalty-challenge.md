@@ -14,6 +14,10 @@ product_v2:
 
 # Adobe Journey Optimizer & Coworker - create a loyalty challenge and surface insights
 
+>[!AVAILABILITY]
+>
+>The Loyalty plugin and its Challenge Management skill are only available if your organization has the Adobe Journey Optimizer Loyalty entitlement. If you need access, contact your Adobe account team to request the necessary entitlements.
+
 In this demonstration, you'll see how Adobe Journey Optimizer (AJO) Loyalty is used in Coworker to simplify and accelerate loyalty program management.
  
 The video showcases the Loyalty plugin and its Challenge Management skill, an AI-powered capability that helps marketers create, edit, and manage loyalty challenges using natural language instead of manually configuring every setting in the user interface.
