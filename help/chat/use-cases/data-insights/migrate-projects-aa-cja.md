@@ -15,14 +15,17 @@ product_v2:
 
 Use Adobe CX Enterprise Coworker to migrate Adobe Analytics projects and their associated components to Customer Journey Analytics within a single conversation.
 
-Coworker validates that the dimensions and metrics in your project are mapped to your Customer Journey Analytics data view, helps you map any that aren't, then re-creates the project in Customer Journey Analytics after you confirm.
+Coworker validates that the dimensions and metrics in your project are mapped to your Customer Journey Analytics data view, helps you map any that aren't, then re-creates the project in Customer Journey Analytics.
+
+<!-- FLAG: Add the planned general availability date when it's confirmed. -->
+
+>[!AVAILABILITY]
+>
+>The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available.
 
 >[!IMPORTANT]
 >
->Before you migrate any projects, read the following articles in the Adobe Analytics documentation. They explain how to prepare for a migration, what's included, which elements cause errors, and how mappings affect your entire organization. This information applies to migrations in Coworker.
->
->* [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration)
->* [Migrate components and projects from Adobe Analytics to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/component-migration)
+>Before you migrate any projects, read [Prepare to migrate components and projects from Adobe Analytics to Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration) in the Adobe Analytics documentation. It explains how to prepare for a migration, what's included, which elements cause errors, and how mappings affect your entire organization. This information applies to migrations in Coworker.
 
 ## Differences from migrating in the Adobe Analytics user interface
 
@@ -51,16 +54,33 @@ To migrate projects with Coworker, you need:
 
 * A project that uses base report suites. Virtual report suites can't be migrated.<!-- FLAG: Sourced from Coworker's response in the UI. The Adobe Analytics component migration docs don't mention virtual report suites. Confirm, and consider adding it to those docs. -->
 
+## Review report suite mappings before you migrate
+
+<!-- FLAG: Confidence: Medium. The recommendation to review mappings before the first migration from a report suite is inferred from the Adobe Analytics guidance to decide mappings as an organization; Coworker also validates mappings during each migration. Confirm with Scott. -->
+
+Consider reviewing how a report suite's dimensions and metrics are mapped before your first migration from that report suite. Mappings apply to every project that your organization migrates, so settling them first helps later projects pass validation. For guidance on choosing mappings, see [Decide as an organization how you will map components](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#decide-as-an-organization-how-you-will-map-components) in the Adobe Analytics documentation.
+
+To review mappings, select [!UICONTROL **Review mappings only**] on the [!UICONTROL **Scope**] tab, or ask Coworker directly:
+
+**Prompts**
+
+* "Show me how the dimensions and metrics in my report suite are mapped to my data view"
+* "Which dimensions and metrics in my report suite aren't mapped to my data view?"
+
+You can also ask Coworker to update mappings.
+
+If you skip this review, Coworker still [checks the mappings for each project that you migrate](#review-the-validation-results-and-mappings).
+
 ## Start a migration
 
-<!-- FLAG: Confidence: High that migration works at the project level and that components migrate with their project (component-migration.md in the Adobe Analytics docs), and that components that already exist in Customer Journey Analytics aren't re-created (prepare-component-migration.md). Medium-low for when to use each method and for combining them; this guidance is inferred and isn't in the Adobe Analytics docs. Confirm with Scott. -->
+<!-- FLAG: Confidence: High that migration works at the project level and that components migrate with their project (component-migration.md in the Adobe Analytics docs), and that components that already exist in Customer Journey Analytics aren't re-created (prepare-component-migration.md). Medium-low for when to use each method and for combining them; this guidance is inferred and isn't in the Adobe Analytics docs. Confirm with Scott. Also confirm whether Coworker creates a project automatically when you ask it to migrate only components (for example, "Migrate my Spring sale segments to CJA"), or whether you must ask it to create the project. -->
 
-Migration works at the project level: when you migrate a project, its associated components are migrated with it. Migrating a project and migrating specific components use the same process. The difference is what you start from:
+Coworker always migrates a project and its associated components. To migrate specific components, ask Coworker to add them to a new project, then migrate that project.
+
+Components that already exist in Customer Journey Analytics aren't re-created, so you can use both methods. For example, migrate your most important projects first, then migrate any remaining components. Choose where to start based on what you want in Customer Journey Analytics:
 
 * **Migrate a project** when you want to keep the project's panels and visualizations in Customer Journey Analytics. See [Start from a project](#start-from-a-project).
-* **Migrate specific components** when you want components such as segments, calculated metrics, or date ranges in Customer Journey Analytics, but don't need any of the projects that use them. For example, the components might be spread across many projects, or you might plan to build new projects in Customer Journey Analytics. See [Start from specific components](#start-from-specific-components).
-
-You can use both methods. For example, migrate your most important projects first, then migrate any remaining components. Components that already exist in Customer Journey Analytics aren't re-created.
+* **Migrate specific components** when you want components such as segments, calculated metrics, or date ranges in Customer Journey Analytics, but don't need any of the projects that use them. For example, you might plan to build new projects in Customer Journey Analytics that include them. See [Start from specific components](#start-from-specific-components).
 
 ### Start from a project
 
@@ -85,7 +105,7 @@ To migrate a project and its associated components:
    | Option | Description |
    | --- | --- |
    | [!UICONTROL **A specific AA project**] | Migrate a project that you name. Follow the remaining steps in this section. |
-   | [!UICONTROL **Review mappings only**] | Check how a report suite's metrics and dimensions map to a data view, without migrating anything. See [Review mappings without migrating](#review-mappings-without-migrating). |
+   | [!UICONTROL **Review mappings only**] | Check how a report suite's metrics and dimensions map to a data view, without migrating anything. See [Review report suite mappings before you migrate](#review-report-suite-mappings-before-you-migrate). |
    | [!UICONTROL **Plan a full upgrade**] | Get an end-to-end plan for moving from Adobe Analytics to Customer Journey Analytics. See [Plan your implementation with Coworker](/help/chat/use-cases/data-insights/implementation-guide.md). |
 
 1. (Optional) Answer the questions on the [!UICONTROL **Source & target**] tab, then select [!UICONTROL **Next**].
@@ -106,7 +126,7 @@ To migrate a project and its associated components:
 
    To skip the questionnaire at any step, select [!UICONTROL **Skip questionnaire**] and describe what you want in the chat instead.
 
-1. Continue with [Review the validation results](#review-the-validation-results).
+1. Continue with [Review the validation results and mappings](#review-the-validation-results-and-mappings).
 
 ### Start from specific components
 
@@ -122,13 +142,13 @@ To migrate specific components:
 
    Coworker creates the project in Adobe Analytics.
 
-1. Continue with the following section, [Review the validation results](#review-the-validation-results).
+1. Continue with the following section, [Review the validation results and mappings](#review-the-validation-results-and-mappings).
 
-## Review the validation results
+## Review the validation results and mappings
 
 <!-- FLAG: Confidence: Medium for the steps that fix a failed validation. They're based on the aa-mcp tool descriptions and on a test conversation where validation passed only after the project's panel was switched to a base report suite. Confirm how Coworker presents a failed validation, and whether it asks for confirmation before it updates a mapping. -->
 
-Coworker validates the project against the data view you selected and reports whether the project can be migrated. The results list each dimension and metric in the project and the Customer Journey Analytics dimension or metric that it's mapped to, for example:
+Coworker validates the project against the data view you selected, then reports whether the project can be migrated. The results list each dimension and metric in the project and the Customer Journey Analytics dimension or metric that it's mapped to. For example:
 
 * **Metric:** Occurrences becomes Events
 * **Dimension:** Hour stays Hour
@@ -140,6 +160,8 @@ If validation doesn't pass:
 * **Dimensions or metrics that can't be automatically mapped:** Coworker suggests a dimension or metric in your data view to map each one to, updates the mapping, then validates the project again. You can also tell Coworker which dimension or metric to map it to, for example, "Map Page Views to web.webPageDetails.pageViews.value."
 
 * **Unsupported elements:** Remove any unsupported elements from the project in Adobe Analytics. For example, make sure every panel uses a base report suite rather than a virtual report suite. Then ask Coworker to check the project again. For the list of unsupported elements, see [Understand unsupported elements that cause errors](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#understand-unsupported-elements-that-cause-errors) in the Adobe Analytics documentation.
+
+To check mappings for a whole report suite before you migrate, see [Review report suite mappings before you migrate](#review-report-suite-mappings-before-you-migrate).
 
 ## Migrate the project
 
@@ -161,6 +183,8 @@ Migrations run in the background, so the new project might not be ready right aw
 
    > Check status
 
+   <!-- FLAG: The Failed row links to Retry a failed migration in the Adobe Analytics docs, but those steps use the Component migration page in the Adobe Analytics UI, which is admin-only. A non-admin with the Component Migration permission can't follow them. Confirm with Scott whether Coworker can retry a failed migration (for example, "Retry the migration"). If so, replace the link with a prompt. -->
+
    Coworker reports one of the following statuses:
 
    | Status | What it means |
@@ -175,17 +199,6 @@ Migrations run in the background, so the new project might not be ready right aw
 1. (Optional) Transfer ownership of the project to any user in Customer Journey Analytics. For more information, see [Transfer assets](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets).
 
 After a migration completes, Coworker can suggest another project to migrate next.
-
-## Review mappings without migrating
-
-To check how the dimensions and metrics in a report suite are mapped to a data view before you migrate any projects, select [!UICONTROL **Review mappings only**] on the [!UICONTROL **Scope**] tab, or ask Coworker directly:
-
-**Prompts**
-
-* "Show me how the dimensions and metrics in my report suite are mapped to my data view"
-* "Which dimensions and metrics in my report suite aren't mapped to my data view?"
-
-You can ask Coworker to update mappings. Before you do, see [Decide as an organization how you will map components](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration#decide-as-an-organization-how-you-will-map-components) in the Adobe Analytics documentation.
 
 ## Tips for better results
 
