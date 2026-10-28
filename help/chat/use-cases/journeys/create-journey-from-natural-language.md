@@ -10,7 +10,7 @@ last-substantial-update: 2026-08-10T00:00:00.000Z
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 
 # Generate Adobe Journey Optimizer journeys from natural language prompts

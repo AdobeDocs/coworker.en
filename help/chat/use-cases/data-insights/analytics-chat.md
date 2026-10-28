@@ -3,7 +3,7 @@ title: Get Started Analyzing Data with Coworker Chat
 description: Set up Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics or Adobe Analytics data, then follow an example that finds customer drop-off.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 # Get started analyzing data with Coworker Chat
 

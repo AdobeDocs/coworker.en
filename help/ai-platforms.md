@@ -3,7 +3,7 @@ title: Adobe CX Enterprise Coworker for AI Platforms
 description: Learn about Adobe CX Enterprise Coworker for AI Platforms. Explore supported platforms, setup instructions, and example prompts to get marketing insights.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 
 # Adobe CX Enterprise Coworker for AI Platforms

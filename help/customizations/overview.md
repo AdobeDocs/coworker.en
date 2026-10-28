@@ -3,7 +3,7 @@ title: Adobe CX Enterprise Coworker Customizations Overview
 description: Learn about Customizations in Adobe CX Enterprise Coworker, including Skills, Integrations, Plugins, and Memory, and how they extend and personalize your experience.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: Coworker
+    internal-label: CX Enterprise Coworker
 ---
 # Coworker Customizations overview {#overview}
 
