@@ -3,7 +3,7 @@ description: Learn how to connect your Marketo Engage account to Coworker for te
 title: Connect to Marketo Engage
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Connect to Marketo Engage {#marketo}
 
