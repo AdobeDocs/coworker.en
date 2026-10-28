@@ -1,18 +1,12 @@
 ---
-# TEMPLATE ONLY. Delete this line and the "hide" line below when you copy this file.
 hide: true
-
-# TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer.
-# Description: one or two sentences, about 150-160 characters. Start with "Learn about..." for concepts or "Learn how to..." for tasks.
 title: Title of the Page in Title Case
 description: Learn how to [do the task] with Adobe CX Enterprise Coworker. [Second sentence that invites action.]
-
 role: User
 level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 <!--
 TEMPLATE GUIDANCE. Delete this comment block before you commit a new page.

@@ -1,31 +1,16 @@
 ---
-# TEMPLATE ONLY. Delete this line and the "hide" line below when you copy this file.
 hide: true
-
-# TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer. Use the pattern "CX Enterprise Coworker in [Application]".
-# Description: one or two sentences, about 150-160 characters. Start with "Learn how Coworker..." and name two or three things the reader can do in the application.
 title: CX Enterprise Coworker in [Application]
 description: Learn how Coworker's conversational AI helps you [first thing], [second thing], and get more done in [Application].
-
-# LANDING PAGE FIELDS
-# A landing page is a catalog of cards. It has no video of its own, so the duration is 0.
 doc-type: Catalog
 duration: 0
-last-substantial-update: 2026-01-01
+last-substantial-update: 2026-01-01T00:00:00.000Z
 nudge: true
-
-# AUDIENCE FIELDS
-# Keep role and role_v2 in sync, and level and level_v2 in sync. Remove the roles and levels that do not apply.
 role: Leader, User, Developer, Admin
 level: Beginner
-
-# PRODUCT AND TAGGING FIELDS
-# Add the product ID for the host application (for example, Experience Manager) below the Coworker ID.
-# Do not add a TQID line. The publishing system adds it.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader

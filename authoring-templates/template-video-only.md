@@ -1,24 +1,16 @@
 ---
-# TEMPLATE ONLY. Delete this line and the "hide" line below when you copy this file.
 hide: true
-
-# TITLE AND DESCRIPTION
-# Title: title case, 60 characters or fewer.
-# Description: one or two sentences, about 150-160 characters. Start with "Learn how to..." or "Learn about...", and end with what the viewer can do next.
 title: Title of the Video Page in Title Case
 description: Learn how to [do the task] with Adobe CX Enterprise Coworker. [Second sentence that invites action.]
-
-# VIDEO FIELDS
 doc-type: Feature Video
 duration: 180
 last-substantial-update: 2026-01-01T00:00:00.000Z
 jira: KT-00000
-
 role: User
 level: Beginner
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 <!--
 TEMPLATE GUIDANCE. Delete this comment block before you commit a new page.

@@ -3,7 +3,7 @@ title: CX Enterprise Coworker Release Notes
 description: Find release notes for Adobe CX Enterprise Coworker, including Coworker for teams and the Experience Cloud release notes.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Release notes {#release-notes}
 

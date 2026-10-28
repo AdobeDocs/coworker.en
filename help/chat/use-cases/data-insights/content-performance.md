@@ -3,7 +3,7 @@ title: Analyze Content and Creative Performance with Coworker Chat
 description: Use Coworker Chat to find what winning content has in common, attribute revenue to the images customers see, and compare creative across channels and audiences.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Content performance overview
