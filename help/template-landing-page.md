@@ -21,11 +21,11 @@ role: Leader, User, Developer, Admin
 level: Beginner
 
 # PRODUCT AND TAGGING FIELDS
-# Add the product ID and label for the host application (for example, Experience Manager).
+# Add the product ID for the host application (for example, Experience Manager) below the Coworker ID.
 # Do not add a TQID line. The publishing system adds it.
 product_v2:
-  - id: [host product ID]
-    internal-label: [Host product]
+  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
+    internal-label: CX Enterprise Coworker
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
     internal-label: Leader
