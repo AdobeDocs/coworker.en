@@ -26,6 +26,7 @@ nudge: true
         - [Plan your implementation](./chat/use-cases/data-insights/implementation-guide.md)
         - [Generate an implementation checklist](./chat/use-cases/data-insights/intelligent-checklist.md)
         - [Validate AA to CJA data when upgrading](./chat/use-cases/data-insights/data-validation-aa-cja.md)
+        - [Migrate AA projects to CJA](./chat/use-cases/data-insights/migrate-projects-aa-cja.md)
         - [Validate Streaming Media implementation](./chat/use-cases/data-insights/streaming-media-validation.md)
         - [Validate dataset quality for CJA reporting](./chat/use-cases/data-insights/validate-dataset-quality-for-cja.md)
         - [Validate your Experience Platform data](./chat/use-cases/data-insights/data-validation-aep.md)

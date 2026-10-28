@@ -11,6 +11,12 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 ## October 2026 {#oct-2026}
 
+<!-- FLAG: Update the date to the publish date of the migration article. Rollout and GA dates are TBD. -->
+
+**October 28, 2026**
+
+* New: [Migrate Adobe Analytics projects to Customer Journey Analytics](../chat/use-cases/data-insights/migrate-projects-aa-cja.md)
+
 **October 26, 2026**
 
 * Updated: [Get started with Coworker Chat](../chat/ui-guide.md). The article is reorganized and rewritten to match the current interface. It now describes the account menu and the navigation rail, including **Artifacts** and **Experience Context**. It also explains how to choose an organization and sandbox, and how to use the input toolbar, transcript views, and response activity summary. Outdated screenshots are removed.
