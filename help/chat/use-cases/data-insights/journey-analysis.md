@@ -3,7 +3,7 @@ title: Analyze Customer Journeys and Drop-Off with Coworker Chat
 description: Use Coworker Chat to build funnels, find where customers drop off, diagnose conversion declines, and compare journeys across periods in your analytics data.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Journey analysis overview

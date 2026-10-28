@@ -3,7 +3,7 @@ description: Connect your HubSpot account to Coworker for teams using a service 
 title: Connect to HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Connect to HubSpot {#hubspot}
 

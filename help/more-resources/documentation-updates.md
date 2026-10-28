@@ -3,7 +3,7 @@ title: CX Enterprise Coworker Documentation Updates
 description: See the new and updated articles and videos in the CX Enterprise Coworker documentation. Check back to find the latest additions.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Documentation updates {#documentation-updates}
 
