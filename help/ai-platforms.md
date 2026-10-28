@@ -137,9 +137,42 @@ Before you begin, confirm you have access to [!DNL Claude].
 
 1. Sign in with your Adobe credentials to connect Coworker to [!DNL Claude].
 
+>[!TAB Gemini Enterprise]
+
+Use Coworker to get marketing insights in [!DNL Gemini Enterprise].
+
+Before you begin, confirm you have access to [!DNL Gemini Enterprise].
+
+**Set up Coworker for your organization**
+
+As a [!DNL Gemini Enterprise] administrator, complete these steps to make Coworker available to your organization.
+
+1. Go to the [Gemini Enterprise AI Agents marketplace](https://console.cloud.google.com/marketplace/browse?filter=solution-type:ai-agent-service).
+1. Search for Adobe CX Enterprise Coworker, then select the **[!UICONTROL Adobe CX Enterprise Coworker]** agent card.
+1. On the agent card, select **[!UICONTROL Contact Sales]**.
+1. Complete the form to submit your request to Adobe.
+
+   Adobe creates a private offer at no cost and emails you a link.
+
+1. Open the emailed link and approve the private offer.
+
+   After you approve the offer, Adobe enables the agent for your [!DNL Gemini Enterprise] account.
+
+1. Publish the agent to selected users or all enterprise users in your organization.
+
+**Access Coworker in [!DNL Gemini Enterprise]**
+
+After your administrator publishes Coworker to you, open it in [!DNL Gemini Enterprise] to start asking questions.
+
+1. In [!DNL Gemini Enterprise], go to the **[!UICONTROL Agents]** catalog.
+1. Search for Adobe CX Enterprise Coworker.
+1. Select **[!UICONTROL Adobe CX Enterprise Coworker]** and enter a prompt to get started.
+
+For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#example-prompts).
+
 >[!ENDTABS]
 
-<!-- Setup steps above reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
+<!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
 ## Example prompts {#example-prompts}
 
@@ -166,7 +199,7 @@ Try these steps if you run into issues using Coworker in an AI platform.
 <!--
 Editorial maintenance, 2026-10-27:
 Only approved platforms with validated setup guidance belong in the rendered tab set.
-Remaining platforms to add: Gemini, Amazon Quick, IBM, and Databricks.
+Remaining platforms to add: Amazon Quick, IBM, and Databricks.
 
 To add an approved platform:
 * Confirm approval and obtain access to the customer flow.
@@ -177,7 +210,6 @@ To add an approved platform:
 * Preview the tab and verify its links and image references.
 Keep the introduction, metadata, and shared prerequisites free of platform lists so adding a tab does not require duplicate updates.
 
-Gemini draft scope:
-No setup steps are confirmed. Validate the complete customer flow and all shared guidance before adding the tab.
-Do not infer the flow from another platform.
+Gemini Enterprise follow-up:
+Administrator setup and end user access steps are documented. Confirm applicability of the shared guidance before expanding the tab.
 -->
