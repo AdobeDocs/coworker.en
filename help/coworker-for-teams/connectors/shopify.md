@@ -15,17 +15,17 @@ Adobe Coworker for teams allows you to connect your Shopify account to pull in c
 >
 >* An active Shopify account
 >* The following permission in Shopify: `read_customers`
->* Your Shopify Store URL and [Admin API Access Token](https://shopify.dev/docs/apps/build/authentication-authorization) handy
+>* Your Shopify Store URL and [Admin API Access Token](https://shopify.dev/docs/apps/build/authentication-authorization){target="_blank"} handy
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
-   SCREENSHOT
+   ![](./assets/shopify-1.png)
 
 1. Click **Add integration**.
 
-   SCREENSHOT
+   ![](./assets/shopify-2.png)
 
    >[!NOTE]
    >
@@ -33,11 +33,19 @@ Adobe Coworker for teams allows you to connect your Shopify account to pull in c
 
 1. In the Shopify row, click **Connect**.
 
-   SCREENSHOT
+   ![](./assets/shopify-3.png)
 
-1. Enter your Shopify **Workspace host**, **SQL warehouse path**, **Personal access token**, and **Unity catalogs**. Click **Connect**.
+1. Review the required permission and click **Continue**.
 
-   SCREENSHOT
+   ![](./assets/shopify-4.png)
+
+1. Enter your Shopify **Store URL** and **Admin API Access Token**. Click **Connect**.
+
+>[!NOTE]
+>
+>In Shopify, obtain your Admin API Access Token via **Settings** › **Apps** › **Develop apps** › **Create Legacy Custom App** › **Admin API Configuration** › **Add required scopes**.
+
+   ![](./assets/shopify-5.png)
 
 After connection, Shopify appears in the Connectors list.
 
@@ -45,12 +53,6 @@ After connection, Shopify appears in the Connectors list.
 
 1. In the Connectors screen, find the Shopify tile and click **Manage**.
 
-   SCREENSHOT
-
-1. Click **Disconnect** (no need to re-enter your Personal access token at this time).
-
-   SCREENSHOT
+1. Click **Disconnect** (no need to re-enter your Admin API Access Token at this time).
 
 1. Click **Disconnect** again to confirm.
-
-   SCREENSHOT

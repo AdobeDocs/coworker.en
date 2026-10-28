@@ -15,11 +15,11 @@ Adobe Coworker for teams allows you to connect your Marketo Engage account to pu
 >
 >* An active Marketo Engage account
 >* Your Marketo **instance URL**
->* A [custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1) created for Coworker for teams in Marketo, with its [Client ID and Client secret](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token) on hand
+>* A [custom service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#custom-services-1){target="_blank"} created for Coworker for teams in Marketo, with its [Client ID and Client secret](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/authentication#creating-an-access-token){target="_blank"} on hand
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
    ![Coworker for teams left navigation with Context expanded and Connectors highlighted](./assets/marketo-1.png)
 

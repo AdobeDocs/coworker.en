@@ -12,16 +12,19 @@ Adobe Coworker for teams allows you to connect and query Unity Catalog tables in
 >[!PREREQUISITES]
 >
 >To use this connector, you must first have:
+>
+>* An active Databricks account
+>* Your Databricks Workspace host, [SQL warehouse path](/https://docs.databricks.com/aws/en/compute/sql-warehouse/create){target="_blank"}, [Personal access token](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/auth/pat){target="_blank"}, and [Unity Catalogs](https://learn.microsoft.com/en-us/azure/databricks/discover/database-objects){target="_blank"} handy.
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
-   SCREENSHOT
+   ![](./assets/databricks-1.png)
 
 1. Click **Add integration**.
 
-   SCREENSHOT
+   ![](./assets/databricks-2.png)
 
    >[!NOTE]
    >
@@ -29,11 +32,15 @@ Adobe Coworker for teams allows you to connect and query Unity Catalog tables in
 
 1. In the Databricks row, click **Connect**.
 
-   SCREENSHOT
+   ![](./assets/databricks-3.png)
 
 1. Enter your Databricks **Workspace host**, **SQL warehouse path**, **Personal access token**, and **Unity catalogs**. Click **Connect**.
 
-   SCREENSHOT
+   >[!NOTE]
+   >
+   >When on your Databricks homepage, the Workspace host can be found directly in your browser's address bar. To locate all other credentials, see the links in **Prerequisites** at the top of this article.
+
+   ![](./assets/databricks-4.png)
 
 After connection, Databricks appears in the Connectors list.
 
@@ -41,12 +48,6 @@ After connection, Databricks appears in the Connectors list.
 
 1. In the Connectors screen, find the Databricks tile and click **Manage**.
 
-   SCREENSHOT
-
 1. Click **Disconnect** (no need to re-enter your Personal access token at this time).
 
-   SCREENSHOT
-
 1. Click **Disconnect** again to confirm.
-
-   SCREENSHOT

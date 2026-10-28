@@ -15,11 +15,11 @@ Adobe Coworker for teams allows you to connect your Salesforce account to access
 >
 >* An active Salesforce account
 >* The following permissions in Salesforce: `api`, `sobjects.Contact.read`, `sobjects.Campaign.read`, `sobjects.CampaignMember.read`
->* Your Salesforce Instance URL, [Client ID, and Client secret](https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_client_credentials_flow.htm&type=5#:~:text=DESCRIPTION-,client_id,-The%20consumer%20key) handy
+>* Your Salesforce Instance URL, [Client ID, and Client secret](https://help.salesforce.com/s/articleView?id=xcloud.remoteaccess_oauth_client_credentials_flow.htm&type=5#:~:text=DESCRIPTION-,client_id,-The%20consumer%20key){target="_blank"} handy
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Context** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
    ![Coworker for teams left navigation with Context expanded and Connectors highlighted](./assets/salesforce-1.png)
 
