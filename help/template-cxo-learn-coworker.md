@@ -22,10 +22,10 @@ nudge: true
 # Do not add a TQID line. The publishing system adds it.
 
 # PRODUCT AND TAGGING FIELDS
-# Keep the Coworker entry. Add an entry for the host product (for example Experience Manager, Analytics, or Journey Optimizer) using its product ID and label.
+# Add an entry for the host product (for example Experience Manager, Analytics, or Journey Optimizer) using its product ID and label.
 product_v2:
-  - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+  - id: [host product ID]
+    internal-label: [Host product]
 # Keep role_v2 in sync with role, and level_v2 in sync with level. Remove the roles and levels that do not apply.
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
