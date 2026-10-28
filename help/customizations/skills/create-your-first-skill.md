@@ -1,5 +1,5 @@
 ---
-title: Create your first Coworker skill
+title: Create Your First Coworker Skill
 description: Learn how Coworker can transform a one-time analytics task into a reusable skill that delivers consistent business insights month after month.
 role: User
 level: Beginner

@@ -1,5 +1,5 @@
 ---
-title: Target & Coworker - Analyze, diagnose, and launch Adobe Target activities
+title: Target & Coworker - Analyze, Diagnose, and Launch Adobe Target Activities
 description: Learn how Coworker brings agentic AI to Adobe Target, helping you analyze performance, diagnose issues, and launch activities for your optimization program.
 feature: AI Tools
 role: User

@@ -1,5 +1,5 @@
 ---
-title: Adobe CX Enterprise Coworker overview
+title: Adobe CX Enterprise Coworker Overview
 description: Learn about Adobe CX Enterprise Coworker, an AI-powered teammate that automates customer experience and marketing workflows across your organization.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb

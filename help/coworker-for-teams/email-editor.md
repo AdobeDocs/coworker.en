@@ -1,6 +1,6 @@
 ---
 description: description.
-title: Understand the email editor
+title: Understand the Email Editor
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker

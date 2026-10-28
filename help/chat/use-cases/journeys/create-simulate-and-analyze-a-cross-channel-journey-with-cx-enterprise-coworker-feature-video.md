@@ -1,5 +1,5 @@
 ---
-title: Create, simulate, and analyze cross-channel journeys
+title: Create, Simulate, and Analyze Cross-Channel Journeys
 description: Learn how CX Enterprise Coworker builds cross-channel journeys, creates email and SMS content, simulates branches, and diagnoses journey configuration issues.
 role: User
 level: Beginner
