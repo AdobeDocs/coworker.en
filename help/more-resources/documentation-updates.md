@@ -11,7 +11,9 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 ## October 2026 {#oct-2026}
 
-<!-- FLAG: Update the date to the publish date of the migration article. Rollout and GA dates are TBD. -->
+**October 29, 2026**
+
+* Updated: [Get started with Coworker Chat](../chat/ui-guide.md). The availability table now shows that the in-product experience is available in Customer Journey Analytics.
 
 **October 28, 2026**
 
