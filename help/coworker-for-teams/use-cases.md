@@ -4,6 +4,8 @@ title: Coworker for teams Use Cases
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
+  - id: a17f56ef-32e3-5ef7-b044-4479a09ffbc1
+    internal-label: Coworker for teams
 ---
 # Use cases {#use-cases}
 
