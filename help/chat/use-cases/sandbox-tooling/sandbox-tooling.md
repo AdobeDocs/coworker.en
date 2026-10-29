@@ -70,11 +70,11 @@ For example:
 
 - "Move schema Luma Loyalty Members Platinum from the current sandbox to the production sandbox."
 
-### Promote objects to multiple sandboxes
+### Promote objects to multiple sandboxes (Beta)
 
 >[!NOTE]
 >
->Multi-sandbox management currently supports only schemas and datasets.
+>Multi-sandbox management is currently in Beta and supports only schemas and datasets.
 
 As a sandbox administrator, you can promote supported objects from a source sandbox to multiple target sandboxes in a single workflow. Instead of importing a package into each sandbox individually, use CX Coworker to select target sandboxes, review proposed changes, and deploy configurations consistently across environments. Multi-sandbox management automatically resolves dependencies and provides a preview of changes before promotion begins.
 
