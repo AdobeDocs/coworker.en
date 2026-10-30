@@ -11,9 +11,9 @@ product_v2:
 >
 >Coworker Projects is in limited availability. Contact your Adobe account representative for information about future availability.
 
-Use Coworker Projects to collaborate with your team on customer experience work, from planning through execution and measurement. Turn workflows into reusable business processes that combine people, agents, skills, and business context.
+Use Coworker Projects to collaborate with your team on customer experience work, from planning through execution and measurement. Turn customer experience workflows into reusable and repeatable business processes, from start to finish.
 
-With the required permissions, you can create, publish, and manage project templates. Each template brings together agentic workflows, business context, governance requirements, and human decision points.
+Only select users with the required permission can create, publish, and manage project templates. Each template brings together agentic workflows, business context, governance requirements, and human decision points.
 
 As a practitioner, you use these templates to launch projects for specific business initiatives. Collaborate with your team to complete work across the relevant Adobe CX Enterprise and third party applications.
 
@@ -33,7 +33,7 @@ Use Coworker Projects to coordinate workflows around your business goals:
 
 ## Included project templates {#project-templates}
 
-Start with an included template for a common marketing use case. Each template provides a repeatable workflow that you can adapt to your business requirements.
+Start with an included template for a common marketing use case. Each template provides a repeatable workflow that you can adapt to your business requirements. Choose from the following five available templates.
 
 ### Unified audiences and orchestrated journeys {#unified-audiences-orchestrated-journeys}
 
