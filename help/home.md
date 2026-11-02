@@ -32,6 +32,7 @@ Coworker Chat is available now in the following applications:
 * Real-Time CDP
 * Adobe Journey Optimizer
 * Customer Journey Analytics
+* Adobe Analytics
 * Adobe Target
 * AEM
 * Workfront

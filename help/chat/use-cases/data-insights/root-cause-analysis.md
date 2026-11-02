@@ -19,4 +19,6 @@ Understanding why metrics change often requires navigating multiple reports, bui
  
 Using natural language, analysts and marketers can ask questions about their data, receive visualized results, identify meaningful trends, and uncover the factors driving performance, all within a single conversation.
 
+The video uses Customer Journey Analytics data, but you can explore trends and root causes in your Adobe Analytics report suites the same way. Coworker uses the `cja-root-cause-analysis` skill for data views and the `aa-root-cause-analysis` skill for report suites. For more information, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
+
 >[!VIDEO](https://video.tv.adobe.com/v/3496847/?learn=on&enablevpops)
