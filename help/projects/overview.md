@@ -9,7 +9,7 @@ product_v2:
 
 >[!AVAILABILITY]
 >
->Coworker Projects is in limited availability. Contact your Adobe account representative for information about future availability.
+>Coworker Projects is in limited availability. Contact your Adobe account representative to learn more on how to get involved.
 
 Use Coworker Projects to collaborate with your team on customer experience work, from planning through execution and measurement. Turn customer experience workflows into reusable and repeatable business processes, from start to finish.
 
