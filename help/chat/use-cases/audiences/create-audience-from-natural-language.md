@@ -15,6 +15,6 @@ product_v2:
 
 # Assess Experience Platform health and build audiences from natural language with Coworker
 
-Auditing how your audiences, journeys, data sets, and destinations connect is normally a manual, time-consuming exercise. In this video, learn how Coworker can generate a full operational view of your Adobe Experience Platform (AEP) environment, benchmark it against industry best practices, and use those findings to build a new audience — all within a single conversation.
+Auditing how your audiences, journeys, data sets, and destinations connect is normally a manual, time-consuming exercise. In this video, learn how Coworker can generate a full operational view of your Adobe Experience Platform environment, benchmark it against industry best practices, and use those findings to build a new audience — all within a single conversation.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496848/?learn=on&enablevpops)
