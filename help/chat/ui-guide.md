@@ -8,7 +8,7 @@ product_v2:
 ---
 # Get started with Coworker Chat {#ui-guide}
 
-Coworker Chat lets you work with your Adobe CX Enterprise data and tools by asking for what you need in plain language. Use this page to open Coworker Chat, send your first message, and set it up the way you work.
+Coworker Chat lets you work with your Adobe CX Enterprise data and tools by asking for what you need in plain language. Use this page to open Coworker Chat, send your first message, and set it up the way you work. 
 
 ## Availability
 
