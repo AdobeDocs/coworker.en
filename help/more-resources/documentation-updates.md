@@ -9,6 +9,12 @@ product_v2:
 
 Use this page to find new and substantially updated content in the CX Enterprise Coworker documentation. Updates are listed by month, with the most recent first. For product changes to Coworker for teams, see the [Coworker for teams release notes](../coworker-for-teams/release-notes.md).
 
+## November 2026 {#nov-2026}
+
+**November 2, 2026**
+
+* Updated: [CX Enterprise Coworker overview](../home.md) and [Get started with Coworker Chat](../chat/ui-guide.md). Adobe Analytics is now listed as an application where Coworker Chat is available.
+
 ## October 2026 {#oct-2026}
 
 **October 29, 2026**

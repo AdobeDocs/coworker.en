@@ -21,6 +21,7 @@ The following table shows where each experience is available.
 | Real-Time CDP | Available now | Coming soon |
 | Adobe Journey Optimizer | Available now | Coming soon |
 | Customer Journey Analytics | Available now | Available now |
+| Adobe Analytics | Available now | Coming soon |
 | Workfront | Available now | Available now |
 | Target | Available now | Available now |
 | AEM | Available now | Available now |
