@@ -11,9 +11,14 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 ## November 2026 {#nov-2026}
 
+**November 3, 2026**
+
+* New: [Simulate a journey using Coworker](../chat/use-cases/journeys/simulate-journey-using-coworker.md)
+
 **November 2, 2026**
 
 * Updated: [CX Enterprise Coworker overview](../home.md) and [Get started with Coworker Chat](../chat/ui-guide.md). Adobe Analytics is now listed as an application where Coworker Chat is available.
+* Updated: [Coworker Chat workflows](../chat/use-cases/workflows.md). The article now lists skills for inspecting AEM workflows and exploring Dispatcher insights. It also adds audience skills for inventory distribution, inventory health, lineage, and duplicate detection, and notes that audience creation supports B2C and B2B audiences.
 
 ## October 2026 {#oct-2026}
 
