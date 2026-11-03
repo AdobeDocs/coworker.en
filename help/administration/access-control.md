@@ -8,24 +8,25 @@ product_v2:
 ---
 # Access control for Coworker {#access-control}
 
-Use Adobe CX Enterprise Coworker access control to manage who can use Coworker and which capabilities they can use. Available settings and roles may vary by organization.
+Use Adobe CX Enterprise Coworker access control to manage who can use Coworker and which capabilities they can use.
 
 ## How access is determined {#how-access-is-determined}
 
-Coworker access works alongside permissions in the Adobe products you connect to. Administrators manage Coworker access for users and groups and assign available roles.
+Coworker starts with an organization-wide default.
 
 | Access type | What it determines |
 | --- | --- |
-| Coworker access | Whether a user or group can use Coworker. |
-| Coworker roles | Which Coworker capabilities or tools a user can use. |
+| Organization-wide default | Provides access for everyone and allows read, write, and destructive MCP operations. |
+| User and group settings | Override the organization-wide default for individual users or groups. |
 | Connected application permissions | Which data and actions a user can access in connected Adobe products. Coworker does not grant additional product permissions. |
-| Coworker Projects access | Whether a user can access Coworker Projects. Access to Coworker Chat does not automatically grant Projects access. |
 
-A user who can open Coworker might still need additional permissions for a connected application or a specific Coworker capability.
+Read-only mode and entity deletion settings are in **[!UICONTROL Customizations]** > **[!UICONTROL Org]** > **[!UICONTROL General]**. Custom roles are not available.
+
+Coworker access works alongside permissions in the Adobe products you connect to. A person who can open Coworker might still need additional permissions for a connected application.
 
 ## Manage access {#manage-access}
 
-If access control settings are available to you in your organization, use them to review and manage Coworker access.
+Only organization admins can manage Access control settings.
 
 1. Open the standalone Coworker experience. For instructions, see [Sign in to Coworker](/help/chat/ui-guide.md#sign-in).
 1. Open the profile menu and select **[!UICONTROL Admin settings]**.
@@ -38,27 +39,17 @@ If access control settings are available to you in your organization, use them t
 
    ![Admin settings with the Access control card highlighted.](./assets/access-control/access-control.png)
 
-1. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review access and make changes.
+1. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review or change settings that override the organization-wide default.
 
-   ![Access control with the Users tab selected and assigned roles and product entitlements displayed.](./assets/access-control/users.png)
+   Access settings have three states:
 
-   ![Access control with the User groups tab selected and group members and assigned roles displayed.](./assets/access-control/user-groups.png)
+   * **[!UICONTROL Allow]** grants access only to people who already have a Coworker license. It does not assign a license.
+   * **[!UICONTROL Deny]** blocks all Coworker access and takes precedence over any grant.
+   * **[!UICONTROL Inherit]** clears the override so the applicable group setting or organization-wide default determines access.
 
-1. Select **[!UICONTROL Roles]** to review available roles and their descriptions.
+   Changes take effect after a short propagation delay.
 
-   ![Access control with the Roles tab selected and role descriptions and assigned users displayed.](./assets/access-control/roles.png)
-
-1. In **[!UICONTROL Users]**, open a user's details, then edit their role assignments.
-
-   ![User details with the controls for viewing details and editing role assignments highlighted.](./assets/access-control/configure-roles.png)
-
-1. In **[!UICONTROL Manage user]**, select **[!UICONTROL Add role]** and choose an available role.
-
-   ![Manage user dialog with the Add role menu open and available roles displayed.](./assets/access-control/manage-user.png)
-
-1. Enable or disable access as needed.
-
-Use the role descriptions displayed in your Coworker environment to choose the appropriate access. Grant only the access users need.
+1. To manage read-only mode or entity deletion, go to **[!UICONTROL Customizations]** > **[!UICONTROL Org]** > **[!UICONTROL General]**.
 
 ## Connected application permissions {#connected-application-permissions}
 
@@ -72,7 +63,7 @@ In [!DNL Workfront], access levels, object permissions, and system preferences m
 
 If you do not see [!UICONTROL Access control], contact your Adobe administrator or Adobe representative. They can confirm whether the feature is enabled for your organization and whether you have access to its settings.
 
-If you are denied access, ask your administrator to review your Coworker access and assigned roles. For a connected application or Coworker Projects, ask them to check the permissions managed separately for that application or experience.
+If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a connected application, ask them to check the permissions managed separately for that application.
 
 ## More help on this topic {#more-help}
 
