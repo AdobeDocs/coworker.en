@@ -76,8 +76,6 @@ Administrators make the [!DNL Snowflake] connector available to everyone in the 
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Snowflake]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Snowflake card with a Not configured status and a Configure button.](./assets/snowflake/org-connectors.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Connect Snowflake]** dialog, enter the full URL of your [!DNL Snowflake] MCP server in **[!UICONTROL Server URL]**. The URL must use HTTPS and follow this pattern:
 
    ```text
@@ -136,8 +134,6 @@ Administrators make the [!DNL Snowflake] connector available to everyone in the 
 
 1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Snowflake]** card shows **[!UICONTROL Configuration saved]**.
 
-   ![Organization External Connectors page showing the Snowflake card with a Configuration saved status and a View configuration button.](./assets/snowflake/org-saved.png){width="700" zoomable="yes"}
-
    Select **[!UICONTROL View configuration]** to review the server URL, authentication type, and tool policy. Then select **[!UICONTROL Test connection]** to check access and discover the server tools.
 
    New [!DNL Snowflake] connections use a 300-second tool timeout. An older connection without a saved timeout may use the default of 60 seconds. Check the timeout shown for an existing connection.
@@ -152,11 +148,7 @@ After an administrator configures the connector, open it from your own **[!UICON
 
    If the **[!UICONTROL Snowflake]** card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
 
-   ![User External Connectors page showing the Snowflake card with a Not configured status and a message that the admin needs to set it up.](./assets/snowflake/member-not-configured.png){width="700" zoomable="yes"}
-
 1. Open **[!UICONTROL Snowflake]**. The connector details are read-only for members. You cannot change the server URL, credentials, or tool selection.
-
-   ![User External Connectors page showing the Snowflake card with a Connected status and a Test button.](./assets/snowflake/member-connectors.png){width="700" zoomable="yes"}
 
 1. If the connection uses an organization service account, requests use the identity of the organization. You do not need to sign in. Never enter or share the PAT.
 
