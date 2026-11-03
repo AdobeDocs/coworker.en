@@ -1,5 +1,5 @@
 ---
-title: What are skills?
+title: What Are Skills?
 description: Learn about skills in Adobe CX Coworker, reusable playbooks that standardize workflows and deliver consistent results across conversations and users.
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22377
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # What are skills in Coworker?

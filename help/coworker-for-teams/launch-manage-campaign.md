@@ -1,9 +1,11 @@
 ---
 description: Learn how to launch a campaign, schedule when it goes out and how often, and permanently stop a live campaign that is actively sending.
-title: Launch and manage a campaign
+title: Launch and Manage a Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
+  - id: a17f56ef-32e3-5ef7-b044-4479a09ffbc1
+    internal-label: Coworker for teams
 ---
 # Launch and manage a campaign {#launch-campaign}
 
@@ -27,11 +29,15 @@ After your campaign is created, learn how to launch it, schedule when it goes ou
 
 1. Click **Launch campaign** when done.
 
->[!NOTE]
->
->- A campaign can't launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings.
->
->- If you schedule a campaign, you can still edit it prior to its launch. There's no need to switch to draft mode.
+### Things to note - launching
+
+- A campaign can't launch with a sample (non-real) audience, email drafts that have not been proofed, or unconfigured sending settings.
+
+- If you schedule a campaign, you can still edit it prior to its launch. There's no need to switch to draft mode.
+
+- Your trial includes 5000 email sends per month. The _estimated limit impact_ displays at launch so you can keep track of how many emails you have left.
+
+- When your campaign is live, insights become available in two hours via the _Insights_ tab at the top of your campaign board. Insights include number of sends, opens, clicks, bounces, unsubscribes, and errors, as well as daily performance and your workflow.  
 
 ## Schedule when a campaign launches {#schedule-when-a-campaign-launches}
 
@@ -76,7 +82,7 @@ The campaign must be ready to launch (all required setup complete).
 | Day of month | Which day of the month the campaign repeats on | Yes, for Monthly frequency |
 | End campaign | Never, or on a specific end date | Yes, for Recurring |
 
-### Things to note
+### Things to note - scheduling
 
 - Recurring campaigns can be set to run indefinitely or until a specific end date. One-time and immediate campaigns don't have an end date option, since they run once.
 - Scheduling does not support custom repeat intervals, such as "every 2 weeks" or "every 3 days." It also does not support relative monthly recurrence, such as "the second Monday of the month."
@@ -88,14 +94,6 @@ You can stop a campaign that is actively sending (a "live" campaign) directly fr
 >[!CAUTION]
 >
 >Stopping a campaign is permanent. Recipients stop progressing through the campaign immediately, and the campaign cannot be resumed or restarted afterward. To send again, you must create a new campaign and launch that one.
-
-<!--
-
-### Prerequisites
-
-- [NEEDS INPUT - to confirm with engineer: does stopping a campaign require a specific role or permission, or can any user with campaign access do this?]
-
--->
 
 ### How to stop a campaign
 

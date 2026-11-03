@@ -3,7 +3,9 @@ description: A step-by-step guide to generating an email campaign in Adobe CX En
 title: Create an Email Campaign
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
+  - id: a17f56ef-32e3-5ef7-b044-4479a09ffbc1
+    internal-label: Coworker for teams
 ---
 # Create an email campaign {#create-an-email-campaign}
 
@@ -15,9 +17,9 @@ Make sure you have:
 
 * An active Adobe CX Enterprise Coworker for teams account ([sign up here](https://coworker-campaigns.experience.adobe.com/){target="_blank"} if you have not already).
 
-* Your brand added under **Your stuff** > **Brands**.
+* Your brand added under **Context** > **Brands**.
 
-* (Optional but recommended) An HTML email template uploaded under **Your stuff** > **Email templates**.
+* (Optional but recommended) An HTML email template uploaded under **Context** > **Email templates**.
 
 * An audience CSV ready to upload.
 
@@ -64,29 +66,25 @@ Example:
 
 ![Typing in your own prompt](./assets/create-an-email-campaign-2.png)
 
-When you have your prompt ready, click **Generate campaign**. Coworker for teams will then:
+When you have your prompt ready, click the up-arrow icon. Coworker for teams will then:
 
-* Generate a structured campaign plan.
+* Generate a structured campaign strategy.
 * Ask for your target audience, which will also be used for content personalization.
 * Draft personalized email content for each step.
 * Dynamically build the journey along the way.
 * Assemble it all on a single campaign board.
 
-## Step 3: Upload your audience
+## Step 3: Update your audience
 
 Audiences are uploaded via CSV. All audiences are specific to their respective campaigns (they are not stored anywhere else in your environment at this time).
 
-1. After submitting your prompt, review the tasks that Coworker will execute and click **Build**.
+1. After submitting your prompt, Coworker for teams (usually) generates a sample audience for you. If it does not, it  prompts you to import an audience.
 
-1. In the _Campaign conversion_ pane on the left, click **Upload CSV**.
-
-   ![](./assets/create-an-email-campaign-3.png)
+1. Import your own audience by uploading a CSV file, or by bringing in data from an available connector.
 
    >[!NOTE]
    >
-   >* Email address is a required field, first name, last purchased date, and any other fields that can be used for personalization are recommended.
-
-1. Import your CSV file.
+   >While Coworker for teams lets you proceed building your campaign using a sample audience, you must add a real audience to launch your campaign.
 
    >[!IMPORTANT]
    >
@@ -96,7 +94,7 @@ Audiences are uploaded via CSV. All audiences are specific to their respective c
 
 To make changes to your email, scroll to the right. Under _Campaign Assets_, click **Open editor**. 
 
-![](./assets/create-an-email-campaign-4.png)
+![](./assets/create-an-email-campaign-3.png)
 
 There are two ways to update your content.
 
@@ -112,7 +110,7 @@ There are two ways to update your content.
 
 You can also use the AI buttons to help refine your Subject or Preheader. 
 
-![](./assets/create-an-email-campaign-5.png)
+![](./assets/create-an-email-campaign-4.png)
 
 >[!TIP]
 >
@@ -126,11 +124,11 @@ Before launching, send the campaign to yourself so you can review it in a real i
 >
 >At this time, you can only send a test email to yourself, and only one at a time.
 
-![](./assets/create-an-email-campaign-6.png)
+![](./assets/create-an-email-campaign-5.png)
 
-## Step 6: Next steps
+## Step 6: Launch your campaign
 
-The Launch functionality (sending your email campaign) is coming soon. Until then, you can review the content with your team, and start on your next campaign.
+You are now ready to [launch your campaign](/help/coworker-for-teams/launch-manage-campaign.md#launch-a-campaign).
 
 ## FAQ
 
@@ -157,10 +155,6 @@ Yes, the size limit is 8MB.
 **What if my audience CSV returns errors?**
 
 Make sure your CSV file does not contain "rich" hidden characters.
-
-**How do I use campaign templates?**
-
-Select the desired template and click **Remix**. You can then update all personalization tokens and click the **send** icon on the bottom-right. 
 
 **How do I share a draft campaign with a teammate for review?**
 

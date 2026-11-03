@@ -1,5 +1,5 @@
 ---
-title: Author AEM Sites pages with Coworker
+title: Author AEM Sites Pages with Coworker
 description: Learn how to author AEM Sites pages with Adobe CX Enterprise Coworker by adding a new promotion built from a Visual Content Fragment, using natural language.
 version: Experience Manager as a Cloud Service
 role: Leader, User, Developer
