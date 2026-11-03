@@ -3,7 +3,7 @@ title: Measure Marketing Impact and Attribution with Coworker Chat
 description: Use Coworker Chat to measure each channel's incremental impact, find where spend saturates, build what-if budget scenarios, and check marketing model quality.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Marketing measurement and attribution overview

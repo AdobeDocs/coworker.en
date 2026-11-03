@@ -9,7 +9,7 @@ last-substantial-update: 2026-08-27T00:00:00.000Z
 jira: PLAT-302857
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Validate your Experience Platform data with Coworker
@@ -41,7 +41,7 @@ To validate your data with Coworker, you need:
 
 1. Sign in to Coworker.
 
-1. Select [!UICONTROL **New Chat**].
+1. Select **[!UICONTROL New chat]**.
 
 1. In the text field, prompt the agent to validate a field or a dataset. For example:
 

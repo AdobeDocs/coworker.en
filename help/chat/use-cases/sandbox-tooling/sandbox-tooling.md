@@ -13,11 +13,7 @@ description: Learn how to use Sandbox Tooling Agentic Skills to replicate object
 >
 >**Manage-package**: This permission lets you use Sandbox Tooling Agentic Skills to create packages directly in Coworker.
 
->[!NOTE]
->
->You can currently use Sandbox Tooling Agentic Skills to discover, package, and migrate schema and audience objects. Support for additional object types will be added in future releases.
-
-Use Sandbox Tooling Agentic Skills to move object metadata—including schemas and audiences—across Adobe Experience Platform environments by describing what you want to accomplish in natural language. Using CX Coworker, you can discover the required metadata, automatically identify dependencies, create migration packages, and migrate objects through a conversational experience.
+Use Sandbox Tooling Agentic Skills to move supported object types across Adobe Experience Platform environments by describing what you want to accomplish in natural language. Using Coworker, you can discover the required metadata, automatically identify dependencies, create migration packages, and migrate objects through a conversational experience.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496706?learn=on)
 
@@ -27,13 +23,13 @@ Before you begin, ensure that you have:
 
 - Access to Adobe Experience Platform and the appropriate organization and sandbox.
 - Access to the objects that you want to discover or migrate.
-- The Adobe CXO plugin installed in CX Coworker.
+- The Adobe CXO plugin installed in Coworker.
 
 For instructions on installing plugins, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Use Sandbox Tooling Agentic Skills {#use-sandbox-tooling-agentic-skills}
 
-Interact with Sandbox Tooling Agentic Skills through CX Coworker using natural language. Describe your goal as clearly as possible. Specific requests produce the best results, while vague or overly brief prompts may return lower-quality results or may not invoke the agent.
+Interact with Sandbox Tooling Agentic Skills through Coworker using natural language. Describe your goal as clearly as possible. Specific requests produce the best results, while vague or overly brief prompts may return lower-quality results or may not invoke the agent.
 
 To use Sandbox Tooling Agentic Skills:
 
@@ -58,7 +54,7 @@ To use Sandbox Tooling Agentic Skills:
 
    ![Transfer complete page showing the request status.](./assets/sandbox-tooling/transfer-complete.png)
 
-For more information about using CX Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
+For more information about using Coworker, see the [Coworker UI guide](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide).
 
 ## Supported use cases {#supported-use-cases}
 
@@ -68,11 +64,23 @@ Explore common ways to use Sandbox Tooling Agentic Skills to simplify sandbox ma
 
 As a sandbox administrator managing multiple Adobe Experience Platform sandboxes, you can migrate object metadata using natural-language requests instead of manually navigating the user interface.
 
-Using CX Coworker, you can migrate object metadata—including schemas, audiences, and related configuration assets—from one sandbox to another by describing the migration in natural language. Sandbox Tooling Agentic Skills automatically identify and package the required dependencies, helping ensure a reliable migration.
+Using Coworker, you can migrate supported Adobe Experience Platform objects and their associated metadata from one sandbox to another by describing the migration in natural language. Sandbox Tooling Agentic Skills automatically identify dependencies, package the required objects, and help ensure a reliable migration across environments.
 
 For example:
 
 - "Move schema Luma Loyalty Members Platinum from the current sandbox to the production sandbox."
+
+### Promote objects to multiple sandboxes (Beta)
+
+>[!NOTE]
+>
+>Multi-sandbox management is currently in Beta and supports only schemas and datasets.
+
+As a sandbox administrator, you can promote supported objects from a source sandbox to multiple target sandboxes in a single workflow. Instead of importing a package into each sandbox individually, use Coworker to select target sandboxes, review proposed changes, and deploy configurations consistently across environments. Multi-sandbox management automatically resolves dependencies and provides a preview of changes before promotion begins.
+
+For example:
+
+- "Promote the Loyalty Member schema to all regional sandboxes."
 
 ### Promote audiences between sandboxes
 
