@@ -41,8 +41,6 @@ Administrators make the [!DNL Meta Ads] connector available to everyone in the o
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Meta Ads]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Meta Ads card with a Not configured status.](./assets/meta-ads/org-connectors.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Configure Meta Ads for your organization]** dialog, review the **[!UICONTROL Connection details]**, and then select an **[!UICONTROL OAuth application]**:
 
    * **[!UICONTROL Adobe-managed OAuth application]:** Adobe provides the [!DNL Meta Ads] app, so you do not need to enter app credentials. Each member still signs in with their own [!DNL Facebook] account after you save.
@@ -103,8 +101,6 @@ After you save, tools that you leave unselected are not available to members unt
 After an administrator configures the connector, each member signs in with their own [!DNL Facebook] account. You do not need an app secret or access token to sign in.
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
-
-   ![User External Connectors page showing the Meta Ads card with a Not signed in status and a Sign in button.](./assets/meta-ads/member-sign-in.png){width="700" zoomable="yes"}
 
 1. On the **[!UICONTROL Meta Ads]** card, select **[!UICONTROL Sign in]**.
 
