@@ -44,8 +44,6 @@ Administrators make the [!DNL Microsoft Work IQ] connector available to everyone
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Microsoft Work IQ]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Microsoft Work IQ card with a Not configured status.](./assets/microsoft-work-iq/org-connectors.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Configure Microsoft Work IQ for your organization]** dialog, review the **[!UICONTROL Server URL]**, `https://workiq.svc.cloud.microsoft/mcp`. Then prepare your [!DNL Microsoft Entra] app. For the [!DNL Microsoft] requirements, select **[!UICONTROL Microsoft setup instructions]** in the dialog.
 
    1. Register a web app in [!DNL Microsoft Entra], or use an existing one.
@@ -127,8 +125,6 @@ To change the tools available to members after you save, use the **[!UICONTROL T
 After an administrator configures the connector, each member signs in with their own [!DNL Microsoft] work account. You do not need the app client secret to sign in.
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
-
-   ![User External Connectors page showing the Microsoft Work IQ card with a Not signed in status.](./assets/microsoft-work-iq/member-sign-in.png){width="700" zoomable="yes"}
 
 1. On the **[!UICONTROL Microsoft Work IQ]** card, select **[!UICONTROL Sign in]**.
 
