@@ -1,6 +1,6 @@
 ---
 title: Create, Simulate, and Analyze Cross-Channel Journeys
-description: Learn how CX Enterprise Coworker builds cross-channel journeys, creates email and SMS content, simulates branches, and diagnoses journey configuration issues.
+description: Learn how to use CX Enterprise Coworker to build, simulate, and troubleshoot cross-channel journeys in Adobe Journey Optimizer.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -14,8 +14,6 @@ product_v2:
 
 # Create, simulate, and analyze cross-channel journeys
 
-Learn how CX Enterprise Coworker builds a cross-channel journey from a natural language prompt and creates email and SMS content.
-
-In this video, see how to simulate the journey's branching paths and analyze diagnostics to identify configuration issues.
+Use CX Enterprise Coworker to build a cross-channel journey from a plain-language prompt and generate email and SMS content. In this video, see how to simulate branching paths and review diagnostics to identify configuration issues.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504706?learn=on)

@@ -1,6 +1,6 @@
 ---
 title: Create a Journey from an Image
-description: Learn how CX Enterprise Coworker turns a flowchart image, such as a slide from your marketing team, into a ready-to-edit journey in Adobe Journey Optimizer (AJO).
+description: Learn how to use CX Enterprise Coworker to create a draft Adobe Journey Optimizer journey from a flowchart image.
 role: User
 level: Beginner
 doc-type: Feature Video
@@ -32,6 +32,6 @@ topic_v2:
 
 # Create a journey from an image
 
-Learn how CX Enterprise Coworker turns a flowchart image, such as a PowerPoint slide from your marketing team, into a ready-to-edit journey in Adobe Journey Optimizer. You'll see how Coworker extracts a prompt from the image, lets you review and adjust it, asks for the trigger event, and saves the result as a draft that matches the original design.
+Upload a flowchart image, such as a PowerPoint slide, to CX Enterprise Coworker. In this video, see how to review the prompt extracted from the image, specify the trigger event, and save an editable journey draft in Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)
