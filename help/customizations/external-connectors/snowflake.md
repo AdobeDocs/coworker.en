@@ -1,6 +1,6 @@
 ---
-title: Snowflake External Connector
-description: Learn how to set up the Snowflake external connector in CX Enterprise Coworker with a service account or per-person sign-in to use Snowflake data in chat.
+title: Snowflake Cortex AI External Connector
+description: Learn how to set up the Snowflake Cortex AI external connector in CX Enterprise Coworker with a service account or per-person sign-in to query Snowflake data.
 role: Admin, User
 level: Beginner
 badgeBeta: label="Beta" type="Informative" tooltip="This connector is in beta."
@@ -10,13 +10,13 @@ product_v2:
 hide: true
 ---
 
-# Snowflake external connector {#snowflake}
+# Snowflake Cortex AI external connector {#snowflake}
 
-Use the [!DNL Snowflake] external connector to ask questions about your [!DNL Snowflake] data in plain language in Adobe CX Enterprise Coworker. The connector links Coworker to a [!DNL Snowflake]-managed Model Context Protocol (MCP) server in your [!DNL Snowflake] account. Coworker can then use the tools that the server exposes, such as [!DNL Cortex Analyst], [!DNL Cortex Search], and SQL tools.
+Use the [!DNL Snowflake Cortex AI] external connector to ask questions about your [!DNL Snowflake] data in plain language in Adobe CX Enterprise Coworker. The connector links Coworker to a [!DNL Snowflake]-managed Model Context Protocol (MCP) server in your [!DNL Snowflake] account. Coworker can then use the tools that the server exposes, such as [!DNL Cortex Analyst], [!DNL Cortex Search], and SQL tools.
 
 >[!AVAILABILITY]
 >
->The [!DNL Snowflake] external connector is in beta. The documentation and the functionality are subject to change.
+>The [!DNL Snowflake Cortex AI] external connector is in beta. The documentation and the functionality are subject to change.
 
 ## Connector configuration {#connector-configuration}
 
@@ -72,11 +72,11 @@ For instructions, see the following [!DNL Snowflake] documentation:
 
 ## Configure the connector for your organization {#configure-organization}
 
-Administrators make the [!DNL Snowflake] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization.
+Administrators make the [!DNL Snowflake Cortex AI] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Snowflake]** card, select **[!UICONTROL Configure]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Snowflake Cortex AI]** card, select **[!UICONTROL Configure]**.
 
-1. In the **[!UICONTROL Connect Snowflake]** dialog, enter the full URL of your [!DNL Snowflake] MCP server in **[!UICONTROL Server URL]**. The URL must use HTTPS and follow this pattern:
+1. In the **[!UICONTROL Connect Snowflake Cortex AI]** dialog, enter the full URL of your [!DNL Snowflake] MCP server in **[!UICONTROL Server URL]**. The URL must use HTTPS and follow this pattern:
 
    ```text
    https://<account-host>/api/v2/databases/<database>/schemas/<schema>/mcp-servers/<server-name>
@@ -132,7 +132,7 @@ Administrators make the [!DNL Snowflake] connector available to everyone in the 
 
    Tool descriptions are not a substitute for [!DNL Snowflake] privileges or other access controls. For [!DNL Cortex Analyst] tools, set up a semantic view and the required grants, including the `SNOWFLAKE.CORTEX_USER` database role. For [!DNL Cortex Agent] tools, configure read-only tools and turn off code execution in [!DNL Snowflake]. Members cannot change the tool selection.
 
-1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Snowflake]** card shows **[!UICONTROL Configuration saved]**.
+1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Snowflake Cortex AI]** card shows **[!UICONTROL Configuration saved]**.
 
    Select **[!UICONTROL View configuration]** to review the server URL, authentication type, and tool policy. Then select **[!UICONTROL Test connection]** to check access and discover the server tools.
 
@@ -146,9 +146,9 @@ After an administrator configures the connector, open it from your own **[!UICON
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
-   If the **[!UICONTROL Snowflake]** card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
+   If the **[!UICONTROL Snowflake Cortex AI]** card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
 
-1. Open **[!UICONTROL Snowflake]**. The connector details are read-only for members. You cannot change the server URL, credentials, or tool selection.
+1. Open **[!UICONTROL Snowflake Cortex AI]**. The connector details are read-only for members. You cannot change the server URL, credentials, or tool selection.
 
 1. If the connection uses an organization service account, requests use the identity of the organization. You do not need to sign in. Never enter or share the PAT.
 
