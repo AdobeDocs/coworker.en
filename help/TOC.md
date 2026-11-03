@@ -85,6 +85,8 @@ nudge: true
   - Plugins {#plugins}
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
+  - External connectors {#external-connectors}
+    - {hide-from-toc} [Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
 - Coworker for teams {#coworker-for-teams}
