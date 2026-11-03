@@ -40,8 +40,6 @@ Administrators make the [!DNL Google Ads] connector available to everyone in the
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Google Ads card with a Not configured status and a Configure button.](./assets/google-ads/org-connectors.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Configure Google Ads for your organization]** dialog, confirm that the **[!UICONTROL OAuth application]** is **[!UICONTROL Adobe-managed OAuth application]**. Adobe provides the [!DNL Google Ads] app, so you do not need to enter app credentials. Under **[!UICONTROL Tools available to users]**, select the tools your organization needs. For more information, see [Available tools](#available-tools). Review the **[!UICONTROL Each person signs in separately]** notice, and then select **[!UICONTROL Save connection]**.
 
    ![Configure Google Ads for your organization dialog with the Adobe-managed OAuth application, all three tools selected, and the Each person signs in separately notice.](./assets/google-ads/org-configure.png){width="500" zoomable="yes"}
@@ -78,8 +76,6 @@ After an administrator configures the connector, each member signs in with their
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google Ads]** card, select **[!UICONTROL Sign in]**.
 
    If the card shows **[!UICONTROL Not configured]** or the connector is unavailable, ask your administrator to [configure the connector](#configure-organization).
-
-   ![User External Connectors page showing the Google Ads card with a Not signed in status and a Sign in button.](./assets/google-ads/member-sign-in.png){width="700" zoomable="yes"}
 
 1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account with access to your [!DNL Google Ads] accounts, or select **[!UICONTROL Use another account]**. Then complete any sign-in steps that your organization requires, such as single sign-on (SSO), multi-factor authentication (MFA), or identity verification.
 
