@@ -1,9 +1,9 @@
 ---
-title: Analyze Customer Journey Analytics Data with Coworker Chat
-description: Learn how to use Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics data, build funnels, and find where customers drop off in the journey.
+title: Analyze Analytics Data with Adobe CX Enterprise Coworker Chat
+description: Use Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics and Adobe Analytics data, find root causes, and open results in Analysis Workspace.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Analyze data with Coworker Chat
@@ -18,7 +18,9 @@ Coworker Chat can perform advanced data analysis that was previously possible on
 
 Coworker Chat inherits permissions from Customer Journey Analytics or Adobe Analytics. You can access only those data views, report suites, dimensions, metrics, and segments available to you in Analysis Workspace.
 
-When you create a visualization in Coworker chat, you can open it in Analysis Workspace any time for more manual control.
+When you create a visualization in Coworker chat, you can open it in Analysis Workspace any time for more manual control. See [Open a visualization in Analysis Workspace](/help/chat/use-cases/data-insights/analytics-chat.md#open-a-visualization-in-analysis-workspace).
+
+In Customer Journey Analytics, you can also use Coworker in a chat panel in Analysis Workspace. There, Coworker uses the open project as context and can add panels, tables, and components directly to the project. To decide which to use, see [Choose between Coworker in Workspace and the Coworker application](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/coworker#choose-between-coworker-in-workspace-and-the-coworker-application) in the Customer Journey Analytics guide.
 
 ## Quick answers and deep-thought work
 
@@ -51,6 +53,7 @@ The following skills are available for analyzing Customer Journey Analytics or A
 | `cja`, `aa` | Query Customer Journey Analytics data views (`cja`) or Adobe Analytics report suites (`aa`) in real time:<ul><li>Pull metrics, dimensions, segments, data views, and report suites</li><li>Compare channels, time periods, or segments side by side</li><li>Run multi-step funnel and fallout analysis</li><li>Forecast metrics based on historical trends</li></ul> | View access to the data view or report suite you want to query | <ul><li>Creating or editing data view or report suite components</li><li>Data outside the data views or report suites you have access to</li><li>Predictive modeling beyond metric forecasting</li></ul> |
 | `cja-root-cause-analysis`, `aa-root-cause-analysis` | Investigate why a metric changed instead of just reporting that it changed:<ul><li>Investigate a change in a known metric over a known period</li><li>Surface the dimensions and segments that contributed to the change</li></ul> | View access to the data view or report suite being analyzed | <ul><li>Detecting anomalies you haven't asked about (no automated or real-time alerting)</li><li>Root cause analysis for metrics outside a data view or report suite you have access to</li></ul> |
 | `cja-executive-summary` | Produce stakeholder-ready summaries of your data:<ul><li>Summarize performance over a specified period</li><li>Generate prescriptive recommendations based on the data</li><li>Outline content for a slide deck or stakeholder readout</li></ul> | View access to the data views or report suites covered in the summary | <ul><li>Building the final slide deck or presentation file</li><li>Summaries that span data views or report suites you don't have access to</li></ul> |
+| `analyze-content`<br/>(Limited Availability)<!-- FLAG: Confirm the Out of scope items with the PM. --> | Answer general or specific questions about your content using Content Analytics data in Customer Journey Analytics:<ul><li>Find what top-performing assets and experiences have in common</li><li>Tie content exposure to conversions and revenue</li><li>Compare content across channels and audiences</li></ul>For more information, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md). | View access to a data view that's configured for Content Analytics | <ul><li>Setting up or configuring Content Analytics</li><li>Content that Content Analytics doesn't collect</li><li>Paid media content</li></ul> |
 | `aa-cja-validation` | Compare, audit, and reconcile data between [!DNL Adobe Analytics] and Customer Journey Analytics:<ul><li>Compare metric values between a report suite and a data view</li><li>Flag discrepancies between the two data sources</li></ul> | View access to the [!DNL Adobe Analytics] report suite and the Customer Journey Analytics data view being compared | <ul><li>Resolving the underlying cause of a data discrepancy</li><li>Validating data sources other than [!DNL Adobe Analytics] and Customer Journey Analytics</li></ul> |
 | `cja-skill-creator` | Turn an analysis you've already run into a reusable skill:<ul><li>Convert a completed analysis into a named, reusable skill</li><li>Make a saved skill available across your future chat sessions</li></ul> | Manage skills | <ul><li>Sharing a saved skill with other users automatically (organization-level skill libraries require admin setup)</li><li>Editing the data view or report suite components a skill references</li></ul> |
 

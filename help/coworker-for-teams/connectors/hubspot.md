@@ -3,22 +3,22 @@ description: Connect your HubSpot account to Coworker for teams using a service 
 title: Connect to HubSpot
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Connect to HubSpot {#hubspot}
 
-Adobe Coworker for teams allows you to connect your HubSpot account to pull in contact lists.
+Coworker for teams allows you to connect your HubSpot account to pull in contact lists.
 
 >[!PREREQUISITES]
 >
 >To use this connector, you must first have:
 >
 >* An active HubSpot account
->* A [service key](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys#create-a-service-key) created with the following scopes added: `crm.objects.contacts.read`, `crm.objects.leads.read`, `crm.schemas.contacts.read`, `crm.lists.read`, `crm.export`
+>* A [service key](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/account-service-keys#create-a-service-key){target="_blank"} created with the following scopes added: `crm.objects.contacts.read`, `crm.objects.leads.read`, `crm.schemas.contacts.read`, `crm.lists.read`, `crm.export`
 
 ## How to connect
 
-1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/), click **Customize** and select **Connectors**.
+1. On the [Coworker for teams homepage](https://coworker-campaigns.experience.adobe.com/){target="_blank"}, click **Context** and select **Connectors**.
 
    ![Customize menu expanded in the sidebar with Connectors selected](./assets/hubspot-1.png)
 

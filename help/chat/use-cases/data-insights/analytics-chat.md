@@ -1,15 +1,15 @@
 ---
 title: Get Started Analyzing Data with Coworker Chat
-description: Learn how to use Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics data, build funnels, and find where customers drop off in the journey.
+description: Set up Adobe CX Enterprise Coworker Chat to analyze Customer Journey Analytics or Adobe Analytics data, then follow an example that finds customer drop-off.
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Get started analyzing data with Coworker Chat
 
-Set up Adobe CX Enterprise Coworker Chat to analyze your Customer Journey Analytics data views or Adobe Analytics report suites, then follow a working example. For an overview of what you can do with Coworker Chat, including use cases, skills, and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
+Set up Adobe CX Enterprise Coworker Chat to analyze your Customer Journey Analytics data views or Adobe Analytics report suites, then follow a working example. For an overview of what you can do with Coworker Chat, including use cases, skills, and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md). To use Coworker in a chat panel in Customer Journey Analytics Analysis Workspace instead, see [Use the in-product experience for Coworker](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/coworker) in the Customer Journey Analytics guide.
 
-Before you begin, learn the Coworker Chat interface and configuration options, then ensure Coworker is connected to Customer Journey Analytics or Adobe Analytics and the relevant data views or report suites.
+Before you begin, learn the Coworker Chat interface and customization options, then ensure Coworker is connected to Customer Journey Analytics or Adobe Analytics and the relevant data views or report suites.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Before you use Coworker Chat with your Customer Journey Analytics or Adobe Analy
 * Chat inputs
 * Conversations
 * Marketplaces
-* MCP servers
+* Integration servers
 * Memory
 * Plugins
 * Skills
@@ -32,15 +32,21 @@ Before you use Coworker Chat with your Customer Journey Analytics or Adobe Analy
 
 For more information, see the [Coworker Chat UI guide](/help/chat/ui-guide.md).
 
-## Verify that Coworker Chat is connected to Customer Journey Analytics
+## Verify your analytics integrations
 
-In Coworker Chat, verify that Coworker is connected to Customer Journey Analytics:
+Coworker Chat connects to Customer Journey Analytics and Adobe Analytics through integrations. Before you start, make sure that the integration for your product is connected.
 
-1. Select the MCP icon in the left rail, then make sure that [!UICONTROL **cja-mcp**] is available in your list of connected MCP servers.
+1. In Coworker, select [!UICONTROL **Customizations**] in the left rail.
 
-   ![The MCP icon highlighted in the Coworker left rail](../../assets/coworker-mcp-cja.png)
+1. Select the [!UICONTROL **Integrations**] tab, then make sure that [!UICONTROL **cja-mcp**] and [!UICONTROL **aa-mcp**] are available in your list of connected servers. 
 
-1. (Conditional) If [!UICONTROL **cja-mcp**] is not yet connected, select [!UICONTROL **Add MCP Server**], specify cja in the [!UICONTROL **Server Name**] field and select it when it appears, then select [!UICONTROL **Add Server**].
+   Use the search field to quickly filter the list of available integrations.
+
+   ![The Integrations tab on the Customizations page, filtered to show aa-mcp](assets/coworker-mcp-aa.png)
+
+1. (Conditional) If the integration isn't listed, select [!UICONTROL **Add server**] to add it. 
+
+   For more information, see [Connect a server](/help/chat/ui-guide.md#server) in the get started guide.
 
 ## Connect to the right data view or report suite
 
@@ -310,17 +316,22 @@ In four plain-language questions, Coworker helped us:
 * Isolate the real problem to mobile checkout, and quantify the fix at a 35% lift in purchases
 * Walk away with a specific fix to prioritize: mobile payment and form friction. This is benchmarked against desktop's 23.2% conversion rate
 
-## Analyze in Customer Journey Analytics
+## Open a visualization in Analysis Workspace
 
-After Coworker creates a visualization, you can open it in Analysis Workspace for deeper analysis and granular control. The visualization opens in a new Analysis Workspace project in Customer Journey Analytics.
+After Coworker creates a visualization, you can open it in Analysis Workspace for deeper analysis and granular control. The visualization opens in a new Analysis Workspace project in Customer Journey Analytics or Adobe Analytics, depending on the source of the data.
 
 To open a visualization in a new Analysis Workspace project:
 
-1. Select [!UICONTROL **Analyze in CJA**] next to any visualization that is created in Coworker.
+1. Next to any visualization that is created in Coworker, select one of the following:
 
-1. With the visualization open in Customer Journey Analytics, you can use the Analysis Workspace drag-and-drop browser interface to make modifications, further craft your analysis, create an audience, and much more. You can even share your Workspace project with anyone you choose.
+   * [!UICONTROL **Analyze in CJA**] for a visualization based on a Customer Journey Analytics data view
+   * [!UICONTROL **Analyze in Analysis Workspace**] for a visualization based on an Adobe Analytics report suite
 
-   For more information about Analysis Workspace, see [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+1. With the visualization open in Analysis Workspace, you can use the drag-and-drop browser interface to make modifications, further craft your analysis, and much more. In Customer Journey Analytics, you can also create an audience. 
+
+1. (Optional) Share your Workspace project with anyone you choose.
+
+   For more information about Analysis Workspace, see [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) in the Customer Journey Analytics documentation or [Analysis Workspace overview](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) in the Adobe Analytics documentation.
 
 ## Next steps
 

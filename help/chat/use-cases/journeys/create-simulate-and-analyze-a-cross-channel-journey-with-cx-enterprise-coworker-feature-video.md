@@ -1,5 +1,5 @@
 ---
-title: Create, simulate, and analyze cross-channel journeys
+title: Create, Simulate, and Analyze Cross-Channel Journeys
 description: Learn how CX Enterprise Coworker builds cross-channel journeys, creates email and SMS content, simulates branches, and diagnoses journey configuration issues.
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ last-substantial-update: 2026-10-16T00:00:00.000Z
 jira: KT-22912
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Create, simulate, and analyze cross-channel journeys

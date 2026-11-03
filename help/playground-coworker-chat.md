@@ -1,12 +1,10 @@
 ---
-title: Get Started With Coworker Chat In Playground
+title: Get Started with Coworker Chat in Playground
 description: Learn how to use Coworker Chat in Playground to explore how natural-language prompts can help you learn, investigate, and refine your work.
 hide: true
 autotag-review: '2026-09-02T16:21:52.199Z'
 TQID: 'https://experienceleague.adobe.com/a-9nJwwe4TFdi0ljwyyHfVfz-VqHL5lQbtmkU5P1Axw'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
@@ -16,7 +14,7 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 feature_v2:
   - id: 9c3a4e5f-6d7b-4c8a-8e9f-1b2c3d4e5f6a
     internal-label: Datasets
