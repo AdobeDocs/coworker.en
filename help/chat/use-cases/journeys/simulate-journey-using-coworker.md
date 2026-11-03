@@ -1,6 +1,6 @@
 ---
 title: Simulate an Adobe Journey Optimizer journey using Coworker
-description: Learn how to simulate Adobe Journey Optimizer journeys using Coworker to test paths, receive proof messages, and review path coverage before publishing.
+description: Learn how to use Coworker to simulate Adobe Journey Optimizer journeys and review the results before publishing.
 role: User
 level: Beginner, Intermediate
 doc-type: Feature Video
@@ -24,8 +24,6 @@ level_v2:
 
 # Simulate an Adobe Journey Optimizer journey using Coworker
 
-Learn how to use Coworker to simulate an Adobe Journey Optimizer journey with automatically generated test profiles and events.
-
-In this video, see how to test journey paths, receive proof messages, and review path coverage and simulation results before publishing.
+Use Coworker to simulate an Adobe Journey Optimizer journey with automatically generated test profiles and events. In this video, see how to test journey paths, receive proof messages, and review path coverage and simulation results before publishing.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507004?learn=on)

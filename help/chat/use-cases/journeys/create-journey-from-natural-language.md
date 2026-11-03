@@ -1,6 +1,6 @@
 ---
 title: Journey Optimizer & Coworker - Generate Journeys
-description: Learn how to create Adobe Journey Optimizer journeys from natural language prompts with Coworker.
+description: Learn how to use Coworker to draft Adobe Journey Optimizer journeys from plain-language prompts.
 feature: AI Tools
 role: User
 level: Beginner
@@ -15,9 +15,7 @@ product_v2:
 
 # Generate Adobe Journey Optimizer journeys from natural language prompts
 
-Building customer journeys traditionally requires extensive configuration across triggers, timing rules, channels, decision logic, and messaging steps. In this video, you'll see how Coworker simplifies the process by transforming a plain-language description into a fully drafted journey in Adobe Journey Optimizer.
- 
-By automating the initial setup process, teams can spend less time building journeys from scratch and more time refining customer experiences and business outcomes.
+Describe the journey you want to create, and Coworker drafts it in Adobe Journey Optimizer. In this video, see how Coworker configures triggers, timing, channels, and decision logic so you can focus on reviewing and refining the journey.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496867/?learn=on&enablevpops)
 
