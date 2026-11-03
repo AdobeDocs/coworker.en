@@ -1,9 +1,11 @@
 ---
 description: Learn how Coworker for teams automatically attaches and preserves C2PA metadata on images, from generation through email delivery.
-title: C2PA metadata in Coworker for teams
+title: C2PA Metadata in Coworker for teams
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
+  - id: a17f56ef-32e3-5ef7-b044-4479a09ffbc1
+    internal-label: Coworker for teams
 ---
 # C2PA metadata in Coworker for teams {#overview}
 

@@ -1,5 +1,5 @@
 ---
-title: Accelerate data insights with Coworker, AEM and CJA
+title: Accelerate Data Insights with Coworker, AEM and CJA
 description: Learn how Adobe CX Enterprise Coworker accelerates data insights such as page views and CTA clicks across Adobe Experience Manager, Adobe Experience Platform, Web SDK, and Customer Journey Analytics.
 feature: AI Tools
 role: Leader, User, Developer

@@ -1,5 +1,5 @@
 ---
-title: Create your first Coworker skill
+title: Create Your First Coworker Skill
 description: Learn how Coworker can transform a one-time analytics task into a reusable skill that delivers consistent business insights month after month.
 role: User
 level: Beginner
@@ -9,7 +9,7 @@ last-substantial-update: 2026-08-26T00:00:00.000Z
 jira: KT-22378
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 
 # Create your first skill in Coworker
