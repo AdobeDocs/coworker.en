@@ -87,6 +87,7 @@ nudge: true
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
   - External connectors {#external-connectors}
     - {hide-from-toc} [Databricks Genie](./customizations/external-connectors/databricks-genie.md)
+    - {hide-from-toc} [Google Ads](./customizations/external-connectors/google-ads.md)
     - {hide-from-toc} [Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
