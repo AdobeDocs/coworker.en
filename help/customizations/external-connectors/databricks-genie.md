@@ -128,8 +128,6 @@ After an administrator configures the connector, open it from your own **[!UICON
 
 1. If your organization uses a service principal, the card shows **[!UICONTROL Available through your organization]**. You do not need to sign in. To check the connection, open the connector details and select **[!UICONTROL Test connection]**.
 
-   ![User External Connectors page showing the Databricks Genie card with an Available through your organization status and a Test button.](./assets/databricks-genie/member-connectors.png){width="700" zoomable="yes"}
-
    A successful test shows **[!UICONTROL Connection successful]** and the number of available tools.
 
    ![Databricks Genie connector details showing a Connection successful message with four available tools, a notice that the organization admin manages the connection, and the server URL, sign-in option, authentication, connection, and tool timeout.](./assets/databricks-genie/member-details.png){width="700" zoomable="yes"}
