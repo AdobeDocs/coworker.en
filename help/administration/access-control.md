@@ -58,8 +58,8 @@ Use this video to learn how to add Coworker admins.
 
    Access overrides have three states:
 
-   * **Allow:** Select **[!UICONTROL Enable]** to make the user or group status active.
-   * **Deny:** Select **[!UICONTROL Disable]** to make the user or group status inactive.
+   * **Allow:** Select **[!UICONTROL Enable]** to make the user or group status active. Allow applies only to users with an existing Coworker license.
+   * **Deny:** Select **[!UICONTROL Disable]** to make the user or group status inactive. This blocks all Coworker access and takes precedence over any grant.
    * **Inherit:** Clear the override to use the applicable group or organization-wide setting.
 
    Changes may take a short time to take effect.
