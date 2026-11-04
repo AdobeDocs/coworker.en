@@ -8,11 +8,7 @@ product_v2:
 
 # Ask questions about your content
 
-<!-- FLAG: Confirm with the PM: (1) availability (GA, beta, or experimental) and whether this page needs an AVAILABILITY note or `hide: true` until launch, and (2) any required Coworker entitlement. Content Analytics itself has no separate permission: users get access through data views that are configured for Content Analytics (Access control section of analytics-platform.en/help/content-analytics/config/configuration.md). -->
-
->[!AVAILABILITY]
->
->The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available.
+<!-- FLAG: Confirm with the PM any required Coworker entitlement. Content Analytics itself has no separate permission: users get access through data views that are configured for Content Analytics (Access control section of analytics-platform.en/help/content-analytics/config/configuration.md). -->
 
 Use Adobe CX Enterprise Coworker Chat to get accurate answers about your content from Adobe Content Analytics. Ask a specific question, such as "Which images drove the most revenue last quarter?", or a general one, such as "What kind of content should I prioritize?". Coworker turns your question into a sound analysis.
 
