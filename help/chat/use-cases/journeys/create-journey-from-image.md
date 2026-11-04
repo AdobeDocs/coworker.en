@@ -10,13 +10,8 @@ jira: KT-22975
 autotag-review: '2026-10-23T17:27:23.649Z'
 TQID: 'https://experienceleague.adobe.com/7BXMu0tjZegfVV6X-179IBYCDtucaj4rj8V-ZtFCT28'
 product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-    internal-label: Journey Optimizer
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

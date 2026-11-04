@@ -5,11 +5,13 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 499
-last-substantial-update: 2026-08-12T00:00:00.000Z
+last-substantial-update: '2026-08-12T00:00:00.000Z'
 jira: KT-22312
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 
 # Adobe Journey Optimizer & Coworker - create a loyalty challenge and surface insights
