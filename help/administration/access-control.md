@@ -1,10 +1,13 @@
 ---
 title: Access Control for Coworker
 description: Learn about access control for Adobe CX Enterprise Coworker and permissions in connected Adobe products. Find administrator controls and get help with access.
+last-substantial-update: 2026-11-04
+level: beginner
 role: Admin
+jira: KT-22980
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
-    internal-label: CX Enterprise Coworker
+    internal-label: Coworker
 ---
 # Access control for Coworker {#access-control}
 
@@ -24,13 +27,15 @@ User groups do not sync with your IMS organization. Custom roles are not availab
 
 Coworker inherits your user permissions from the Adobe applications you connect. Coworker respects your access in those applications.
 
-## Manage access {#manage-access}
+## Add Coworker admins {#add-coworker-admins}
 
-Coworker is licensed through [!DNL Adobe Experience Platform]. To administer Coworker, you must have the **[!UICONTROL Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
+Before managing Coworker access, assign each Coworker admin the **[!UICONTROL Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
 
-Use this video to learn how to assign the Adobe Experience Platform administrator role.
+Use this video to learn how to add Coworker admins.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on)
+
+## Manage user access {#manage-user-access}
 
 1. Open the standalone Coworker experience. For instructions, see [Sign in to Coworker](/help/chat/ui-guide.md#sign-in).
 1. Open the profile menu and select **[!UICONTROL Admin settings]**.
