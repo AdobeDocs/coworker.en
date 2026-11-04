@@ -345,9 +345,10 @@ After you set up Coworker in a supported platform, try these prompts, or write y
 
 ## Known limitations {#known-limitations}
 
-Coworker in AI platforms does not support every integration pattern.
+Coworker in AI platforms does not support all capabilities available in the Coworker interface.
 
-* You cannot connect Coworker to your own agentic harness using MCP.
+* You cannot connect Coworker to a custom agentic harness outside the supported AI platforms listed in this document. To request support for additional AI platforms or agentic harnesses through MCP, contact your Adobe representative.
+* The Firefly Image Generation skill is not available when you access Coworker through Claude. The skill remains available in the Coworker interface and other supported AI platforms described in this document. To use the Firefly Image Generation skill, access Coworker through the Coworker interface or another supported AI platform.
 
 ## Troubleshoot Coworker in AI platforms {#troubleshoot}
 
