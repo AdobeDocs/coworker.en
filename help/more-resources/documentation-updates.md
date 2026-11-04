@@ -13,7 +13,7 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 **November 4, 2026**
 
-* Updated: [Ask questions about your content](../chat/use-cases/data-insights/ask-content-questions.md). Content analysis with the `analyze-content` skill is now generally available.
+* Updated: [Ask questions about your content](../chat/use-cases/data-insights/ask-content-questions.md). Content analysis with the `analyze-content` skill is now generally available. 
 
 **November 3, 2026**
 
