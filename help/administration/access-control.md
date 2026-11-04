@@ -12,21 +12,25 @@ Use Adobe CX Enterprise Coworker access control to manage who can use Coworker a
 
 ## How access is determined {#how-access-is-determined}
 
-Coworker starts with an organization-wide default.
+Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access is enabled for everyone by default. Users must already have a Coworker license to access Coworker. Enabling access does not assign a license.
 
-| Access type | What it determines |
+| Setting | How it affects access |
 | --- | --- |
-| Organization-wide default | Provides access for everyone and allows read, write, and destructive MCP operations. |
-| User and group settings | Override the organization-wide default for individual users or groups. |
-| Connected application permissions | Which data and actions a user can access in connected Adobe products. Coworker does not grant additional product permissions. |
+| Organization-wide setting | Enable Coworker access for everyone or disable it for your organization. The default policy allows read, write, and destructive MCP operations. |
+| User or group override | Enable activates access for a user or group. Disable blocks Coworker access and takes precedence over any grant. Inherit clears the override and uses the applicable group or organization-wide setting. |
+| Connected application permissions | The access users have in the Adobe applications connected to Coworker. |
 
-Read-only mode and entity deletion settings are in **[!UICONTROL Customizations]** > **[!UICONTROL Org]** > **[!UICONTROL General]**. Custom roles are not available.
+User groups do not sync with your IMS organization. Custom roles are not available.
 
-Coworker access works alongside permissions in the Adobe products you connect to. A person who can open Coworker might still need additional permissions for a connected application.
+Coworker inherits your user permissions from the Adobe applications you connect. Coworker respects your access in those applications.
 
 ## Manage access {#manage-access}
 
-Only organization admins can manage Access control settings.
+Coworker is licensed through [!DNL Adobe Experience Platform]. To administer Coworker, you must have the **[!UICONTROL Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
+
+Use this video to learn how to assign the Adobe Experience Platform administrator role.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on)
 
 1. Open the standalone Coworker experience. For instructions, see [Sign in to Coworker](/help/chat/ui-guide.md#sign-in).
 1. Open the profile menu and select **[!UICONTROL Admin settings]**.
@@ -39,17 +43,21 @@ Only organization admins can manage Access control settings.
 
    ![Admin settings with the Access control card highlighted.](./assets/access-control/access-control.png)
 
+   Use this video to learn how to manage Coworker users.
+
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on)
+
 1. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review or change settings that override the organization-wide default.
 
-   Access settings have three states:
+   The Users list includes users in your organization. Coworker access is enabled for these users by default, but each user must already have a Coworker license.
 
-   * **[!UICONTROL Allow]** grants access only to people who already have a Coworker license. It does not assign a license.
-   * **[!UICONTROL Deny]** blocks all Coworker access and takes precedence over any grant.
-   * **[!UICONTROL Inherit]** clears the override so the applicable group setting or organization-wide default determines access.
+   Access overrides have three states:
 
-   Changes take effect after a short propagation delay.
+   * **Allow:** Select **[!UICONTROL Enable]** to make the user or group status active.
+   * **Deny:** Select **[!UICONTROL Disable]** to make the user or group status inactive.
+   * **Inherit:** Clear the override to use the applicable group or organization-wide setting.
 
-1. To manage read-only mode or entity deletion, go to **[!UICONTROL Customizations]** > **[!UICONTROL Org]** > **[!UICONTROL General]**.
+   Changes may take a short time to take effect.
 
 ## Connected application permissions {#connected-application-permissions}
 
@@ -57,7 +65,7 @@ Connected Adobe products continue to enforce their own permissions. These produc
 
 If you cannot perform an action in a connected product, using Coworker does not grant you that permission.
 
-In [!DNL Workfront], access levels, object permissions, and system preferences may also affect the Coworker panel and available actions. For details, see [Use CX Enterprise Coworker in Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/coworker-in-workfront/use-coworker-in-workfront){target="_blank"}.
+If you do not have permission to access a dataset in Adobe Experience Platform, Coworker cannot retrieve it or act on it for you.
 
 ## Get help with access {#get-help-with-access}
 
