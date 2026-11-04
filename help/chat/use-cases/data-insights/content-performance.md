@@ -43,7 +43,7 @@ Coworker uses the following skills for the use cases described in this article. 
 
 | Skill | Used for |
 | --- | --- |
-| `cja`,`analyze-content` <br/> (Limited Availability)| Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across web and mobile<br>Know which visuals move each audience<p>For more information, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).</p> |
+| `cja`,`analyze-content` | Find what winning content has in common<br>Attribute revenue to the content customers see<br>Compare creative across web and mobile<br>Know which visuals move each audience<p>For more information, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).</p> |
 
 ## Tips for better results
 
@@ -56,6 +56,6 @@ Coworker uses the following skills for the use cases described in this article. 
 
 ## Next steps
 
-* To learn how Coworker answers content questions, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md) (Limited Availability).
+* To learn how Coworker answers content questions, see [Ask questions about your content](/help/chat/use-cases/data-insights/ask-content-questions.md).
 * For an overview of data analysis with Coworker Chat, including the other analysis domains and best practices, see [Analyze data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-overview.md).
 * To set up Coworker Chat and walk through a working example, see [Get started analyzing data with Coworker Chat](/help/chat/use-cases/data-insights/analytics-chat.md).
