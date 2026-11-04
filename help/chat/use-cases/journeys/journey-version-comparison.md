@@ -1,5 +1,5 @@
 ---
-title: Journey Version Comparison
+title: Compare Journey Version using Coworker
 description: Learn how to use Coworker to compare versions of an Adobe Journey Optimizer journey. Explore visual comparisons and detailed summaries to identify changes to activities, branches, and journey properties, and track when specific updates were made.
 role: User
 level: Beginner, Intermediate
@@ -9,7 +9,7 @@ last-substantial-update: '2026-11-04T00:00:00.000Z'
 jira: KT-22988
 ---
 
-# Journey Version Comparison
+# Compare Journey Version using Coworker
 
 Learn how to use Coworker to compare versions of an Adobe Journey Optimizer journey. Explore visual comparisons and detailed summaries to identify changes to activities, branches, and journey properties, and track when specific updates were made.
 
