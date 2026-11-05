@@ -11,7 +11,77 @@ product_v2:
 
 Coworker for teams releases operate on a continuous delivery model which allows for a more scalable, phased approach to feature deployment.
 
+## November 2026 {#nov-2026}
+
+**Release date: November 3, 2026**
+
+* Build campaigns without leaving your conversation to visit the board
+* Review campaign outputs together as they become available
+* Spot new and updated content without losing your place
+* Keep unsent messages and attachments when visiting the campaign board
+* Earlier campaign previews retain the content you originally reviewed
+* Preview emails in desktop and mobile layouts before sending
+* Switch email variants with clearer tabs and image previews
+* Changing email variants keeps your place on the page
+* Edit wide emails without losing access to formatting controls
+* Email editing outlines and resize handles stay aligned
+* Unchanged email fields no longer trigger unnecessary saves
+* Email drafts keep newer edits when earlier saves finish
+* Remove unused campaign emails without deleting their saved content
+* See which email drafts are not in your workflow
+* Downloaded campaign documents keep email previews and working campaign links
+* Choose dates directly when your conversation asks for them
+* Conversation replies stay linked to the correct pending request
+* File requests accept only the attachment types they need
+* Manage suppressed contacts individually or import them from CSV
+* Download the complete suppression list regardless of active filters
+* Find saved campaign audiences through their linked contact lists
+* Browse campaign ideas more comfortably on smaller screens
+* Empty search results stay distinct from empty campaign collections
+* Retry loading templates without losing your search controls
+* Invalid brand website addresses are explained beside the field
+* CSV upload illustrations remain visible alongside the others
+* Expanded launch schedules leave more space for nearby controls
+* Open help articles in your preferred language, where supported
+* Connection progress and results are clearer when linking accounts
+* Return safely to your campaign after connecting an account
+* Personal accounts no longer show unavailable team-management controls
+* Switch workspaces without incorrect access errors
+* Workspace creation explains when organization-admin access is required
+* Where available, review and edit your saved business profile
+* Business profile saves detect conflicting changes before replacing them
+* Business profile navigation follows your chosen section without flickering
+* Where available, connect LinkedIn and choose your publishing identity
+* Preview social post drafts in conversations and campaign boards
+* Social post variants fit narrow conversation panels more comfortably
+* Read social account names consistently across campaign previews
+* Edit social images with Adobe Express where supported
+* Launch checks match the email and social channels you use
+* See when social accounts need reconnecting before launch
+* View social results separately from email campaign reporting
+
 ## October 2026 {#oct-2026}
+
+**Release date: October 26, 2026**
+
+* Connect Facebook and Instagram through their browser sign-in flows
+* Add and replace brand logos while setting up your brand
+* Brand logo previews display reliably during setup
+* Review warehouse audience queries directly from audience cards
+* Resume onboarding automatically after your account becomes active
+* Renamed conversations keep their titles and links in sync
+* Collapse conversation navigation without losing helpful action labels
+* Scroll wide email content without stretching the surrounding workspace
+* Duplicated templates receive clear, numbered names in your language
+* Schedule controls and campaign dates follow your language preferences
+* Downloaded campaign documents use localized headings and labels
+* Email compatibility percentages follow your local number format
+* Brand creation dates follow your preferred language and region
+* Email editor controls and template labels use localized text
+* Required connection fields explain validation errors in your language
+* Default badges and logo-editing controls stay readable
+* Older Campaigns and Essentials links lead to Coworker for teams
+* The sign-out action is clearer during trial setup
 
 **Release date: October 21, 2026**
 
@@ -309,8 +379,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * Domains & Senders has a guided setup wizard for verifying domains and adding senders
 * Draft campaigns now prompt you to finish email and channel setup before you send
 * Domain and sender validation catches more issues, including DNS record edge cases
-* The profile menu has moved to the sidebar for quicker access
-* Source PDF documents now show as a pill on brand kit details
 * Various performance and reliability improvements throughout
 
 **Release date: June 26, 2026**
@@ -320,7 +388,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * Contextual tips appear in the campaign board to guide you through next steps
 * New-user onboarding uses your real brand data to personalize the setup experience
 * Brand color picker handles shorthand hex codes and opens in a tidy popover
-* UTM parameters and message capping are now configurable from App Settings
 * Help links now open the latest content directly on Experience League
 * Various performance and reliability improvements throughout
 
@@ -351,8 +418,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * Browse and restore previous versions of your email with a new version history panel
 * Edit brand colors with a hex-first picker and inline editing on the brand page
 * Brands library loads more brands automatically as you scroll
-* The profile menu has moved to the sidebar for quicker access
-* Source PDF documents now show as a pill on brand kit details
 * Various performance and reliability improvements throughout
 
 **Release date: June 12, 2026**
@@ -366,9 +431,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * Out-of-scope chat replies suggest what to ask next with one-click prompts
 * Campaign PDF exports show icons, product branding, and a brand label reliably
 * Talk to an expert and upgrade flows load your trial details more reliably
-* Writing style tags expand to show full text and link to your brand page
-* Start a brand from the empty library state with helpful categories
-* Sign in again smoothly when your session expires
 * The app now lives at coworker-campaigns.adobe.com with the same experience
 * Trial sign-up routes you to the right next step after creating your account
 * Various performance and reliability improvements throughout
@@ -381,8 +443,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * CSV audience imports no longer show a duplicate list in the audience card
 * The Chats item in the sidebar highlights when you start a new chat
 * The app header now shows just the email subject (or "Draft") when editing an email, removing the "Email N:" number prefix for a tidier title
-* The profile menu has moved to the sidebar for quicker access
-* Source PDF documents now show as a pill on brand kit details
 * Various performance and reliability improvements throughout
 
 **Release date: June 10, 2026**
@@ -396,7 +456,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * Retry saving when the email editor hits a temporary error
 * Replace email images with correct sizing and Adobe Express dimensions
 * Upload audience lists from CSV using a clearer import dialog in chat
-* Writing style tags expand to show full text and link to your brand page
 * Start a brand from the empty library state with helpful categories
 * Sign in again smoothly when your session expires
 * Various performance and reliability improvements throughout
@@ -507,7 +566,6 @@ Coworker for teams releases operate on a continuous delivery model which allows 
 * The app header now shows just the email subject (or "Draft") when editing an email, removing the "Email N:" number prefix for a tidier title
 * The profile menu has moved to the sidebar for quicker access
 * Source PDF documents now show as a pill on brand kit details
-* The profile menu has moved to the sidebar for quicker access
 * Various performance and reliability improvements throughout
 
 **Release date: April 18, 2026**
