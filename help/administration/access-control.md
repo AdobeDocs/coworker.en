@@ -33,7 +33,7 @@ Before managing Coworker access, assign each Coworker admin the **[!UICONTROL Ad
 
 Use this video to learn how to add Coworker admins.
 
->[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on){transcript=true}
 
 ## Manage user access {#manage-user-access}
 
@@ -50,7 +50,7 @@ Use this video to learn how to add Coworker admins.
 
    Use this video to learn how to manage Coworker users.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on)
+   >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
 1. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review or change settings that override the organization-wide default.
 
