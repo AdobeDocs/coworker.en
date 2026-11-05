@@ -6,11 +6,13 @@ role: User
 level: Beginner
 doc-type: Feature Video
 duration: 102
-last-substantial-update: 2026-08-10T00:00:00.000Z
+last-substantial-update: '2026-08-10T00:00:00.000Z'
 jira: KT-22081
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 ---
 
 # Generate Adobe Journey Optimizer journeys from natural language prompts

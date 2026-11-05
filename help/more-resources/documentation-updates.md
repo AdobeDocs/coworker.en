@@ -11,6 +11,10 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 ## November 2026 {#nov-2026}
 
+**November 4, 2026**
+
+* Updated: [Ask questions about your content](../chat/use-cases/data-insights/ask-content-questions.md). Content analysis with the `analyze-content` skill is now generally available.
+
 **November 3, 2026**
 
 * New: [Simulate a journey using Coworker](../chat/use-cases/journeys/simulate-journey-using-coworker.md)
@@ -44,7 +48,7 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 **October 16, 2026**
 
-* New: [Create, simulate, and analyze cross-channel journeys](../chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker-feature-video.md)
+* New: [Create, simulate, and analyze cross-channel journeys](../chat/use-cases/journeys/create-simulate-and-analyze-a-cross-channel-journey-with-cx-enterprise-coworker.md)
 * New: [Journey analysis overview](../chat/use-cases/data-insights/journey-analysis.md)
 * New: [Audience and segment analysis overview](../chat/use-cases/data-insights/audience-and-segment-analysis.md)
 * New: [Business performance overview](../chat/use-cases/data-insights/business-performance.md)

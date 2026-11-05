@@ -62,8 +62,6 @@ Administrators make the [!DNL Databricks Genie] connector available to everyone 
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Databricks Genie]** card, select **[!UICONTROL Configure]**.
 
-   ![Organization External Connectors page showing the Databricks Genie card with a Not configured status.](./assets/databricks-genie/org-connectors.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Connect Databricks Genie]** dialog, enter your workspace URL or the [!DNL Genie One] MCP URL in **[!UICONTROL Server URL]**. Coworker saves the source in this format:
 
    ```text
@@ -114,8 +112,6 @@ Administrators make the [!DNL Databricks Genie] connector available to everyone 
 
 1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Databricks Genie]** card shows **[!UICONTROL Configuration saved]**.
 
-   ![Organization External Connectors page showing the Databricks Genie card with a Configuration saved status and a View configuration button.](./assets/databricks-genie/org-saved.png){width="700" zoomable="yes"}
-
    Select **[!UICONTROL View configuration]** to review the workspace, authentication, enabled tools, and tool timeout. Then select **[!UICONTROL Test]** to check the connection.
 
    ![Saved databricks connector details showing the source, authentication, tool policy with four allowed tools, tool timeout, and the list of tools.](./assets/databricks-genie/org-details.png){width="700" zoomable="yes"}
@@ -130,11 +126,7 @@ After an administrator configures the connector, open it from your own **[!UICON
 
 1. Find the **[!UICONTROL Databricks Genie]** card. If your organization has not configured the connector, the card shows **[!UICONTROL Not configured]** and **[!UICONTROL Not available yet. Your admin needs to set this up.]** There is no **[!UICONTROL Configure]** button for members, so ask your administrator to [configure the connector](#configure-organization).
 
-   ![User External Connectors page showing the Databricks Genie card with a Not configured status and a message that the admin needs to set it up.](./assets/databricks-genie/member-not-configured.png){width="700" zoomable="yes"}
-
 1. If your organization uses a service principal, the card shows **[!UICONTROL Available through your organization]**. You do not need to sign in. To check the connection, open the connector details and select **[!UICONTROL Test connection]**.
-
-   ![User External Connectors page showing the Databricks Genie card with an Available through your organization status and a Test button.](./assets/databricks-genie/member-connectors.png){width="700" zoomable="yes"}
 
    A successful test shows **[!UICONTROL Connection successful]** and the number of available tools.
 
