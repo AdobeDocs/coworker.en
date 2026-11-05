@@ -50,6 +50,7 @@ nudge: true
       - [Manage data lake retention](./chat/use-cases/data-management/manage-data-lake-retention.md)
     - Audiences {#audiences}
       - [Assess platform health and build audiences](./chat/use-cases/audiences/create-audience-from-natural-language.md)
+      - [Why did my audience spike/drop?](./chat/use-cases/audiences/why-your-audience-size-changed.md)
     - Journeys {#journeys}
       - [Create a journey using natural language](./chat/use-cases/journeys/create-journey-from-natural-language.md)
       - [Create a journey from an image](./chat/use-cases/journeys/create-journey-from-image.md)
