@@ -21,7 +21,7 @@ Coworker access is controlled by an organization-wide setting and optional user 
 | --- | --- |
 | Organization-wide setting | Enable Coworker access for everyone or disable it for your organization. The default policy allows read, write, and destructive MCP operations. |
 | User or group override | Enable activates access for a user or group. Disable blocks Coworker access and takes precedence over any grant. Inherit clears the override and uses the applicable group or organization-wide setting. |
-| Connected application permissions | The access users have in the Adobe applications connected to Coworker. |
+| Connected application permissions | The access users have in Adobe applications compatible with Coworker. |
 
 User groups do not sync with your IMS organization. Custom roles are not available.
 
@@ -64,11 +64,11 @@ Use this video to learn how to add Coworker admins.
 
    Changes may take a short time to take effect.
 
-## Connected application permissions {#connected-application-permissions}
+## Permissions in compatible applications {#permissions-in-compatible-applications}
 
-Connected Adobe products continue to enforce their own permissions. These products include Adobe Experience Platform, Adobe Journey Optimizer, [!DNL Adobe Workfront], and [!DNL Adobe Experience Manager].
+Adobe applications compatible with Coworker continue to enforce their own permissions. These applications include Adobe Experience Platform, Adobe Journey Optimizer, [!DNL Adobe Workfront], and [!DNL Adobe Experience Manager].
 
-If you cannot perform an action in a connected product, using Coworker does not grant you that permission.
+If you cannot perform an action in a compatible application, using Coworker does not grant you that permission.
 
 If you do not have permission to access a dataset in Adobe Experience Platform, Coworker cannot retrieve it or act on it for you.
 
@@ -76,7 +76,7 @@ If you do not have permission to access a dataset in Adobe Experience Platform, 
 
 If you do not see [!UICONTROL Access control], contact your Adobe administrator or Adobe representative. They can confirm whether the feature is enabled for your organization and whether you have access to its settings.
 
-If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a connected application, ask them to check the permissions managed separately for that application.
+If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a compatible application, ask them to check the permissions managed separately for that application.
 
 ## More help on this topic {#more-help}
 
