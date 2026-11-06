@@ -255,6 +255,15 @@ Use Coworker Chat to plan, generate, evaluate, and refine campaign message copy 
 
 * [Coworker for content management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-management-coworker-skills){target="_blank"} provides details on content management tools and available skills in Adobe Journey Optimizer.
 
+## Orchestrated campaigns
+
+Use Coworker Chat to find and inspect orchestrated campaigns in Adobe Journey Optimizer. These skills are read-only: creating or editing orchestrated campaigns is not supported by the current toolset, and orchestrated campaign analytics and performance reporting are not supported.
+
+| Workflow | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Find and browse orchestrated campaigns | List, browse, filter, search, count, or get an overview of your orchestrated campaigns, rendered as a dashboard with metric cards, charts, and a campaign table | Orchestrated Campaign List | Adobe Journey Optimizer (AJO) | "List all my orchestrated campaigns." <br> "Show me the LIVE orchestrated campaigns." <br> "How many orchestrated campaigns use email?" <br> "Show orchestrated campaigns created by xavier." <br> "Browse orchestrated campaigns in the prod sandbox." <br> "Filter orchestrated campaigns by status DRAFT." |
+| Inspect an orchestrated campaign | Get everything about a single named or identified orchestrated campaign: its details, status, metadata, lifecycle history, and execution history, and visualize its activity graph | Orchestrated Campaign Get | Adobe Journey Optimizer (AJO) | "Show me the details of the Summer Re-engagement orchestrated campaign." <br> "Who published the Welcome Series OC?" <br> "Show the lifecycle history of my Q3 campaign." <br> "How many times did the Holiday Promo orchestrated campaign run?" <br> "Draw / visualize the graph for the Onboarding OC." <br> "Did the Cart Abandonment orchestrated campaign fail?" |
+
 ## Campaign v8
 
 Use Coworker Chat to find and update deliveries, manage assets, explore the data model, and inspect, validate, and troubleshoot workflows in Adobe Campaign v8.
