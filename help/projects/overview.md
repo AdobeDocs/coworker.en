@@ -11,25 +11,13 @@ product_v2:
 >
 >Coworker Projects is in limited availability. Contact your Adobe account representative to learn more on how to get involved.
 
-Use Coworker Projects to collaborate with your team to land your business outcomes. Turn customer experience workflows into reusable and repeatable business processes, from start to finish.
+Coworker Projects is a shared experience where practitioners use reusable workflows to complete end-to-end customer experience work. Workflows bring people, agents, skills, and business context together across Adobe CX Enterprise and third-party applications. Governance and human decisions guide the work from start to finish.
 
-Only select users with the required permission can create, publish, and manage project templates. Each template brings together agentic workflows, business context, governance requirements, and human decision points.
-
-As a practitioner, you use these templates to launch projects for specific business initiatives. Collaborate with your team to complete work across the relevant Adobe CX Enterprise and third party applications.
-
-As work progresses, review shared progress, make decisions at approval gates, and apply guardrails across the workflow. Coworker Projects automates operational work between those decisions while you maintain control.
+Authorized users can create, publish, and manage project templates. Practitioners use templates to start projects for business initiatives, collaborate with their team, and make decisions at approval gates.
 
 >[!NOTE]
 >
 >Coworker Projects and [Coworker Chat](/help/chat/overview.md) are modules of Adobe CX Enterprise Coworker. This page covers Coworker Projects.
-
-## The project experience {#project-experience}
-
-Use Coworker Projects to coordinate workflows around your business goals:
-
-* **Workflows for your goals:** Design and deploy workflows that coordinate multiple agents, with governance and human approval gates.
-* **Adaptive execution:** Trigger work through events, signals, or schedules. Coworker evaluates outcomes against your objectives and adjusts or triggers actions based on results.
-* **Collaboration and approvals:** Review, approve, and act within a shared project, with context available to stakeholders throughout the workflow.
 
 ## Included project templates {#project-templates}
 
@@ -74,6 +62,14 @@ Review experiment performance and determine what action to take. Use experimenta
 Capture findings and decisions during regular reviews. Identify when winning experiences are ready to move forward or underperforming experiences require action.
 
 Required compatible applications: Journey Optimizer and Customer Journey Analytics.
+
+## The project experience {#project-experience}
+
+Use Coworker Projects to coordinate workflows around your business goals:
+
+* **Workflows for your goals:** Design and deploy workflows that coordinate multiple agents, with governance and human approval gates.
+* **Adaptive execution:** Trigger work through events, signals, or schedules. Coworker evaluates outcomes against your objectives and adjusts or triggers actions based on results.
+* **Collaboration and approvals:** Review, approve, and act within a shared project, with context available to stakeholders throughout the workflow.
 
 <!--
 ## Video overview {#video-overview}
