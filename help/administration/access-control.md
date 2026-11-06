@@ -64,7 +64,7 @@ Use this video to learn how to add Coworker admins.
 
    When access for everyone is disabled, turn on **[!UICONTROL Allow overrides]** and select **[!UICONTROL Add override]** to add users or groups who should still have access.
 
-## Permissions in compatible applications {#permissions-in-compatible-applications}
+## Permissions in Coworker-compatible CX Enterprise applications {#permissions-in-compatible-applications}
 
 Coworker-compatible CX Enterprise applications continue to enforce their own permissions.
 
