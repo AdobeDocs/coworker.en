@@ -19,17 +19,14 @@ Coworker access is controlled by an organization-wide setting and optional user 
 
 | Setting | How it affects access |
 | --- | --- |
-| Organization-wide setting | Enable Coworker access for everyone or disable it for your organization. The default policy allows read, write, and destructive MCP operations. |
-| User or group override | Enable activates access for a user or group. Disable blocks Coworker access and takes precedence over any grant. Inherit clears the override and uses the applicable group or organization-wide setting. |
-| Connected application permissions | The access users have in Adobe applications compatible with Coworker. |
+| Organization-wide setting | Enable Coworker access for everyone or disable it for your organization. |
+| User or user group override | Overrides give administrators control over Coworker access for specific users or user groups. |
+| Connected application permissions | Coworker access controls determine whether you can access Coworker Chat and Coworker capabilities. Coworker inherits your user permissions from connected applications and respects the permissions each application enforces. |
 
-User groups do not sync with your IMS organization. Custom roles are not available.
-
-Coworker inherits your user permissions from the Adobe applications you connect. Coworker respects your access in those applications.
 
 ## Add Coworker admins {#add-coworker-admins}
 
-Before managing Coworker access, assign each Coworker admin the **[!UICONTROL Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
+A Coworker administrator is a user assigned the **[!UICONTROL Product Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
 
 Use this video to learn how to add Coworker admins.
 
@@ -37,14 +34,14 @@ Use this video to learn how to add Coworker admins.
 
 ## Manage user access {#manage-user-access}
 
-1. Open the standalone Coworker experience. For instructions, see [Sign in to Coworker](/help/chat/ui-guide.md#sign-in).
-1. Open the profile menu and select **[!UICONTROL Admin settings]**.
+1. Open the Coworker experience. For instructions, see [Sign in to Coworker](/help/chat/ui-guide.md#sign-in).
+2. Open the profile menu and select **[!UICONTROL Admin settings]**.
 
    ![Coworker home with the profile menu control highlighted.](./assets/access-control/coworker-home.png)
 
    ![Coworker profile menu with Admin settings highlighted.](./assets/access-control/admin-settings.png)
 
-1. Select **[!UICONTROL Access control]**.
+3. Select **[!UICONTROL Access control]**.
 
    ![Admin settings with the Access control card highlighted.](./assets/access-control/access-control.png)
 
@@ -52,25 +49,23 @@ Use this video to learn how to add Coworker admins.
 
    >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
-1. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review or change settings that override the organization-wide default.
+4. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review or change settings that override the organization-wide default.
 
-   The Users list includes users in your organization. Coworker access is enabled for these users by default, but each user must already have a Coworker license.
+   The Users list includes users in your organization. Coworker access is enabled for these users by default.
 
-   Access overrides have three states:
+   * **Enabled:** The user or user group is active.
+   * **Disabled:** The user or user group is inactive.
 
-   * **Allow:** Select **[!UICONTROL Enable]** to make the user or group status active. Allow applies only to users with an existing Coworker license.
-   * **Deny:** Select **[!UICONTROL Disable]** to make the user or group status inactive. This blocks all Coworker access and takes precedence over any grant.
-   * **Inherit:** Clear the override to use the applicable group or organization-wide setting.
+   When access for everyone is disabled, turn on **[!UICONTROL Allow overrides]** and select **[!UICONTROL Add override]** to add users or groups who should still have access.
+
 
    Changes may take a short time to take effect.
 
 ## Permissions in compatible applications {#permissions-in-compatible-applications}
 
-Adobe applications compatible with Coworker continue to enforce their own permissions. These applications include Adobe Experience Platform, Adobe Journey Optimizer, [!DNL Adobe Workfront], and [!DNL Adobe Experience Manager].
+[!DNL Adobe Customer Experience Orchestration] applications compatible with Coworker continue to enforce their own permissions.
 
-If you cannot perform an action in a compatible application, using Coworker does not grant you that permission.
-
-If you do not have permission to access a dataset in Adobe Experience Platform, Coworker cannot retrieve it or act on it for you.
+Coworker respects permissions in compatible applications. For example, if you cannot access a dataset in [!DNL Adobe Experience Platform], Coworker cannot retrieve or act on that dataset for you.
 
 ## Get help with access {#get-help-with-access}
 
