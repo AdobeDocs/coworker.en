@@ -1,6 +1,6 @@
 ---
 title: Access Control for Coworker
-description: Learn about access control for Adobe CX Enterprise Coworker and permissions in connected Adobe products. Find administrator controls and get help with access.
+description: Learn about access control for Adobe CX Enterprise Coworker and permissions in compatible Adobe products. Find administrator controls and get help with access.
 last-substantial-update: 2026-11-04
 level: beginner
 role: Admin
@@ -15,16 +15,16 @@ Use Adobe CX Enterprise Coworker access control to manage who can use Coworker a
 
 ## How access is determined {#how-access-is-determined}
 
-Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access is enabled for everyone by default. Users must already have a Coworker license to access Coworker. Enabling access does not assign a license.
+Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access is enabled for everyone by default. Users must also have access to at least one CX Enterprise application with Coworker.
 
 | Setting | How it affects access |
 | --- | --- |
 | Organization-wide setting | Enable Coworker access for everyone or disable it for your organization. |
 | User or user group override | Overrides give administrators control over Coworker access for specific users or user groups. |
-| Connected application permissions | Coworker access controls determine whether you can access Coworker Chat and Coworker capabilities. Coworker inherits your user permissions from connected applications and respects the permissions each application enforces. |
+| Compatible application permissions | Coworker access controls determine whether you can access Coworker Chat and Coworker capabilities. Coworker inherits your user permissions from CX Enterprise applications with Coworker and respects the permissions each application enforces. |
 
 
-## Add Coworker admins {#add-coworker-admins}
+## Add Coworker administrators {#add-coworker-admins}
 
 A Coworker administrator is a user assigned the **[!UICONTROL Product Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
 
@@ -49,7 +49,9 @@ Use this video to learn how to add Coworker admins.
 
    >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
-4. Use **[!UICONTROL Users]** and **[!UICONTROL User groups]** to review or change settings that override the organization-wide default.
+4. In Coworker, use **[!UICONTROL Users]** to manage access for individuals, or **[!UICONTROL User groups]** to manage Coworker access for groups of users. A user group setting applies to its members.
+
+   Coworker user groups are separate from [!DNL Adobe Admin Console] groups. Syncing user groups from [!DNL Adobe Admin Console] to Coworker is coming soon.
 
    The Users list includes users in your organization. Coworker access is enabled for these users by default.
 
@@ -58,12 +60,9 @@ Use this video to learn how to add Coworker admins.
 
    When access for everyone is disabled, turn on **[!UICONTROL Allow overrides]** and select **[!UICONTROL Add override]** to add users or groups who should still have access.
 
-
-   Changes may take a short time to take effect.
-
 ## Permissions in compatible applications {#permissions-in-compatible-applications}
 
-[!DNL Adobe Customer Experience Orchestration] applications compatible with Coworker continue to enforce their own permissions.
+CX Enterprise applications with Coworker continue to enforce their own permissions.
 
 Coworker respects permissions in compatible applications. For example, if you cannot access a dataset in [!DNL Adobe Experience Platform], Coworker cannot retrieve or act on that dataset for you.
 
@@ -71,7 +70,7 @@ Coworker respects permissions in compatible applications. For example, if you ca
 
 If you do not see [!UICONTROL Access control], contact your Adobe administrator or Adobe representative. They can confirm whether the feature is enabled for your organization and whether you have access to its settings.
 
-If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a compatible application, ask them to check the permissions managed separately for that application.
+If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a CX Enterprise application with Coworker, ask them to check the permissions managed separately for that application.
 
 ## More help on this topic {#more-help}
 
