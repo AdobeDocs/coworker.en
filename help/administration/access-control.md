@@ -13,15 +13,19 @@ product_v2:
 
 Use Adobe CX Enterprise Coworker access control to manage who can use Coworker and which capabilities they can use.
 
+>[!NOTE]
+>
+>Your organization must be enabled for Coworker to use this feature. For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+
 ## How access is determined {#how-access-is-determined}
 
-Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access is enabled for everyone by default. Users must also have access to at least one CX Enterprise application with Coworker.
+Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access is enabled for everyone by default.
 
 | Setting | How it affects access |
 | --- | --- |
 | Organization-wide setting | Enable Coworker access for everyone or disable it for your organization. |
 | User or user group override | Overrides give administrators control over Coworker access for specific users or user groups. |
-| Compatible application permissions | Coworker access controls determine whether you can access Coworker Chat and Coworker capabilities. Coworker inherits your user permissions from CX Enterprise applications with Coworker and respects the permissions each application enforces. |
+| Compatible application permissions | Coworker access controls determine whether you can access any generally available Coworker capabilities. Coworker inherits your user permissions from Coworker-compatible CX Enterprise applications and respects the permissions each application already enforces. |
 
 
 ## Add Coworker administrators {#add-coworker-admins}
@@ -62,7 +66,7 @@ Use this video to learn how to add Coworker admins.
 
 ## Permissions in compatible applications {#permissions-in-compatible-applications}
 
-CX Enterprise applications with Coworker continue to enforce their own permissions.
+Coworker-compatible CX Enterprise applications continue to enforce their own permissions.
 
 Coworker respects permissions in compatible applications. For example, if you cannot access a dataset in [!DNL Adobe Experience Platform], Coworker cannot retrieve or act on that dataset for you.
 
@@ -70,7 +74,7 @@ Coworker respects permissions in compatible applications. For example, if you ca
 
 If you do not see [!UICONTROL Access control], contact your Adobe administrator or Adobe representative. They can confirm whether the feature is enabled for your organization and whether you have access to its settings.
 
-If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a CX Enterprise application with Coworker, ask them to check the permissions managed separately for that application.
+If you are denied access, ask your administrator to review the organization-wide default and any user or group settings. For a Coworker-compatible CX Enterprise application, ask them to check the permissions managed separately for that application.
 
 ## More help on this topic {#more-help}
 
