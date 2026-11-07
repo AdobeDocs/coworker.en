@@ -12,6 +12,8 @@ nudge: true
 
 - [Coworker guide](home.md)
 - [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
+- Administration {#administration}
+  - [Access control for Coworker](./administration/access-control.md)
 - Coworker Chat {#chat}
   - [About Coworker Chat](./chat/overview.md)
   - [Get started using Coworker Chat](./chat/ui-guide.md)
