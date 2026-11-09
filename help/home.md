@@ -11,6 +11,17 @@ product_v2:
 
 Coworker is built for organizations running complex, cross-functional customer experience workflows. It brings together Coworker Chat and Coworker Projects, enabling practitioners to move from a single task to a full, multi-team workflow within the Coworker experience. Governance, approvals, and human oversight are integrated from the start. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
+## Building blocks {#building-blocks}
+
+Coworker Chat and Coworker Projects share the following building blocks, except where noted. Coworker Projects is coming soon.
+
+* **Enterprise harness:** Turn your goal into completed work through a continuous loop of reasoning, skill selection, execution, and validation, with error recovery and parallel execution.
+* **Skills:** Use reusable playbooks in plain Markdown for common customer experience tasks.
+* **MCP connectors:** Act across Adobe and external systems through governed access, using built-in connectors or your own.
+* **Governance:** Keep control through approval gates, permissions inherited from your Adobe organization, checks before actions run, and an audit trail.
+* **Memory:** Apply preferences, decisions, and corrections across sessions, from organization rules to your personal preferences.
+* **Collaboration (Coworker Projects only):** Keep every stakeholder in one project thread, connecting reviews, approvals, and agent outputs to the work from brief to launch.
+
 ## Choose an experience
 
 You define a goal, and Coworker works out and carries out the steps. Choose the experience that fits how your team works.

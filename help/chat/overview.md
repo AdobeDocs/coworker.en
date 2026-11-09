@@ -23,7 +23,7 @@ To get started, see [Get started with Coworker Chat](ui-guide.md).
 
 ## An evolution from AI Assistant
 
-Coworker Chat is the next step after [AI Assistant](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui) and Adobe Experience Platform Agent Orchestrator. Everything you can do in AI Assistant today, including product knowledge and operational and data insights, remains available. Coworker Chat adds the [building blocks](#building-blocks) that let a conversation complete the work, not just answer questions.
+Coworker Chat is the next step after [AI Assistant](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/ai-assistant/ai-assistant-ui) and Adobe Experience Platform Agent Orchestrator. Everything you can do in AI Assistant today, including product knowledge and operational and data insights, remains available. Coworker Chat uses the shared [Coworker building blocks](/help/home.md#building-blocks) to complete work through conversation, not just answer questions.
 
 ## The chat experience
 
@@ -49,16 +49,6 @@ The following CX Enterprise applications are compatible with Coworker Chat:
 * _Real-Time CDP B2B Edition (coming soon)_
 * _Adobe Journey Optimizer B2B Edition (coming soon)_
 * _Customer Journey Analytics B2B edition (coming soon)_
-
-## Building blocks
-
-Coworker Chat is powered by the Coworker building blocks. The following building blocks are available today.
-
-* **Enterprise harness:** the engine that turns your goal into completed work. It runs a continuous, self-correcting loop (reason, select a skill, execute, validate, repeat), recovering from errors and working in parallel until the job is done, not just attempted.
-* **Skills:** reusable playbooks, in plain Markdown, for doing each task well. Coworker Chat ships with skills for the most common customer experience tasks today, and the goal is to cover the work across all Adobe CX Enterprise applications over time.
-* **MCP connectors:** governed access to act across Adobe and third-party systems, with out-of-the-box connectors and the option to bring your own.
-* **Governance:** approval gates, permissions inherited from your Adobe organization, checks that run before an action executes, and a full audit trail.
-* **Memory:** Coworker Chat learns your preferences, decisions, and corrections across sessions, scoped from organization-wide rules down to your personal preferences, so it gets sharper the more you work with it.
 
 ## Video overview
 
