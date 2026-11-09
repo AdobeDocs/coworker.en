@@ -5,7 +5,7 @@ user-guide-description: Learn about Adobe CX Enterprise Coworker, an AI-powered 
 description: Learn about AI tools in CX Enterprise. Improve your product knowledge and gain operational insights using AI in CX Enterprise.
 solution: Coworker
 role: Admin,User,Developer,Leader
-nudge: true
+auto-video-transcripts: true
 ---
 
 # CX Enterprise Coworker {#content}
