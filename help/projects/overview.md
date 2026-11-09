@@ -21,7 +21,7 @@ Authorized users can create, publish, and manage project templates. Practitioner
 
 ## Included project templates {#project-templates}
 
-Start with an included template for a common marketing use case. Each template provides a repeatable workflow that you can adapt to your business requirements. Choose from the following five available templates.
+Start with an included template for a common marketing use case. Each template provides a repeatable workflow that you can adapt to your business requirements. Choose from these five templates to start a project in Coworker Projects.
 
 ### Unified audiences and orchestrated journeys {#unified-audiences-orchestrated-journeys}
 
