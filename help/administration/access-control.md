@@ -30,7 +30,7 @@ Coworker access is controlled by an organization-wide setting and optional user 
 
 ## Add Coworker administrators {#add-coworker-admins}
 
-A Coworker administrator is a user assigned the **[!UICONTROL Product Admin]** role for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
+A Coworker administrator is a user assigned the **[!UICONTROL Product Admin]** or the **[!UICONTROL System Admin]** for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
 
 Use this video to learn how to add Coworker admins.
 
