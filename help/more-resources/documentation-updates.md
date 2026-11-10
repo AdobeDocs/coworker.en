@@ -13,7 +13,7 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 **November 10, 2026**
 
-* Updated: [Get started with Coworker Chat](../chat/ui-guide.md). The availability table now lists Customer Journey Analytics B2B edition, Content Analytics, and Marketing Campaign Analytics. Coworker Chat is available in the immersive and in-product experiences for all three.
+* Updated: [Get started with Coworker Chat](../chat/ui-guide.md). The availability table now lists Customer Journey Analytics B2B edition, Content Analytics, and Marketing Campaign Analytics. The immersive experience is available for all three. The in-product experience is available in Customer Journey Analytics B2B edition and Content Analytics, and is coming soon to Marketing Campaign Analytics.
 
 **November 4, 2026**
 

@@ -23,7 +23,7 @@ The following table shows where each experience is available.
 | Customer Journey Analytics | Available now | Available now |
 | Customer Journey Analytics B2B edition | Available now | Available now |
 | Content Analytics | Available now | Available now |
-| Marketing Campaign Analytics | Available now | Available now |
+| Marketing Campaign Analytics | Available now | Coming soon |
 | Adobe Analytics | Available now | Coming soon |
 | Workfront | Available now | Available now |
 | Target | Available now | Available now |
