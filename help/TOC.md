@@ -14,6 +14,7 @@ auto-video-transcripts: true
 - [Adobe CX Enterprise Coworker for AI Platforms](/help/ai-platforms.md)
 - Administration {#administration}
   - [Access control for Coworker](./administration/access-control.md)
+  - [Audit Coworker events](./administration/audit.md)
 - Coworker Chat {#chat}
   - [About Coworker Chat](./chat/overview.md)
   - [Get started using Coworker Chat](./chat/ui-guide.md)
