@@ -15,7 +15,7 @@ Use Adobe CX Enterprise Coworker access control to manage who can use Coworker a
 
 >[!NOTE]
 >
->Your organization must be enabled for Coworker to use this feature. Access control will become available progressively and may not be enabled for all Coworker organizations at launch.For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+>Your organization must be enabled for Coworker to use this feature. Access control will become available progressively and may not be enabled for all Coworker organizations at launch. For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 ## How access is determined {#how-access-is-determined}
 
