@@ -4,7 +4,7 @@ description: Learn how to audit events in Adobe CX Enterprise Coworker. Audit in
 last-substantial-update: 2026-11-09
 level: beginner
 role: Admin
-jira: KT-22980
+jira: KT-23097
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
