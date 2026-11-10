@@ -15,7 +15,7 @@ Use Adobe CX Enterprise Coworker access control to manage who can use Coworker a
 
 >[!NOTE]
 >
->Your organization must be enabled for Coworker to use this feature. For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+>Your organization must be enabled for Coworker to use this feature. Access control will become available progressively and may not be enabled for all Coworker organizations at launch.For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 ## How access is determined {#how-access-is-determined}
 
@@ -28,13 +28,9 @@ Coworker access is controlled by an organization-wide setting and optional user 
 | Compatible application permissions | Coworker access controls determine whether you can access any generally available Coworker capabilities. Coworker inherits your user permissions from Coworker-compatible CX Enterprise applications and respects the permissions each application already enforces. |
 
 
-## Add Coworker administrators {#add-coworker-admins}
+## Coworker administrators {#add-coworker-admins}
 
-A Coworker administrator is a user assigned the **[!UICONTROL Product Admin]** or the **[!UICONTROL System Admin]** for [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
-
-Use this video to learn how to add Coworker admins.
-
->[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on){transcript=true}
+A Coworker administrator is a user assigned as either a **[!UICONTROL System Admin]** for the organization or as a **[!UICONTROL Product Admin]** of [!DNL Adobe Experience Platform] in [!DNL Adobe Admin Console].
 
 ## Manage user access {#manage-user-access}
 
