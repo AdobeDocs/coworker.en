@@ -15,7 +15,7 @@ Learn how to audit events in Adobe CX Enterprise Coworker. Audit gives administr
 
 >[!NOTE]
 >
->Your organization must be enabled for Coworker to use this feature. The audit feature will become available progressively and may not be enabled for all Coworker organizations at launch. For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
+>Your organization must be enabled for Coworker to use this feature. Audit will become available progressively and may not be enabled for all Coworker organizations at launch. For more information, see the [Coworker Chat overview](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview).
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507041?learn=on){transcript=true}
