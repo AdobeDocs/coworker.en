@@ -13,9 +13,11 @@ product_v2:
 
 Use Adobe CX Enterprise Coworker access control to manage who can use Coworker and which capabilities they can use.
 
+Access control applies to Coworker in both the right rail and the full screen experience.
+
 >[!NOTE]
 >
->Access control is rolling out progressively to all customers with Coworker access. You might not see [!UICONTROL Access control] in your organization yet. For more information, see the [Coworker Chat overview](/help/chat/overview.md).
+>Access control is rolling out progressively to all customers with Coworker access. You might not see [!UICONTROL Access control] in your organization yet. For more information, see [Get help with access](#get-help-with-access).
 
 ## How access is determined {#how-access-is-determined}
 
