@@ -71,10 +71,10 @@ Use Coworker Projects to coordinate workflows around your business goals:
 * **Adaptive execution:** Trigger work through events, signals, or schedules. Coworker evaluates outcomes against your objectives and adjusts or triggers actions based on results.
 * **Collaboration and approvals:** Review, approve, and act within a shared project, with context available to stakeholders throughout the workflow.
 
-<!--
 ## Video overview {#video-overview}
 
 Learn about Coworker Projects in this video.
 
-TODO: Add the video embed when available. Include ?quality=12&learn=on and enable transcripts with {transcript=true}.
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3505913?learn=on){transcript=true}
+
+
