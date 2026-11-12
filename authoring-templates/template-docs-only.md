@@ -4,6 +4,7 @@ title: Title of the Page in Title Case
 description: Learn how to [do the task] with Adobe CX Enterprise Coworker. [Second sentence that invites action.]
 role: User
 level: Beginner
+last-substantial-update: 2026-01-01
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
@@ -40,6 +41,13 @@ WRITING RULES THAT MATTER MOST HERE
 - Bold interface labels in steps and wrap them in UICONTROL.
 - Give every H2 an explicit anchor, such as {#before-you-begin}, so links stay
   stable when a heading is reworded.
+
+SUGGESTED PROMPTS TO CREATE OR UPDATE
+
+In VSC, attach a template to Github Chat (or Claude), then use these prompts (or create your own):
+
+- Update `pagename.md` to align with the layout of this template. For additional editorial guidance, see `https://experienceleague.adobe.com/en/docs/authoring-guide/using/style-guide/basic-editorial-guidance`.
+- Use this template to create a page based on source information (wiki, transcript, jira, etc.).
 -->
 
 # Title of the page in sentence case {#page-id}

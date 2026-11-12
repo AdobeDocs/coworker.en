@@ -6,7 +6,7 @@ role: Leader, User, Developer, Admin
 level: Beginner
 doc-type: Catalog
 duration: 0
-last-substantial-update: '2026-01-01T00:00:00.000Z'
+last-substantial-update: 2026-01-01
 nudge: true
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
