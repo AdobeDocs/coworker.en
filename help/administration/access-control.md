@@ -55,9 +55,7 @@ Use [!UICONTROL Access control] in Coworker to manage access for individuals or 
 
    >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
-1. Select **[!UICONTROL Users]** to manage individual access or **[!UICONTROL User groups]** to manage group access.
-
-   A user group setting applies to its members.
+1. Select **[!UICONTROL Users]** to manage individual access or **[!UICONTROL User groups]** to manage group access. A user group setting applies to its members.
 
    Coworker user groups are separate from [!DNL Adobe Admin Console] groups. Syncing user groups from [!DNL Adobe Admin Console] to Coworker is coming soon.
 
