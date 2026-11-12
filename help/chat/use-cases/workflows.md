@@ -209,6 +209,18 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 * [Coworker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"} provides detailed guidance, use cases, and prompting best practices for the Decisioning skills in Adobe Journey Optimizer.
 
+## Process Manager
+
+>[!AVAILABILITY]
+>
+>Process Manager is in **beta**. To learn more about Process Manager, read the [Process Manager overview](https://experienceleague.adobe.com/en/docs/experience-platform/process-manager/home).
+
+| Workflow | Description | Skills | Application | Sample Prompts |
+| --- | --- | --- | --- | --- |
+| Process Manager builder | Design, create, update, rename and delete processes in Process Manager. List the available task types for Process Manager. | `process-manager-builder` | Process Manager | "List all the processes available for use in Process Manager." |
+| Process Manager run operator | Start a run, check status and history of your runs, find out why a run failed, rerun an existing run, cancel an in-progress run. | `process-manager-run-operator` | Process Manager | "Check the history of runs in the Sample Process." |
+| Process Manager scheduler | Create, change, pause, resume, list, and remove Process Manager schedules | `process-manager-scheduler` | Process Manager | "List the schedules for the Sample Process." |
+
 ## Channels
 
 | Workflow | Description | Skills | Application | Sample Prompts |
