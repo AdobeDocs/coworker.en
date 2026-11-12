@@ -11,6 +11,8 @@ product_v2:
 
 Coworker is built for organizations running complex, cross-functional customer experience workflows. It brings together Coworker Chat and Coworker Projects, enabling practitioners to move from a single task to a full, multi-team workflow within the Coworker experience. Governance, approvals, and human oversight are integrated from the start. Learn more on [Adobe for Business](https://business.adobe.com/products/cx-enterprise-coworker.html).
 
+<div id="recs-overview-body-1"></div>
+
 ## Building blocks {#building-blocks}
 
 Coworker Chat and Coworker Projects share the following building blocks, except where noted. Coworker Projects is coming soon.
@@ -158,6 +160,13 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 ### Join Experience League LIVE
 
