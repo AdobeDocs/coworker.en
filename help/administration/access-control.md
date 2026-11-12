@@ -36,14 +36,20 @@ A Coworker administrator is a user assigned as either a **[!UICONTROL System Adm
 
 ## Manage user access {#manage-user-access}
 
+Use [!UICONTROL Access control] in Coworker to manage access for individuals or user groups.
+
+>[!NOTE]
+>
+>Select up to 100 users or user groups per bulk action. When you export users, the export includes only loaded users.
+
 1. Open the Coworker experience. For instructions, see [Sign in to Coworker](/help/chat/ui-guide.md#sign-in).
-2. Open the profile menu and select **[!UICONTROL Admin settings]**.
+1. Open the profile menu and select **[!UICONTROL Admin settings]**.
 
    ![Coworker home with the profile menu control highlighted.](./assets/access-control/coworker-home.png)
 
    ![Coworker profile menu with Admin settings highlighted.](./assets/access-control/admin-settings.png)
 
-3. Select **[!UICONTROL Access control]**.
+1. Select **[!UICONTROL Access control]**.
 
    ![Admin settings with the Access control card highlighted.](./assets/access-control/access-control.png)
 
@@ -51,7 +57,7 @@ A Coworker administrator is a user assigned as either a **[!UICONTROL System Adm
 
    >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
-4. In Coworker, use **[!UICONTROL Users]** to manage access for individuals, or **[!UICONTROL User groups]** to manage Coworker access for groups of users. A user group setting applies to its members.
+1. Select **[!UICONTROL Users]** to manage individual access or **[!UICONTROL User groups]** to manage group access. A user group setting applies to its members.
 
    Coworker user groups are separate from [!DNL Adobe Admin Console] groups. Syncing user groups from [!DNL Adobe Admin Console] to Coworker is coming soon.
 
