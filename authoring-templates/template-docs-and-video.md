@@ -4,7 +4,7 @@ title: Title of the Page in Title Case
 description: Learn how to [do the task] with Adobe CX Enterprise Coworker. [Second sentence that invites action.]
 doc-type: Feature Video
 duration: 180
-last-substantial-update: 2026-01-01T00:00:00.000Z
+last-substantial-update: 2026-01-01
 jira: KT-00000
 role: User
 level: Beginner
@@ -45,6 +45,13 @@ KEEPING CONTENT FROM BEING OVERWRITTEN
   the video fields in the front matter only. Updating the steps changes the
   documentation sections only. Make each kind of change in its own commit.
 - Each team edits its own front matter fields (see the comments above).
+
+SUGGESTED PROMPTS TO CREATE OR UPDATE
+
+In VSC, attach a template to Github Chat (or Claude), then use these prompts (or create your own):
+
+- Update `pagename.md` to align with the layout of this template. For additional editorial guidance, see `https://experienceleague.adobe.com/en/docs/authoring-guide/using/style-guide/basic-editorial-guidance`.
+- Use this template to create a page based on source information (wiki, transcript, jira, etc.).
 -->
 
 # Title of the page in sentence case {#page-id}

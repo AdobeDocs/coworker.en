@@ -4,7 +4,7 @@ title: CX Enterprise Coworker in [Application]
 description: Learn how Coworker's conversational AI helps you [first thing], [second thing], and get more done in [Application].
 doc-type: Catalog
 duration: 0
-last-substantial-update: 2026-01-01T00:00:00.000Z
+last-substantial-update: 2026-01-01
 nudge: true
 role: Leader, User, Developer, Admin
 level: Beginner

@@ -4,7 +4,7 @@ title: Title of the Video Page in Title Case
 description: Learn how to [do the task] with Adobe CX Enterprise Coworker. [Second sentence that invites action.]
 doc-type: Feature Video
 duration: 180
-last-substantial-update: 2026-01-01T00:00:00.000Z
+last-substantial-update: 2026-01-01
 jira: KT-00000
 role: User
 level: Beginner
@@ -43,6 +43,13 @@ KEEP THE PAGE A SUMMARY, NOT A SECOND SET OF STEPS
   last-substantial-update together, and re-check the summary against the new video.
 - Give every H2 an explicit anchor, such as {#in-this-video}, so links stay
   stable when a heading is reworded.
+
+SUGGESTED PROMPTS TO CREATE OR UPDATE
+
+In VSC, attach a template to Github Chat (or Claude), then use these prompts (or create your own):
+
+- Update `pagename.md` to align with the layout of this template. For additional editorial guidance, see `https://experienceleague.adobe.com/en/docs/authoring-guide/using/style-guide/basic-editorial-guidance`.
+- Use this template to create a page based on source information (wiki, transcript, jira, etc.).
 -->
 
 # Title of the video page in sentence case {#page-id}
