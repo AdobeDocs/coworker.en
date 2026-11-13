@@ -78,6 +78,6 @@ Use Coworker Projects to coordinate workflows around your business goals:
 
 Learn about Coworker Projects in this video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3505913?learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3508234?learn=on){transcript=true}
 
 
