@@ -78,6 +78,7 @@ auto-video-transcripts: true
       - [Brand compliance check](./chat/use-cases/brand-visibility/brand-compliance.md)
       - [Author AEM Sites pages](./chat/use-cases/brand-visibility/author-web-pages.md)
       - [Onboard AEM Assets](./chat/use-cases/brand-visibility/onboard-aem-assets.md)
+      - [Build an Asset Sourcing Portal with Coworker](./chat/use-cases/brand-visibility/set-up-asset-sourcing-portal.md)
       - [Generate marketing assets](./chat/use-cases/brand-visibility/generate-assets.md)
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
