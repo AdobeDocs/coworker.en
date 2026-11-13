@@ -21,7 +21,7 @@ Access control applies to Coworker in both the right rail and the full screen ex
 
 ## How access is determined {#how-access-is-determined}
 
-Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access is enabled for everyone by default.
+Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access might be enabled or disabled by default for your organization.
 
 | Setting | How it affects access |
 | --- | --- |
@@ -61,7 +61,7 @@ Use [!UICONTROL Access control] in Coworker to manage access for individuals or 
 
    Coworker user groups are separate from [!DNL Adobe Admin Console] groups. Syncing user groups from [!DNL Adobe Admin Console] to Coworker is coming soon.
 
-   The Users list includes users in your organization. Coworker access is enabled for these users by default.
+   The Users list includes users in your organization. Their access depends on your organization's default setting and any user or group overrides.
 
    * **Enabled:** The user or user group is active.
    * **Disabled:** The user or user group is inactive.
