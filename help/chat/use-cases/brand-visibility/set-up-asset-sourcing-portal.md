@@ -12,14 +12,8 @@ product_v2:
     internal-label: Coworker
 ---
 
-# Build an Asset Sourcing Portal with Coworker {#set-up-asset-sourcing-portal}
+# Build an Asset Sourcing Portal with Coworker Chat
 
-Learn how to configure the Adobe Asset Sourcing Portal with Adobe CX Enterprise Coworker and give suppliers scoped portal access. Map custom metadata fields in Adobe Experience Manager Assets and sync metadata automatically as you ingest assets.
+Learn how to configure the Adobe Asset Sourcing Portal for AEM Assets with Coworker, and give suppliers scoped portal access. Map custom metadata fields in Adobe Experience Manager Assets and sync metadata automatically as you ingest assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3508276/?learn=on&enablevpops)
-
-## In this video {#in-this-video}
-
-* Set up the Asset Sourcing Portal with Coworker.
-* Onboard suppliers with scoped portal access.
-* Map custom metadata fields in AEM Assets and configure metadata synchronization.
