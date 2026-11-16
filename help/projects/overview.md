@@ -2,7 +2,7 @@
 title: About Coworker Projects
 description: Learn about Coworker Projects, shared workflows, approvals, and reusable project templates. Explore templates for campaigns, journeys, and experiment reviews.
 duration: 163
-last-substantial-update: 2026-11-13
+last-substantial-update: 2026-11-16
 jira: KT-23019
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
