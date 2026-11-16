@@ -99,6 +99,7 @@ auto-video-transcripts: true
     - {hide-from-toc} [Google Ads](./customizations/external-connectors/google-ads.md)
     - {hide-from-toc} [Meta Ads](./customizations/external-connectors/meta-ads.md)
     - {hide-from-toc} [Microsoft Work IQ](./customizations/external-connectors/microsoft-work-iq.md)
+    - {hide-from-toc} [Slack](./customizations/external-connectors/slack.md)
     - {hide-from-toc} [Snowflake Cortex AI](./customizations/external-connectors/snowflake.md)
   - Memory {#memory}
     - [What is memory?](./customizations/memory/what-is-memory.md)
