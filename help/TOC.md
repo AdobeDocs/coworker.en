@@ -82,6 +82,8 @@ auto-video-transcripts: true
       - [Generate marketing assets](./chat/use-cases/brand-visibility/generate-assets.md)
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+- Coworker Projects {#projects}
+  - [About Coworker Projects](./projects/overview.md)
 - Customizations {#customizations}
   - [Customizations Overview](./customizations/overview.md)
   - Skills {#skills}
