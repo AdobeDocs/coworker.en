@@ -185,7 +185,7 @@ After an administrator configures the connector, each member signs in with their
 
    ![External Connectors page for a member, with the Slack card highlighted, showing a Beta label, a Sign-in required status, a prompt to sign in with your Slack account, and a Sign in button.](./assets/slack/member-sign-in.png){width="700" zoomable="yes"}
 
-   You can also open the connector details. Before you sign in, the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**, with a **[!UICONTROL Sign in]** button.
+   Before you sign in, the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**, with a **[!UICONTROL Sign in]** button.
 
    ![Slack connector details for a member, showing a Sign-in required status, the Test connection button, the server URL, Each user signs in, a Not signed in connection with a Sign in button, and the tools enabled by your admin.](./assets/slack/member-details.png){width="700" zoomable="yes"}
 
