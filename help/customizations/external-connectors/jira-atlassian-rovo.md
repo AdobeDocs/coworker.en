@@ -154,6 +154,6 @@ If sign-in or access fails, check the following with your administrator:
 | Consent returns `invalid_request` | Ask your administrator to confirm that the connection requests `read:me` and `read:account` in addition to the [!DNL Jira] scopes. |
 | You still see older scopes after a change | An older personal [!DNL Jira] connection can override the organization connection. Ask an administrator to update or remove only that older connection, and then sign in again. |
 | A tool is missing | Ask your administrator to check the tool selection. Additional read operations need both `discover` and `executeRead`, the required scopes, and the right permissions. |
-| **[!UICONTROL Test connection]** is slow or times out | Tool discovery can take longer than the 60-second tool timeout. Check whether the problem is slow discovery or a sign-in failure before you change credentials or sign in again. |
+| **[!UICONTROL Test connection]** is slow or times out | Tool discovery can take longer than the 60-second tool timeout. Check whether the problem is slow discovery or a sign-in failure before you change credentials. |
 
 When you ask for help, do not share passwords, tokens, authorization codes, or consent URLs. Do not include them in screenshots or support tickets.
