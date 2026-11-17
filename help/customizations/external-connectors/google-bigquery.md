@@ -76,6 +76,8 @@ Administrators make the [!DNL Google BigQuery] connector available to everyone i
 
    If the connector is already configured, the card shows **[!UICONTROL View configuration]** instead.
 
+   ![External Connectors page for the organization, with the Google BigQuery card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/google-bigquery/org-catalog.png){width="700" zoomable="yes"}
+
 1. In the **[!UICONTROL Configure Google BigQuery for your organization]** dialog, copy the **[!UICONTROL Redirect URL]** under **[!UICONTROL Your Google application]**.
 
    The redirect URL differs between environments and regions, so always copy the exact value from the dialog. Do not use the URL of the Coworker page in your browser or the [!DNL BigQuery] MCP server URL. If one OAuth client serves several environments, register each required redirect URL separately.
@@ -97,13 +99,17 @@ Administrators make the [!DNL Google BigQuery] connector available to everyone i
 
    Do not use personal secrets for an organization connector.
 
-1. Expand the **[!UICONTROL Explore and query]** tool group. Keep all seven tools selected, or select only the tools your members need. You must select at least one tool. For more information, see [Available tools](#available-tools).
+   ![Configure Google BigQuery for your organization dialog showing a redacted Redirect URL, the Enter new and Use an existing secret options, the Google OAuth client ID and client secret fields, and the Explore and query tool group.](./assets/google-bigquery/org-configure.png){width="500" zoomable="yes"}
+
+1. Expand the **[!UICONTROL Explore and query]** tool group. Keep all seven tools selected, or select only the tools your members need. You must select at least one tool. You cannot change the selection after setup. For more information, see [Available tools](#available-tools).
 
 1. Review the notices under **[!UICONTROL Access and permissions]**:
 
    * **[!UICONTROL Read-only tools]:** The OAuth scope is broad and does not prevent changes on its own. Keep the IAM roles of your members read-only.
    * **[!UICONTROL Read-only queries can incur charges]:** Use dry runs and query quotas. A `LIMIT` clause controls the rows returned, not necessarily the bytes scanned.
    * **[!UICONTROL Each person signs in separately]:** Every member needs the required IAM roles.
+
+   ![Configure Google BigQuery for your organization dialog with all seven Explore and query tools selected, and the Read-only tools, Read-only queries can incur charges, and Each person signs in separately notices.](./assets/google-bigquery/org-tools.png){width="500" zoomable="yes"}
 
 1. Select **[!UICONTROL Save connection]**.
 
@@ -138,9 +144,11 @@ Consider the following limits when you use the tools:
 
 After an administrator configures the connector, each member signs in with their own [!DNL Google] account. You do not need the OAuth client secret to sign in.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google BigQuery]** card, select **[!UICONTROL Sign in]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google BigQuery]** card, which shows **[!UICONTROL Not signed in]**, select **[!UICONTROL Sign in]**.
 
    If the card says that an administrator needs to set up the connector, ask your administrator to [configure the connector](#configure-organization).
+
+   ![External Connectors page for a member, with the Google BigQuery card highlighted, showing a Not signed in status and a Sign in button.](./assets/google-bigquery/member-sign-in.png){width="700" zoomable="yes"}
 
 1. Choose the [!DNL Google] account that has the required IAM access. Then complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
 
