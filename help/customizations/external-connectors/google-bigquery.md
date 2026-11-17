@@ -109,11 +109,11 @@ Administrators make the [!DNL Google BigQuery] connector available to everyone i
    * **[!UICONTROL Read-only queries can incur charges]:** Use dry runs and query quotas. A `LIMIT` clause controls the rows returned, not necessarily the bytes scanned.
    * **[!UICONTROL Each person signs in separately]:** Every member needs the required IAM roles.
 
-   ![Configure Google BigQuery for your organization dialog with all seven Explore and query tools selected, and the Read-only tools, Read-only queries can incur charges, and Each person signs in separately notices.](./assets/google-bigquery/org-tools.png){width="500" zoomable="yes"}
-
 1. Select **[!UICONTROL Save connection]**.
 
    The organization card shows **[!UICONTROL Configuration saved]** and **[!UICONTROL View configuration]**.
+
+   ![External Connectors page for the organization, with the Google BigQuery card highlighted, showing a Configuration saved status and a View configuration button.](./assets/google-bigquery/org-saved.png){width="700" zoomable="yes"}
 
 Saving the configuration does not sign in you or any member to [!DNL Google]. Saving also does not confirm that anyone can query a dataset. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
