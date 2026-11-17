@@ -65,19 +65,11 @@ Administrators make the [!DNL RainFocus] connector available to everyone in the 
 
    ![External Connectors page for the organization, with the RainFocus card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/rainfocus/org-catalog.png){width="700" zoomable="yes"}
 
-1. In the **[!UICONTROL Set up RainFocus]** dialog, read the introduction.
-
-   The introduction explains that an administrator supplies a provisioned MCP Profile and that each member signs in separately. Saving does not sign in anyone or run a data tool.
-
-1. Enter the **[!UICONTROL Development profile URL]**. Use the complete MCP profile URL that your [!DNL RainFocus] administrator provided.
+1. In the **[!UICONTROL Set up RainFocus]** dialog, enter the **[!UICONTROL Development profile URL]**. Use the complete MCP profile URL that your [!DNL RainFocus] administrator provided.
 
    The URL must start with `https://`. It cannot contain spaces, backslashes, a query string (`?`), a fragment (`#`), a user name or password, or a nondefault port. If the URL does not match a rule, Coworker shows a message that describes the rule. Coworker checks only the format of the URL. It does not check that the profile exists or that you can use it.
 
-1. Review the **[!UICONTROL Access and permissions]** section.
-
-   This section describes the read tools that the connector enables and the data that they can return. It also explains that [!DNL RainFocus] profile permissions and commercial terms still apply.
-
-1. Review the **[!UICONTROL Fixed read-tool allowlist]** section. You cannot add, remove, or edit tools in this dialog. For more information, see [Available tools](#available-tools).
+1. Review the **[!UICONTROL Access and permissions]** and **[!UICONTROL Fixed read-tool allowlist]** sections. The connector enables all 10 read tools, and you cannot add, remove, or edit them in this dialog. Some tools return attendee personal data or bulk exports. For more information, see [Available tools](#available-tools).
 
    ![Set up RainFocus dialog showing the empty Development profile URL field, the Access and permissions section, the fixed read-tool allowlist with 10 tools, and the Save connection button.](./assets/rainfocus/org-configure.png){width="500" zoomable="yes"}
 
