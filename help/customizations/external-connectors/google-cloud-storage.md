@@ -89,6 +89,8 @@ Administrators make the [!DNL Google Cloud Storage] connector available to every
 
    If the connector is already configured, open its saved configuration instead.
 
+   ![External Connectors page for the organization, showing the Google Cloud Storage card with a Beta label, a Not configured status, and a Configure button.](./assets/google-cloud-storage/org-catalog.png){width="700" zoomable="yes"}
+
 1. In the **[!UICONTROL Configure Google Cloud Storage for your organization]** dialog, under **[!UICONTROL Your Google application]**, copy the complete **[!UICONTROL Redirect URL]**.
 
    The redirect URL differs by environment and region. Always copy the exact value from the dialog. Do not use the URL of the Coworker page in your browser, the MCP server URL, or a redirect URL from another environment.
@@ -110,15 +112,30 @@ Administrators make the [!DNL Google Cloud Storage] connector available to every
 
    Do not use personal secrets for an organization connector.
 
+   ![Configure Google Cloud Storage for your organization dialog showing a redacted Redirect URL, the Enter new and Use an existing secret options, the Google OAuth client ID and client secret fields, and the Before people can sign in notice.](./assets/google-cloud-storage/org-configure.png){width="500" zoomable="yes"}
+
 1. Expand **[!UICONTROL Browse and read (5 of 5)]**. Keep all five tools selected, or select only the tools that members need. You must select at least one tool. For more information, see [Available tools](#available-tools).
 
 1. Under **[!UICONTROL Access and permissions]**, review the **[!UICONTROL Read-only access]** and **[!UICONTROL Each person signs in separately]** notices. Then select **[!UICONTROL Save connection]**.
 
-1. Review the saved connector details, which show the source and the selected tools.
+   ![Tools available to users section with all five Browse and read tools selected, followed by the Read-only access and Each person signs in separately notices.](./assets/google-cloud-storage/org-tools.png){width="500" zoomable="yes"}
+
+1. Review the saved **[!UICONTROL google-cloud-storage]** connector details.
+
+   | Setting | Description |
+   | --- | --- |
+   | **[!UICONTROL Source]** | The MCP server URL, `https://storage.googleapis.com/storage/mcp`. |
+   | **[!UICONTROL Authentication]** | The authentication method, `google-cloud-storage_login`. |
+   | **[!UICONTROL Connection]** | Your own sign-in status. |
+   | **[!UICONTROL Tools]** | The tools selected for members, with **[!UICONTROL Select all]** and **[!UICONTROL Clear]** controls and a count of selected tools. |
+
+   ![Saved google-cloud-storage connector details showing the source, the authentication method, a Not signed in connection with a Sign in button, and five of five tools selected.](./assets/google-cloud-storage/org-details.png){width="700" zoomable="yes"}
 
 The **[!UICONTROL Not signed in]** status on the connector details refers to your own connection, not to the organization. Saving the organization setup does not sign in you or any member, and does not confirm access to a bucket. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
 To change the tools available to members later, update the selection on the connector details page, and then select **[!UICONTROL Save tool selection]**. Members cannot change the tool selection.
+
+To stop offering the connector to your organization, select **[!UICONTROL Remove]** on the connector details page.
 
 ### Available tools {#available-tools}
 
@@ -142,21 +159,29 @@ After an administrator configures the connector, each member signs in with their
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google Cloud Storage]** card, select **[!UICONTROL Sign in]**.
 
-   If the card says that an administrator must set up the connector, ask your administrator to [configure the connector](#configure-organization).
+   Before you sign in, the card shows **[!UICONTROL Not signed in]**. If the card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
 
-1. Choose the [!DNL Google] account that has the required IAM access. Complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
+   ![External Connectors page for the user, showing the Google Cloud Storage card with a Not signed in status and a Sign in button.](./assets/google-cloud-storage/member-sign-in.png){width="700" zoomable="yes"}
+
+1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account that has the required IAM access, or select **[!UICONTROL Use another account]**. Complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
 
    This account can differ from the account that you use for Coworker.
 
+   ![Google Choose an account screen with redacted accounts and the Use another account option.](./assets/google-cloud-storage/member-choose-account.png){width="500" zoomable="yes"}
+
 1. If [!DNL Google] shows **[!UICONTROL Google hasn't verified this app]**, confirm the app and its owner with your administrator.
 
-   Continue only if your organization approves the use of this app. Otherwise, select **[!UICONTROL Back to safety]**, and ask the app owner to resolve the audience, publication, or verification requirements.
+   If your organization approves the use of this app, select **[!UICONTROL Continue]**. Otherwise, select **[!UICONTROL Back to safety]**, and ask the app owner to resolve the audience, publication, or verification requirements.
 
-1. Review the app name and the requested access on the consent screen. The connector requests **[!UICONTROL View your data in Google Cloud Storage]**, which matches the read-only scope.
+   ![Google screen saying that Google has not verified this app because it is being tested, with the Continue and Back to safety options.](./assets/google-cloud-storage/member-unverified-app.png){width="500" zoomable="yes"}
+
+1. Review the app name and the requested access on the consent screen, and then select **[!UICONTROL Continue]**. The connector requests **[!UICONTROL View your data in Google Cloud Storage]**, which matches the read-only scope.
 
    >[!IMPORTANT]
    >
    >Continue only if you recognize the app and your organization approves the requested access.
+
+   ![Google consent screen for an example app requesting access to view your data in Google Cloud Storage, with a redacted account and the Cancel and Continue buttons.](./assets/google-cloud-storage/member-consent.png){width="500" zoomable="yes"}
 
 1. Return to Coworker and confirm that sign-in completed. Review **[!UICONTROL Tools enabled by your admin]** in the connector details. You can use only the tools that your administrator enabled.
 
@@ -193,7 +218,7 @@ If sign-in or access fails, check the following with your administrator:
 
 | Issue | What to check |
 | --- | --- |
-| The connector says that an administrator must set it up | Save the organization connection for the active organization. |
+| The card shows **[!UICONTROL Not configured]** | Save the organization connection for the active organization. |
 | `redirect_uri_mismatch` | Register the exact **[!UICONTROL Redirect URL]** from the Coworker dialog on the **[!UICONTROL Web application]** OAuth client. |
 | `invalid_client` | Check the client type, the client ID and client secret, and the selected organization secrets. |
 | `access_denied` or an unverified app warning | Check the app audience, test user eligibility, and verification status with the app owner. Do not approve an unknown app. |
