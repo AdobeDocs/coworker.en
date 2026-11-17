@@ -99,7 +99,7 @@ Administrators make the [!DNL Google BigQuery] connector available to everyone i
 
    Do not use personal secrets for an organization connector.
 
-   ![Configure Google BigQuery for your organization dialog showing a redacted Redirect URL, the Enter new and Use an existing secret options, the Google OAuth client ID and client secret fields, and the Explore and query tool group.](./assets/google-bigquery/org-configure.png){width="500" zoomable="yes"}
+   ![Configure Google BigQuery for your organization dialog showing the Connection details section with a redacted Redirect URL and the credential fields, all seven Explore and query tools selected, and the three Access and permissions notices.](./assets/google-bigquery/org-configure.png){width="500" zoomable="yes"}
 
 1. Expand the **[!UICONTROL Explore and query]** tool group. Keep all seven tools selected, or select only the tools your members need. You must select at least one tool. You cannot change the selection after setup. For more information, see [Available tools](#available-tools).
 
@@ -150,13 +150,17 @@ After an administrator configures the connector, each member signs in with their
 
    ![External Connectors page for a member, with the Google BigQuery card highlighted, showing a Not signed in status and a Sign in button.](./assets/google-bigquery/member-sign-in.png){width="700" zoomable="yes"}
 
-1. Choose the [!DNL Google] account that has the required IAM access. Then complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
+1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account that has the required IAM access, or select **[!UICONTROL Use another account]**. Then complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
 
    This account can differ from the account that you use for Coworker.
 
+   ![Google Choose an account screen with three redacted accounts and the Use another account option.](./assets/google-bigquery/member-choose-account.png){width="500" zoomable="yes"}
+
 1. If [!DNL Google] shows **[!UICONTROL Google hasn't verified this app]**, confirm the app and its owner with your administrator. Continue only if your organization policy for test apps allows it. Otherwise, select **[!UICONTROL Back to safety]**, and ask the app owner to resolve the audience, publication, or verification requirements.
 
-1. Review the app name and the requested access on the consent screen. Then complete the [!DNL Google] consent flow.
+   ![Google hasn't verified this app warning with a redacted app owner email, an Advanced link, and a Back to safety button.](./assets/google-bigquery/member-unverified-app.png){width="500" zoomable="yes"}
+
+1. Review the app name and the requested access on the consent screen. Then select **[!UICONTROL Continue]** to complete the [!DNL Google] consent flow.
 
    [!DNL Google] asks for permission to view and manage your [!DNL BigQuery] data and to see the email address of your [!DNL Google] account. This is the standard [!DNL BigQuery] scope, even though Coworker offers only read-only tools.
 
@@ -164,7 +168,11 @@ After an administrator configures the connector, each member signs in with their
    >
    >Continue only if you recognize the app and your organization approves the requested access.
 
+   ![Google consent screen for an example app requesting access to view and manage your data in Google BigQuery, with an unverified app warning, a redacted account, and the Cancel and Continue buttons.](./assets/google-bigquery/member-consent.png){width="500" zoomable="yes"}
+
 1. Return to Coworker, and then review **[!UICONTROL Tools enabled by your admin]** in the connector details. Members can view the tools but cannot change the tool selection.
+
+   ![google-bigquery connector details for a member, showing a Connected status, the source, the authentication method, the tool timeout, a Signed in connection with Sign out and Reload tools buttons, and the tools enabled by your admin.](./assets/google-bigquery/member-details.png){width="700" zoomable="yes"}
 
 1. Optionally, select **[!UICONTROL Test]** to check the connection.
 
