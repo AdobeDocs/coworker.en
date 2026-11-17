@@ -175,9 +175,11 @@ After an administrator configures the connector, each member signs in with their
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
-1. Find the **[!UICONTROL Slack]** card. If the connector is not available, ask your administrator to [configure the connector](#configure-organization).
+1. Find the **[!UICONTROL Slack]** card. If the card shows **[!UICONTROL Not configured]** and **[!UICONTROL Not available yet. Your admin needs to set this up.]**, ask your administrator to [configure the connector](#configure-organization).
 
    Do not ask for, or copy, the client secret of the organization.
+
+   ![External Connectors page for a member, with the Slack card highlighted, showing a Beta label, a Not configured status, and a message that the connector is not available until an admin sets it up.](./assets/slack/member-not-configured.png){width="700" zoomable="yes"}
 
 1. Open the connector. Before you sign in, the connector details show **[!UICONTROL Sign-in required]**, and the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**. Select **[!UICONTROL Sign in]**, and then complete the [!DNL Slack] authorization with the [!DNL Slack] account and workspace that you plan to use.
 
