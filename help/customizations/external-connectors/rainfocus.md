@@ -48,7 +48,7 @@ Before you configure the connector in Coworker, prepare the MCP Profile and memb
 
 1. In [!DNL RainFocus], open **[!UICONTROL Integration Suite]** > **[!UICONTROL Active Profiles]** > **[!UICONTROL MCP Profiles]**, and then create a profile.
 1. Enable only the tools that your use case needs, and leave the other tools turned off.
-1. Copy the generated MCP server URL. The URL is specific to the profile, so each organization has its own URL.
+1. Copy the generated MCP server URL. The URL is specific to the profile.
 
 Give the complete URL to the Coworker administrator who configures the connector. Do not guess a profile name or build the URL yourself. For more information, see the [RainFocus MCP Profiles announcement](https://www.rainfocus.com/company/news-press/rainfocus-launches-ai-agent-connectivity-for-event-data-with-mcp-profiles/).
 
@@ -67,7 +67,7 @@ Administrators make the [!DNL RainFocus] connector available to everyone in the 
 
 1. In the **[!UICONTROL Set up RainFocus]** dialog, enter the **[!UICONTROL Development profile URL]**. Use the complete MCP profile URL that your [!DNL RainFocus] administrator provided.
 
-   The URL must start with `https://`. It cannot contain spaces, backslashes, a query string (`?`), a fragment (`#`), a user name or password, or a nondefault port. If the URL does not match a rule, Coworker shows a message that describes the rule. Coworker checks only the format of the URL. It does not check that the profile exists or that you can use it.
+   The URL must start with `https://`. It cannot contain spaces, backslashes, a query string (`?`), a fragment (`#`), a user name or password, a nondefault port, or `.` or `..` path segments. If the URL does not match a rule, Coworker shows a message that describes the rule. Coworker checks only the format of the URL. It does not check that the profile exists or that you can use it.
 
 1. Review the **[!UICONTROL Access and permissions]** and **[!UICONTROL Fixed read-tool allowlist]** sections. The connector enables all 10 read tools, and you cannot add, remove, or edit them in this dialog. Some tools return attendee personal data or bulk exports. For more information, see [Available tools](#available-tools).
 
@@ -89,11 +89,11 @@ After you save the connection, check the configuration:
    * **[!UICONTROL Authentication]** is present.
    * **[!UICONTROL Tool policy]** > **[!UICONTROL Allowed tool names or patterns]** lists the same 10 tools as the [Available tools](#available-tools) section.
 
-   ![Saved rainfocus connector details showing a redacted source, the rainfocus_login authentication method, a Not signed in connection with a Sign in button, and the Test and Remove buttons.](./assets/rainfocus/org-details.png){width="700" zoomable="yes"}
-
 1. To check your own connection, select **[!UICONTROL Test]**. If Coworker asks you to sign in, use your own [!DNL RainFocus] account, as described in [Sign in as a member](#sign-in-as-a-member).
 
    **[!UICONTROL Test]** lists the tools of the server and updates the **[!UICONTROL Tools]** count. If the server returns no tools, the details show **[!UICONTROL 0 tools available]**. If the test fails, the details show **[!UICONTROL Connection failed]**.
+
+   ![Saved rainfocus connector details showing a redacted source, the rainfocus_login authentication method, a Not signed in connection with a Sign in button, and the Test and Remove buttons.](./assets/rainfocus/org-details.png){width="700" zoomable="yes"}
 
 The **[!UICONTROL Connection]**, **[!UICONTROL Test]**, and sign-in controls on the connector details apply only to your own connection. When you sign in as an administrator, no members are signed in. A successful test lists tools only. The test does not run a [!DNL RainFocus] data tool or confirm that a member can access specific data.
 
