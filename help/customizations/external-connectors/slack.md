@@ -106,9 +106,7 @@ Administrators make the [!DNL Slack] connector available to everyone in the orga
 
    ![External Connectors page for the organization, with the Slack card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/slack/org-catalog.png){width="700" zoomable="yes"}
 
-1. Under **[!UICONTROL Slack application]**, make sure that the **[!UICONTROL Redirect URL]** is registered in your app. For more information, see [Register the redirect URL](#register-redirect-url).
-
-1. Enter the **[!UICONTROL Client ID]** and **[!UICONTROL Client secret]** of your app. Both fields are required.
+1. Make sure that the **[!UICONTROL Redirect URL]** under **[!UICONTROL Slack application]** is registered in your app, as described in [Register the redirect URL](#register-redirect-url). Then enter the **[!UICONTROL Client ID]** and **[!UICONTROL Client secret]** of your app. Both fields are required.
 
    Do not enter the app ID, the signing secret, or a bot token. Coworker stores the credentials as secrets, not as plain-text connector settings.
 
@@ -116,15 +114,15 @@ Administrators make the [!DNL Slack] connector available to everyone in the orga
 
 1. Review the **[!UICONTROL User OAuth scopes]**. For more information, see [Review the user OAuth scopes](#review-scopes).
 
-1. Under **[!UICONTROL Tools available to users]**, remove any tools that members should not use. To undo your changes, select **[!UICONTROL Restore all tools]**. At least one tool must remain. For more information, see [Available tools](#available-tools).
+1. Under **[!UICONTROL Tools available to users]**, remove any tools that members should not use. At least one tool must remain. For more information, see [Available tools](#available-tools).
 
 1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Slack]** card shows **[!UICONTROL Configuration saved]**.
 
    The dialog also shows the **[!UICONTROL Authentication]** method, the **[!UICONTROL Connection]** type, and the **[!UICONTROL Tool timeout]**. Coworker does not save the configuration when a credential field or the scope list is empty.
 
-   ![Connect Slack dialog showing the User OAuth scopes, all 16 tools available to users, the Access and permissions notice, and the OAuth authentication, HTTP connection, and 60-second tool timeout settings.](./assets/slack/org-scopes-tools.png){width="500" zoomable="yes"}
+   Reload the page, select **[!UICONTROL View configuration]**, and confirm that the configuration and your tool selection are saved before members sign in.
 
-1. Reload the page, and then select **[!UICONTROL View configuration]**. Confirm that the organization connection and your tool selection are saved before members sign in.
+   ![Connect Slack dialog showing the User OAuth scopes, all 16 tools available to users, the Access and permissions notice, and the OAuth authentication, HTTP connection, and 60-second tool timeout settings.](./assets/slack/org-scopes-tools.png){width="500" zoomable="yes"}
 
 Saving does not sign in you or any member to [!DNL Slack]. To check the connection, sign in as yourself, as described in [Sign in as a member](#sign-in-as-a-member).
 
@@ -148,24 +146,24 @@ Tool selection and OAuth scopes are independent. When you narrow access, review 
 
 The [!DNL Slack] connector provides the following 16 tools. By default, all of them are available to members.
 
-| Capability | Tool | Description |
-| --- | --- | --- |
-| Search | `slack_search_public` | Search public messages and files. |
-| Search | `slack_search_public_and_private` | Search messages and files, including private conversations you can access. |
-| Search | `slack_search_channels` | Find channels and their identifiers. |
-| Search | `slack_search_users` | Find people in your workspace. |
-| Read conversations | `slack_read_channel` | Read a conversation message history. |
-| Read conversations | `slack_read_thread` | Read a message thread and its replies. |
-| Read conversations | `slack_list_channel_members` | List the members of a conversation. |
-| Read conversations | `slack_list_user_channels` | List channels and direct conversations you belong to. |
-| Read content and profiles | `slack_read_canvas` | Read a canvas without changing it. |
-| Read content and profiles | `slack_read_user_profile` | Read a user profile and email address. |
-| Read content and profiles | `slack_read_file` | Read files you have access to. |
-| Read content and profiles | `slack_read_list` | Read a list and its records without changing them. |
-| Emoji and reactions | `slack_search_emojis` | Find custom emoji in your workspace. |
-| Emoji and reactions | `slack_get_reactions` | Read reactions on a message. |
-| Messages and drafts | `slack_send_message` | Send a message or reply to a thread as the signed-in user. |
-| Messages and drafts | `slack_send_message_draft` | Prepare a message draft for review before sending. |
+| Capability | Tool |
+| --- | --- |
+| Search | `slack_search_public` |
+| Search | `slack_search_public_and_private` |
+| Search | `slack_search_channels` |
+| Search | `slack_search_users` |
+| Read conversations | `slack_read_channel` |
+| Read conversations | `slack_read_thread` |
+| Read conversations | `slack_list_channel_members` |
+| Read conversations | `slack_list_user_channels` |
+| Read content and profiles | `slack_read_canvas` |
+| Read content and profiles | `slack_read_user_profile` |
+| Read content and profiles | `slack_read_file` |
+| Read content and profiles | `slack_read_list` |
+| Emoji and reactions | `slack_search_emojis` |
+| Emoji and reactions | `slack_get_reactions` |
+| Messages and drafts | `slack_send_message` |
+| Messages and drafts | `slack_send_message_draft` |
 
 The connector is not read-only. Members can send messages and replies unless you remove the `slack_send_message` tool. Channel creation, scheduled messages, file uploads, adding reactions, and canvas or list changes are not included.
 
@@ -185,7 +183,7 @@ After an administrator configures the connector, each member signs in with their
 
    ![External Connectors page for a member, with the Slack card highlighted, showing a Beta label, a Sign-in required status, a prompt to sign in with your Slack account, and a Sign in button.](./assets/slack/member-sign-in.png){width="700" zoomable="yes"}
 
-   Before you sign in, the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**, with a **[!UICONTROL Sign in]** button.
+   You can also open the **[!UICONTROL Slack]** connector details. Before you sign in, the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**, with a **[!UICONTROL Sign in]** button.
 
    ![Slack connector details for a member, showing a Sign-in required status, the Test connection button, the server URL, Each user signs in, a Not signed in connection with a Sign in button, and the tools enabled by your admin.](./assets/slack/member-details.png){width="700" zoomable="yes"}
 
