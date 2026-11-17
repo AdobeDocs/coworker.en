@@ -104,11 +104,15 @@ Administrators make the [!DNL Slack] connector available to everyone in the orga
 
    The **[!UICONTROL Connect Slack]** dialog opens. The connector uses the fixed [!DNL Slack] MCP server URL, `https://mcp.slack.com/mcp`. Use the organization scope for this configuration, not a personal connection.
 
+   ![External Connectors page for the organization, with the Slack card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/slack/org-catalog.png){width="700" zoomable="yes"}
+
 1. Under **[!UICONTROL Slack application]**, make sure that the **[!UICONTROL Redirect URL]** is registered in your app. For more information, see [Register the redirect URL](#register-redirect-url).
 
 1. Enter the **[!UICONTROL Client ID]** and **[!UICONTROL Client secret]** of your app. Both fields are required.
 
    Do not enter the app ID, the signing secret, or a bot token. Coworker stores the credentials as secrets, not as plain-text connector settings.
+
+   ![Connect Slack dialog showing the Slack application section with a redacted Redirect URL, empty Client ID and Client secret fields, the default User OAuth scopes, and the first tools available to users.](./assets/slack/org-configure.png){width="500" zoomable="yes"}
 
 1. Review the **[!UICONTROL User OAuth scopes]**. For more information, see [Review the user OAuth scopes](#review-scopes).
 
@@ -116,7 +120,9 @@ Administrators make the [!DNL Slack] connector available to everyone in the orga
 
 1. Review **[!UICONTROL Access and permissions]**, and then select **[!UICONTROL Save connection]**. The **[!UICONTROL Slack]** card shows **[!UICONTROL Configuration saved]**.
 
-   Coworker does not save the configuration when a credential field or the scope list is empty.
+   The dialog also shows the **[!UICONTROL Authentication]** method, the **[!UICONTROL Connection]** type, and the **[!UICONTROL Tool timeout]**. Coworker does not save the configuration when a credential field or the scope list is empty.
+
+   ![Connect Slack dialog showing the User OAuth scopes, all 16 tools available to users, the Access and permissions notice, and the OAuth authentication, HTTP connection, and 60-second tool timeout settings.](./assets/slack/org-scopes-tools.png){width="500" zoomable="yes"}
 
 1. Reload the page, and then select **[!UICONTROL View configuration]**. Confirm that the organization connection and your tool selection are saved before members sign in.
 
@@ -173,7 +179,9 @@ After an administrator configures the connector, each member signs in with their
 
    Do not ask for, or copy, the client secret of the organization.
 
-1. Open the connector, and then select **[!UICONTROL Sign in]**. Complete the [!DNL Slack] authorization with the [!DNL Slack] account and workspace that you plan to use.
+1. Open the connector. Before you sign in, the connector details show **[!UICONTROL Sign-in required]**, and the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**. Select **[!UICONTROL Sign in]**, and then complete the [!DNL Slack] authorization with the [!DNL Slack] account and workspace that you plan to use.
+
+   ![Slack connector details for a member, showing a Sign-in required status, the Test connection button, the server URL, Each user signs in, a Not signed in connection with a Sign in button, and the tools enabled by your admin.](./assets/slack/member-details.png){width="700" zoomable="yes"}
 
    Review the requested permissions and any workspace approval requirements.
 
@@ -181,7 +189,7 @@ After an administrator configures the connector, each member signs in with their
    >
    >Continue only if you recognize the app and your organization approves the requested access.
 
-1. Return to Coworker and review the connection status. Select **[!UICONTROL Test connection]**, if it is available, and then [check your Slack access](#check-access) before you rely on the connection.
+1. Return to Coworker and review the connection status. Select **[!UICONTROL Test connection]**, and then [check your Slack access](#check-access) before you rely on the connection.
 
 1. Review messaging actions carefully. Coworker sends messages and replies as your [!DNL Slack] account.
 
