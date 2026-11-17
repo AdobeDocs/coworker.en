@@ -76,8 +76,6 @@ Coworker uses the following connection settings. You do not enter these values i
 | Transport | Streamable HTTP |
 | Authorization server | `https://accounts.google.com/` |
 | Requested scope | `https://www.googleapis.com/auth/devstorage.read_only` |
-| Offline access | Requested during consent |
-| Dynamic client registration | Not supported |
 
 For more information, see [Use the Cloud Storage remote MCP server](https://docs.cloud.google.com/storage/docs/use-cloud-storage-mcp) and [Authenticate to Google MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) in the [!DNL Google Cloud] documentation.
 
@@ -116,7 +114,7 @@ Administrators make the [!DNL Google Cloud Storage] connector available to every
 
 1. Expand **[!UICONTROL Browse and read (5 of 5)]**. Keep all five tools selected, or select only the tools that members need. You must select at least one tool. For more information, see [Available tools](#available-tools).
 
-1. Under **[!UICONTROL Access and permissions]**, review the **[!UICONTROL Read-only access]** and **[!UICONTROL Each person signs in separately]** notices. Then select **[!UICONTROL Save connection]**.
+   Under **[!UICONTROL Access and permissions]**, review the **[!UICONTROL Read-only access]** and **[!UICONTROL Each person signs in separately]** notices. Then select **[!UICONTROL Save connection]**.
 
    ![Tools available to users section with all five Browse and read tools selected, followed by the Read-only access and Each person signs in separately notices.](./assets/google-cloud-storage/org-tools.png){width="500" zoomable="yes"}
 
@@ -175,13 +173,15 @@ After an administrator configures the connector, each member signs in with their
 
    ![Google screen saying that Google has not verified this app because it is being tested, with the Continue and Back to safety options.](./assets/google-cloud-storage/member-unverified-app.png){width="500" zoomable="yes"}
 
-1. Review the app name and the requested access on the consent screen, and then select **[!UICONTROL Continue]**. The connector requests **[!UICONTROL View your data in Google Cloud Storage]**, which matches the read-only scope.
+   Review the app name and the requested access on the consent screen, and then select **[!UICONTROL Continue]**. The connector requests **[!UICONTROL View your data in Google Cloud Storage]**, which matches the read-only scope.
+
+   In the screenshots, the app is named adobe.io. The app of your organization shows its own name. This name does not mean that Adobe provides the OAuth app.
 
    >[!IMPORTANT]
    >
    >Continue only if you recognize the app and your organization approves the requested access.
 
-   ![Google consent screen for an example app requesting access to view your data in Google Cloud Storage, with a redacted account and the Cancel and Continue buttons.](./assets/google-cloud-storage/member-consent.png){width="500" zoomable="yes"}
+   ![Google consent screen where an example app named adobe.io requests access to view your data in Google Cloud Storage, with a redacted account and the Cancel and Continue buttons.](./assets/google-cloud-storage/member-consent.png){width="500" zoomable="yes"}
 
 1. Return to Coworker and confirm that sign-in completed. Review **[!UICONTROL Tools enabled by your admin]** in the connector details. You can use only the tools that your administrator enabled.
 
