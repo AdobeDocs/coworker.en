@@ -71,7 +71,7 @@ Administrators make the [!DNL Infobip Observe] connector available to everyone i
 
    ![External Connectors page for the organization, with the Infobip Observe card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/infobip-observe/org-catalog.png){width="700" zoomable="yes"}
 
-1. In the **[!UICONTROL Connect Infobip Observe]** dialog, review the fixed **[!UICONTROL Server URL]**, `https://mcp.infobip.com/observe`, and the redirect URL that your environment reports.
+1. In the **[!UICONTROL Connect Infobip Observe]** dialog, review the fixed **[!UICONTROL Server URL]**, `https://mcp.infobip.com/observe`.
 
    You do not need to enter an OAuth client ID, client secret, or scopes.
 
