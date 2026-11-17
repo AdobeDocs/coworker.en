@@ -162,15 +162,17 @@ After an administrator configures the connector, each member signs in with their
 
    [!DNL Google] asks for permission to view and manage your [!DNL BigQuery] data and to see the email address of your [!DNL Google] account. This is the standard [!DNL BigQuery] scope, even though Coworker offers only read-only tools.
 
+   In the screenshots, the app is named adobe.io. The app of your organization shows its own name. This name does not mean that Adobe provides the OAuth app.
+
    >[!IMPORTANT]
    >
    >Continue only if you recognize the app and your organization approves the requested access.
 
-   ![Google consent screen for an example app requesting access to view and manage your data in Google BigQuery, with an unverified app warning, a redacted account, and the Cancel and Continue buttons.](./assets/google-bigquery/member-consent.png){width="500" zoomable="yes"}
+   ![Google consent screen where an example app named adobe.io requests access to view and manage your data in Google BigQuery, with an unverified app warning, a redacted account, and the Cancel and Continue buttons.](./assets/google-bigquery/member-consent.png){width="500" zoomable="yes"}
 
 1. Return to Coworker, and then review **[!UICONTROL Tools enabled by your admin]** in the connector details. Members can view the tools but cannot change the tool selection. To check the connection, select **[!UICONTROL Test]**.
 
-   ![google-bigquery connector details for a member, showing a Connected status, the source, the authentication method, the tool timeout, a Signed in connection with Sign out and Reload tools buttons, and the tools enabled by your admin.](./assets/google-bigquery/member-details.png){width="700" zoomable="yes"}
+   ![google-bigquery connector details for a member, showing a Connected status, the source, the authentication method, the tool timeout, a Signed in connection with Sign out and Reload tools buttons and a message that the connection has ended, and the first tools enabled by your admin.](./assets/google-bigquery/member-details.png){width="700" zoomable="yes"}
 
 A successful sign-in, test, or tool list does not confirm that you can query a specific dataset. To confirm your access, [check your BigQuery access](#check-bigquery-access). If Coworker says that the connection has ended, sign in again.
 
