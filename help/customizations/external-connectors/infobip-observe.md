@@ -65,17 +65,23 @@ Coworker applies the following settings automatically. You do not create an OAut
 
 Administrators make the [!DNL Infobip Observe] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization. Members cannot configure the organization connection.
 
-1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. Find **[!UICONTROL Infobip Observe]**, and then select **[!UICONTROL Configure]**.
+1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
 
-1. Review the fixed [!DNL Observe] server URL and the redirect URL that your environment reports.
+1. Find **[!UICONTROL Infobip Observe]**, and then select **[!UICONTROL Configure]**.
+
+   ![External Connectors page for the organization, with the Infobip Observe card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/infobip-observe/org-catalog.png){width="700" zoomable="yes"}
+
+1. In the **[!UICONTROL Connect Infobip Observe]** dialog, review the fixed **[!UICONTROL Server URL]**, `https://mcp.infobip.com/observe`, and the redirect URL that your environment reports.
 
    You do not need to enter an OAuth client ID, client secret, or scopes.
 
-1. Review the four tools that are initially selected. Remove any tool that members of your organization should not use. At least one tool must remain selected.
+1. Under **[!UICONTROL Tools available to users]**, review the four tools that are initially selected. Remove any tool that members of your organization should not use. At least one tool must remain.
 
    For more information, see [Available tools](#available-tools).
 
-1. Save the configuration. Then reopen the configuration to verify that your tool selection persists.
+   ![Connect Infobip Observe dialog showing the server URL, the four tools available to users, the Access and permissions notice, and the OAuth authentication, HTTP connection, and 60-second tool timeout settings.](./assets/infobip-observe/org-configure.png){width="500" zoomable="yes"}
+
+1. Select **[!UICONTROL Save connection]**. Then reopen the configuration to verify that your tool selection persists.
 
 Saving does not sign in you or any member to [!DNL Infobip]. To check the connection yourself, sign in as described in [Sign in as a member](#sign-in-as-a-member).
 
@@ -104,11 +110,11 @@ After an administrator configures the connector, each member signs in with their
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. Find **[!UICONTROL Infobip Observe]**.
 
-   If the connector is not configured, ask your administrator to [configure the connector](#configure-organization).
+   If the card shows **[!UICONTROL Not configured]** and **[!UICONTROL Not available yet. Your admin needs to set this up.]**, ask your administrator to [configure the connector](#configure-organization).
 
-1. Select **[!UICONTROL Sign in]**, and then sign in with the intended [!DNL Infobip] account.
+   ![External Connectors page for a member, with the Infobip Observe card highlighted, showing a Not configured status and a message that the connector is not available until an admin sets it up.](./assets/infobip-observe/member-not-configured.png){width="700" zoomable="yes"}
 
-1. Complete the single sign-on (SSO), multi-factor authentication (MFA), and consent prompts yourself. Before you approve, review the requested access, the account, and the data center.
+1. Select **[!UICONTROL Sign in]** and use the intended [!DNL Infobip] account. Complete the single sign-on (SSO), multi-factor authentication (MFA), and consent prompts yourself. Before you approve, review the requested access, the account, and the data center.
 
 1. Return to Coworker and open the connector details. Review the tools that your administrator enabled.
 
@@ -118,7 +124,11 @@ After an administrator configures the connector, each member signs in with their
 
    A successful test confirms that Coworker can connect and list the tools. It does not confirm that every tool runs successfully.
 
-To disconnect your [!DNL Infobip] account from the connector, select **[!UICONTROL Sign out]**. Signing out does not necessarily revoke the access that you granted in [!DNL Infobip].
+1. If you are authorized and your administrator enabled the `look_up_status_and_error_codes` tool, run the lookup in [Check your connection](#check-connection).
+
+1. To disconnect your [!DNL Infobip] account from the connector, select **[!UICONTROL Sign out]**.
+
+   Signing out does not necessarily revoke the access that you granted in [!DNL Infobip].
 
 ## Check your connection {#check-connection}
 
