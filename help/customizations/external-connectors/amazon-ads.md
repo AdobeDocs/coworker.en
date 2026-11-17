@@ -143,7 +143,7 @@ Administrators make the [!DNL Amazon Ads] connector available to everyone in the
 
    ![Saved amazon-ads connector details showing the North America source, the authentication method, a Signed in connection with Sign out and Refresh buttons, and two of 47 tools selected.](./assets/amazon-ads/org-details.png){width="700" zoomable="yes"}
 
-Saving does not sign in you or any member to [!DNL Amazon]. The **[!UICONTROL Connection]** status on the connector details refers to your own connection, not to the organization. To check the connection, sign in as yourself on the connector details page, as described in [Sign in as a member](#sign-in-as-a-member), and then select **[!UICONTROL Test]**. The result shows **[!UICONTROL Connection successful]** or **[!UICONTROL Connection failed]**, with the tools or errors returned. A successful result does not confirm access to a specific advertiser operation.
+Saving does not sign in you or any member to [!DNL Amazon]. The **[!UICONTROL Connection]** status on the connector details refers to your own connection, not to the organization. To check the connection, select **[!UICONTROL Sign in]** on the connector details page to sign in with your own [!DNL Amazon] account, and then select **[!UICONTROL Test]**. The result shows **[!UICONTROL Connection successful]** or **[!UICONTROL Connection failed]**, with the tools or errors returned. A successful result does not confirm access to a specific advertiser operation.
 
 To change the tools available to members later, update the selection under **[!UICONTROL Available tools]** with **[!UICONTROL Select all]** or **[!UICONTROL Clear]**, and then select **[!UICONTROL Save tool selection]**. At least one tool must remain selected. Members cannot change the tool selection.
 
@@ -206,7 +206,7 @@ To confirm which advertising accounts you can use, run a read-only check. Use an
 
 Example prompt:
 
-* "Using Amazon Ads, list up to five advertising accounts I can access in the configured region. Show only the account name, account ID, and region if those fields are returned. Do not create, update, delete, launch, execute workflows, generate reports, or change permissions."
+* "Using Amazon Ads, list up to five advertising accounts I can access in the configured region. Show only the account name, account ID, and region if those fields are returned. Do not create, update, delete, launch, execute workflows, generate reports, or change permissions. If a listing limit is unsupported, summarize only five results and do not request additional pages."
 
 Confirm that the result includes the account you expect. To view more details, ask Coworker to get the details of that account, using the account ID from the result. Do not guess account IDs, and do not request campaigns only to test the sign-in.
 
