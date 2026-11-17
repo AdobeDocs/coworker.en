@@ -62,6 +62,9 @@ Administrators make the [!DNL RainFocus] connector available to everyone in the 
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
 1. Find the **[!UICONTROL RainFocus]** card, which has a Beta label and shows **[!UICONTROL Not configured]**. Select **[!UICONTROL Configure]**.
+
+   ![External Connectors page for the organization, with the RainFocus card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/rainfocus/org-catalog.png){width="700" zoomable="yes"}
+
 1. In the **[!UICONTROL Set up RainFocus]** dialog, read the introduction.
 
    The introduction explains that an administrator supplies a provisioned MCP Profile and that each member signs in separately. Saving does not sign in anyone or run a data tool.
@@ -75,6 +78,9 @@ Administrators make the [!DNL RainFocus] connector available to everyone in the 
    This section describes the read tools that the connector enables and the data that they can return. It also explains that [!DNL RainFocus] profile permissions and commercial terms still apply.
 
 1. Review the **[!UICONTROL Fixed read-tool allowlist]** section. You cannot add, remove, or edit tools in this dialog. For more information, see [Available tools](#available-tools).
+
+   ![Set up RainFocus dialog showing the empty Development profile URL field, the Access and permissions section, the fixed read-tool allowlist with 10 tools, and the Save connection button.](./assets/rainfocus/org-configure.png){width="500" zoomable="yes"}
+
 1. Select **[!UICONTROL Save connection]**. While Coworker saves the connection, you cannot edit or cancel the form.
 
 If saving fails, the dialog shows **[!UICONTROL Could not save connection]** and keeps the URL that you entered. Some settings might be saved even when the save fails. Reopen the configuration and check it before you try again. To avoid conflicting changes, make sure that only one administrator configures the connector at a time.
@@ -90,6 +96,8 @@ After you save the connection, check the configuration:
    * **[!UICONTROL Source]** shows the profile URL that you entered.
    * **[!UICONTROL Authentication]** is present.
    * **[!UICONTROL Tool policy]** > **[!UICONTROL Allowed tool names or patterns]** lists the same 10 tools as the [Available tools](#available-tools) section.
+
+   ![Saved rainfocus connector details showing a redacted source, the rainfocus_login authentication method, a Not signed in connection with a Sign in button, and the Test and Remove buttons.](./assets/rainfocus/org-details.png){width="700" zoomable="yes"}
 
 1. To check your own connection, select **[!UICONTROL Test]**. If Coworker asks you to sign in, use your own [!DNL RainFocus] account, as described in [Sign in as a member](#sign-in-as-a-member).
 
@@ -132,9 +140,13 @@ After an administrator configures the connector, each member signs in with their
 
    **[!UICONTROL Set up by your admin]** means that Coworker cannot confirm your sign-in status. It does not mean that you are signed in or signed out.
 
+   ![External Connectors page for a member, with the RainFocus card highlighted, showing a Sign-in required status, a prompt to sign in with your own RainFocus account, and a Sign in button.](./assets/rainfocus/member-card.png){width="700" zoomable="yes"}
+
 1. Select **[!UICONTROL Sign in]**. You can also open the card details and select **[!UICONTROL Sign in]** in the **[!UICONTROL Connection]** section. In the [!DNL RainFocus] window, complete the sign-in, single sign-on (SSO), multi-factor authentication (MFA), and consent prompts. Review the access that you approve.
 
    If **[!UICONTROL Discover authorization]** appears, Coworker reads the sign-in details of the server, not its tools. If discovery fails, or the panel asks for a **[!UICONTROL Client ID]** or **[!UICONTROL Client secret]**, stop and contact your administrator. Do not enter or guess credentials.
+
+   ![RainFocus connector details for a member, showing a Sign-in required status, a redacted server URL, Each user signs in, a Not signed in connection with a Discover authorization button, and the 10 tools enabled by your admin.](./assets/rainfocus/member-details.png){width="700" zoomable="yes"}
 
 1. Return to Coworker and confirm that the status shows **[!UICONTROL Connected]**. A closed sign-in window alone does not confirm success. If you close the window early, nothing changes, and you can try again.
 1. Open the card details to review the setup from your administrator. You can view the **[!UICONTROL Server URL]**, **[!UICONTROL Who signs in]**, **[!UICONTROL Authentication]**, and **[!UICONTROL Tools enabled by your admin]**.
