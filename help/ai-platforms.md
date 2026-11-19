@@ -21,7 +21,7 @@ There's no additional cost to use Coworker in AI platforms. It's included in you
 Before you can use Coworker in an AI platform, confirm you have the following.
 
 * Adobe CX Enterprise Coworker provisioned for your organization, and your own access to it in Adobe.
-* Adobe Experience Platform and at least one of Adobe Real-Time CDP, Adobe Journey Optimizer, or Adobe Customer Journey Analytics.
+* One of the Adobe CX Enterprise applications.
 * Access to an AI platform listed in [Set up Coworker](#set-up-coworker).
 
 ## Data access and permissions {#data-access-and-permissions}
@@ -342,6 +342,17 @@ After you set up Coworker in a supported platform, try these prompts, or write y
 * Show a metric for the last month.
 * Show your active Workfront projects.
 * Show journeys with loyalty audiences.
+
+## Authentication and information sources {#authentication-and-information-sources}
+
+When you sign in with your Adobe credentials, select your organization. Coworker uses your default sandbox and data view as information sources.
+
+To change an information source, enter one of these prompts. Replace the placeholder with the name of the data view or sandbox you want to use.
+
+* `switch dataview to <dataview>`
+* `switch sandbox to <sandbox>`
+
+Coworker responds to confirm the change. The confirmation varies by AI platform.
 
 ## Known limitations {#known-limitations}
 
