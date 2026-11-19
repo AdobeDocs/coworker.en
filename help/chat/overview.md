@@ -40,6 +40,7 @@ The following CX Enterprise applications are compatible with Coworker Chat:
 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
+* Adobe Journey Optimizer B2B Edition
 * Customer Journey Analytics
 * Customer Journey Analytics B2B edition
 * Content Analytics
@@ -49,8 +50,8 @@ The following CX Enterprise applications are compatible with Coworker Chat:
 * AEM
 * Workfront
 * Marketo Engage
+* Marketo Optimizer
 * _Real-Time CDP B2B Edition (coming soon)_
-* _Adobe Journey Optimizer B2B Edition (coming soon)_
 
 ## Video overview
 
