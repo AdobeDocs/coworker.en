@@ -21,7 +21,7 @@ There's no additional cost to use Coworker in AI platforms. It's included in you
 Before you can use Coworker in an AI platform, confirm you have the following.
 
 * Adobe CX Enterprise Coworker provisioned for your organization, and your own access to it in Adobe.
-* Adobe Experience Platform and at least one of Adobe Real-Time CDP, Adobe Journey Optimizer, or Adobe Customer Journey Analytics.
+* One of the [Adobe CX Enterprise](https://business.adobe.com/solutions/customer-experience-orchestration.html) applications.
 * Access to an AI platform listed in [Set up Coworker](#set-up-coworker).
 
 ## Data access and permissions {#data-access-and-permissions}
@@ -52,7 +52,7 @@ Select an available platform for setup instructions. After setup, try the [examp
 * [ChatGPT](#chatgpt)
 * [Claude](#claude)
 * [Gemini Enterprise](#gemini-enterprise)
-* [Amazon Quick](#amazon-quick)
+* [AWS Quick](#amazon-quick)
 * [IBM watsonx Orchestrate](#ibm-watsonx-orchestrate)
 * [Databricks](#databricks)
 
@@ -182,17 +182,17 @@ After your administrator publishes Coworker to you, open it in [!DNL Gemini Ente
 
 For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#example-prompts).
 
-### [!DNL Amazon Quick] {#amazon-quick}
+### [!DNL AWS Quick] {#amazon-quick}
 
-Use Coworker to get marketing insights in [!DNL Amazon Quick].
+Use Coworker to get marketing insights in [!DNL AWS Quick].
 
-Before you begin, confirm you have access to [!DNL Amazon Quick] and your Adobe account.
+Before you begin, confirm you have access to [!DNL AWS Quick] and your Adobe account.
 
 #### Connect Coworker {#amazon-quick-connection}
 
-Connect Coworker in [!DNL Amazon Quick] using Model Context Protocol (MCP). Adobe has already approved [!DNL Amazon Quick] for this connection.
+Connect Coworker in [!DNL AWS Quick] using Model Context Protocol (MCP). Adobe has already approved [!DNL AWS Quick] for this connection.
 
-1. In [!DNL Amazon Quick], go to **[!UICONTROL Connectors]**.
+1. In [!DNL AWS Quick], go to **[!UICONTROL Connectors]**.
 1. Search for MCP and open the connector setup.
 1. Enter `https://mcp.coworker.experience.adobe.io` as the MCP server URL.
 
@@ -203,7 +203,7 @@ Connect Coworker in [!DNL Amazon Quick] using Model Context Protocol (MCP). Adob
 
 #### Access Coworker {#amazon-quick-access}
 
-After you connect Coworker, use it in [!DNL Amazon Quick] to ask questions about your Adobe data.
+After you connect Coworker, use it in [!DNL AWS Quick] to ask questions about your Adobe data.
 
 For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#example-prompts).
 
@@ -332,7 +332,7 @@ For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#ex
 
 <!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
-<!-- Amazon Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
+<!-- AWS Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
 ## Example prompts {#example-prompts}
 
@@ -342,6 +342,17 @@ After you set up Coworker in a supported platform, try these prompts, or write y
 * Show a metric for the last month.
 * Show your active Workfront projects.
 * Show journeys with loyalty audiences.
+
+## Authentication and information sources {#authentication-and-information-sources}
+
+When you sign in with your Adobe credentials, select your organization. Coworker uses your default sandbox and data view as information sources.
+
+To change an information source, enter one of these prompts. Replace the placeholder with the name of the data view or sandbox you want to use.
+
+* `switch dataview to <dataview>`
+* `switch sandbox to <sandbox>`
+
+Coworker responds to confirm the change. The confirmation varies by AI platform.
 
 ## Known limitations {#known-limitations}
 
