@@ -93,6 +93,7 @@ auto-video-transcripts: true
     - [Manage and iterate on skills](./customizations/skills/manage-and-iterate-on-skills.md)
   - Integrations {#integrations}
     - [What are integrations?](./customizations/integrations/understanding-integrations-in-coworker.md)
+    - [Enable your first integration](./customizations/integrations/enable-your-first-integration.md)
   - Plugins {#plugins}
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
