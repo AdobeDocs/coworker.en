@@ -201,13 +201,16 @@ Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform
 
 ## Decisioning
 
+Use Coworker Chat to manage Decisioning objects in Adobe Journey Optimizer: create and maintain eligibility rules, ranking formulas, frequency capping expressions, and decision items from natural-language prompts.
+
 | Workflow | Description | Skills | Application | Sample Prompts |
 | --- | --- | --- | --- | --- |
-| [Generate, explain, simulate, and optimize decisioning rules](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | Use natural language to create eligibility rules and ranking formulas, and get a plain-English explanation. <br> Test them against up to three profiles. <br> Rewrite them to fit PQL size limits, without writing PQL syntax by hand. | Decisioning Rule Workflow | Adobe Journey Optimizer (AJO) | "Create an eligibility rule targeting loyalty members in tier 2 or above."<br><br>"Explain this rule to me in natural language."<br><br>"Simulate this rule with test profiles."<br><br>"Optimize this PQL rule for me." |
+| [Create, manage, simulate, and optimize decisioning rules](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#rules-ranking){target="_blank"} | Use natural language to create, find, fix, and delete eligibility rules, ranking formulas, and offer-item frequency capping expressions, and get a plain-English explanation. <br> Validate and test them against up to three profiles. <br> Rewrite them to fit PQL size limits, without writing PQL syntax by hand. | Decisioning Rule Workflow | Adobe Journey Optimizer (AJO) | "Create an eligibility rule targeting loyalty members in tier 2 or above."<br><br>"Explain this rule to me in natural language."<br><br>"Simulate this rule with test profiles."<br><br>"Optimize this PQL rule for me."<br><br>"List ranking formulas."<br><br>"Create a capping rule that counts click events." |
+| [Create and manage decision items](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills#decisioning-offer-item-workflow){target="_blank"} | Create decision items (offers) by describing them in chat, including labels or tags, eligibility, schedules, frequency capping, content fragments, and custom attributes. <br> Update, approve, unapprove, archive, or permanently delete items. <br> Create or update several items at once from a CSV file or a list. | Decisioning Offer Item Workflow | Adobe Journey Optimizer (AJO) | "Create an offer capped on a placement named like drc."<br><br>"Create decision items from this CSV file."<br><br>"Approve the Summer Sale item."<br><br>"Archive this offer." |
 
 **Related information**
 
-* [Coworker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"} provides detailed guidance, use cases, and prompting best practices for the Decisioning skills in Adobe Journey Optimizer.
+* [Coworker for Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-coworker-skills){target="_blank"} provides detailed guidance, use cases, and prompting best practices for the Decisioning Rule Workflow and Decisioning Offer Item Workflow skills in Adobe Journey Optimizer.
 
 ## Process Manager
 
