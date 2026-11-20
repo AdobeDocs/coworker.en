@@ -76,8 +76,6 @@ Administrators make the [!DNL Google BigQuery] connector available to everyone i
 
    If the connector is already configured, the card shows **[!UICONTROL View configuration]** instead.
 
-   ![External Connectors page for the organization, with the Google BigQuery card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/google-bigquery/org-catalog.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Configure Google BigQuery for your organization]** dialog, copy the **[!UICONTROL Redirect URL]** under **[!UICONTROL Your Google application]**.
 
    The redirect URL differs between environments and regions, so always copy the exact value from the dialog. Do not use the URL of the Coworker page in your browser or the [!DNL BigQuery] MCP server URL. If one OAuth client serves several environments, register each required redirect URL separately.
@@ -111,8 +109,6 @@ Administrators make the [!DNL Google BigQuery] connector available to everyone i
 
    Select **[!UICONTROL Save connection]**. The organization card shows **[!UICONTROL Configuration saved]** and **[!UICONTROL View configuration]**.
 
-   ![External Connectors page for the organization, with the Google BigQuery card highlighted, showing a Configuration saved status and a View configuration button.](./assets/google-bigquery/org-saved.png){width="700" zoomable="yes"}
-
 Saving the configuration does not sign in you or any member to [!DNL Google]. Saving also does not confirm that anyone can query a dataset. To use the connector yourself, follow the steps in [Sign in as a member](#sign-in-as-a-member).
 
 ### Available tools {#available-tools}
@@ -145,8 +141,6 @@ After an administrator configures the connector, each member signs in with their
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google BigQuery]** card, which shows **[!UICONTROL Not signed in]**, select **[!UICONTROL Sign in]**.
 
    If the card says that an administrator needs to set up the connector, ask your administrator to [configure the connector](#configure-organization).
-
-   ![External Connectors page for a member, with the Google BigQuery card highlighted, showing a Not signed in status and a Sign in button.](./assets/google-bigquery/member-sign-in.png){width="700" zoomable="yes"}
 
 1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account that has the required IAM access, or select **[!UICONTROL Use another account]**. Then complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
 
