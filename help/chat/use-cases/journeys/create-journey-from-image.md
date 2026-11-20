@@ -30,3 +30,8 @@ topic_v2:
 Upload a flowchart image, such as a PowerPoint slide, to CX Enterprise Coworker. In this video, see how to review the prompt extracted from the image, specify the trigger event, and save an editable journey draft in Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504865/?learn=on&enablevpops)
+
+## See also
+
+- [Coworker for journeys: Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, with key use cases, prompting best practices, and out-of-scope skills for creating journeys in Adobe Journey Optimizer.
+- [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.

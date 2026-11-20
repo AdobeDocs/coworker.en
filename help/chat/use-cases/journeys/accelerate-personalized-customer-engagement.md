@@ -15,3 +15,9 @@ jira: KT-23065
 Learn how Adobe CX Enterprise Coworker helps turn a marketing goal into a personalized customer engagement journey across Adobe applications. See how Coworker identifies relevant visitor audiences, helps create a journey in Adobe Journey Optimizer, and prepares promotional messaging, all while building on existing capabilities in Adobe Experience Manager (AEM) and Adobe Experience Platform (AEP).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3507060/?learn=on&enablevpops)
+
+## See also
+
+- [Coworker for journeys: Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, with key use cases, prompting best practices, and out-of-scope skills for creating journeys in Adobe Journey Optimizer.
+- [Coworker for journeys: Channel Content Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#channel-content-create){target="_blank"}, for generating channel-specific message content in Adobe Journey Optimizer.
+- [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.

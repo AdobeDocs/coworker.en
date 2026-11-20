@@ -19,3 +19,10 @@ product_v2:
 Use CX Enterprise Coworker to build a cross-channel journey from a plain-language prompt and generate email and SMS content. In this video, see how to simulate branching paths and review diagnostics to identify configuration issues.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3504706?learn=on)
+
+## See also
+
+- [Coworker for journeys: Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, with key use cases, prompting best practices, and out-of-scope skills for creating journeys in Adobe Journey Optimizer.
+- [Coworker for journeys: Channel Content Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#channel-content-create){target="_blank"}, for generating channel-specific message content in Adobe Journey Optimizer.
+- [Coworker for journeys: Journey Simulation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-simulation){target="_blank"}, with key use cases and limitations of simulating journeys with Coworker.
+- [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.
