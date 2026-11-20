@@ -82,6 +82,8 @@ auto-video-transcripts: true
       - [Generate marketing assets](./chat/use-cases/brand-visibility/generate-assets.md)
     - Workflow & Planning {#workflow-and-planning}
       - [Plan a digital campaign launch](./chat/use-cases/workflow-and-planning/plan-digital-campaign-launch.md)
+- Coworker Projects {#projects}
+  - [About Coworker Projects](./projects/overview.md)
 - Customizations {#customizations}
   - [Customizations Overview](./customizations/overview.md)
   - Skills {#skills}
@@ -91,12 +93,17 @@ auto-video-transcripts: true
     - [Manage and iterate on skills](./customizations/skills/manage-and-iterate-on-skills.md)
   - Integrations {#integrations}
     - [What are integrations?](./customizations/integrations/understanding-integrations-in-coworker.md)
+    - [Enable your first integration](./customizations/integrations/enable-your-first-integration.md)
   - Plugins {#plugins}
     - [What are plugins?](./customizations/plugins/what-are-plugins.md)
     - [Manage plugins for your org](./customizations/plugins/manage-plugins-for-your-org.md)
   - External connectors {#external-connectors}
+    - {hide-from-toc} [Amazon Ads](./customizations/external-connectors/amazon-ads.md)
     - {hide-from-toc} [Databricks Genie](./customizations/external-connectors/databricks-genie.md)
     - {hide-from-toc} [Google Ads](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc} [Google BigQuery](./customizations/external-connectors/google-bigquery.md)
+    - {hide-from-toc} [Google Cloud Storage](./customizations/external-connectors/google-cloud-storage.md)
+    - {hide-from-toc} [Infobip Observe](./customizations/external-connectors/infobip-observe.md)
     - {hide-from-toc} [Meta Ads](./customizations/external-connectors/meta-ads.md)
     - {hide-from-toc} [Microsoft Work IQ](./customizations/external-connectors/microsoft-work-iq.md)
     - {hide-from-toc} [RainFocus](./customizations/external-connectors/rainfocus.md)
