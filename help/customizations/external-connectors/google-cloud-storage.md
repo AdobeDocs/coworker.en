@@ -87,8 +87,6 @@ Administrators make the [!DNL Google Cloud Storage] connector available to every
 
    If the connector is already configured, open its saved configuration instead.
 
-   ![External Connectors page for the organization, showing the Google Cloud Storage card with a Beta label, a Not configured status, and a Configure button.](./assets/google-cloud-storage/org-catalog.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Configure Google Cloud Storage for your organization]** dialog, under **[!UICONTROL Your Google application]**, copy the complete **[!UICONTROL Redirect URL]**.
 
    The redirect URL differs by environment and region. Always copy the exact value from the dialog. Do not use the URL of the Coworker page in your browser, the MCP server URL, or a redirect URL from another environment.
@@ -158,8 +156,6 @@ After an administrator configures the connector, each member signs in with their
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Google Cloud Storage]** card, select **[!UICONTROL Sign in]**.
 
    Before you sign in, the card shows **[!UICONTROL Not signed in]**. If the card shows **[!UICONTROL Not configured]**, ask your administrator to [configure the connector](#configure-organization).
-
-   ![External Connectors page for the user, showing the Google Cloud Storage card with a Not signed in status and a Sign in button.](./assets/google-cloud-storage/member-sign-in.png){width="700" zoomable="yes"}
 
 1. On the [!DNL Google] **[!UICONTROL Choose an account]** screen, select the account that has the required IAM access, or select **[!UICONTROL Use another account]**. Complete any sign-in steps that your organization requires, such as single sign-on (SSO) or multi-factor authentication (MFA).
 
