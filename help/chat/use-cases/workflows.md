@@ -9,6 +9,8 @@ product_v2:
 
 Coworker Chat lets you query, analyze, and act on your [!DNL Experience Platform] data using natural language instead of navigating multiple UIs or writing queries manually. This page catalogs the workflows practitioners rely on most, organized by work area: data insights, audiences, journeys, loyalty, foundational elements, and sandbox tooling. Each entry includes the skill it invokes, the applications it works with, and sample prompts you can copy, adapt to your own data, and refine through conversation. 
 
+For Adobe Journey Optimizer, see [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of the Coworker skills for journeys, loyalty, content management, Decisioning, channels, and orchestrated campaigns.
+
 ## About skills and workflows
 
 **Skills:** A _skill_ is a single, specific capability or action that Coworker can perform. Examples include creating an audience, sending an email, generating a report, or analyzing campaign results. Each Skill is focused on one particular function.
