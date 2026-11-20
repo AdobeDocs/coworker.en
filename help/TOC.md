@@ -104,6 +104,7 @@ auto-video-transcripts: true
     - {hide-from-toc} [Google BigQuery](./customizations/external-connectors/google-bigquery.md)
     - {hide-from-toc} [Google Cloud Storage](./customizations/external-connectors/google-cloud-storage.md)
     - {hide-from-toc} [Infobip Observe](./customizations/external-connectors/infobip-observe.md)
+    - {hide-from-toc} [Jira / Atlassian Rovo](./customizations/external-connectors/jira-atlassian-rovo.md)
     - {hide-from-toc} [Meta Ads](./customizations/external-connectors/meta-ads.md)
     - {hide-from-toc} [Microsoft Work IQ](./customizations/external-connectors/microsoft-work-iq.md)
     - {hide-from-toc} [RainFocus](./customizations/external-connectors/rainfocus.md)
