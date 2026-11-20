@@ -19,3 +19,4 @@ Learn how to use Coworker to compare versions of an Adobe Journey Optimizer jour
 
 - [Coworker for journeys: Journey tools](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-tools){target="_blank"}, for the version comparison use case and sample prompts.
 - [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.
+- [More Coworker Chat workflows](../workflows.md#journeys)

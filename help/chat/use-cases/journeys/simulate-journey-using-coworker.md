@@ -32,3 +32,4 @@ Use Coworker to simulate an Adobe Journey Optimizer journey with automatically g
 
 - [Coworker for journeys: Journey Simulation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-simulation){target="_blank"}, with key use cases and limitations of simulating journeys with Coworker.
 - [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.
+- [More Coworker Chat workflows](../workflows.md#journeys)
