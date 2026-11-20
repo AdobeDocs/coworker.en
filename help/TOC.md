@@ -101,6 +101,7 @@ auto-video-transcripts: true
     - {hide-from-toc} [Amazon Ads](./customizations/external-connectors/amazon-ads.md)
     - {hide-from-toc} [Databricks Genie](./customizations/external-connectors/databricks-genie.md)
     - {hide-from-toc} [Google Ads](./customizations/external-connectors/google-ads.md)
+    - {hide-from-toc} [Google Cloud Storage](./customizations/external-connectors/google-cloud-storage.md)
     - {hide-from-toc} [Infobip Observe](./customizations/external-connectors/infobip-observe.md)
     - {hide-from-toc} [Meta Ads](./customizations/external-connectors/meta-ads.md)
     - {hide-from-toc} [Microsoft Work IQ](./customizations/external-connectors/microsoft-work-iq.md)
