@@ -27,5 +27,7 @@ Use plain-language prompts to create, configure, and launch loyalty challenges w
 ## See also
 
 - [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent), for other AJO AI capabilities available through Coworker Chat, such as journey creation, analysis, and simulation.
-- [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/ajo-coworker-skills#loyalty-challenge-management){target="_blank"} in the Adobe Journey Optimizer documentation.
-- [More Coworker Chat workflows](../workflows.md#journeys)
+- [Loyalty Challenge Management](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-challenge-management){target="_blank"} in the Adobe Journey Optimizer documentation.
+- [Loyalty Insights](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/loyalty-challenges/loyalty-coworker-skills#loyalty-data-insight){target="_blank"} in the Adobe Journey Optimizer documentation, for querying loyalty points, tiers, and revenue metrics.
+- [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.
+- [More Coworker Chat workflows](../workflows.md#loyalty)

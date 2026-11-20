@@ -32,7 +32,7 @@ You define a goal, and Coworker works out and carries out the steps. Choose the 
 | --- | --- | --- |
 | [Coworker [!UICONTROL Chat]](./chat/overview.md) | Ask for insights, content, and actions across Adobe applications in natural language. | Licensed through your Adobe account team. See [Check availability](#chat-availability). |
 | [Coworker [!UICONTROL for teams]](./coworker-for-teams/overview.md) | Go from a campaign goal to coordinated execution, as a small, agile marketing team. | Free trial through December 31, 2026. North America only. |
-| Coworker [!UICONTROL Projects] | Run long-running, cross-functional workflows where your teams set the processes, approvals, and Coworker's level of autonomy. | Coming soon. |
+| [Coworker Projects](/help/projects/overview.md) | Coordinate workflows across teams, with shared progress, approvals, and governance. | Limited availability. Contact your Adobe account representative for information about future availability. |
 
 ## Coworker Chat
 
