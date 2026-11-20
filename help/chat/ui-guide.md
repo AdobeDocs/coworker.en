@@ -20,6 +20,7 @@ The following table shows where each experience is available.
 |---|---|---|
 | Real-Time CDP | Available now | Coming soon |
 | Adobe Journey Optimizer | Available now | Coming soon |
+| Adobe Journey Optimizer B2B Edition | Available now | Coming soon |
 | Customer Journey Analytics | Available now | Available now |
 | Customer Journey Analytics B2B edition | Available now | Available now |
 | Content Analytics | Available now | Available now |
@@ -29,6 +30,7 @@ The following table shows where each experience is available.
 | Target | Available now | Available now |
 | AEM | Available now | Available now |
 | Marketo Engage | Available now | Coming soon |
+| Marketo Optimizer | Available now | Available now |
 
 ## Sign in to [!DNL Coworker] {#sign-in}
 
