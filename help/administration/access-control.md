@@ -21,7 +21,7 @@ Access control applies to Coworker in both the right rail and the full screen ex
 
 ## How access is determined {#how-access-is-determined}
 
-Coworker access is controlled by an organization-wide setting and optional user or group overrides. The organization-wide setting enables or disables Coworker access for users in your organization. Access might be enabled or disabled by default for your organization.
+As a Coworker administrator, use [!UICONTROL Set default access] to turn Coworker access on or off for your entire organization. You can also configure access overrides for specific users or user groups. Access might be enabled or disabled by default for your organization.
 
 | Setting | How it affects access |
 | --- | --- |
@@ -57,6 +57,13 @@ Use [!UICONTROL Access control] in Coworker to manage access for individuals or 
 
    >[!VIDEO](https://video.tv.adobe.com/v/3507151?learn=on){transcript=true}
 
+1. In **[!UICONTROL Set default access]**, turn access for your organization on or off:
+
+   * **On:** Enable Coworker access for everyone in your organization, subject to user or group overrides.
+   * **Off:** Disable Coworker access for everyone in your organization, unless you allow user or group overrides.
+
+   To grant access to specific users or groups while organization access is off, turn on **[!UICONTROL Allow overrides]**. Select **[!UICONTROL Add override]** to add the users or groups who should have access.
+
 1. Select **[!UICONTROL Users]** to manage individual access or **[!UICONTROL User groups]** to manage group access. A user group setting applies to its members.
 
    Coworker user groups are separate from [!DNL Adobe Admin Console] groups. Syncing user groups from [!DNL Adobe Admin Console] to Coworker is coming soon.
@@ -65,8 +72,6 @@ Use [!UICONTROL Access control] in Coworker to manage access for individuals or 
 
    * **Enabled:** The user or user group is active.
    * **Disabled:** The user or user group is inactive.
-
-   When access for everyone is disabled, turn on **[!UICONTROL Allow overrides]** and select **[!UICONTROL Add override]** to add users or groups who should still have access.
 
 ## Permissions in Coworker-compatible CX Enterprise applications {#permissions-in-compatible-applications}
 

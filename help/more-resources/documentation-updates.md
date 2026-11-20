@@ -11,8 +11,27 @@ Use this page to find new and substantially updated content in the CX Enterprise
 
 ## November 2026 {#nov-2026}
 
+**November 16, 2026**
+
+* New: [About Coworker Projects](../projects/overview.md). Coworker Projects is in limited availability.
+* Updated: [About Coworker Chat](../chat/overview.md). The compatible applications list now includes Customer Journey Analytics B2B edition, Content Analytics, and Marketing Campaign Analytics. The article also links to Coworker Projects.
+
+**November 13, 2026**
+
+* New: [Build an Asset Sourcing Portal with Coworker](../chat/use-cases/brand-visibility/set-up-asset-sourcing-portal.md)
+* Updated: [Access control for Coworker](../administration/access-control.md). The article now states the limit for bulk actions (up to 100 users or user groups) and clarifies the default Coworker access settings.
+
+**November 12, 2026**
+
+* Updated: [Coworker Chat workflows](../chat/use-cases/workflows.md). The article now lists the Process Manager skills for building, running, and scheduling processes. Process Manager is in beta.
+
+**November 11, 2026**
+
+* New: [From idea to activation-ready audience](../chat/use-cases/audiences/from-idea-to-activation-ready-audience-with-coworker.md)
+
 **November 10, 2026**
 
+* New: [Audit Coworker events](../administration/audit.md)
 * Updated: [Get started with Coworker Chat](../chat/ui-guide.md). The availability table now lists Customer Journey Analytics B2B edition, Content Analytics, and Marketing Campaign Analytics. The immersive experience is available for all three. The in-product experience is available in Customer Journey Analytics B2B edition and Content Analytics, and is coming soon to Marketing Campaign Analytics.
 
 **November 4, 2026**
