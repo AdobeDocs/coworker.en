@@ -2,11 +2,30 @@
 title: Migrate Adobe Analytics Projects to Customer Journey Analytics
 description: Use Coworker to validate, map, and migrate Adobe Analytics Workspace projects and their components to Customer Journey Analytics, then check migration status.
 feature: AI Tools
-role: Admin
+role: Admin, User
 level: Intermediate
+doc-type: Feature Video
+duration: '00:05:41'
+last-substantial-update: 2026-11-20T00:00:00.000Z
+jira: KT-23118
+autotag-review: '2026-11-20T18:24:50.351Z'
+TQID: 'https://experienceleague.adobe.com/FmcRExwh-Qjt5tqi4iKwX0B1m8KoIfRXQHRTI4gH6vE'
 product_v2:
   - id: fdae8433-07cd-42e7-acce-738afe63f6bb
     internal-label: Coworker
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 
 # Migrate Adobe Analytics projects to Customer Journey Analytics with Coworker
@@ -22,6 +41,10 @@ Coworker validates that the dimensions and metrics in your project are mapped to
 >[!AVAILABILITY]
 >
 >The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available.
+
+## Start with an AA to CJA step-by-step plan
+
+>[!VIDEO](https://video.tv.adobe.com/v/3508619/?learn=on&enablevpops)
 
 >[!IMPORTANT]
 >
