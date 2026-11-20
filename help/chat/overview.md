@@ -19,7 +19,7 @@ To get started, see [Get started with Coworker Chat](ui-guide.md).
 
 >[!NOTE]
 >
->Coworker Chat is one module of Adobe CX Enterprise Coworker. Two other modules extend the same foundation: Coworker for teams (stand up and launch a full campaign from one conversation) and Coworker Projects (an always-on workspace for end-to-end, multi-team workflows). This page covers Coworker Chat.
+>Coworker Chat and [Coworker Projects](/help/projects/overview.md) are modules of Adobe CX Enterprise Coworker. This page covers Coworker Chat.
 
 ## An evolution from AI Assistant
 
@@ -40,15 +40,18 @@ The following CX Enterprise applications are compatible with Coworker Chat:
 
 * Real-Time CDP B2C Edition
 * Adobe Journey Optimizer B2C Edition
-* Customer Journey Analytics B2C edition
+* Adobe Journey Optimizer B2B Edition
+* Customer Journey Analytics
+* Customer Journey Analytics B2B edition
+* Content Analytics
+* Marketing Campaign Analytics
 * Adobe Analytics
 * Adobe Target
 * AEM
 * Workfront
 * Marketo Engage
+* Marketo Optimizer
 * _Real-Time CDP B2B Edition (coming soon)_
-* _Adobe Journey Optimizer B2B Edition (coming soon)_
-* _Customer Journey Analytics B2B edition (coming soon)_
 
 ## Video overview
 

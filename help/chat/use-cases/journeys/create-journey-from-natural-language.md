@@ -23,5 +23,7 @@ Describe the journey you want to create, and Coworker drafts it in Adobe Journey
 
 ## See also
 
+- [Coworker for journeys: Journey Create](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journeys-coworker-skills#journey-create){target="_blank"}, with key use cases, prompting best practices, and out-of-scope skills for creating journeys in Adobe Journey Optimizer.
+- [Coworker skills for Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-features#cx-coworker-skills){target="_blank"}, an overview of Coworker skills across Journey Optimizer.
 - [Journey Agent](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/ajo-agent#journey-create), the underlying AI capability that powers journey creation in Coworker Chat.
 - [More Coworker Chat workflows](../workflows.md#journeys)

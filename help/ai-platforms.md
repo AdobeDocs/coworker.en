@@ -21,14 +21,14 @@ There's no additional cost to use Coworker in AI platforms. It's included in you
 Before you can use Coworker in an AI platform, confirm you have the following.
 
 * Adobe CX Enterprise Coworker provisioned for your organization, and your own access to it in Adobe.
-* Adobe Experience Platform and at least one of Adobe Real-Time CDP, Adobe Journey Optimizer, or Adobe Customer Journey Analytics.
+* One of the [Adobe CX Enterprise](https://business.adobe.com/solutions/customer-experience-orchestration.html) applications.
 * Access to an AI platform listed in [Set up Coworker](#set-up-coworker).
 
 ## Data access and permissions {#data-access-and-permissions}
 
 Coworker in AI platforms reflects the same data and access level tied to your Adobe identity. What you can query and see matches what you're already entitled to in Experience Platform and its associated solutions. Coworker inherits those permissions, so no separate permissions setup is required for the AI platform integration. Coworker returns read-only insights and does not modify your customer data. Review any generated summaries and analyses before you use them to make business decisions.
 
-<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft 365 Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
+<!-- Confirmed by PM (Siddhartha Srivastava) on 2026-09-02 for Microsoft Copilot, Claude, and ChatGPT. Validate this permissions model for each additional platform before adding its setup section. -->
 
 ## Key use cases {#key-use-cases}
 
@@ -42,29 +42,29 @@ Use Coworker in AI platforms to speed up common marketing workflows without leav
 | Optimize workflows and content | Optimize workflows and identify asset and content needs for CX campaigns. Generate visual reports on campaign performance without manually building queries or dashboards. |
 | Collaborate and decide faster | Use suggested prompts to explore audiences, campaigns, and web traffic. Share insights with your team during planning meetings, and answer ad hoc questions in real time while reviewing plans or decks. |
 
-<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft 365 Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
+<!-- Use cases approved by PM Siddhartha Srivastava on 2026-08-31 and confirmed for Microsoft Copilot, Claude, and ChatGPT on 2026-09-02. Validate applicability for each additional platform before adding its setup section. -->
 
 ## Set up Coworker {#set-up-coworker}
 
 Select an available platform for setup instructions. After setup, try the [example prompts](#example-prompts).
 
-* [Microsoft 365 Copilot](#microsoft-365-copilot)
+* [Microsoft Copilot](#microsoft-365-copilot)
 * [ChatGPT](#chatgpt)
 * [Claude](#claude)
 * [Gemini Enterprise](#gemini-enterprise)
-* [Amazon Quick](#amazon-quick)
+* [AWS Quick](#amazon-quick)
 * [IBM watsonx Orchestrate](#ibm-watsonx-orchestrate)
 * [Databricks](#databricks)
 
-### [!DNL Microsoft 365 Copilot] {#microsoft-365-copilot}
+### [!DNL Microsoft Copilot] {#microsoft-365-copilot}
 
-Use [!DNL Adobe CX Enterprise Coworker for Copilot] to get marketing insights in [!DNL Microsoft 365 Copilot].
+Use [!DNL Adobe CX Enterprise Coworker for Copilot] to get marketing insights in [!DNL Microsoft Copilot].
 
-Before you begin, confirm you have access to [!DNL Microsoft 365 Copilot].
+Before you begin, confirm you have access to [!DNL Microsoft Copilot].
 
 #### Set up organization access {#copilot-organization-setup}
 
-An administrator must complete these steps before end users can access Coworker in [!DNL Microsoft 365 Copilot].
+An administrator must complete these steps before end users can access Coworker in [!DNL Microsoft Copilot].
 
 1. In the [!DNL Microsoft 365 admin center], confirm that your tenant settings allow apps and agents built by external publishers.
 1. Approve **[!UICONTROL Adobe CX Enterprise Coworker]** in both the [!DNL Microsoft 365 admin center] and the [!DNL Teams admin center]. You can typically find the agent through the [!DNL Microsoft Commercial Marketplace] or your organization's **[!UICONTROL Integrated Apps]** list.
@@ -76,19 +76,19 @@ An administrator must complete these steps before end users can access Coworker 
 
 #### Access Coworker {#copilot-access}
 
-Once your administrator enables Coworker, you can access it across [!DNL Microsoft 365 Copilot] surfaces, including [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint], and web chat.
+Once your administrator enables Coworker, you can access it across [!DNL Microsoft Copilot] surfaces, including [!DNL Teams], [!DNL Word], [!DNL Excel], [!DNL PowerPoint], and web chat.
 
-In [!DNL Microsoft 365 Copilot], select **[!UICONTROL Agents]**, then select **[!UICONTROL More agents]**.
+In [!DNL Microsoft Copilot], select **[!UICONTROL Agents]**, then select **[!UICONTROL More agents]**.
 
-![Microsoft 365 Copilot with the Agents menu open and More agents highlighted.](./assets/ai-platforms/copilot/copilot-agents.png)
+![Microsoft Copilot with the Agents menu open and More agents highlighted.](./assets/ai-platforms/copilot/copilot-agents.png)
 
 Next, select **[!UICONTROL Adobe CX Enterprise Coworker]** in the agent catalog.
 
-![Microsoft 365 Copilot agent catalog with the Adobe CX Enterprise Coworker listing highlighted.](./assets/ai-platforms/copilot/copilot-select-agent.png)
+![Microsoft Copilot agent catalog with the Adobe CX Enterprise Coworker listing highlighted.](./assets/ai-platforms/copilot/copilot-select-agent.png)
 
 Finally, select **[!UICONTROL Add]** to add Coworker to your agents.
 
-![Adobe CX Enterprise Coworker details in Microsoft 365 Copilot with the Add button highlighted.](./assets/ai-platforms/copilot/copilot-add-coworker.png)
+![Adobe CX Enterprise Coworker details in Microsoft Copilot with the Add button highlighted.](./assets/ai-platforms/copilot/copilot-add-coworker.png)
 
 ### [!DNL ChatGPT] {#chatgpt}
 
@@ -182,17 +182,17 @@ After your administrator publishes Coworker to you, open it in [!DNL Gemini Ente
 
 For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#example-prompts).
 
-### [!DNL Amazon Quick] {#amazon-quick}
+### [!DNL AWS Quick] {#amazon-quick}
 
-Use Coworker to get marketing insights in [!DNL Amazon Quick].
+Use Coworker to get marketing insights in [!DNL AWS Quick].
 
-Before you begin, confirm you have access to [!DNL Amazon Quick] and your Adobe account.
+Before you begin, confirm you have access to [!DNL AWS Quick] and your Adobe account.
 
 #### Connect Coworker {#amazon-quick-connection}
 
-Connect Coworker in [!DNL Amazon Quick] using Model Context Protocol (MCP). Adobe has already approved [!DNL Amazon Quick] for this connection.
+Connect Coworker in [!DNL AWS Quick] using Model Context Protocol (MCP). Adobe has already approved [!DNL AWS Quick] for this connection.
 
-1. In [!DNL Amazon Quick], go to **[!UICONTROL Connectors]**.
+1. In [!DNL AWS Quick], go to **[!UICONTROL Connectors]**.
 1. Search for MCP and open the connector setup.
 1. Enter `https://mcp.coworker.experience.adobe.io` as the MCP server URL.
 
@@ -203,7 +203,7 @@ Connect Coworker in [!DNL Amazon Quick] using Model Context Protocol (MCP). Adob
 
 #### Access Coworker {#amazon-quick-access}
 
-After you connect Coworker, use it in [!DNL Amazon Quick] to ask questions about your Adobe data.
+After you connect Coworker, use it in [!DNL AWS Quick] to ask questions about your Adobe data.
 
 For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#example-prompts).
 
@@ -330,9 +330,9 @@ Confirm your connector is available before asking questions in [!DNL Genie One].
 
 For ideas, explore the [key use cases](#key-use-cases) and [example prompts](#example-prompts).
 
-<!-- Setup steps for Microsoft 365 Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
+<!-- Setup steps for Microsoft Copilot, ChatGPT, and Claude reflect the real customer-facing flow confirmed by PM (Siddhartha Srivastava) on 2026-09-02: an org admin approves the connector or plugin, then end users find and add it in their platform's catalog and sign in. The previous version of this file described a manual MCP-connector setup for ChatGPT (Settings > Connectors > paste server URL) -- PM clarified that flow is for internal testing only, not the customer path, so it was removed here. -->
 
-<!-- Amazon Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
+<!-- AWS Quick setup follows PM guidance from the October 28, 2026 email, "Coworker in AI Platforms screenshots - Gemini / Amazon Quick." End users connect through MCP and sign in with Adobe credentials. -->
 
 ## Example prompts {#example-prompts}
 
@@ -342,6 +342,17 @@ After you set up Coworker in a supported platform, try these prompts, or write y
 * Show a metric for the last month.
 * Show your active Workfront projects.
 * Show journeys with loyalty audiences.
+
+## Authentication and information sources {#authentication-and-information-sources}
+
+When you sign in with your Adobe credentials, select your organization. Coworker uses your default sandbox and data view as information sources.
+
+To change an information source, enter one of these prompts. Replace the placeholder with the name of the data view or sandbox you want to use.
+
+* `switch dataview to <dataview>`
+* `switch sandbox to <sandbox>`
+
+Coworker responds to confirm the change. The confirmation varies by AI platform.
 
 ## Known limitations {#known-limitations}
 
