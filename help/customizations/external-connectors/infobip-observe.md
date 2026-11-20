@@ -54,7 +54,7 @@ Coworker applies the following settings automatically. You do not create an OAut
 | Transport | Streamable HTTP |
 | Authorization server discovery | `https://mcp.infobip.com/observe/.well-known/oauth-authorization-server` |
 | Sign-in | Each member signs in with OAuth, using dynamic client registration |
-| Saved OAuth settings | None. Coworker saves no scopes, client ID, client secret, or OAuth endpoints. |
+| OAuth configuration | Automatically discovered. Administrators do not enter a client ID, client secret, scopes, or OAuth endpoints. |
 | Tool selection | Four approved tools. Administrators can narrow the selection. |
 
 [!DNL Infobip] discovery and the consent of each member determine the access that Coworker receives. [!DNL Infobip] documents the `billing:usage:view`, `metrics:manage`, `messages-api:manage`, and `error-codes:read` scopes for [!DNL Observe] MCP. Review the requested access on the consent screen before you approve.
@@ -68,8 +68,6 @@ Administrators make the [!DNL Infobip Observe] connector available to everyone i
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
 
 1. Find **[!UICONTROL Infobip Observe]**, and then select **[!UICONTROL Configure]**.
-
-   ![External Connectors page for the organization, with the Infobip Observe card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/infobip-observe/org-catalog.png){width="700" zoomable="yes"}
 
 1. In the **[!UICONTROL Connect Infobip Observe]** dialog, review the fixed **[!UICONTROL Server URL]**, `https://mcp.infobip.com/observe`.
 
@@ -111,8 +109,6 @@ After an administrator configures the connector, each member signs in with their
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**. Find **[!UICONTROL Infobip Observe]**.
 
    If the card shows **[!UICONTROL Not configured]** and **[!UICONTROL Not available yet. Your admin needs to set this up.]**, ask your administrator to [configure the connector](#configure-organization).
-
-   ![External Connectors page for a member, with the Infobip Observe card highlighted, showing a Not configured status and a message that the connector is not available until an admin sets it up.](./assets/infobip-observe/member-not-configured.png){width="700" zoomable="yes"}
 
 1. Select **[!UICONTROL Sign in]** and use the intended [!DNL Infobip] account. Complete the single sign-on (SSO), multi-factor authentication (MFA), and consent prompts yourself. Before you approve, review the requested access, the account, and the data center.
 
