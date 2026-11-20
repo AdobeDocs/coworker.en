@@ -40,6 +40,7 @@ Before you begin, make sure that you have the following:
 * **For [!DNL Atlassian] preparation:** An [!DNL Atlassian] organization administrator who can approve MCP access and the Coworker redirect URL domain.
 * **For member sign-in:** [!DNL Atlassian] accounts with access to the intended [!DNL Jira] sites, projects, and work items.
 * **For network access:** [!DNL Atlassian] IP allowlists and app policies that permit the connection. A successful sign-in does not confirm that tool requests are allowed.
+* **[!DNL Rovo] enabled:** [!DNL Rovo] enabled for your [!DNL Atlassian] organization and the intended [!DNL Jira] sites before members use the connector. For more information, see [How to enable Rovo](https://www.atlassian.com/software/rovo/guides/admin-guide/rovo-activation) in the [!DNL Atlassian] documentation.
 
 ## Prepare [!DNL Atlassian] access {#prepare-atlassian}
 
@@ -65,8 +66,6 @@ Always use the redirect URL shown in the Coworker dialog for the environment tha
 Administrators make the [!DNL Jira] / [!DNL Atlassian Rovo] connector available to everyone in the organization. Changes on the organization page apply to all users in your organization.
 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**. On the **[!UICONTROL Jira / Atlassian Rovo]** card, select **[!UICONTROL Configure]**. Members cannot configure or remove this connection.
-
-   ![External Connectors page for the organization, with the Jira / Atlassian Rovo card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/jira-atlassian-rovo/org-catalog.png){width="700" zoomable="yes"}
 
 1. In the **[!UICONTROL Connect Jira / Atlassian Rovo]** dialog, review the fixed **[!UICONTROL Server URL]**, `https://mcp.atlassian.com/v2/mcp`.
 
@@ -108,6 +107,8 @@ The [!DNL Jira] / [!DNL Atlassian Rovo] connector provides the following read-on
 >
 >The `discover` and `executeRead` tools give members access to additional permitted read operations as a group. You cannot turn off individual operations. If this access is not acceptable for your organization, remove both tools. The connector does not include write operations (`executeWrite`) or destructive operations (`executeDestructive`).
 
+Removing optional tools limits their availability in Coworker. It does not reduce the OAuth scopes that the connector requests at sign-in.
+
 Each tool needs specific [!DNL Atlassian] permission groups and scopes. For more information, see [Supported Atlassian MCP tools](https://support.atlassian.com/atlassian-ai-gateway/docs/supported-tools/) in the [!DNL Atlassian] documentation.
 
 ## Sign in as a member {#sign-in-as-a-member}
@@ -117,8 +118,6 @@ After an administrator configures the connector, each member signs in with their
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL User]**, and then select **[!UICONTROL External Connectors]**.
 
 1. Find the **[!UICONTROL Jira / Atlassian Rovo]** card. If the card shows **[!UICONTROL Not configured]** and **[!UICONTROL Not available yet. Your admin needs to set this up.]**, ask your administrator to [configure the connector](#configure-organization). Members cannot configure the connector.
-
-   ![External Connectors page for a member, with the Jira / Atlassian Rovo card highlighted, showing a Not configured status and a message that the connector is not available until an admin sets it up.](./assets/jira-atlassian-rovo/member-not-configured.png){width="700" zoomable="yes"}
 
 1. Select **[!UICONTROL Sign in]**, and use the [!DNL Atlassian] account that has access to the intended [!DNL Jira] site. Complete any required single sign-on (SSO), multi-factor authentication (MFA), and consent prompts. Review the requested read and search access before you consent.
 
@@ -152,7 +151,7 @@ If sign-in or access fails, check the following with your administrator:
 | Consent succeeds, but tool calls are denied | Check your [!DNL Jira] permissions, the [!DNL Atlassian] MCP permission groups, app policies, and IP allowlists. For the permission groups that each tool requires, see [Supported Atlassian MCP tools](https://support.atlassian.com/atlassian-ai-gateway/docs/supported-tools/). |
 | JQL search fails, but other reads work | Confirm that your administrator enabled `searchJiraIssuesUsingJql`, and that the connection requests the `search:jira:agent-interface` scope. |
 | Consent returns `invalid_request` | Ask your administrator to confirm that the connection requests `read:me` and `read:account` in addition to the [!DNL Jira] scopes. |
-| You still see older scopes after a change | An older personal [!DNL Jira] connection can override the organization connection. Ask an administrator to update or remove only that older connection, and then sign in again. |
+| You still see older scopes after a change | An obsolete user-level `jira_login` authentication provider override can take precedence over the organization connection. Ask an administrator to update or remove only that obsolete override, and then sign in again. |
 | A tool is missing | Ask your administrator to check the tool selection. Additional read operations need both `discover` and `executeRead`, the required scopes, and the right permissions. |
 | **[!UICONTROL Test connection]** is slow or times out | Tool discovery can take longer than the 60-second tool timeout. Check whether the problem is slow discovery or a sign-in failure before you change credentials. |
 
