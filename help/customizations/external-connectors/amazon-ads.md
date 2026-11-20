@@ -101,8 +101,6 @@ Administrators make the [!DNL Amazon Ads] connector available to everyone in the
 
    The **[!UICONTROL Configure Amazon Ads for your organization]** dialog opens, with the **[!UICONTROL Connection details]**, **[!UICONTROL Tools available to users]**, and **[!UICONTROL Access and permissions]** sections. After you save the configuration, the card shows **[!UICONTROL Configuration saved]**, and **[!UICONTROL Configure]** changes to **[!UICONTROL View configuration]**.
 
-   ![External Connectors page for the organization, showing the Amazon Ads card with a Beta label, a Configuration saved status, and a View configuration button.](./assets/amazon-ads/org-catalog.png){width="700" zoomable="yes"}
-
 1. Under **[!UICONTROL Amazon Ads region]**, select the region that matches your advertising accounts. Coworker shows the MCP server URL for the region below the selection.
 
    | Region | MCP server URL |
