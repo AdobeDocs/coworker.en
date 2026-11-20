@@ -104,8 +104,6 @@ Administrators make the [!DNL Slack] connector available to everyone in the orga
 
    The **[!UICONTROL Connect Slack]** dialog opens. The connector uses the fixed [!DNL Slack] MCP server URL, `https://mcp.slack.com/mcp`. Use the organization scope for this configuration, not a personal connection.
 
-   ![External Connectors page for the organization, with the Slack card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/slack/org-catalog.png){width="700" zoomable="yes"}
-
 1. Make sure that the **[!UICONTROL Redirect URL]** under **[!UICONTROL Slack application]** is registered in your app, as described in [Register the redirect URL](#register-redirect-url). Then enter the **[!UICONTROL Client ID]** and **[!UICONTROL Client secret]** of your app. Both fields are required.
 
    Do not enter the app ID, the signing secret, or a bot token. Coworker stores the credentials as secrets, not as plain-text connector settings.
@@ -177,11 +175,7 @@ After an administrator configures the connector, each member signs in with their
 
    Do not ask for, or copy, the client secret of the organization.
 
-   ![External Connectors page for a member, with the Slack card highlighted, showing a Beta label, a Not configured status, and a message that the connector is not available until an admin sets it up.](./assets/slack/member-not-configured.png){width="700" zoomable="yes"}
-
 1. After your administrator configures the connector, the **[!UICONTROL Slack]** card shows **[!UICONTROL Sign-in required]**. Select **[!UICONTROL Sign in]** on the card.
-
-   ![External Connectors page for a member, with the Slack card highlighted, showing a Beta label, a Sign-in required status, a prompt to sign in with your Slack account, and a Sign in button.](./assets/slack/member-sign-in.png){width="700" zoomable="yes"}
 
    You can also open the **[!UICONTROL Slack]** connector details. Before you sign in, the **[!UICONTROL Connection]** section shows **[!UICONTROL Not signed in]**, with a **[!UICONTROL Sign in]** button.
 
