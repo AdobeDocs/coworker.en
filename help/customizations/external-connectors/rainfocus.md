@@ -63,8 +63,6 @@ Administrators make the [!DNL RainFocus] connector available to everyone in the 
 1. Open **[!UICONTROL Customizations]**, select **[!UICONTROL Org]**, and then select **[!UICONTROL External Connectors]**.
 1. Find the **[!UICONTROL RainFocus]** card, which has a Beta label and shows **[!UICONTROL Not configured]**. Select **[!UICONTROL Configure]**.
 
-   ![External Connectors page for the organization, with the RainFocus card highlighted, showing a Beta label, a Not configured status, Customer-provided credentials, and a Configure button.](./assets/rainfocus/org-catalog.png){width="700" zoomable="yes"}
-
 1. In the **[!UICONTROL Set up RainFocus]** dialog, enter the **[!UICONTROL Development profile URL]**. Use the complete MCP profile URL that your [!DNL RainFocus] administrator provided.
 
    The URL must start with `https://`. It cannot contain spaces, backslashes, a query string (`?`), a fragment (`#`), a user name or password, a nondefault port, or `.` or `..` path segments. If the URL does not match a rule, Coworker shows a message that describes the rule. Coworker checks only the format of the URL. It does not check that the profile exists or that you can use it.
@@ -131,8 +129,6 @@ After an administrator configures the connector, each member signs in with their
 1. Check the status on the card. The card shows **[!UICONTROL Sign-in required]**, **[!UICONTROL Connected]**, **[!UICONTROL Set up by your admin]**, or a **[!UICONTROL Connection failed]** status.
 
    **[!UICONTROL Set up by your admin]** means that Coworker cannot confirm your sign-in status. It does not mean that you are signed in or signed out.
-
-   ![External Connectors page for a member, with the RainFocus card highlighted, showing a Sign-in required status, a prompt to sign in with your own RainFocus account, and a Sign in button.](./assets/rainfocus/member-card.png){width="700" zoomable="yes"}
 
 1. Select **[!UICONTROL Sign in]**. You can also open the card details and select **[!UICONTROL Sign in]** in the **[!UICONTROL Connection]** section. In the [!DNL RainFocus] window, complete the sign-in, single sign-on (SSO), multi-factor authentication (MFA), and consent prompts. Review the access that you approve.
 
